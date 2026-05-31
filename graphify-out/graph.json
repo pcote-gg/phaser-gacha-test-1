@@ -1,0 +1,3723 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "scene_transition_flow",
+        "label": "Scene transition lifecycle flow",
+        "nodes": [
+          "boot_scene",
+          "preloader_scene",
+          "mainmenu_scene",
+          "game_scene",
+          "gameover_scene"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "src/game/main.ts"
+      },
+      {
+        "id": "react_phaser_bridge",
+        "label": "React-Phaser communication bridge",
+        "nodes": [
+          "app_app",
+          "phasergame_component",
+          "eventbus_eventbus",
+          "event_current_scene_ready"
+        ],
+        "relation": "form",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "src/PhaserGame.tsx"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "log.js",
+      "file_type": "code",
+      "source_file": "log.js",
+      "source_location": "L1",
+      "id": "log_js",
+      "community": 12,
+      "norm_label": "log.js"
+    },
+    {
+      "label": "fs",
+      "file_type": "code",
+      "source_file": "log.js",
+      "source_location": "L1",
+      "id": "phaser_gacha_test_1_log_fs",
+      "community": 12,
+      "norm_label": "fs"
+    },
+    {
+      "label": "https",
+      "file_type": "code",
+      "source_file": "log.js",
+      "source_location": "L2",
+      "id": "phaser_gacha_test_1_log_https",
+      "community": 12,
+      "norm_label": "https"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "log.js",
+      "source_location": "L4",
+      "id": "phaser_gacha_test_1_log_main",
+      "community": 12,
+      "norm_label": "main()"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package_json",
+      "community": 1,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "phaser_gacha_test_1_package_name",
+      "community": 1,
+      "norm_label": "name"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "phaser_gacha_test_1_package_description",
+      "community": 1,
+      "norm_label": "description"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "phaser_gacha_test_1_package_version",
+      "community": 1,
+      "norm_label": "version"
+    },
+    {
+      "label": "repository",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "phaser_gacha_test_1_package_repository",
+      "community": 1,
+      "norm_label": "repository"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "phaser_gacha_test_1_package_repository_type",
+      "community": 1,
+      "norm_label": "type"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "phaser_gacha_test_1_package_repository_url",
+      "community": 1,
+      "norm_label": "url"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "id": "phaser_gacha_test_1_package_author",
+      "community": 1,
+      "norm_label": "author"
+    },
+    {
+      "label": "license",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "id": "phaser_gacha_test_1_package_license",
+      "community": 1,
+      "norm_label": "license"
+    },
+    {
+      "label": "licenseUrl",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "id": "phaser_gacha_test_1_package_licenseurl",
+      "community": 1,
+      "norm_label": "licenseurl"
+    },
+    {
+      "label": "bugs",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "id": "phaser_gacha_test_1_package_bugs",
+      "community": 1,
+      "norm_label": "bugs"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "id": "phaser_gacha_test_1_package_bugs_url",
+      "community": 1,
+      "norm_label": "url"
+    },
+    {
+      "label": "homepage",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "id": "phaser_gacha_test_1_package_homepage",
+      "community": 1,
+      "norm_label": "homepage"
+    },
+    {
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "id": "phaser_gacha_test_1_package_keywords",
+      "community": 1,
+      "norm_label": "keywords"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "id": "phaser_gacha_test_1_package_scripts",
+      "community": 1,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "id": "phaser_gacha_test_1_package_scripts_dev",
+      "community": 1,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "id": "phaser_gacha_test_1_package_scripts_build",
+      "community": 1,
+      "norm_label": "build"
+    },
+    {
+      "label": "dev-nolog",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "id": "phaser_gacha_test_1_package_scripts_dev_nolog",
+      "community": 1,
+      "norm_label": "dev-nolog"
+    },
+    {
+      "label": "build-nolog",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "id": "phaser_gacha_test_1_package_scripts_build_nolog",
+      "community": 1,
+      "norm_label": "build-nolog"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "id": "phaser_gacha_test_1_package_dependencies",
+      "community": 1,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "graphify",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "id": "phaser_gacha_test_1_package_dependencies_graphify",
+      "community": 1,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "phaser",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "id": "phaser_gacha_test_1_package_dependencies_phaser",
+      "community": 1,
+      "norm_label": "phaser"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "id": "phaser_gacha_test_1_package_dependencies_react",
+      "community": 1,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "id": "phaser_gacha_test_1_package_dependencies_react_dom",
+      "community": 1,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "id": "phaser_gacha_test_1_package_devdependencies",
+      "community": 4,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint_js",
+      "community": 4,
+      "norm_label": "@eslint/js"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "id": "phaser_gacha_test_1_package_devdependencies_types_react",
+      "community": 4,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L38",
+      "id": "phaser_gacha_test_1_package_devdependencies_types_react_dom",
+      "community": 4,
+      "norm_label": "@types/react-dom"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "id": "phaser_gacha_test_1_package_devdependencies_vitejs_plugin_react",
+      "community": 4,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint",
+      "community": 4,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "eslint-plugin-react-hooks",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_hooks",
+      "community": 4,
+      "norm_label": "eslint-plugin-react-hooks"
+    },
+    {
+      "label": "eslint-plugin-react-refresh",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_refresh",
+      "community": 4,
+      "norm_label": "eslint-plugin-react-refresh"
+    },
+    {
+      "label": "globals",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "id": "phaser_gacha_test_1_package_devdependencies_globals",
+      "community": 4,
+      "norm_label": "globals"
+    },
+    {
+      "label": "terser",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "id": "phaser_gacha_test_1_package_devdependencies_terser",
+      "community": 4,
+      "norm_label": "terser"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "id": "phaser_gacha_test_1_package_devdependencies_typescript",
+      "community": 4,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "typescript-eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "id": "phaser_gacha_test_1_package_devdependencies_typescript_eslint",
+      "community": 4,
+      "norm_label": "typescript-eslint"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "id": "phaser_gacha_test_1_package_devdependencies_vite",
+      "community": 4,
+      "norm_label": "vite"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L1",
+      "id": "tsconfig_json",
+      "community": 2,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "community": 2,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_target",
+      "community": 2,
+      "norm_label": "target"
+    },
+    {
+      "label": "useDefineForClassFields",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_usedefineforclassfields",
+      "community": 2,
+      "norm_label": "usedefineforclassfields"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_lib",
+      "community": 2,
+      "norm_label": "lib"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_module",
+      "community": 2,
+      "norm_label": "module"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_skiplibcheck",
+      "community": 2,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_moduleresolution",
+      "community": 2,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "allowImportingTsExtensions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_allowimportingtsextensions",
+      "community": 2,
+      "norm_label": "allowimportingtsextensions"
+    },
+    {
+      "label": "resolveJsonModule",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_resolvejsonmodule",
+      "community": 2,
+      "norm_label": "resolvejsonmodule"
+    },
+    {
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_isolatedmodules",
+      "community": 2,
+      "norm_label": "isolatedmodules"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_noemit",
+      "community": 2,
+      "norm_label": "noemit"
+    },
+    {
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_jsx",
+      "community": 2,
+      "norm_label": "jsx"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L18",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_strict",
+      "community": 2,
+      "norm_label": "strict"
+    },
+    {
+      "label": "strictPropertyInitialization",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L19",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_strictpropertyinitialization",
+      "community": 2,
+      "norm_label": "strictpropertyinitialization"
+    },
+    {
+      "label": "noUnusedLocals",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L20",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_nounusedlocals",
+      "community": 2,
+      "norm_label": "nounusedlocals"
+    },
+    {
+      "label": "noUnusedParameters",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_nounusedparameters",
+      "community": 2,
+      "norm_label": "nounusedparameters"
+    },
+    {
+      "label": "noFallthroughCasesInSwitch",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "community": 2,
+      "norm_label": "nofallthroughcasesinswitch"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L24",
+      "id": "phaser_gacha_test_1_tsconfig_include",
+      "community": 2,
+      "norm_label": "include"
+    },
+    {
+      "label": "references",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L25",
+      "id": "phaser_gacha_test_1_tsconfig_references",
+      "community": 2,
+      "norm_label": "references"
+    },
+    {
+      "label": "tsconfig.node.json",
+      "file_type": "code",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L1",
+      "id": "tsconfig_node_json",
+      "community": 6,
+      "norm_label": "tsconfig.node.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L2",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions",
+      "community": 6,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "composite",
+      "file_type": "code",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L3",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_composite",
+      "community": 6,
+      "norm_label": "composite"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L4",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_skiplibcheck",
+      "community": 6,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L5",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_module",
+      "community": 6,
+      "norm_label": "module"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L6",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_moduleresolution",
+      "community": 6,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "allowSyntheticDefaultImports",
+      "file_type": "code",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L7",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_allowsyntheticdefaultimports",
+      "community": 6,
+      "norm_label": "allowsyntheticdefaultimports"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L8",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_strict",
+      "community": 6,
+      "norm_label": "strict"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L10",
+      "id": "phaser_gacha_test_1_tsconfig_node_include",
+      "community": 6,
+      "norm_label": "include"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L1",
+      "id": "src_app_tsx",
+      "community": 0,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L5",
+      "id": "src_app_app",
+      "community": 0,
+      "norm_label": "app()"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": "L1",
+      "id": "src_main_tsx",
+      "community": 0,
+      "norm_label": "main.tsx"
+    },
+    {
+      "label": "PhaserGame.tsx",
+      "file_type": "code",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L1",
+      "id": "src_phasergame_tsx",
+      "community": 0,
+      "norm_label": "phasergame.tsx"
+    },
+    {
+      "label": "IRefPhaserGame",
+      "file_type": "code",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L5",
+      "id": "src_phasergame_irefphasergame",
+      "community": 0,
+      "norm_label": "irefphasergame"
+    },
+    {
+      "label": "IProps",
+      "file_type": "code",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L11",
+      "id": "src_phasergame_iprops",
+      "community": 0,
+      "norm_label": "iprops"
+    },
+    {
+      "label": "PhaserGame",
+      "file_type": "code",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L16",
+      "id": "src_phasergame_phasergame",
+      "community": 0,
+      "norm_label": "phasergame"
+    },
+    {
+      "label": "vite-env.d.ts",
+      "file_type": "code",
+      "source_file": "src/vite-env.d.ts",
+      "source_location": "L1",
+      "id": "src_vite_env_d_ts",
+      "community": 15,
+      "norm_label": "vite-env.d.ts"
+    },
+    {
+      "label": "EventBus.ts",
+      "file_type": "code",
+      "source_file": "src/game/EventBus.ts",
+      "source_location": "L1",
+      "id": "src_game_eventbus_ts",
+      "community": 0,
+      "norm_label": "eventbus.ts"
+    },
+    {
+      "label": "EventBus",
+      "file_type": "code",
+      "source_file": "src/game/EventBus.ts",
+      "source_location": "L4",
+      "id": "game_eventbus_eventbus",
+      "community": 0,
+      "norm_label": "eventbus"
+    },
+    {
+      "label": "main.ts",
+      "file_type": "code",
+      "source_file": "src/game/main.ts",
+      "source_location": "L1",
+      "id": "src_game_main_ts",
+      "community": 0,
+      "norm_label": "main.ts"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "src/game/main.ts",
+      "source_location": "L10",
+      "id": "game_main_config",
+      "community": 0,
+      "norm_label": "config"
+    },
+    {
+      "label": "StartGame()",
+      "file_type": "code",
+      "source_file": "src/game/main.ts",
+      "source_location": "L25",
+      "id": "game_main_startgame",
+      "community": 0,
+      "norm_label": "startgame()"
+    },
+    {
+      "label": "Boot.ts",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L1",
+      "id": "src_game_scenes_boot_ts",
+      "community": 0,
+      "norm_label": "boot.ts"
+    },
+    {
+      "label": "Boot",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L3",
+      "id": "scenes_boot_boot",
+      "community": 0,
+      "norm_label": "boot"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L5",
+      "id": "scenes_boot_boot_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".preload()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L10",
+      "id": "scenes_boot_boot_preload",
+      "community": 0,
+      "norm_label": ".preload()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L18",
+      "id": "scenes_boot_boot_create",
+      "community": 0,
+      "norm_label": ".create()"
+    },
+    {
+      "label": "Game.ts",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L1",
+      "id": "src_game_scenes_game_ts",
+      "community": 0,
+      "norm_label": "game.ts"
+    },
+    {
+      "label": "Game",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L4",
+      "id": "scenes_game_game",
+      "community": 0,
+      "norm_label": "game"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L10",
+      "id": "scenes_game_game_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L15",
+      "id": "scenes_game_game_create",
+      "community": 0,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".changeScene()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L32",
+      "id": "scenes_game_game_changescene",
+      "community": 0,
+      "norm_label": ".changescene()"
+    },
+    {
+      "label": "GameOver.ts",
+      "file_type": "code",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L1",
+      "id": "src_game_scenes_gameover_ts",
+      "community": 0,
+      "norm_label": "gameover.ts"
+    },
+    {
+      "label": "GameOver",
+      "file_type": "code",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L4",
+      "id": "scenes_gameover_gameover",
+      "community": 0,
+      "norm_label": "gameover"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L10",
+      "id": "scenes_gameover_gameover_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L15",
+      "id": "scenes_gameover_gameover_create",
+      "community": 0,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".changeScene()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L32",
+      "id": "scenes_gameover_gameover_changescene",
+      "community": 0,
+      "norm_label": ".changescene()"
+    },
+    {
+      "label": "MainMenu.ts",
+      "file_type": "code",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L1",
+      "id": "src_game_scenes_mainmenu_ts",
+      "community": 0,
+      "norm_label": "mainmenu.ts"
+    },
+    {
+      "label": "MainMenu",
+      "file_type": "code",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L5",
+      "id": "scenes_mainmenu_mainmenu",
+      "community": 0,
+      "norm_label": "mainmenu"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L12",
+      "id": "scenes_mainmenu_mainmenu_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L17",
+      "id": "scenes_mainmenu_mainmenu_create",
+      "community": 0,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".changeScene()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L32",
+      "id": "scenes_mainmenu_mainmenu_changescene",
+      "community": 0,
+      "norm_label": ".changescene()"
+    },
+    {
+      "label": ".moveLogo()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L43",
+      "id": "scenes_mainmenu_mainmenu_movelogo",
+      "community": 0,
+      "norm_label": ".movelogo()"
+    },
+    {
+      "label": "Preloader.ts",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L1",
+      "id": "src_game_scenes_preloader_ts",
+      "community": 9,
+      "norm_label": "preloader.ts"
+    },
+    {
+      "label": "Preloader",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L3",
+      "id": "scenes_preloader_preloader",
+      "community": 9,
+      "norm_label": "preloader"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L5",
+      "id": "scenes_preloader_preloader_constructor",
+      "community": 9,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L10",
+      "id": "scenes_preloader_preloader_init",
+      "community": 9,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".preload()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L30",
+      "id": "scenes_preloader_preloader_preload",
+      "community": 9,
+      "norm_label": ".preload()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L39",
+      "id": "scenes_preloader_preloader_create",
+      "community": 9,
+      "norm_label": ".create()"
+    },
+    {
+      "label": "config.dev.mjs",
+      "file_type": "code",
+      "source_file": "vite/config.dev.mjs",
+      "source_location": "L1",
+      "id": "vite_config_dev_mjs",
+      "community": 16,
+      "norm_label": "config.dev.mjs"
+    },
+    {
+      "label": "config.prod.mjs",
+      "file_type": "code",
+      "source_file": "vite/config.prod.mjs",
+      "source_location": "L1",
+      "id": "vite_config_prod_mjs",
+      "community": 14,
+      "norm_label": "config.prod.mjs"
+    },
+    {
+      "label": "phasermsg()",
+      "file_type": "code",
+      "source_file": "vite/config.prod.mjs",
+      "source_location": "L4",
+      "id": "vite_config_prod_phasermsg",
+      "community": 14,
+      "norm_label": "phasermsg()"
+    },
+    {
+      "label": "EventBus (Phaser EventEmitter)",
+      "file_type": "code",
+      "source_file": "src/game/EventBus.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "eventbus_eventbus",
+      "community": 3,
+      "norm_label": "eventbus (phaser eventemitter)"
+    },
+    {
+      "label": "PhaserGame React Bridge Component",
+      "file_type": "code",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "phasergame_component",
+      "community": 3,
+      "norm_label": "phasergame react bridge component"
+    },
+    {
+      "label": "IRefPhaserGame interface",
+      "file_type": "code",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "phasergame_irefphasergame",
+      "community": 3,
+      "norm_label": "irefphasergame interface"
+    },
+    {
+      "label": "App React Component",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "app_app",
+      "community": 3,
+      "norm_label": "app react component"
+    },
+    {
+      "label": "StartGame game initializer",
+      "file_type": "code",
+      "source_file": "src/game/main.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "main_startgame",
+      "community": 3,
+      "norm_label": "startgame game initializer"
+    },
+    {
+      "label": "Phaser GameConfig (scene list)",
+      "file_type": "code",
+      "source_file": "src/game/main.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "main_config",
+      "community": 3,
+      "norm_label": "phaser gameconfig (scene list)"
+    },
+    {
+      "label": "Boot Scene",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "boot_scene",
+      "community": 3,
+      "norm_label": "boot scene"
+    },
+    {
+      "label": "Preloader Scene",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "preloader_scene",
+      "community": 3,
+      "norm_label": "preloader scene"
+    },
+    {
+      "label": "MainMenu Scene",
+      "file_type": "code",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "mainmenu_scene",
+      "community": 3,
+      "norm_label": "mainmenu scene"
+    },
+    {
+      "label": "Game Scene",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "game_scene",
+      "community": 3,
+      "norm_label": "game scene"
+    },
+    {
+      "label": "GameOver Scene",
+      "file_type": "code",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "gameover_scene",
+      "community": 3,
+      "norm_label": "gameover scene"
+    },
+    {
+      "label": "'current-scene-ready' event",
+      "file_type": "code",
+      "source_file": "src/game/EventBus.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "event_current_scene_ready",
+      "community": 3,
+      "norm_label": "'current-scene-ready' event"
+    },
+    {
+      "label": "'background' image asset",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "asset_background",
+      "community": 3,
+      "norm_label": "'background' image asset"
+    },
+    {
+      "label": "'logo' image asset",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "asset_logo",
+      "community": 3,
+      "norm_label": "'logo' image asset"
+    },
+    {
+      "label": "'star' image asset",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "asset_star",
+      "community": 3,
+      "norm_label": "'star' image asset"
+    },
+    {
+      "label": "React entry point (main.tsx)",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "main_tsx_entry",
+      "community": 3,
+      "norm_label": "react entry point (main.tsx)"
+    },
+    {
+      "label": "log.js anonymous telemetry",
+      "file_type": "code",
+      "source_file": "log.js",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logjs_telemetry",
+      "community": 13,
+      "norm_label": "log.js anonymous telemetry"
+    },
+    {
+      "label": "phasermsg Vite plugin",
+      "file_type": "code",
+      "source_file": "vite/config.prod.mjs",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "viteconfigprod_phasermsg",
+      "community": 17,
+      "norm_label": "phasermsg vite plugin"
+    },
+    {
+      "label": "React-Phaser Bridge pattern",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_react_bridge",
+      "community": 3,
+      "norm_label": "react-phaser bridge pattern"
+    },
+    {
+      "label": "Anonymous telemetry rationale",
+      "file_type": "rationale",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_telemetry_rationale",
+      "community": 13,
+      "norm_label": "anonymous telemetry rationale"
+    },
+    {
+      "label": "index.html (#root mount)",
+      "file_type": "code",
+      "source_file": "index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "index_html_root",
+      "community": 3,
+      "norm_label": "index.html (#root mount)"
+    },
+    {
+      "label": "Phaser Game Main Menu Screen",
+      "file_type": "image",
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "screenshot_phaser_main_menu",
+      "community": 5,
+      "norm_label": "phaser game main menu screen"
+    },
+    {
+      "label": "Phaser Logo Title",
+      "file_type": "image",
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "screenshot_phaser_logo",
+      "community": 5,
+      "norm_label": "phaser logo title"
+    },
+    {
+      "label": "Main Menu Text Label",
+      "file_type": "image",
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "screenshot_main_menu_label",
+      "community": 5,
+      "norm_label": "main menu text label"
+    },
+    {
+      "label": "Animated Star Sprites",
+      "file_type": "image",
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "screenshot_star_sprites",
+      "community": 5,
+      "norm_label": "animated star sprites"
+    },
+    {
+      "label": "Blue Gradient Background",
+      "file_type": "image",
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "screenshot_gradient_background",
+      "community": 5,
+      "norm_label": "blue gradient background"
+    },
+    {
+      "label": "Right-Side Debug Control Panel",
+      "file_type": "image",
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "screenshot_debug_panel",
+      "community": 5,
+      "norm_label": "right-side debug control panel"
+    },
+    {
+      "label": "Change Scene Button",
+      "file_type": "image",
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "screenshot_change_scene_btn",
+      "community": 5,
+      "norm_label": "change scene button"
+    },
+    {
+      "label": "Toggle Movement Button",
+      "file_type": "image",
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "screenshot_toggle_movement_btn",
+      "community": 5,
+      "norm_label": "toggle movement button"
+    },
+    {
+      "label": "Sprite Position Control",
+      "file_type": "image",
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "screenshot_sprite_position_control",
+      "community": 5,
+      "norm_label": "sprite position control"
+    },
+    {
+      "label": "Add New Sprite Button",
+      "file_type": "image",
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "screenshot_add_sprite_btn",
+      "community": 5,
+      "norm_label": "add new sprite button"
+    },
+    {
+      "label": "Favicon Icon",
+      "file_type": "image",
+      "source_file": "public/favicon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "favicon_icon",
+      "community": 11,
+      "norm_label": "favicon icon"
+    },
+    {
+      "label": "Colorful Pixel Character Motif",
+      "file_type": "image",
+      "source_file": "public/favicon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "favicon_colorful_character",
+      "community": 11,
+      "norm_label": "colorful pixel character motif"
+    },
+    {
+      "label": "Browser Tab Branding",
+      "file_type": "image",
+      "source_file": "public/favicon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "favicon_browser_tab_branding",
+      "community": 11,
+      "norm_label": "browser tab branding"
+    },
+    {
+      "label": "Phaser Gacha Game",
+      "file_type": "image",
+      "source_file": "public/favicon.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "favicon_gacha_game",
+      "community": 11,
+      "norm_label": "phaser gacha game"
+    },
+    {
+      "label": "Game Background Asset",
+      "file_type": "image",
+      "source_file": "public/assets/bg.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "bg_background_asset",
+      "community": 7,
+      "norm_label": "game background asset"
+    },
+    {
+      "label": "Vertical Blue Gradient",
+      "file_type": "image",
+      "source_file": "public/assets/bg.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "bg_blue_gradient",
+      "community": 7,
+      "norm_label": "vertical blue gradient"
+    },
+    {
+      "label": "Azure Blue (Top)",
+      "file_type": "image",
+      "source_file": "public/assets/bg.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "bg_azure_top",
+      "community": 7,
+      "norm_label": "azure blue (top)"
+    },
+    {
+      "label": "Cyan Aqua (Bottom)",
+      "file_type": "image",
+      "source_file": "public/assets/bg.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "bg_cyan_bottom",
+      "community": 7,
+      "norm_label": "cyan aqua (bottom)"
+    },
+    {
+      "label": "Sky Motif",
+      "file_type": "image",
+      "source_file": "public/assets/bg.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "bg_sky_motif",
+      "community": 7,
+      "norm_label": "sky motif"
+    },
+    {
+      "label": "Minimal Flat Style",
+      "file_type": "image",
+      "source_file": "public/assets/bg.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "bg_minimal_style",
+      "community": 7,
+      "norm_label": "minimal flat style"
+    },
+    {
+      "label": "Phaser Logo",
+      "file_type": "image",
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logo_phaser",
+      "community": 8,
+      "norm_label": "phaser logo"
+    },
+    {
+      "label": "PHASER Wordmark",
+      "file_type": "image",
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logo_phaser_wordmark",
+      "community": 8,
+      "norm_label": "phaser wordmark"
+    },
+    {
+      "label": "Phaser Game Framework",
+      "file_type": "image",
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logo_phaser_framework",
+      "community": 8,
+      "norm_label": "phaser game framework"
+    },
+    {
+      "label": "Chrome Diagonal-Stripe Style",
+      "file_type": "image",
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logo_chrome_diagonal_style",
+      "community": 8,
+      "norm_label": "chrome diagonal-stripe style"
+    },
+    {
+      "label": "Light Blue Gradient Fill",
+      "file_type": "image",
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logo_blue_gradient",
+      "community": 8,
+      "norm_label": "light blue gradient fill"
+    },
+    {
+      "label": "Bold Angular Block Typeface",
+      "file_type": "image",
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "logo_bold_angular_typeface",
+      "community": 8,
+      "norm_label": "bold angular block typeface"
+    },
+    {
+      "label": "Golden Star Sprite",
+      "file_type": "image",
+      "source_file": "public/assets/star.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "star_sprite",
+      "community": 10,
+      "norm_label": "golden star sprite"
+    },
+    {
+      "label": "Five-Pointed Star Shape",
+      "file_type": "image",
+      "source_file": "public/assets/star.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "star_five_pointed_shape",
+      "community": 10,
+      "norm_label": "five-pointed star shape"
+    },
+    {
+      "label": "Golden Yellow Color",
+      "file_type": "image",
+      "source_file": "public/assets/star.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "star_golden_color",
+      "community": 10,
+      "norm_label": "golden yellow color"
+    },
+    {
+      "label": "Glossy Cartoon Style",
+      "file_type": "image",
+      "source_file": "public/assets/star.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "star_glossy_style",
+      "community": 10,
+      "norm_label": "glossy cartoon style"
+    },
+    {
+      "label": "Game Sprite Asset",
+      "file_type": "image",
+      "source_file": "public/assets/star.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "star_game_asset",
+      "community": 10,
+      "norm_label": "game sprite asset"
+    },
+    {
+      "label": "Reward / Collectible Icon",
+      "file_type": "image",
+      "source_file": "public/assets/star.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "star_reward_collectible",
+      "community": 10,
+      "norm_label": "reward / collectible icon"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "log.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "log_js",
+      "target": "phaser_gacha_test_1_log_fs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "log.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "log_js",
+      "target": "phaser_gacha_test_1_log_https",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "log.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "log_js",
+      "target": "phaser_gacha_test_1_log_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_author",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_bugs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_homepage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_keywords",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_licenseurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_repository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_repository",
+      "target": "phaser_gacha_test_1_package_repository_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_repository",
+      "target": "phaser_gacha_test_1_package_repository_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_bugs",
+      "target": "phaser_gacha_test_1_package_bugs_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_scripts",
+      "target": "phaser_gacha_test_1_package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_scripts",
+      "target": "phaser_gacha_test_1_package_scripts_build_nolog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_scripts",
+      "target": "phaser_gacha_test_1_package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_scripts",
+      "target": "phaser_gacha_test_1_package_scripts_dev_nolog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_dependencies",
+      "target": "phaser_gacha_test_1_package_dependencies_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_dependencies",
+      "target": "phaser_gacha_test_1_package_dependencies_phaser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_dependencies",
+      "target": "phaser_gacha_test_1_package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_dependencies",
+      "target": "phaser_gacha_test_1_package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_devdependencies",
+      "target": "phaser_gacha_test_1_package_devdependencies_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_devdependencies",
+      "target": "phaser_gacha_test_1_package_devdependencies_eslint_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_devdependencies",
+      "target": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_devdependencies",
+      "target": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_refresh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_devdependencies",
+      "target": "phaser_gacha_test_1_package_devdependencies_globals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_devdependencies",
+      "target": "phaser_gacha_test_1_package_devdependencies_terser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_devdependencies",
+      "target": "phaser_gacha_test_1_package_devdependencies_types_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_devdependencies",
+      "target": "phaser_gacha_test_1_package_devdependencies_types_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_devdependencies",
+      "target": "phaser_gacha_test_1_package_devdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_devdependencies",
+      "target": "phaser_gacha_test_1_package_devdependencies_typescript_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_devdependencies",
+      "target": "phaser_gacha_test_1_package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_package_devdependencies",
+      "target": "phaser_gacha_test_1_package_devdependencies_vitejs_plugin_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tsconfig_json",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "tsconfig_json",
+      "target": "phaser_gacha_test_1_tsconfig_include",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "tsconfig_json",
+      "target": "phaser_gacha_test_1_tsconfig_references",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_allowimportingtsextensions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_isolatedmodules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_lib",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_moduleresolution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_noemit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_nounusedlocals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_nounusedparameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_resolvejsonmodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_strict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_strictpropertyinitialization",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_target",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_usedefineforclassfields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tsconfig_node_json",
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "tsconfig_node_json",
+      "target": "phaser_gacha_test_1_tsconfig_node_include",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_node_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_allowsyntheticdefaultimports",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_node_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_composite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_node_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_node_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_moduleresolution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_node_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.node.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_tsconfig_node_compileroptions",
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_strict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "scenes_mainmenu_mainmenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_game_scenes_mainmenu_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_phasergame_irefphasergame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_phasergame_phasergame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_phasergame_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_app_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_phasergame_tsx",
+      "target": "game_eventbus_eventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_phasergame_tsx",
+      "target": "src_game_eventbus_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_phasergame_tsx",
+      "target": "src_game_main_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_phasergame_tsx",
+      "target": "src_phasergame_iprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_phasergame_tsx",
+      "target": "src_phasergame_irefphasergame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_phasergame_tsx",
+      "target": "src_phasergame_phasergame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/EventBus.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_game_eventbus_ts",
+      "target": "game_eventbus_eventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_game_scenes_game_ts",
+      "target": "src_game_eventbus_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_game_scenes_gameover_ts",
+      "target": "src_game_eventbus_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_game_scenes_mainmenu_ts",
+      "target": "src_game_eventbus_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_game_scenes_game_ts",
+      "target": "game_eventbus_eventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_game_scenes_gameover_ts",
+      "target": "game_eventbus_eventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_game_scenes_mainmenu_ts",
+      "target": "game_eventbus_eventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "game_main_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "game_main_startgame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "scenes_boot_boot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "scenes_game_game",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "scenes_gameover_gameover",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "scenes_mainmenu_mainmenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "scenes_preloader_preloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "src_game_scenes_boot_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "src_game_scenes_game_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "src_game_scenes_gameover_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "src_game_scenes_mainmenu_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "src_game_scenes_preloader_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_game_scenes_boot_ts",
+      "target": "scenes_boot_boot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "scenes_boot_boot",
+      "target": "scenes_boot_boot_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "scenes_boot_boot",
+      "target": "scenes_boot_boot_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "scenes_boot_boot",
+      "target": "scenes_boot_boot_preload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_game_scenes_game_ts",
+      "target": "scenes_game_game",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "scenes_game_game",
+      "target": "scenes_game_game_changescene",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "scenes_game_game",
+      "target": "scenes_game_game_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "scenes_game_game",
+      "target": "scenes_game_game_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_game_scenes_gameover_ts",
+      "target": "scenes_gameover_gameover",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "scenes_gameover_gameover",
+      "target": "scenes_gameover_gameover_changescene",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "scenes_gameover_gameover",
+      "target": "scenes_gameover_gameover_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "scenes_gameover_gameover",
+      "target": "scenes_gameover_gameover_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_game_scenes_mainmenu_ts",
+      "target": "scenes_mainmenu_mainmenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "scenes_mainmenu_mainmenu",
+      "target": "scenes_mainmenu_mainmenu_changescene",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "scenes_mainmenu_mainmenu",
+      "target": "scenes_mainmenu_mainmenu_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "scenes_mainmenu_mainmenu",
+      "target": "scenes_mainmenu_mainmenu_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "scenes_mainmenu_mainmenu",
+      "target": "scenes_mainmenu_mainmenu_movelogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_game_scenes_preloader_ts",
+      "target": "scenes_preloader_preloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "scenes_preloader_preloader",
+      "target": "scenes_preloader_preloader_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "scenes_preloader_preloader",
+      "target": "scenes_preloader_preloader_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "scenes_preloader_preloader",
+      "target": "scenes_preloader_preloader_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "scenes_preloader_preloader",
+      "target": "scenes_preloader_preloader_preload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vite/config.prod.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "vite_config_prod_mjs",
+      "target": "vite_config_prod_phasermsg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/game/EventBus.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "event_current_scene_ready",
+      "target": "eventbus_eventbus"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_react_bridge",
+      "target": "eventbus_eventbus"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/App.tsx",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "app_app",
+      "target": "phasergame_component"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phasergame_component",
+      "target": "event_current_scene_ready"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "phasergame_component",
+      "target": "main_startgame"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_react_bridge",
+      "target": "phasergame_component"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/App.tsx",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "app_app",
+      "target": "phasergame_irefphasergame"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/App.tsx",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "app_app",
+      "target": "asset_star"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "app_app",
+      "target": "event_current_scene_ready"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "src/App.tsx",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "app_app",
+      "target": "mainmenu_scene"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.tsx",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "main_tsx_entry",
+      "target": "app_app"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/main.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "main_startgame",
+      "target": "main_config"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/main.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "main_config",
+      "target": "boot_scene"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/main.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "main_config",
+      "target": "game_scene"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/main.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "main_config",
+      "target": "gameover_scene"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/main.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "main_config",
+      "target": "mainmenu_scene"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/main.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "main_config",
+      "target": "preloader_scene"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "boot_scene",
+      "target": "asset_background"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "boot_scene",
+      "target": "preloader_scene"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "preloader_scene",
+      "target": "asset_background"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "preloader_scene",
+      "target": "asset_logo"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "preloader_scene",
+      "target": "asset_star"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "preloader_scene",
+      "target": "mainmenu_scene"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "gameover_scene",
+      "target": "mainmenu_scene"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mainmenu_scene",
+      "target": "asset_background"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mainmenu_scene",
+      "target": "asset_logo"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mainmenu_scene",
+      "target": "event_current_scene_ready"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "mainmenu_scene",
+      "target": "game_scene"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "game_scene",
+      "target": "asset_background"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "game_scene",
+      "target": "event_current_scene_ready"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "game_scene",
+      "target": "gameover_scene"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "gameover_scene",
+      "target": "asset_background"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "gameover_scene",
+      "target": "event_current_scene_ready"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/main.tsx",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "main_tsx_entry",
+      "target": "index_html_root"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "readme_telemetry_rationale",
+      "target": "logjs_telemetry"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_change_scene_btn",
+      "target": "screenshot_phaser_main_menu"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_debug_panel",
+      "target": "screenshot_phaser_main_menu"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_gradient_background",
+      "target": "screenshot_phaser_main_menu"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_main_menu_label",
+      "target": "screenshot_phaser_main_menu"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_phaser_logo",
+      "target": "screenshot_phaser_main_menu"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_star_sprites",
+      "target": "screenshot_phaser_main_menu"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_add_sprite_btn",
+      "target": "screenshot_star_sprites"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_sprite_position_control",
+      "target": "screenshot_star_sprites"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_toggle_movement_btn",
+      "target": "screenshot_star_sprites"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_add_sprite_btn",
+      "target": "screenshot_debug_panel"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_change_scene_btn",
+      "target": "screenshot_debug_panel"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_sprite_position_control",
+      "target": "screenshot_debug_panel"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "screenshot.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "screenshot_toggle_movement_btn",
+      "target": "screenshot_debug_panel"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/favicon.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "favicon_icon",
+      "target": "favicon_browser_tab_branding"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/favicon.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "favicon_icon",
+      "target": "favicon_colorful_character"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/favicon.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "favicon_icon",
+      "target": "favicon_gacha_game"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "public/favicon.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "favicon_colorful_character",
+      "target": "favicon_gacha_game"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/assets/bg.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bg_background_asset",
+      "target": "bg_blue_gradient"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/assets/bg.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bg_background_asset",
+      "target": "bg_minimal_style"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/assets/bg.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bg_background_asset",
+      "target": "bg_sky_motif"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/assets/bg.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bg_blue_gradient",
+      "target": "bg_azure_top"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/assets/bg.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bg_blue_gradient",
+      "target": "bg_cyan_bottom"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/assets/bg.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "bg_azure_top",
+      "target": "bg_cyan_bottom"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "logo_phaser",
+      "target": "logo_blue_gradient"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "logo_phaser",
+      "target": "logo_chrome_diagonal_style"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "logo_phaser",
+      "target": "logo_phaser_wordmark"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "logo_phaser_framework",
+      "target": "logo_phaser"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "logo_phaser_wordmark",
+      "target": "logo_bold_angular_typeface"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "logo_phaser_wordmark",
+      "target": "logo_phaser_framework"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/assets/logo.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "logo_chrome_diagonal_style",
+      "target": "logo_blue_gradient"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/assets/star.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "star_sprite",
+      "target": "star_five_pointed_shape"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "public/assets/star.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "star_sprite",
+      "target": "star_game_asset"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/assets/star.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "star_sprite",
+      "target": "star_glossy_style"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "public/assets/star.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "star_sprite",
+      "target": "star_golden_color"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "public/assets/star.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "star_glossy_style",
+      "target": "star_golden_color"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "public/assets/star.png",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "star_game_asset",
+      "target": "star_reward_collectible"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "scene_transition_flow",
+      "label": "Scene transition lifecycle flow",
+      "nodes": [
+        "boot_scene",
+        "preloader_scene",
+        "mainmenu_scene",
+        "game_scene",
+        "gameover_scene"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/game/main.ts"
+    },
+    {
+      "id": "react_phaser_bridge",
+      "label": "React-Phaser communication bridge",
+      "nodes": [
+        "app_app",
+        "phasergame_component",
+        "eventbus_eventbus",
+        "event_current_scene_ready"
+      ],
+      "relation": "form",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/PhaserGame.tsx"
+    }
+  ]
+}
