@@ -10,6 +10,8 @@ import { settle, claimDreamsand } from '../core/idle/vigil';
 import type { AccrualResult } from '../core/idle/vigil';
 import { completeFragment } from '../core/fragments/progress';
 import type { FragmentReward } from '../core/content/fragments';
+import { levelUpCharacter } from '../core/progress/leveling';
+import type { LevelUpResult } from '../core/progress/leveling';
 
 /**
  * Thin bridge between the pure core game state and React. It holds the single
@@ -32,6 +34,12 @@ interface GameApi {
      * Returns the reward granted, or null if it was already completed.
      */
     finishFragment: (fragmentId: string) => FragmentReward | null;
+    /**
+     * Spends Dreamsand to raise a character one level (GDD §6 / §Character
+     * Progression). Returns the new level and cost, or null if the upgrade
+     * wasn't possible (at cap or unaffordable — the UI gates this beforehand).
+     */
+    levelUp: (characterId: string) => LevelUpResult | null;
 }
 
 const GameContext = createContext<GameApi | null>(null);
@@ -86,6 +94,16 @@ export function GameProvider({ children }: { children: ReactNode }) {
         return reward;
     };
 
+    const levelUp = (characterId: string) => {
+        // Bank held Dreamsand first so the live "while you were away" accrual isn't
+        // lost when this save stamps a new lastSeen, then spend from the balance.
+        settle(stateRef.current, Date.now());
+        const result = levelUpCharacter(stateRef.current, characterId);
+        saveGame(stateRef.current);
+        rerender();
+        return result;
+    };
+
     return (
         <GameContext.Provider
             value={{
@@ -96,6 +114,7 @@ export function GameProvider({ children }: { children: ReactNode }) {
                 offline: offlineRef.current,
                 grantTolls,
                 finishFragment,
+                levelUp,
             }}
         >
             {children}

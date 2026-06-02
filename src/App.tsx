@@ -5,14 +5,16 @@ import { GachaScreen } from './ui/GachaScreen';
 import { BrewScreen } from './ui/BrewScreen';
 import { VigilScreen } from './ui/VigilScreen';
 import { FragmentsScreen } from './ui/FragmentsScreen';
+import { RosterScreen } from './ui/RosterScreen';
 import './ui/nav.css';
 
-type Screen = 'vigil' | 'fragments' | 'brew' | 'gacha';
+type Screen = 'vigil' | 'fragments' | 'brew' | 'roster' | 'gacha';
 
 const SCREENS: { id: Screen; label: string }[] = [
     { id: 'vigil', label: 'The Vigil' },
     { id: 'fragments', label: 'Fragments' },
     { id: 'brew', label: 'The Brew' },
+    { id: 'roster', label: 'The Awake' },
     { id: 'gacha', label: 'Banner' },
 ];
 
@@ -33,6 +35,7 @@ function App()
                     {screen === 'vigil' && <VigilScreen />}
                     {screen === 'fragments' && <FragmentsScreen />}
                     {screen === 'brew' && <BrewScreen />}
+                    {screen === 'roster' && <RosterScreen />}
                     {screen === 'gacha' && <GachaScreen />}
                     <nav className="screen-nav">
                         {SCREENS.map(({ id, label }) => (
