@@ -120,13 +120,18 @@
     "semantic_hash": "ee839c506b8535f73b889b2228883321"
   },
   "E:\\coding\\phaser-gacha-test-1\\CLAUDE.md": {
-    "mtime": 1780283324.664974,
-    "ast_hash": "7fb60717638cf877c23c31e4e4d3d370",
+    "mtime": 1780363947.0654452,
+    "ast_hash": "6c3d1690c093614573768a077d415685",
     "semantic_hash": ""
   },
   "E:\\coding\\phaser-gacha-test-1\\gameInfo\\GDD_ReverieVigil_v0.9.md": {
     "mtime": 1780283324.6659765,
     "ast_hash": "b983f7397b3bcf14eb605baae98299c2",
+    "semantic_hash": ""
+  },
+  "E:\\coding\\phaser-gacha-test-1\\gameInfo\\art_direction.md": {
+    "mtime": 1780286043.6974947,
+    "ast_hash": "4ee52c61aa747a7a6b6e7fffe9dfef57",
     "semantic_hash": ""
   }
 }

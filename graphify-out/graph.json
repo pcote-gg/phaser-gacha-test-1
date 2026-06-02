@@ -36,1021 +36,1102 @@
   },
   "nodes": [
     {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_md",
+      "community": 18,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "CLAUDE.md \u2014 Reverie Vigil (Phaser 4)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
+      "community": 18,
+      "norm_label": "claude.md \u2014 reverie vigil (phaser 4)"
+    },
+    {
+      "label": "1. Always navigate the code through Graphiphy first",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L22",
+      "id": "phaser_gacha_test_1_claude_1_always_navigate_the_code_through_graphiphy_first",
+      "community": 18,
+      "norm_label": "1. always navigate the code through graphiphy first"
+    },
+    {
+      "label": "2. Investigate before you claim",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L34",
+      "id": "phaser_gacha_test_1_claude_2_investigate_before_you_claim",
+      "community": 18,
+      "norm_label": "2. investigate before you claim"
+    },
+    {
+      "label": "Keep solutions minimal \u2014 avoid over-engineering",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L68",
+      "id": "phaser_gacha_test_1_claude_keep_solutions_minimal_avoid_over_engineering",
+      "community": 18,
+      "norm_label": "keep solutions minimal \u2014 avoid over-engineering"
+    },
+    {
+      "label": "Confirm before irreversible or destructive actions",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L71",
+      "id": "phaser_gacha_test_1_claude_confirm_before_irreversible_or_destructive_actions",
+      "community": 18,
+      "norm_label": "confirm before irreversible or destructive actions"
+    },
+    {
+      "label": "Respect Phaser and framework conventions",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L79",
+      "id": "phaser_gacha_test_1_claude_respect_phaser_and_framework_conventions",
+      "community": 18,
+      "norm_label": "respect phaser and framework conventions"
+    },
+    {
+      "label": "Don't leave scratch files behind",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L82",
+      "id": "phaser_gacha_test_1_claude_don_t_leave_scratch_files_behind",
+      "community": 18,
+      "norm_label": "don't leave scratch files behind"
+    },
+    {
+      "label": "Write code the owner can follow",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L85",
+      "id": "phaser_gacha_test_1_claude_write_code_the_owner_can_follow",
+      "community": 18,
+      "norm_label": "write code the owner can follow"
+    },
+    {
       "label": "log.js",
       "file_type": "code",
       "source_file": "log.js",
       "source_location": "L1",
-      "id": "log_js",
       "community": 12,
-      "norm_label": "log.js"
+      "norm_label": "log.js",
+      "id": "log_js"
     },
     {
       "label": "fs",
       "file_type": "code",
       "source_file": "log.js",
       "source_location": "L1",
-      "id": "phaser_gacha_test_1_log_fs",
       "community": 12,
-      "norm_label": "fs"
+      "norm_label": "fs",
+      "id": "phaser_gacha_test_1_log_fs"
     },
     {
       "label": "https",
       "file_type": "code",
       "source_file": "log.js",
       "source_location": "L2",
-      "id": "phaser_gacha_test_1_log_https",
       "community": 12,
-      "norm_label": "https"
+      "norm_label": "https",
+      "id": "phaser_gacha_test_1_log_https"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "log.js",
       "source_location": "L4",
-      "id": "phaser_gacha_test_1_log_main",
       "community": 12,
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "phaser_gacha_test_1_log_main"
     },
     {
       "label": "package.json",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L1",
-      "id": "package_json",
       "community": 1,
-      "norm_label": "package.json"
+      "norm_label": "package.json",
+      "id": "package_json"
     },
     {
       "label": "name",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L2",
-      "id": "phaser_gacha_test_1_package_name",
       "community": 1,
-      "norm_label": "name"
+      "norm_label": "name",
+      "id": "phaser_gacha_test_1_package_name"
     },
     {
       "label": "description",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L3",
-      "id": "phaser_gacha_test_1_package_description",
       "community": 1,
-      "norm_label": "description"
+      "norm_label": "description",
+      "id": "phaser_gacha_test_1_package_description"
     },
     {
       "label": "version",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L4",
-      "id": "phaser_gacha_test_1_package_version",
       "community": 1,
-      "norm_label": "version"
+      "norm_label": "version",
+      "id": "phaser_gacha_test_1_package_version"
     },
     {
       "label": "repository",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L5",
-      "id": "phaser_gacha_test_1_package_repository",
       "community": 1,
-      "norm_label": "repository"
+      "norm_label": "repository",
+      "id": "phaser_gacha_test_1_package_repository"
     },
     {
       "label": "type",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L6",
-      "id": "phaser_gacha_test_1_package_repository_type",
       "community": 1,
-      "norm_label": "type"
+      "norm_label": "type",
+      "id": "phaser_gacha_test_1_package_repository_type"
     },
     {
       "label": "url",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L7",
-      "id": "phaser_gacha_test_1_package_repository_url",
       "community": 1,
-      "norm_label": "url"
+      "norm_label": "url",
+      "id": "phaser_gacha_test_1_package_repository_url"
     },
     {
       "label": "author",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L9",
-      "id": "phaser_gacha_test_1_package_author",
       "community": 1,
-      "norm_label": "author"
+      "norm_label": "author",
+      "id": "phaser_gacha_test_1_package_author"
     },
     {
       "label": "license",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L10",
-      "id": "phaser_gacha_test_1_package_license",
       "community": 1,
-      "norm_label": "license"
+      "norm_label": "license",
+      "id": "phaser_gacha_test_1_package_license"
     },
     {
       "label": "licenseUrl",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L11",
-      "id": "phaser_gacha_test_1_package_licenseurl",
       "community": 1,
-      "norm_label": "licenseurl"
+      "norm_label": "licenseurl",
+      "id": "phaser_gacha_test_1_package_licenseurl"
     },
     {
       "label": "bugs",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L12",
-      "id": "phaser_gacha_test_1_package_bugs",
       "community": 1,
-      "norm_label": "bugs"
+      "norm_label": "bugs",
+      "id": "phaser_gacha_test_1_package_bugs"
     },
     {
       "label": "url",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L13",
-      "id": "phaser_gacha_test_1_package_bugs_url",
       "community": 1,
-      "norm_label": "url"
+      "norm_label": "url",
+      "id": "phaser_gacha_test_1_package_bugs_url"
     },
     {
       "label": "homepage",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L15",
-      "id": "phaser_gacha_test_1_package_homepage",
       "community": 1,
-      "norm_label": "homepage"
+      "norm_label": "homepage",
+      "id": "phaser_gacha_test_1_package_homepage"
     },
     {
       "label": "keywords",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L16",
-      "id": "phaser_gacha_test_1_package_keywords",
       "community": 1,
-      "norm_label": "keywords"
+      "norm_label": "keywords",
+      "id": "phaser_gacha_test_1_package_keywords"
     },
     {
       "label": "scripts",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L23",
-      "id": "phaser_gacha_test_1_package_scripts",
       "community": 1,
-      "norm_label": "scripts"
+      "norm_label": "scripts",
+      "id": "phaser_gacha_test_1_package_scripts"
     },
     {
       "label": "dev",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L24",
-      "id": "phaser_gacha_test_1_package_scripts_dev",
       "community": 1,
-      "norm_label": "dev"
+      "norm_label": "dev",
+      "id": "phaser_gacha_test_1_package_scripts_dev"
     },
     {
       "label": "build",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L25",
-      "id": "phaser_gacha_test_1_package_scripts_build",
       "community": 1,
-      "norm_label": "build"
+      "norm_label": "build",
+      "id": "phaser_gacha_test_1_package_scripts_build"
     },
     {
       "label": "dev-nolog",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L26",
-      "id": "phaser_gacha_test_1_package_scripts_dev_nolog",
       "community": 1,
-      "norm_label": "dev-nolog"
+      "norm_label": "dev-nolog",
+      "id": "phaser_gacha_test_1_package_scripts_dev_nolog"
     },
     {
       "label": "build-nolog",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L27",
-      "id": "phaser_gacha_test_1_package_scripts_build_nolog",
       "community": 1,
-      "norm_label": "build-nolog"
+      "norm_label": "build-nolog",
+      "id": "phaser_gacha_test_1_package_scripts_build_nolog"
     },
     {
       "label": "dependencies",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L29",
-      "id": "phaser_gacha_test_1_package_dependencies",
       "community": 1,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "phaser_gacha_test_1_package_dependencies"
     },
     {
       "label": "graphify",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L30",
-      "id": "phaser_gacha_test_1_package_dependencies_graphify",
       "community": 1,
-      "norm_label": "graphify"
+      "norm_label": "graphify",
+      "id": "phaser_gacha_test_1_package_dependencies_graphify"
     },
     {
       "label": "phaser",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L31",
-      "id": "phaser_gacha_test_1_package_dependencies_phaser",
       "community": 1,
-      "norm_label": "phaser"
+      "norm_label": "phaser",
+      "id": "phaser_gacha_test_1_package_dependencies_phaser"
     },
     {
       "label": "react",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L32",
-      "id": "phaser_gacha_test_1_package_dependencies_react",
       "community": 1,
-      "norm_label": "react"
+      "norm_label": "react",
+      "id": "phaser_gacha_test_1_package_dependencies_react"
     },
     {
       "label": "react-dom",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L33",
-      "id": "phaser_gacha_test_1_package_dependencies_react_dom",
       "community": 1,
-      "norm_label": "react-dom"
+      "norm_label": "react-dom",
+      "id": "phaser_gacha_test_1_package_dependencies_react_dom"
     },
     {
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L35",
-      "id": "phaser_gacha_test_1_package_devdependencies",
       "community": 4,
-      "norm_label": "devdependencies"
+      "norm_label": "devdependencies",
+      "id": "phaser_gacha_test_1_package_devdependencies"
     },
     {
       "label": "@eslint/js",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L36",
-      "id": "phaser_gacha_test_1_package_devdependencies_eslint_js",
       "community": 4,
-      "norm_label": "@eslint/js"
+      "norm_label": "@eslint/js",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint_js"
     },
     {
       "label": "@types/react",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L37",
-      "id": "phaser_gacha_test_1_package_devdependencies_types_react",
       "community": 4,
-      "norm_label": "@types/react"
+      "norm_label": "@types/react",
+      "id": "phaser_gacha_test_1_package_devdependencies_types_react"
     },
     {
       "label": "@types/react-dom",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L38",
-      "id": "phaser_gacha_test_1_package_devdependencies_types_react_dom",
       "community": 4,
-      "norm_label": "@types/react-dom"
+      "norm_label": "@types/react-dom",
+      "id": "phaser_gacha_test_1_package_devdependencies_types_react_dom"
     },
     {
       "label": "@vitejs/plugin-react",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L39",
-      "id": "phaser_gacha_test_1_package_devdependencies_vitejs_plugin_react",
       "community": 4,
-      "norm_label": "@vitejs/plugin-react"
+      "norm_label": "@vitejs/plugin-react",
+      "id": "phaser_gacha_test_1_package_devdependencies_vitejs_plugin_react"
     },
     {
       "label": "eslint",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L40",
-      "id": "phaser_gacha_test_1_package_devdependencies_eslint",
       "community": 4,
-      "norm_label": "eslint"
+      "norm_label": "eslint",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint"
     },
     {
       "label": "eslint-plugin-react-hooks",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L41",
-      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_hooks",
       "community": 4,
-      "norm_label": "eslint-plugin-react-hooks"
+      "norm_label": "eslint-plugin-react-hooks",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_hooks"
     },
     {
       "label": "eslint-plugin-react-refresh",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L42",
-      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_refresh",
       "community": 4,
-      "norm_label": "eslint-plugin-react-refresh"
+      "norm_label": "eslint-plugin-react-refresh",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_refresh"
     },
     {
       "label": "globals",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L43",
-      "id": "phaser_gacha_test_1_package_devdependencies_globals",
       "community": 4,
-      "norm_label": "globals"
+      "norm_label": "globals",
+      "id": "phaser_gacha_test_1_package_devdependencies_globals"
     },
     {
       "label": "terser",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L44",
-      "id": "phaser_gacha_test_1_package_devdependencies_terser",
       "community": 4,
-      "norm_label": "terser"
+      "norm_label": "terser",
+      "id": "phaser_gacha_test_1_package_devdependencies_terser"
     },
     {
       "label": "typescript",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L45",
-      "id": "phaser_gacha_test_1_package_devdependencies_typescript",
       "community": 4,
-      "norm_label": "typescript"
+      "norm_label": "typescript",
+      "id": "phaser_gacha_test_1_package_devdependencies_typescript"
     },
     {
       "label": "typescript-eslint",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L46",
-      "id": "phaser_gacha_test_1_package_devdependencies_typescript_eslint",
       "community": 4,
-      "norm_label": "typescript-eslint"
+      "norm_label": "typescript-eslint",
+      "id": "phaser_gacha_test_1_package_devdependencies_typescript_eslint"
     },
     {
       "label": "vite",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L47",
-      "id": "phaser_gacha_test_1_package_devdependencies_vite",
       "community": 4,
-      "norm_label": "vite"
+      "norm_label": "vite",
+      "id": "phaser_gacha_test_1_package_devdependencies_vite"
     },
     {
       "label": "tsconfig.json",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L1",
-      "id": "tsconfig_json",
       "community": 2,
-      "norm_label": "tsconfig.json"
+      "norm_label": "tsconfig.json",
+      "id": "tsconfig_json"
     },
     {
       "label": "compilerOptions",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L2",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions",
       "community": 2,
-      "norm_label": "compileroptions"
+      "norm_label": "compileroptions",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions"
     },
     {
       "label": "target",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L3",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_target",
       "community": 2,
-      "norm_label": "target"
+      "norm_label": "target",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_target"
     },
     {
       "label": "useDefineForClassFields",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L4",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_usedefineforclassfields",
       "community": 2,
-      "norm_label": "usedefineforclassfields"
+      "norm_label": "usedefineforclassfields",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_usedefineforclassfields"
     },
     {
       "label": "lib",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L5",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_lib",
       "community": 2,
-      "norm_label": "lib"
+      "norm_label": "lib",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_lib"
     },
     {
       "label": "module",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L6",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_module",
       "community": 2,
-      "norm_label": "module"
+      "norm_label": "module",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_module"
     },
     {
       "label": "skipLibCheck",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L7",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_skiplibcheck",
       "community": 2,
-      "norm_label": "skiplibcheck"
+      "norm_label": "skiplibcheck",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_skiplibcheck"
     },
     {
       "label": "moduleResolution",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L10",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_moduleresolution",
       "community": 2,
-      "norm_label": "moduleresolution"
+      "norm_label": "moduleresolution",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_moduleresolution"
     },
     {
       "label": "allowImportingTsExtensions",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L11",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_allowimportingtsextensions",
       "community": 2,
-      "norm_label": "allowimportingtsextensions"
+      "norm_label": "allowimportingtsextensions",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_allowimportingtsextensions"
     },
     {
       "label": "resolveJsonModule",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L12",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_resolvejsonmodule",
       "community": 2,
-      "norm_label": "resolvejsonmodule"
+      "norm_label": "resolvejsonmodule",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_resolvejsonmodule"
     },
     {
       "label": "isolatedModules",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L13",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_isolatedmodules",
       "community": 2,
-      "norm_label": "isolatedmodules"
+      "norm_label": "isolatedmodules",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_isolatedmodules"
     },
     {
       "label": "noEmit",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L14",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_noemit",
       "community": 2,
-      "norm_label": "noemit"
+      "norm_label": "noemit",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_noemit"
     },
     {
       "label": "jsx",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L15",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_jsx",
       "community": 2,
-      "norm_label": "jsx"
+      "norm_label": "jsx",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_jsx"
     },
     {
       "label": "strict",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L18",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_strict",
       "community": 2,
-      "norm_label": "strict"
+      "norm_label": "strict",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_strict"
     },
     {
       "label": "strictPropertyInitialization",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L19",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_strictpropertyinitialization",
       "community": 2,
-      "norm_label": "strictpropertyinitialization"
+      "norm_label": "strictpropertyinitialization",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_strictpropertyinitialization"
     },
     {
       "label": "noUnusedLocals",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L20",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_nounusedlocals",
       "community": 2,
-      "norm_label": "nounusedlocals"
+      "norm_label": "nounusedlocals",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_nounusedlocals"
     },
     {
       "label": "noUnusedParameters",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L21",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_nounusedparameters",
       "community": 2,
-      "norm_label": "nounusedparameters"
+      "norm_label": "nounusedparameters",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_nounusedparameters"
     },
     {
       "label": "noFallthroughCasesInSwitch",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L22",
-      "id": "phaser_gacha_test_1_tsconfig_compileroptions_nofallthroughcasesinswitch",
       "community": 2,
-      "norm_label": "nofallthroughcasesinswitch"
+      "norm_label": "nofallthroughcasesinswitch",
+      "id": "phaser_gacha_test_1_tsconfig_compileroptions_nofallthroughcasesinswitch"
     },
     {
       "label": "include",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L24",
-      "id": "phaser_gacha_test_1_tsconfig_include",
       "community": 2,
-      "norm_label": "include"
+      "norm_label": "include",
+      "id": "phaser_gacha_test_1_tsconfig_include"
     },
     {
       "label": "references",
       "file_type": "code",
       "source_file": "tsconfig.json",
       "source_location": "L25",
-      "id": "phaser_gacha_test_1_tsconfig_references",
       "community": 2,
-      "norm_label": "references"
+      "norm_label": "references",
+      "id": "phaser_gacha_test_1_tsconfig_references"
     },
     {
       "label": "tsconfig.node.json",
       "file_type": "code",
       "source_file": "tsconfig.node.json",
       "source_location": "L1",
-      "id": "tsconfig_node_json",
       "community": 6,
-      "norm_label": "tsconfig.node.json"
+      "norm_label": "tsconfig.node.json",
+      "id": "tsconfig_node_json"
     },
     {
       "label": "compilerOptions",
       "file_type": "code",
       "source_file": "tsconfig.node.json",
       "source_location": "L2",
-      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions",
       "community": 6,
-      "norm_label": "compileroptions"
+      "norm_label": "compileroptions",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions"
     },
     {
       "label": "composite",
       "file_type": "code",
       "source_file": "tsconfig.node.json",
       "source_location": "L3",
-      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_composite",
       "community": 6,
-      "norm_label": "composite"
+      "norm_label": "composite",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_composite"
     },
     {
       "label": "skipLibCheck",
       "file_type": "code",
       "source_file": "tsconfig.node.json",
       "source_location": "L4",
-      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_skiplibcheck",
       "community": 6,
-      "norm_label": "skiplibcheck"
+      "norm_label": "skiplibcheck",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_skiplibcheck"
     },
     {
       "label": "module",
       "file_type": "code",
       "source_file": "tsconfig.node.json",
       "source_location": "L5",
-      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_module",
       "community": 6,
-      "norm_label": "module"
+      "norm_label": "module",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_module"
     },
     {
       "label": "moduleResolution",
       "file_type": "code",
       "source_file": "tsconfig.node.json",
       "source_location": "L6",
-      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_moduleresolution",
       "community": 6,
-      "norm_label": "moduleresolution"
+      "norm_label": "moduleresolution",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_moduleresolution"
     },
     {
       "label": "allowSyntheticDefaultImports",
       "file_type": "code",
       "source_file": "tsconfig.node.json",
       "source_location": "L7",
-      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_allowsyntheticdefaultimports",
       "community": 6,
-      "norm_label": "allowsyntheticdefaultimports"
+      "norm_label": "allowsyntheticdefaultimports",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_allowsyntheticdefaultimports"
     },
     {
       "label": "strict",
       "file_type": "code",
       "source_file": "tsconfig.node.json",
       "source_location": "L8",
-      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_strict",
       "community": 6,
-      "norm_label": "strict"
+      "norm_label": "strict",
+      "id": "phaser_gacha_test_1_tsconfig_node_compileroptions_strict"
     },
     {
       "label": "include",
       "file_type": "code",
       "source_file": "tsconfig.node.json",
       "source_location": "L10",
-      "id": "phaser_gacha_test_1_tsconfig_node_include",
       "community": 6,
-      "norm_label": "include"
+      "norm_label": "include",
+      "id": "phaser_gacha_test_1_tsconfig_node_include"
     },
     {
       "label": "App.tsx",
       "file_type": "code",
       "source_file": "src/App.tsx",
       "source_location": "L1",
-      "id": "src_app_tsx",
       "community": 0,
-      "norm_label": "app.tsx"
+      "norm_label": "app.tsx",
+      "id": "src_app_tsx"
     },
     {
       "label": "App()",
       "file_type": "code",
       "source_file": "src/App.tsx",
       "source_location": "L5",
-      "id": "src_app_app",
       "community": 0,
-      "norm_label": "app()"
+      "norm_label": "app()",
+      "id": "src_app_app"
     },
     {
       "label": "main.tsx",
       "file_type": "code",
       "source_file": "src/main.tsx",
       "source_location": "L1",
-      "id": "src_main_tsx",
       "community": 0,
-      "norm_label": "main.tsx"
+      "norm_label": "main.tsx",
+      "id": "src_main_tsx"
     },
     {
       "label": "PhaserGame.tsx",
       "file_type": "code",
       "source_file": "src/PhaserGame.tsx",
       "source_location": "L1",
-      "id": "src_phasergame_tsx",
       "community": 0,
-      "norm_label": "phasergame.tsx"
+      "norm_label": "phasergame.tsx",
+      "id": "src_phasergame_tsx"
     },
     {
       "label": "IRefPhaserGame",
       "file_type": "code",
       "source_file": "src/PhaserGame.tsx",
       "source_location": "L5",
-      "id": "src_phasergame_irefphasergame",
       "community": 0,
-      "norm_label": "irefphasergame"
+      "norm_label": "irefphasergame",
+      "id": "src_phasergame_irefphasergame"
     },
     {
       "label": "IProps",
       "file_type": "code",
       "source_file": "src/PhaserGame.tsx",
       "source_location": "L11",
-      "id": "src_phasergame_iprops",
       "community": 0,
-      "norm_label": "iprops"
+      "norm_label": "iprops",
+      "id": "src_phasergame_iprops"
     },
     {
       "label": "PhaserGame",
       "file_type": "code",
       "source_file": "src/PhaserGame.tsx",
       "source_location": "L16",
-      "id": "src_phasergame_phasergame",
       "community": 0,
-      "norm_label": "phasergame"
+      "norm_label": "phasergame",
+      "id": "src_phasergame_phasergame"
     },
     {
       "label": "vite-env.d.ts",
       "file_type": "code",
       "source_file": "src/vite-env.d.ts",
       "source_location": "L1",
-      "id": "src_vite_env_d_ts",
       "community": 15,
-      "norm_label": "vite-env.d.ts"
+      "norm_label": "vite-env.d.ts",
+      "id": "src_vite_env_d_ts"
     },
     {
       "label": "EventBus.ts",
       "file_type": "code",
       "source_file": "src/game/EventBus.ts",
       "source_location": "L1",
-      "id": "src_game_eventbus_ts",
       "community": 0,
-      "norm_label": "eventbus.ts"
+      "norm_label": "eventbus.ts",
+      "id": "src_game_eventbus_ts"
     },
     {
       "label": "EventBus",
       "file_type": "code",
       "source_file": "src/game/EventBus.ts",
       "source_location": "L4",
-      "id": "game_eventbus_eventbus",
       "community": 0,
-      "norm_label": "eventbus"
+      "norm_label": "eventbus",
+      "id": "game_eventbus_eventbus"
     },
     {
       "label": "main.ts",
       "file_type": "code",
       "source_file": "src/game/main.ts",
       "source_location": "L1",
-      "id": "src_game_main_ts",
       "community": 0,
-      "norm_label": "main.ts"
+      "norm_label": "main.ts",
+      "id": "src_game_main_ts"
     },
     {
       "label": "config",
       "file_type": "code",
       "source_file": "src/game/main.ts",
       "source_location": "L10",
-      "id": "game_main_config",
       "community": 0,
-      "norm_label": "config"
+      "norm_label": "config",
+      "id": "game_main_config"
     },
     {
       "label": "StartGame()",
       "file_type": "code",
       "source_file": "src/game/main.ts",
       "source_location": "L25",
-      "id": "game_main_startgame",
       "community": 0,
-      "norm_label": "startgame()"
+      "norm_label": "startgame()",
+      "id": "game_main_startgame"
     },
     {
       "label": "Boot.ts",
       "file_type": "code",
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L1",
-      "id": "src_game_scenes_boot_ts",
       "community": 0,
-      "norm_label": "boot.ts"
+      "norm_label": "boot.ts",
+      "id": "src_game_scenes_boot_ts"
     },
     {
       "label": "Boot",
       "file_type": "code",
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L3",
-      "id": "scenes_boot_boot",
       "community": 0,
-      "norm_label": "boot"
+      "norm_label": "boot",
+      "id": "scenes_boot_boot"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L5",
-      "id": "scenes_boot_boot_constructor",
       "community": 0,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "scenes_boot_boot_constructor"
     },
     {
       "label": ".preload()",
       "file_type": "code",
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L10",
-      "id": "scenes_boot_boot_preload",
       "community": 0,
-      "norm_label": ".preload()"
+      "norm_label": ".preload()",
+      "id": "scenes_boot_boot_preload"
     },
     {
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L18",
-      "id": "scenes_boot_boot_create",
       "community": 0,
-      "norm_label": ".create()"
+      "norm_label": ".create()",
+      "id": "scenes_boot_boot_create"
     },
     {
       "label": "Game.ts",
       "file_type": "code",
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L1",
-      "id": "src_game_scenes_game_ts",
       "community": 0,
-      "norm_label": "game.ts"
+      "norm_label": "game.ts",
+      "id": "src_game_scenes_game_ts"
     },
     {
       "label": "Game",
       "file_type": "code",
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L4",
-      "id": "scenes_game_game",
       "community": 0,
-      "norm_label": "game"
+      "norm_label": "game",
+      "id": "scenes_game_game"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L10",
-      "id": "scenes_game_game_constructor",
       "community": 0,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "scenes_game_game_constructor"
     },
     {
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L15",
-      "id": "scenes_game_game_create",
       "community": 0,
-      "norm_label": ".create()"
+      "norm_label": ".create()",
+      "id": "scenes_game_game_create"
     },
     {
       "label": ".changeScene()",
       "file_type": "code",
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L32",
-      "id": "scenes_game_game_changescene",
       "community": 0,
-      "norm_label": ".changescene()"
+      "norm_label": ".changescene()",
+      "id": "scenes_game_game_changescene"
     },
     {
       "label": "GameOver.ts",
       "file_type": "code",
       "source_file": "src/game/scenes/GameOver.ts",
       "source_location": "L1",
-      "id": "src_game_scenes_gameover_ts",
       "community": 0,
-      "norm_label": "gameover.ts"
+      "norm_label": "gameover.ts",
+      "id": "src_game_scenes_gameover_ts"
     },
     {
       "label": "GameOver",
       "file_type": "code",
       "source_file": "src/game/scenes/GameOver.ts",
       "source_location": "L4",
-      "id": "scenes_gameover_gameover",
       "community": 0,
-      "norm_label": "gameover"
+      "norm_label": "gameover",
+      "id": "scenes_gameover_gameover"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/game/scenes/GameOver.ts",
       "source_location": "L10",
-      "id": "scenes_gameover_gameover_constructor",
       "community": 0,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "scenes_gameover_gameover_constructor"
     },
     {
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/game/scenes/GameOver.ts",
       "source_location": "L15",
-      "id": "scenes_gameover_gameover_create",
       "community": 0,
-      "norm_label": ".create()"
+      "norm_label": ".create()",
+      "id": "scenes_gameover_gameover_create"
     },
     {
       "label": ".changeScene()",
       "file_type": "code",
       "source_file": "src/game/scenes/GameOver.ts",
       "source_location": "L32",
-      "id": "scenes_gameover_gameover_changescene",
       "community": 0,
-      "norm_label": ".changescene()"
+      "norm_label": ".changescene()",
+      "id": "scenes_gameover_gameover_changescene"
     },
     {
       "label": "MainMenu.ts",
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L1",
-      "id": "src_game_scenes_mainmenu_ts",
       "community": 0,
-      "norm_label": "mainmenu.ts"
+      "norm_label": "mainmenu.ts",
+      "id": "src_game_scenes_mainmenu_ts"
     },
     {
       "label": "MainMenu",
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L5",
-      "id": "scenes_mainmenu_mainmenu",
       "community": 0,
-      "norm_label": "mainmenu"
+      "norm_label": "mainmenu",
+      "id": "scenes_mainmenu_mainmenu"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L12",
-      "id": "scenes_mainmenu_mainmenu_constructor",
       "community": 0,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "scenes_mainmenu_mainmenu_constructor"
     },
     {
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L17",
-      "id": "scenes_mainmenu_mainmenu_create",
       "community": 0,
-      "norm_label": ".create()"
+      "norm_label": ".create()",
+      "id": "scenes_mainmenu_mainmenu_create"
     },
     {
       "label": ".changeScene()",
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L32",
-      "id": "scenes_mainmenu_mainmenu_changescene",
       "community": 0,
-      "norm_label": ".changescene()"
+      "norm_label": ".changescene()",
+      "id": "scenes_mainmenu_mainmenu_changescene"
     },
     {
       "label": ".moveLogo()",
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L43",
-      "id": "scenes_mainmenu_mainmenu_movelogo",
       "community": 0,
-      "norm_label": ".movelogo()"
+      "norm_label": ".movelogo()",
+      "id": "scenes_mainmenu_mainmenu_movelogo"
     },
     {
       "label": "Preloader.ts",
       "file_type": "code",
       "source_file": "src/game/scenes/Preloader.ts",
       "source_location": "L1",
-      "id": "src_game_scenes_preloader_ts",
       "community": 9,
-      "norm_label": "preloader.ts"
+      "norm_label": "preloader.ts",
+      "id": "src_game_scenes_preloader_ts"
     },
     {
       "label": "Preloader",
       "file_type": "code",
       "source_file": "src/game/scenes/Preloader.ts",
       "source_location": "L3",
-      "id": "scenes_preloader_preloader",
       "community": 9,
-      "norm_label": "preloader"
+      "norm_label": "preloader",
+      "id": "scenes_preloader_preloader"
     },
     {
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "src/game/scenes/Preloader.ts",
       "source_location": "L5",
-      "id": "scenes_preloader_preloader_constructor",
       "community": 9,
-      "norm_label": ".constructor()"
+      "norm_label": ".constructor()",
+      "id": "scenes_preloader_preloader_constructor"
     },
     {
       "label": ".init()",
       "file_type": "code",
       "source_file": "src/game/scenes/Preloader.ts",
       "source_location": "L10",
-      "id": "scenes_preloader_preloader_init",
       "community": 9,
-      "norm_label": ".init()"
+      "norm_label": ".init()",
+      "id": "scenes_preloader_preloader_init"
     },
     {
       "label": ".preload()",
       "file_type": "code",
       "source_file": "src/game/scenes/Preloader.ts",
       "source_location": "L30",
-      "id": "scenes_preloader_preloader_preload",
       "community": 9,
-      "norm_label": ".preload()"
+      "norm_label": ".preload()",
+      "id": "scenes_preloader_preloader_preload"
     },
     {
       "label": ".create()",
       "file_type": "code",
       "source_file": "src/game/scenes/Preloader.ts",
       "source_location": "L39",
-      "id": "scenes_preloader_preloader_create",
       "community": 9,
-      "norm_label": ".create()"
+      "norm_label": ".create()",
+      "id": "scenes_preloader_preloader_create"
     },
     {
       "label": "config.dev.mjs",
       "file_type": "code",
       "source_file": "vite/config.dev.mjs",
       "source_location": "L1",
-      "id": "vite_config_dev_mjs",
       "community": 16,
-      "norm_label": "config.dev.mjs"
+      "norm_label": "config.dev.mjs",
+      "id": "vite_config_dev_mjs"
     },
     {
       "label": "config.prod.mjs",
       "file_type": "code",
       "source_file": "vite/config.prod.mjs",
       "source_location": "L1",
-      "id": "vite_config_prod_mjs",
       "community": 14,
-      "norm_label": "config.prod.mjs"
+      "norm_label": "config.prod.mjs",
+      "id": "vite_config_prod_mjs"
     },
     {
       "label": "phasermsg()",
       "file_type": "code",
       "source_file": "vite/config.prod.mjs",
       "source_location": "L4",
-      "id": "vite_config_prod_phasermsg",
       "community": 14,
-      "norm_label": "phasermsg()"
+      "norm_label": "phasermsg()",
+      "id": "vite_config_prod_phasermsg"
     },
     {
       "label": "EventBus (Phaser EventEmitter)",
@@ -1061,9 +1142,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "eventbus_eventbus",
       "community": 3,
-      "norm_label": "eventbus (phaser eventemitter)"
+      "norm_label": "eventbus (phaser eventemitter)",
+      "id": "eventbus_eventbus"
     },
     {
       "label": "PhaserGame React Bridge Component",
@@ -1074,9 +1155,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phasergame_component",
       "community": 3,
-      "norm_label": "phasergame react bridge component"
+      "norm_label": "phasergame react bridge component",
+      "id": "phasergame_component"
     },
     {
       "label": "IRefPhaserGame interface",
@@ -1087,9 +1168,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phasergame_irefphasergame",
       "community": 3,
-      "norm_label": "irefphasergame interface"
+      "norm_label": "irefphasergame interface",
+      "id": "phasergame_irefphasergame"
     },
     {
       "label": "App React Component",
@@ -1100,9 +1181,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "app_app",
       "community": 3,
-      "norm_label": "app react component"
+      "norm_label": "app react component",
+      "id": "app_app"
     },
     {
       "label": "StartGame game initializer",
@@ -1113,9 +1194,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "main_startgame",
       "community": 3,
-      "norm_label": "startgame game initializer"
+      "norm_label": "startgame game initializer",
+      "id": "main_startgame"
     },
     {
       "label": "Phaser GameConfig (scene list)",
@@ -1126,9 +1207,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "main_config",
       "community": 3,
-      "norm_label": "phaser gameconfig (scene list)"
+      "norm_label": "phaser gameconfig (scene list)",
+      "id": "main_config"
     },
     {
       "label": "Boot Scene",
@@ -1139,9 +1220,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "boot_scene",
       "community": 3,
-      "norm_label": "boot scene"
+      "norm_label": "boot scene",
+      "id": "boot_scene"
     },
     {
       "label": "Preloader Scene",
@@ -1152,9 +1233,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "preloader_scene",
       "community": 3,
-      "norm_label": "preloader scene"
+      "norm_label": "preloader scene",
+      "id": "preloader_scene"
     },
     {
       "label": "MainMenu Scene",
@@ -1165,9 +1246,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mainmenu_scene",
       "community": 3,
-      "norm_label": "mainmenu scene"
+      "norm_label": "mainmenu scene",
+      "id": "mainmenu_scene"
     },
     {
       "label": "Game Scene",
@@ -1178,9 +1259,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "game_scene",
       "community": 3,
-      "norm_label": "game scene"
+      "norm_label": "game scene",
+      "id": "game_scene"
     },
     {
       "label": "GameOver Scene",
@@ -1191,9 +1272,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gameover_scene",
       "community": 3,
-      "norm_label": "gameover scene"
+      "norm_label": "gameover scene",
+      "id": "gameover_scene"
     },
     {
       "label": "'current-scene-ready' event",
@@ -1204,9 +1285,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "event_current_scene_ready",
       "community": 3,
-      "norm_label": "'current-scene-ready' event"
+      "norm_label": "'current-scene-ready' event",
+      "id": "event_current_scene_ready"
     },
     {
       "label": "'background' image asset",
@@ -1217,9 +1298,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "asset_background",
       "community": 3,
-      "norm_label": "'background' image asset"
+      "norm_label": "'background' image asset",
+      "id": "asset_background"
     },
     {
       "label": "'logo' image asset",
@@ -1230,9 +1311,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "asset_logo",
       "community": 3,
-      "norm_label": "'logo' image asset"
+      "norm_label": "'logo' image asset",
+      "id": "asset_logo"
     },
     {
       "label": "'star' image asset",
@@ -1243,9 +1324,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "asset_star",
       "community": 3,
-      "norm_label": "'star' image asset"
+      "norm_label": "'star' image asset",
+      "id": "asset_star"
     },
     {
       "label": "React entry point (main.tsx)",
@@ -1256,9 +1337,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "main_tsx_entry",
       "community": 3,
-      "norm_label": "react entry point (main.tsx)"
+      "norm_label": "react entry point (main.tsx)",
+      "id": "main_tsx_entry"
     },
     {
       "label": "log.js anonymous telemetry",
@@ -1269,9 +1350,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "logjs_telemetry",
       "community": 13,
-      "norm_label": "log.js anonymous telemetry"
+      "norm_label": "log.js anonymous telemetry",
+      "id": "logjs_telemetry"
     },
     {
       "label": "phasermsg Vite plugin",
@@ -1282,9 +1363,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "viteconfigprod_phasermsg",
       "community": 17,
-      "norm_label": "phasermsg vite plugin"
+      "norm_label": "phasermsg vite plugin",
+      "id": "viteconfigprod_phasermsg"
     },
     {
       "label": "React-Phaser Bridge pattern",
@@ -1295,9 +1376,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_react_bridge",
       "community": 3,
-      "norm_label": "react-phaser bridge pattern"
+      "norm_label": "react-phaser bridge pattern",
+      "id": "readme_react_bridge"
     },
     {
       "label": "Anonymous telemetry rationale",
@@ -1308,9 +1389,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_telemetry_rationale",
       "community": 13,
-      "norm_label": "anonymous telemetry rationale"
+      "norm_label": "anonymous telemetry rationale",
+      "id": "readme_telemetry_rationale"
     },
     {
       "label": "index.html (#root mount)",
@@ -1321,9 +1402,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "index_html_root",
       "community": 3,
-      "norm_label": "index.html (#root mount)"
+      "norm_label": "index.html (#root mount)",
+      "id": "index_html_root"
     },
     {
       "label": "Phaser Game Main Menu Screen",
@@ -1334,9 +1415,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "screenshot_phaser_main_menu",
       "community": 5,
-      "norm_label": "phaser game main menu screen"
+      "norm_label": "phaser game main menu screen",
+      "id": "screenshot_phaser_main_menu"
     },
     {
       "label": "Phaser Logo Title",
@@ -1347,9 +1428,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "screenshot_phaser_logo",
       "community": 5,
-      "norm_label": "phaser logo title"
+      "norm_label": "phaser logo title",
+      "id": "screenshot_phaser_logo"
     },
     {
       "label": "Main Menu Text Label",
@@ -1360,9 +1441,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "screenshot_main_menu_label",
       "community": 5,
-      "norm_label": "main menu text label"
+      "norm_label": "main menu text label",
+      "id": "screenshot_main_menu_label"
     },
     {
       "label": "Animated Star Sprites",
@@ -1373,9 +1454,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "screenshot_star_sprites",
       "community": 5,
-      "norm_label": "animated star sprites"
+      "norm_label": "animated star sprites",
+      "id": "screenshot_star_sprites"
     },
     {
       "label": "Blue Gradient Background",
@@ -1386,9 +1467,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "screenshot_gradient_background",
       "community": 5,
-      "norm_label": "blue gradient background"
+      "norm_label": "blue gradient background",
+      "id": "screenshot_gradient_background"
     },
     {
       "label": "Right-Side Debug Control Panel",
@@ -1399,9 +1480,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "screenshot_debug_panel",
       "community": 5,
-      "norm_label": "right-side debug control panel"
+      "norm_label": "right-side debug control panel",
+      "id": "screenshot_debug_panel"
     },
     {
       "label": "Change Scene Button",
@@ -1412,9 +1493,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "screenshot_change_scene_btn",
       "community": 5,
-      "norm_label": "change scene button"
+      "norm_label": "change scene button",
+      "id": "screenshot_change_scene_btn"
     },
     {
       "label": "Toggle Movement Button",
@@ -1425,9 +1506,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "screenshot_toggle_movement_btn",
       "community": 5,
-      "norm_label": "toggle movement button"
+      "norm_label": "toggle movement button",
+      "id": "screenshot_toggle_movement_btn"
     },
     {
       "label": "Sprite Position Control",
@@ -1438,9 +1519,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "screenshot_sprite_position_control",
       "community": 5,
-      "norm_label": "sprite position control"
+      "norm_label": "sprite position control",
+      "id": "screenshot_sprite_position_control"
     },
     {
       "label": "Add New Sprite Button",
@@ -1451,9 +1532,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "screenshot_add_sprite_btn",
       "community": 5,
-      "norm_label": "add new sprite button"
+      "norm_label": "add new sprite button",
+      "id": "screenshot_add_sprite_btn"
     },
     {
       "label": "Favicon Icon",
@@ -1464,9 +1545,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "favicon_icon",
       "community": 11,
-      "norm_label": "favicon icon"
+      "norm_label": "favicon icon",
+      "id": "favicon_icon"
     },
     {
       "label": "Colorful Pixel Character Motif",
@@ -1477,9 +1558,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "favicon_colorful_character",
       "community": 11,
-      "norm_label": "colorful pixel character motif"
+      "norm_label": "colorful pixel character motif",
+      "id": "favicon_colorful_character"
     },
     {
       "label": "Browser Tab Branding",
@@ -1490,9 +1571,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "favicon_browser_tab_branding",
       "community": 11,
-      "norm_label": "browser tab branding"
+      "norm_label": "browser tab branding",
+      "id": "favicon_browser_tab_branding"
     },
     {
       "label": "Phaser Gacha Game",
@@ -1503,9 +1584,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "favicon_gacha_game",
       "community": 11,
-      "norm_label": "phaser gacha game"
+      "norm_label": "phaser gacha game",
+      "id": "favicon_gacha_game"
     },
     {
       "label": "Game Background Asset",
@@ -1516,9 +1597,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bg_background_asset",
       "community": 7,
-      "norm_label": "game background asset"
+      "norm_label": "game background asset",
+      "id": "bg_background_asset"
     },
     {
       "label": "Vertical Blue Gradient",
@@ -1529,9 +1610,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bg_blue_gradient",
       "community": 7,
-      "norm_label": "vertical blue gradient"
+      "norm_label": "vertical blue gradient",
+      "id": "bg_blue_gradient"
     },
     {
       "label": "Azure Blue (Top)",
@@ -1542,9 +1623,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bg_azure_top",
       "community": 7,
-      "norm_label": "azure blue (top)"
+      "norm_label": "azure blue (top)",
+      "id": "bg_azure_top"
     },
     {
       "label": "Cyan Aqua (Bottom)",
@@ -1555,9 +1636,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bg_cyan_bottom",
       "community": 7,
-      "norm_label": "cyan aqua (bottom)"
+      "norm_label": "cyan aqua (bottom)",
+      "id": "bg_cyan_bottom"
     },
     {
       "label": "Sky Motif",
@@ -1568,9 +1649,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bg_sky_motif",
       "community": 7,
-      "norm_label": "sky motif"
+      "norm_label": "sky motif",
+      "id": "bg_sky_motif"
     },
     {
       "label": "Minimal Flat Style",
@@ -1581,9 +1662,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bg_minimal_style",
       "community": 7,
-      "norm_label": "minimal flat style"
+      "norm_label": "minimal flat style",
+      "id": "bg_minimal_style"
     },
     {
       "label": "Phaser Logo",
@@ -1594,9 +1675,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "logo_phaser",
       "community": 8,
-      "norm_label": "phaser logo"
+      "norm_label": "phaser logo",
+      "id": "logo_phaser"
     },
     {
       "label": "PHASER Wordmark",
@@ -1607,9 +1688,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "logo_phaser_wordmark",
       "community": 8,
-      "norm_label": "phaser wordmark"
+      "norm_label": "phaser wordmark",
+      "id": "logo_phaser_wordmark"
     },
     {
       "label": "Phaser Game Framework",
@@ -1620,9 +1701,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "logo_phaser_framework",
       "community": 8,
-      "norm_label": "phaser game framework"
+      "norm_label": "phaser game framework",
+      "id": "logo_phaser_framework"
     },
     {
       "label": "Chrome Diagonal-Stripe Style",
@@ -1633,9 +1714,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "logo_chrome_diagonal_style",
       "community": 8,
-      "norm_label": "chrome diagonal-stripe style"
+      "norm_label": "chrome diagonal-stripe style",
+      "id": "logo_chrome_diagonal_style"
     },
     {
       "label": "Light Blue Gradient Fill",
@@ -1646,9 +1727,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "logo_blue_gradient",
       "community": 8,
-      "norm_label": "light blue gradient fill"
+      "norm_label": "light blue gradient fill",
+      "id": "logo_blue_gradient"
     },
     {
       "label": "Bold Angular Block Typeface",
@@ -1659,9 +1740,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "logo_bold_angular_typeface",
       "community": 8,
-      "norm_label": "bold angular block typeface"
+      "norm_label": "bold angular block typeface",
+      "id": "logo_bold_angular_typeface"
     },
     {
       "label": "Golden Star Sprite",
@@ -1672,9 +1753,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "star_sprite",
       "community": 10,
-      "norm_label": "golden star sprite"
+      "norm_label": "golden star sprite",
+      "id": "star_sprite"
     },
     {
       "label": "Five-Pointed Star Shape",
@@ -1685,9 +1766,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "star_five_pointed_shape",
       "community": 10,
-      "norm_label": "five-pointed star shape"
+      "norm_label": "five-pointed star shape",
+      "id": "star_five_pointed_shape"
     },
     {
       "label": "Golden Yellow Color",
@@ -1698,9 +1779,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "star_golden_color",
       "community": 10,
-      "norm_label": "golden yellow color"
+      "norm_label": "golden yellow color",
+      "id": "star_golden_color"
     },
     {
       "label": "Glossy Cartoon Style",
@@ -1711,9 +1792,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "star_glossy_style",
       "community": 10,
-      "norm_label": "glossy cartoon style"
+      "norm_label": "glossy cartoon style",
+      "id": "star_glossy_style"
     },
     {
       "label": "Game Sprite Asset",
@@ -1724,9 +1805,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "star_game_asset",
       "community": 10,
-      "norm_label": "game sprite asset"
+      "norm_label": "game sprite asset",
+      "id": "star_game_asset"
     },
     {
       "label": "Reward / Collectible Icon",
@@ -1737,21 +1818,101 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "star_reward_collectible",
       "community": 10,
-      "norm_label": "reward / collectible icon"
+      "norm_label": "reward / collectible icon",
+      "id": "star_reward_collectible"
     }
   ],
   "links": [
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_md",
+      "target": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
+      "target": "phaser_gacha_test_1_claude_1_always_navigate_the_code_through_graphiphy_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
+      "target": "phaser_gacha_test_1_claude_2_investigate_before_you_claim",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
+      "target": "phaser_gacha_test_1_claude_confirm_before_irreversible_or_destructive_actions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
+      "target": "phaser_gacha_test_1_claude_don_t_leave_scratch_files_behind",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
+      "target": "phaser_gacha_test_1_claude_keep_solutions_minimal_avoid_over_engineering",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
+      "target": "phaser_gacha_test_1_claude_respect_phaser_and_framework_conventions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
+      "target": "phaser_gacha_test_1_claude_write_code_the_owner_can_follow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "log.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "log_js",
-      "target": "phaser_gacha_test_1_log_fs",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_log_fs"
     },
     {
       "relation": "contains",
@@ -1759,9 +1920,9 @@
       "source_file": "log.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "log_js",
-      "target": "phaser_gacha_test_1_log_https",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_log_https"
     },
     {
       "relation": "contains",
@@ -1769,9 +1930,9 @@
       "source_file": "log.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "log_js",
-      "target": "phaser_gacha_test_1_log_main",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_log_main"
     },
     {
       "relation": "contains",
@@ -1779,9 +1940,9 @@
       "source_file": "package.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_author",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_author"
     },
     {
       "relation": "contains",
@@ -1789,9 +1950,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_bugs",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_bugs"
     },
     {
       "relation": "contains",
@@ -1799,9 +1960,9 @@
       "source_file": "package.json",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_dependencies",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_dependencies"
     },
     {
       "relation": "contains",
@@ -1809,9 +1970,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_description",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_description"
     },
     {
       "relation": "contains",
@@ -1819,9 +1980,9 @@
       "source_file": "package.json",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_devdependencies",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies"
     },
     {
       "relation": "contains",
@@ -1829,9 +1990,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_homepage",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_homepage"
     },
     {
       "relation": "contains",
@@ -1839,9 +2000,9 @@
       "source_file": "package.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_keywords",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_keywords"
     },
     {
       "relation": "contains",
@@ -1849,9 +2010,9 @@
       "source_file": "package.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_license",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_license"
     },
     {
       "relation": "contains",
@@ -1859,9 +2020,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_licenseurl",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_licenseurl"
     },
     {
       "relation": "contains",
@@ -1869,9 +2030,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_name",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_name"
     },
     {
       "relation": "contains",
@@ -1879,9 +2040,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_repository",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_repository"
     },
     {
       "relation": "contains",
@@ -1889,9 +2050,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_scripts",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_scripts"
     },
     {
       "relation": "contains",
@@ -1899,9 +2060,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_version",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_version"
     },
     {
       "relation": "contains",
@@ -1909,9 +2070,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_repository",
-      "target": "phaser_gacha_test_1_package_repository_type",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_repository_type"
     },
     {
       "relation": "contains",
@@ -1919,9 +2080,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_repository",
-      "target": "phaser_gacha_test_1_package_repository_url",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_repository_url"
     },
     {
       "relation": "contains",
@@ -1929,9 +2090,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_bugs",
-      "target": "phaser_gacha_test_1_package_bugs_url",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_bugs_url"
     },
     {
       "relation": "contains",
@@ -1939,9 +2100,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_scripts",
-      "target": "phaser_gacha_test_1_package_scripts_build",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_scripts_build"
     },
     {
       "relation": "contains",
@@ -1949,9 +2110,9 @@
       "source_file": "package.json",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_scripts",
-      "target": "phaser_gacha_test_1_package_scripts_build_nolog",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_scripts_build_nolog"
     },
     {
       "relation": "contains",
@@ -1959,9 +2120,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_scripts",
-      "target": "phaser_gacha_test_1_package_scripts_dev",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_scripts_dev"
     },
     {
       "relation": "contains",
@@ -1969,9 +2130,9 @@
       "source_file": "package.json",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_scripts",
-      "target": "phaser_gacha_test_1_package_scripts_dev_nolog",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_scripts_dev_nolog"
     },
     {
       "relation": "contains",
@@ -1979,9 +2140,9 @@
       "source_file": "package.json",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_dependencies",
-      "target": "phaser_gacha_test_1_package_dependencies_graphify",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_dependencies_graphify"
     },
     {
       "relation": "contains",
@@ -1989,9 +2150,9 @@
       "source_file": "package.json",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_dependencies",
-      "target": "phaser_gacha_test_1_package_dependencies_phaser",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_dependencies_phaser"
     },
     {
       "relation": "contains",
@@ -1999,9 +2160,9 @@
       "source_file": "package.json",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_dependencies",
-      "target": "phaser_gacha_test_1_package_dependencies_react",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_dependencies_react"
     },
     {
       "relation": "contains",
@@ -2009,9 +2170,9 @@
       "source_file": "package.json",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_dependencies",
-      "target": "phaser_gacha_test_1_package_dependencies_react_dom",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_dependencies_react_dom"
     },
     {
       "relation": "contains",
@@ -2019,9 +2180,9 @@
       "source_file": "package.json",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
-      "target": "phaser_gacha_test_1_package_devdependencies_eslint",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies_eslint"
     },
     {
       "relation": "contains",
@@ -2029,9 +2190,9 @@
       "source_file": "package.json",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
-      "target": "phaser_gacha_test_1_package_devdependencies_eslint_js",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies_eslint_js"
     },
     {
       "relation": "contains",
@@ -2039,9 +2200,9 @@
       "source_file": "package.json",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
-      "target": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_hooks",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_hooks"
     },
     {
       "relation": "contains",
@@ -2049,9 +2210,9 @@
       "source_file": "package.json",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
-      "target": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_refresh",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_refresh"
     },
     {
       "relation": "contains",
@@ -2059,9 +2220,9 @@
       "source_file": "package.json",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
-      "target": "phaser_gacha_test_1_package_devdependencies_globals",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies_globals"
     },
     {
       "relation": "contains",
@@ -2069,9 +2230,9 @@
       "source_file": "package.json",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
-      "target": "phaser_gacha_test_1_package_devdependencies_terser",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies_terser"
     },
     {
       "relation": "contains",
@@ -2079,9 +2240,9 @@
       "source_file": "package.json",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
-      "target": "phaser_gacha_test_1_package_devdependencies_types_react",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies_types_react"
     },
     {
       "relation": "contains",
@@ -2089,9 +2250,9 @@
       "source_file": "package.json",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
-      "target": "phaser_gacha_test_1_package_devdependencies_types_react_dom",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies_types_react_dom"
     },
     {
       "relation": "contains",
@@ -2099,9 +2260,9 @@
       "source_file": "package.json",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
-      "target": "phaser_gacha_test_1_package_devdependencies_typescript",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies_typescript"
     },
     {
       "relation": "contains",
@@ -2109,9 +2270,9 @@
       "source_file": "package.json",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
-      "target": "phaser_gacha_test_1_package_devdependencies_typescript_eslint",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies_typescript_eslint"
     },
     {
       "relation": "contains",
@@ -2119,9 +2280,9 @@
       "source_file": "package.json",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
-      "target": "phaser_gacha_test_1_package_devdependencies_vite",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies_vite"
     },
     {
       "relation": "contains",
@@ -2129,9 +2290,9 @@
       "source_file": "package.json",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
-      "target": "phaser_gacha_test_1_package_devdependencies_vitejs_plugin_react",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_package_devdependencies_vitejs_plugin_react"
     },
     {
       "relation": "contains",
@@ -2139,9 +2300,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_json",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions"
     },
     {
       "relation": "contains",
@@ -2149,9 +2310,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_json",
-      "target": "phaser_gacha_test_1_tsconfig_include",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_include"
     },
     {
       "relation": "contains",
@@ -2159,9 +2320,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_json",
-      "target": "phaser_gacha_test_1_tsconfig_references",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_references"
     },
     {
       "relation": "contains",
@@ -2169,9 +2330,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_allowimportingtsextensions",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_allowimportingtsextensions"
     },
     {
       "relation": "contains",
@@ -2179,9 +2340,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_isolatedmodules",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_isolatedmodules"
     },
     {
       "relation": "contains",
@@ -2189,9 +2350,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_jsx",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_jsx"
     },
     {
       "relation": "contains",
@@ -2199,9 +2360,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_lib",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_lib"
     },
     {
       "relation": "contains",
@@ -2209,9 +2370,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_module",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_module"
     },
     {
       "relation": "contains",
@@ -2219,9 +2380,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_moduleresolution",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_moduleresolution"
     },
     {
       "relation": "contains",
@@ -2229,9 +2390,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_noemit",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_noemit"
     },
     {
       "relation": "contains",
@@ -2239,9 +2400,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_nofallthroughcasesinswitch",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_nofallthroughcasesinswitch"
     },
     {
       "relation": "contains",
@@ -2249,9 +2410,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_nounusedlocals",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_nounusedlocals"
     },
     {
       "relation": "contains",
@@ -2259,9 +2420,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_nounusedparameters",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_nounusedparameters"
     },
     {
       "relation": "contains",
@@ -2269,9 +2430,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_resolvejsonmodule",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_resolvejsonmodule"
     },
     {
       "relation": "contains",
@@ -2279,9 +2440,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_skiplibcheck",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_skiplibcheck"
     },
     {
       "relation": "contains",
@@ -2289,9 +2450,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_strict",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_strict"
     },
     {
       "relation": "contains",
@@ -2299,9 +2460,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_strictpropertyinitialization",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_strictpropertyinitialization"
     },
     {
       "relation": "contains",
@@ -2309,9 +2470,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_target",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_target"
     },
     {
       "relation": "contains",
@@ -2319,9 +2480,9 @@
       "source_file": "tsconfig.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_compileroptions_usedefineforclassfields",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_compileroptions_usedefineforclassfields"
     },
     {
       "relation": "contains",
@@ -2329,9 +2490,9 @@
       "source_file": "tsconfig.node.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_node_json",
-      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions"
     },
     {
       "relation": "contains",
@@ -2339,9 +2500,9 @@
       "source_file": "tsconfig.node.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_node_json",
-      "target": "phaser_gacha_test_1_tsconfig_node_include",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_node_include"
     },
     {
       "relation": "contains",
@@ -2349,9 +2510,9 @@
       "source_file": "tsconfig.node.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_node_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_allowsyntheticdefaultimports",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_allowsyntheticdefaultimports"
     },
     {
       "relation": "contains",
@@ -2359,9 +2520,9 @@
       "source_file": "tsconfig.node.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_node_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_composite",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_composite"
     },
     {
       "relation": "contains",
@@ -2369,9 +2530,9 @@
       "source_file": "tsconfig.node.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_node_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_module",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_module"
     },
     {
       "relation": "contains",
@@ -2379,9 +2540,9 @@
       "source_file": "tsconfig.node.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_node_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_moduleresolution",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_moduleresolution"
     },
     {
       "relation": "contains",
@@ -2389,9 +2550,9 @@
       "source_file": "tsconfig.node.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_node_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_skiplibcheck",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_skiplibcheck"
     },
     {
       "relation": "contains",
@@ -2399,9 +2560,9 @@
       "source_file": "tsconfig.node.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_tsconfig_node_compileroptions",
-      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_strict",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_strict"
     },
     {
       "relation": "imports",
@@ -2410,9 +2571,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "scenes_mainmenu_mainmenu",
-      "confidence_score": 1.0
+      "target": "scenes_mainmenu_mainmenu"
     },
     {
       "relation": "contains",
@@ -2420,9 +2581,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "src_app_app"
     },
     {
       "relation": "imports_from",
@@ -2431,9 +2592,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "src_game_scenes_mainmenu_ts",
-      "confidence_score": 1.0
+      "target": "src_game_scenes_mainmenu_ts"
     },
     {
       "relation": "imports",
@@ -2442,9 +2603,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "src_phasergame_irefphasergame",
-      "confidence_score": 1.0
+      "target": "src_phasergame_irefphasergame"
     },
     {
       "relation": "imports",
@@ -2453,9 +2614,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "src_phasergame_phasergame",
-      "confidence_score": 1.0
+      "target": "src_phasergame_phasergame"
     },
     {
       "relation": "imports_from",
@@ -2464,9 +2625,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_tsx",
-      "target": "src_phasergame_tsx",
-      "confidence_score": 1.0
+      "target": "src_phasergame_tsx"
     },
     {
       "relation": "imports_from",
@@ -2475,9 +2636,9 @@
       "source_file": "src/main.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main_tsx",
-      "target": "src_app_tsx",
-      "confidence_score": 1.0
+      "target": "src_app_tsx"
     },
     {
       "relation": "imports",
@@ -2486,9 +2647,9 @@
       "source_file": "src/PhaserGame.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_phasergame_tsx",
-      "target": "game_eventbus_eventbus",
-      "confidence_score": 1.0
+      "target": "game_eventbus_eventbus"
     },
     {
       "relation": "imports_from",
@@ -2497,9 +2658,9 @@
       "source_file": "src/PhaserGame.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_phasergame_tsx",
-      "target": "src_game_eventbus_ts",
-      "confidence_score": 1.0
+      "target": "src_game_eventbus_ts"
     },
     {
       "relation": "imports_from",
@@ -2508,9 +2669,9 @@
       "source_file": "src/PhaserGame.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_phasergame_tsx",
-      "target": "src_game_main_ts",
-      "confidence_score": 1.0
+      "target": "src_game_main_ts"
     },
     {
       "relation": "contains",
@@ -2518,9 +2679,9 @@
       "source_file": "src/PhaserGame.tsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_phasergame_tsx",
-      "target": "src_phasergame_iprops",
-      "confidence_score": 1.0
+      "target": "src_phasergame_iprops"
     },
     {
       "relation": "contains",
@@ -2528,9 +2689,9 @@
       "source_file": "src/PhaserGame.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_phasergame_tsx",
-      "target": "src_phasergame_irefphasergame",
-      "confidence_score": 1.0
+      "target": "src_phasergame_irefphasergame"
     },
     {
       "relation": "contains",
@@ -2538,9 +2699,9 @@
       "source_file": "src/PhaserGame.tsx",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_phasergame_tsx",
-      "target": "src_phasergame_phasergame",
-      "confidence_score": 1.0
+      "target": "src_phasergame_phasergame"
     },
     {
       "relation": "contains",
@@ -2548,9 +2709,9 @@
       "source_file": "src/game/EventBus.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_eventbus_ts",
-      "target": "game_eventbus_eventbus",
-      "confidence_score": 1.0
+      "target": "game_eventbus_eventbus"
     },
     {
       "relation": "imports_from",
@@ -2559,9 +2720,9 @@
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_scenes_game_ts",
-      "target": "src_game_eventbus_ts",
-      "confidence_score": 1.0
+      "target": "src_game_eventbus_ts"
     },
     {
       "relation": "imports_from",
@@ -2570,9 +2731,9 @@
       "source_file": "src/game/scenes/GameOver.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_scenes_gameover_ts",
-      "target": "src_game_eventbus_ts",
-      "confidence_score": 1.0
+      "target": "src_game_eventbus_ts"
     },
     {
       "relation": "imports_from",
@@ -2581,9 +2742,9 @@
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_scenes_mainmenu_ts",
-      "target": "src_game_eventbus_ts",
-      "confidence_score": 1.0
+      "target": "src_game_eventbus_ts"
     },
     {
       "relation": "imports",
@@ -2592,9 +2753,9 @@
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_scenes_game_ts",
-      "target": "game_eventbus_eventbus",
-      "confidence_score": 1.0
+      "target": "game_eventbus_eventbus"
     },
     {
       "relation": "imports",
@@ -2603,9 +2764,9 @@
       "source_file": "src/game/scenes/GameOver.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_scenes_gameover_ts",
-      "target": "game_eventbus_eventbus",
-      "confidence_score": 1.0
+      "target": "game_eventbus_eventbus"
     },
     {
       "relation": "imports",
@@ -2614,9 +2775,9 @@
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_scenes_mainmenu_ts",
-      "target": "game_eventbus_eventbus",
-      "confidence_score": 1.0
+      "target": "game_eventbus_eventbus"
     },
     {
       "relation": "contains",
@@ -2624,9 +2785,9 @@
       "source_file": "src/game/main.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_main_ts",
-      "target": "game_main_config",
-      "confidence_score": 1.0
+      "target": "game_main_config"
     },
     {
       "relation": "contains",
@@ -2634,9 +2795,9 @@
       "source_file": "src/game/main.ts",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_main_ts",
-      "target": "game_main_startgame",
-      "confidence_score": 1.0
+      "target": "game_main_startgame"
     },
     {
       "relation": "imports",
@@ -2645,9 +2806,9 @@
       "source_file": "src/game/main.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_main_ts",
-      "target": "scenes_boot_boot",
-      "confidence_score": 1.0
+      "target": "scenes_boot_boot"
     },
     {
       "relation": "imports",
@@ -2656,9 +2817,9 @@
       "source_file": "src/game/main.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_main_ts",
-      "target": "scenes_game_game",
-      "confidence_score": 1.0
+      "target": "scenes_game_game"
     },
     {
       "relation": "imports",
@@ -2667,9 +2828,9 @@
       "source_file": "src/game/main.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_main_ts",
-      "target": "scenes_gameover_gameover",
-      "confidence_score": 1.0
+      "target": "scenes_gameover_gameover"
     },
     {
       "relation": "imports",
@@ -2678,9 +2839,9 @@
       "source_file": "src/game/main.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_main_ts",
-      "target": "scenes_mainmenu_mainmenu",
-      "confidence_score": 1.0
+      "target": "scenes_mainmenu_mainmenu"
     },
     {
       "relation": "imports",
@@ -2689,9 +2850,9 @@
       "source_file": "src/game/main.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_main_ts",
-      "target": "scenes_preloader_preloader",
-      "confidence_score": 1.0
+      "target": "scenes_preloader_preloader"
     },
     {
       "relation": "imports_from",
@@ -2700,9 +2861,9 @@
       "source_file": "src/game/main.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_main_ts",
-      "target": "src_game_scenes_boot_ts",
-      "confidence_score": 1.0
+      "target": "src_game_scenes_boot_ts"
     },
     {
       "relation": "imports_from",
@@ -2711,9 +2872,9 @@
       "source_file": "src/game/main.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_main_ts",
-      "target": "src_game_scenes_game_ts",
-      "confidence_score": 1.0
+      "target": "src_game_scenes_game_ts"
     },
     {
       "relation": "imports_from",
@@ -2722,9 +2883,9 @@
       "source_file": "src/game/main.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_main_ts",
-      "target": "src_game_scenes_gameover_ts",
-      "confidence_score": 1.0
+      "target": "src_game_scenes_gameover_ts"
     },
     {
       "relation": "imports_from",
@@ -2733,9 +2894,9 @@
       "source_file": "src/game/main.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_main_ts",
-      "target": "src_game_scenes_mainmenu_ts",
-      "confidence_score": 1.0
+      "target": "src_game_scenes_mainmenu_ts"
     },
     {
       "relation": "imports_from",
@@ -2744,9 +2905,9 @@
       "source_file": "src/game/main.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_main_ts",
-      "target": "src_game_scenes_preloader_ts",
-      "confidence_score": 1.0
+      "target": "src_game_scenes_preloader_ts"
     },
     {
       "relation": "contains",
@@ -2754,9 +2915,9 @@
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_scenes_boot_ts",
-      "target": "scenes_boot_boot",
-      "confidence_score": 1.0
+      "target": "scenes_boot_boot"
     },
     {
       "relation": "method",
@@ -2764,9 +2925,9 @@
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_boot_boot",
-      "target": "scenes_boot_boot_constructor",
-      "confidence_score": 1.0
+      "target": "scenes_boot_boot_constructor"
     },
     {
       "relation": "method",
@@ -2774,9 +2935,9 @@
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_boot_boot",
-      "target": "scenes_boot_boot_create",
-      "confidence_score": 1.0
+      "target": "scenes_boot_boot_create"
     },
     {
       "relation": "method",
@@ -2784,9 +2945,9 @@
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_boot_boot",
-      "target": "scenes_boot_boot_preload",
-      "confidence_score": 1.0
+      "target": "scenes_boot_boot_preload"
     },
     {
       "relation": "contains",
@@ -2794,9 +2955,9 @@
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_scenes_game_ts",
-      "target": "scenes_game_game",
-      "confidence_score": 1.0
+      "target": "scenes_game_game"
     },
     {
       "relation": "method",
@@ -2804,9 +2965,9 @@
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_game_game",
-      "target": "scenes_game_game_changescene",
-      "confidence_score": 1.0
+      "target": "scenes_game_game_changescene"
     },
     {
       "relation": "method",
@@ -2814,9 +2975,9 @@
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_game_game",
-      "target": "scenes_game_game_constructor",
-      "confidence_score": 1.0
+      "target": "scenes_game_game_constructor"
     },
     {
       "relation": "method",
@@ -2824,9 +2985,9 @@
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_game_game",
-      "target": "scenes_game_game_create",
-      "confidence_score": 1.0
+      "target": "scenes_game_game_create"
     },
     {
       "relation": "contains",
@@ -2834,9 +2995,9 @@
       "source_file": "src/game/scenes/GameOver.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_scenes_gameover_ts",
-      "target": "scenes_gameover_gameover",
-      "confidence_score": 1.0
+      "target": "scenes_gameover_gameover"
     },
     {
       "relation": "method",
@@ -2844,9 +3005,9 @@
       "source_file": "src/game/scenes/GameOver.ts",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_gameover_gameover",
-      "target": "scenes_gameover_gameover_changescene",
-      "confidence_score": 1.0
+      "target": "scenes_gameover_gameover_changescene"
     },
     {
       "relation": "method",
@@ -2854,9 +3015,9 @@
       "source_file": "src/game/scenes/GameOver.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_gameover_gameover",
-      "target": "scenes_gameover_gameover_constructor",
-      "confidence_score": 1.0
+      "target": "scenes_gameover_gameover_constructor"
     },
     {
       "relation": "method",
@@ -2864,9 +3025,9 @@
       "source_file": "src/game/scenes/GameOver.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_gameover_gameover",
-      "target": "scenes_gameover_gameover_create",
-      "confidence_score": 1.0
+      "target": "scenes_gameover_gameover_create"
     },
     {
       "relation": "contains",
@@ -2874,9 +3035,9 @@
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_scenes_mainmenu_ts",
-      "target": "scenes_mainmenu_mainmenu",
-      "confidence_score": 1.0
+      "target": "scenes_mainmenu_mainmenu"
     },
     {
       "relation": "method",
@@ -2884,9 +3045,9 @@
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_mainmenu_mainmenu",
-      "target": "scenes_mainmenu_mainmenu_changescene",
-      "confidence_score": 1.0
+      "target": "scenes_mainmenu_mainmenu_changescene"
     },
     {
       "relation": "method",
@@ -2894,9 +3055,9 @@
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_mainmenu_mainmenu",
-      "target": "scenes_mainmenu_mainmenu_constructor",
-      "confidence_score": 1.0
+      "target": "scenes_mainmenu_mainmenu_constructor"
     },
     {
       "relation": "method",
@@ -2904,9 +3065,9 @@
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_mainmenu_mainmenu",
-      "target": "scenes_mainmenu_mainmenu_create",
-      "confidence_score": 1.0
+      "target": "scenes_mainmenu_mainmenu_create"
     },
     {
       "relation": "method",
@@ -2914,9 +3075,9 @@
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_mainmenu_mainmenu",
-      "target": "scenes_mainmenu_mainmenu_movelogo",
-      "confidence_score": 1.0
+      "target": "scenes_mainmenu_mainmenu_movelogo"
     },
     {
       "relation": "contains",
@@ -2924,9 +3085,9 @@
       "source_file": "src/game/scenes/Preloader.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_game_scenes_preloader_ts",
-      "target": "scenes_preloader_preloader",
-      "confidence_score": 1.0
+      "target": "scenes_preloader_preloader"
     },
     {
       "relation": "method",
@@ -2934,9 +3095,9 @@
       "source_file": "src/game/scenes/Preloader.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_preloader_preloader",
-      "target": "scenes_preloader_preloader_constructor",
-      "confidence_score": 1.0
+      "target": "scenes_preloader_preloader_constructor"
     },
     {
       "relation": "method",
@@ -2944,9 +3105,9 @@
       "source_file": "src/game/scenes/Preloader.ts",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_preloader_preloader",
-      "target": "scenes_preloader_preloader_create",
-      "confidence_score": 1.0
+      "target": "scenes_preloader_preloader_create"
     },
     {
       "relation": "method",
@@ -2954,9 +3115,9 @@
       "source_file": "src/game/scenes/Preloader.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_preloader_preloader",
-      "target": "scenes_preloader_preloader_init",
-      "confidence_score": 1.0
+      "target": "scenes_preloader_preloader_init"
     },
     {
       "relation": "method",
@@ -2964,9 +3125,9 @@
       "source_file": "src/game/scenes/Preloader.ts",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scenes_preloader_preloader",
-      "target": "scenes_preloader_preloader_preload",
-      "confidence_score": 1.0
+      "target": "scenes_preloader_preloader_preload"
     },
     {
       "relation": "contains",
@@ -2974,9 +3135,9 @@
       "source_file": "vite/config.prod.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "vite_config_prod_mjs",
-      "target": "vite_config_prod_phasermsg",
-      "confidence_score": 1.0
+      "target": "vite_config_prod_phasermsg"
     },
     {
       "relation": "shares_data_with",
@@ -3719,5 +3880,6 @@
       "confidence_score": 0.85,
       "source_file": "src/PhaserGame.tsx"
     }
-  ]
+  ],
+  "built_at_commit": "ca205d65a239980e0956828456f1b66fa0cc92c5"
 }
