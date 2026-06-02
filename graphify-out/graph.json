@@ -40,43 +40,349 @@
       "file_type": "code",
       "source_file": "src/App.tsx",
       "source_location": "L1",
+      "id": "src_app_tsx",
       "community": 4,
-      "norm_label": "app.tsx",
-      "id": "src_app_tsx"
+      "norm_label": "app.tsx"
     },
     {
       "label": "Screen",
       "file_type": "code",
-      "source_file": "App.tsx",
+      "source_file": "src/App.tsx",
       "source_location": "L10",
+      "id": "src_app_screen",
       "community": 4,
-      "norm_label": "screen",
-      "id": "src_app_screen"
+      "norm_label": "screen"
     },
     {
       "label": "SCREENS",
       "file_type": "code",
-      "source_file": "App.tsx",
+      "source_file": "src/App.tsx",
       "source_location": "L12",
+      "id": "src_app_screens",
       "community": 4,
-      "norm_label": "screens",
-      "id": "src_app_screens"
+      "norm_label": "screens"
     },
     {
       "label": "App()",
       "file_type": "code",
-      "source_file": "App.tsx",
+      "source_file": "src/App.tsx",
       "source_location": "L19",
+      "id": "src_app_app",
       "community": 4,
-      "norm_label": "app()",
-      "id": "src_app_app"
+      "norm_label": "app()"
+    },
+    {
+      "label": "fragments.ts",
+      "file_type": "code",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L1",
+      "id": "src_core_content_fragments_ts",
+      "community": 7,
+      "norm_label": "fragments.ts"
+    },
+    {
+      "label": "FragmentType",
+      "file_type": "code",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L11",
+      "id": "content_fragments_fragmenttype",
+      "community": 7,
+      "norm_label": "fragmenttype"
+    },
+    {
+      "label": "FragmentReward",
+      "file_type": "code",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L19",
+      "id": "content_fragments_fragmentreward",
+      "community": 7,
+      "norm_label": "fragmentreward"
+    },
+    {
+      "label": "LineBeat",
+      "file_type": "code",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L27",
+      "id": "content_fragments_linebeat",
+      "community": 7,
+      "norm_label": "linebeat"
+    },
+    {
+      "label": "ChoiceBeat",
+      "file_type": "code",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L39",
+      "id": "content_fragments_choicebeat",
+      "community": 7,
+      "norm_label": "choicebeat"
+    },
+    {
+      "label": "FragmentBeat",
+      "file_type": "code",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L46",
+      "id": "content_fragments_fragmentbeat",
+      "community": 7,
+      "norm_label": "fragmentbeat"
+    },
+    {
+      "label": "FragmentDef",
+      "file_type": "code",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L49",
+      "id": "content_fragments_fragmentdef",
+      "community": 7,
+      "norm_label": "fragmentdef"
+    },
+    {
+      "label": "FRAGMENTS",
+      "file_type": "code",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L73",
+      "id": "content_fragments_fragments",
+      "community": 7,
+      "norm_label": "fragments"
+    },
+    {
+      "label": "BY_ID",
+      "file_type": "code",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L139",
+      "id": "content_fragments_by_id",
+      "community": 7,
+      "norm_label": "by_id"
+    },
+    {
+      "label": "getFragment()",
+      "file_type": "code",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L142",
+      "id": "content_fragments_getfragment",
+      "community": 7,
+      "norm_label": "getfragment()"
+    },
+    {
+      "label": "allFragments()",
+      "file_type": "code",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L147",
+      "id": "content_fragments_allfragments",
+      "community": 7,
+      "norm_label": "allfragments()"
+    },
+    {
+      "label": "progress.ts",
+      "file_type": "code",
+      "source_file": "src/core/fragments/progress.ts",
+      "source_location": "L1",
+      "id": "src_core_fragments_progress_ts",
+      "community": 7,
+      "norm_label": "progress.ts"
+    },
+    {
+      "label": "isFragmentCompleted()",
+      "file_type": "code",
+      "source_file": "src/core/fragments/progress.ts",
+      "source_location": "L11",
+      "id": "fragments_progress_isfragmentcompleted",
+      "community": 7,
+      "norm_label": "isfragmentcompleted()"
+    },
+    {
+      "label": "completeFragment()",
+      "file_type": "code",
+      "source_file": "src/core/fragments/progress.ts",
+      "source_location": "L21",
+      "id": "fragments_progress_completefragment",
+      "community": 7,
+      "norm_label": "completefragment()"
+    },
+    {
+      "label": "gameState.ts",
+      "file_type": "code",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L1",
+      "id": "src_core_state_gamestate_ts",
+      "community": 7,
+      "norm_label": "gamestate.ts"
+    },
+    {
+      "label": "OwnedCharacter",
+      "file_type": "code",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L10",
+      "id": "state_gamestate_ownedcharacter",
+      "community": 7,
+      "norm_label": "ownedcharacter"
+    },
+    {
+      "label": "GameState",
+      "file_type": "code",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L19",
+      "id": "state_gamestate_gamestate",
+      "community": 7,
+      "norm_label": "gamestate"
+    },
+    {
+      "label": "emptyFlicker()",
+      "file_type": "code",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L55",
+      "id": "state_gamestate_emptyflicker",
+      "community": 7,
+      "norm_label": "emptyflicker()"
+    },
+    {
+      "label": "newGame()",
+      "file_type": "code",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L60",
+      "id": "state_gamestate_newgame",
+      "community": 7,
+      "norm_label": "newgame()"
+    },
+    {
+      "label": "save.ts",
+      "file_type": "code",
+      "source_file": "src/core/state/save.ts",
+      "source_location": "L1",
+      "id": "src_core_state_save_ts",
+      "community": 7,
+      "norm_label": "save.ts"
+    },
+    {
+      "label": "migrate()",
+      "file_type": "code",
+      "source_file": "src/core/state/save.ts",
+      "source_location": "L12",
+      "id": "state_save_migrate",
+      "community": 7,
+      "norm_label": "migrate()"
+    },
+    {
+      "label": "loadGame()",
+      "file_type": "code",
+      "source_file": "src/core/state/save.ts",
+      "source_location": "L33",
+      "id": "state_save_loadgame",
+      "community": 7,
+      "norm_label": "loadgame()"
+    },
+    {
+      "label": "saveGame()",
+      "file_type": "code",
+      "source_file": "src/core/state/save.ts",
+      "source_location": "L53",
+      "id": "state_save_savegame",
+      "community": 7,
+      "norm_label": "savegame()"
+    },
+    {
+      "label": "clearSave()",
+      "file_type": "code",
+      "source_file": "src/core/state/save.ts",
+      "source_location": "L63",
+      "id": "state_save_clearsave",
+      "community": 7,
+      "norm_label": "clearsave()"
+    },
+    {
+      "label": "FragmentsScreen.tsx",
+      "file_type": "code",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L1",
+      "id": "src_ui_fragmentsscreen_tsx",
+      "community": 7,
+      "norm_label": "fragmentsscreen.tsx"
+    },
+    {
+      "label": "TYPE_LABEL",
+      "file_type": "code",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L11",
+      "id": "ui_fragmentsscreen_type_label",
+      "community": 7,
+      "norm_label": "type_label"
+    },
+    {
+      "label": "rewardSummary()",
+      "file_type": "code",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L18",
+      "id": "ui_fragmentsscreen_rewardsummary",
+      "community": 7,
+      "norm_label": "rewardsummary()"
+    },
+    {
+      "label": "FragmentsScreen()",
+      "file_type": "code",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L25",
+      "id": "ui_fragmentsscreen_fragmentsscreen",
+      "community": 4,
+      "norm_label": "fragmentsscreen()"
+    },
+    {
+      "label": "FragmentReader()",
+      "file_type": "code",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L80",
+      "id": "ui_fragmentsscreen_fragmentreader",
+      "community": 7,
+      "norm_label": "fragmentreader()"
+    },
+    {
+      "label": "GameContext.tsx",
+      "file_type": "code",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L1",
+      "id": "src_ui_gamecontext_tsx",
+      "community": 7,
+      "norm_label": "gamecontext.tsx"
+    },
+    {
+      "label": "GameApi",
+      "file_type": "code",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L19",
+      "id": "ui_gamecontext_gameapi",
+      "community": 7,
+      "norm_label": "gameapi"
+    },
+    {
+      "label": "GameContext",
+      "file_type": "code",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L37",
+      "id": "ui_gamecontext_gamecontext",
+      "community": 7,
+      "norm_label": "gamecontext"
+    },
+    {
+      "label": "GameProvider()",
+      "file_type": "code",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L39",
+      "id": "ui_gamecontext_gameprovider",
+      "community": 7,
+      "norm_label": "gameprovider()"
+    },
+    {
+      "label": "useGame()",
+      "file_type": "code",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L106",
+      "id": "ui_gamecontext_usegame",
+      "community": 4,
+      "norm_label": "usegame()"
     },
     {
       "label": "vigil.ts",
       "file_type": "code",
       "source_file": "src/core/idle/vigil.ts",
       "source_location": "L1",
-      "community": 2,
+      "community": 4,
       "norm_label": "vigil.ts",
       "id": "src_core_idle_vigil_ts"
     },
@@ -85,7 +391,7 @@
       "file_type": "code",
       "source_file": "core/idle/vigil.ts",
       "source_location": "L38",
-      "community": 2,
+      "community": 4,
       "norm_label": "characterpower()",
       "id": "idle_vigil_characterpower"
     },
@@ -94,7 +400,7 @@
       "file_type": "code",
       "source_file": "core/idle/vigil.ts",
       "source_location": "L43",
-      "community": 2,
+      "community": 4,
       "norm_label": "teampower()",
       "id": "idle_vigil_teampower"
     },
@@ -103,7 +409,7 @@
       "file_type": "code",
       "source_file": "core/idle/vigil.ts",
       "source_location": "L57",
-      "community": 2,
+      "community": 4,
       "norm_label": "dreamsandratepersec()",
       "id": "idle_vigil_dreamsandratepersec"
     },
@@ -121,7 +427,7 @@
       "file_type": "code",
       "source_file": "core/idle/vigil.ts",
       "source_location": "L69",
-      "community": 2,
+      "community": 4,
       "norm_label": "elapsedsincelastseen()",
       "id": "idle_vigil_elapsedsincelastseen"
     },
@@ -130,7 +436,7 @@
       "file_type": "code",
       "source_file": "core/idle/vigil.ts",
       "source_location": "L78",
-      "community": 2,
+      "community": 4,
       "norm_label": "currentheld()",
       "id": "idle_vigil_currentheld"
     },
@@ -139,7 +445,7 @@
       "file_type": "code",
       "source_file": "core/idle/vigil.ts",
       "source_location": "L84",
-      "community": 2,
+      "community": 4,
       "norm_label": "accrualresult",
       "id": "idle_vigil_accrualresult"
     },
@@ -148,7 +454,7 @@
       "file_type": "code",
       "source_file": "core/idle/vigil.ts",
       "source_location": "L99",
-      "community": 2,
+      "community": 4,
       "norm_label": "settle()",
       "id": "idle_vigil_settle"
     },
@@ -157,144 +463,9 @@
       "file_type": "code",
       "source_file": "core/idle/vigil.ts",
       "source_location": "L111",
-      "community": 2,
+      "community": 4,
       "norm_label": "claimdreamsand()",
       "id": "idle_vigil_claimdreamsand"
-    },
-    {
-      "label": "gameState.ts",
-      "file_type": "code",
-      "source_file": "src/core/state/gameState.ts",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "gamestate.ts",
-      "id": "src_core_state_gamestate_ts"
-    },
-    {
-      "label": "OwnedCharacter",
-      "file_type": "code",
-      "source_file": "core/state/gameState.ts",
-      "source_location": "L10",
-      "community": 2,
-      "norm_label": "ownedcharacter",
-      "id": "state_gamestate_ownedcharacter"
-    },
-    {
-      "label": "GameState",
-      "file_type": "code",
-      "source_file": "core/state/gameState.ts",
-      "source_location": "L19",
-      "community": 2,
-      "norm_label": "gamestate",
-      "id": "state_gamestate_gamestate"
-    },
-    {
-      "label": "emptyFlicker()",
-      "file_type": "code",
-      "source_file": "core/state/gameState.ts",
-      "source_location": "L55",
-      "community": 2,
-      "norm_label": "emptyflicker()",
-      "id": "state_gamestate_emptyflicker"
-    },
-    {
-      "label": "newGame()",
-      "file_type": "code",
-      "source_file": "core/state/gameState.ts",
-      "source_location": "L60",
-      "community": 2,
-      "norm_label": "newgame()",
-      "id": "state_gamestate_newgame"
-    },
-    {
-      "label": "save.ts",
-      "file_type": "code",
-      "source_file": "src/core/state/save.ts",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "save.ts",
-      "id": "src_core_state_save_ts"
-    },
-    {
-      "label": "migrate()",
-      "file_type": "code",
-      "source_file": "core/state/save.ts",
-      "source_location": "L12",
-      "community": 2,
-      "norm_label": "migrate()",
-      "id": "state_save_migrate"
-    },
-    {
-      "label": "loadGame()",
-      "file_type": "code",
-      "source_file": "core/state/save.ts",
-      "source_location": "L33",
-      "community": 2,
-      "norm_label": "loadgame()",
-      "id": "state_save_loadgame"
-    },
-    {
-      "label": "saveGame()",
-      "file_type": "code",
-      "source_file": "core/state/save.ts",
-      "source_location": "L53",
-      "community": 2,
-      "norm_label": "savegame()",
-      "id": "state_save_savegame"
-    },
-    {
-      "label": "clearSave()",
-      "file_type": "code",
-      "source_file": "core/state/save.ts",
-      "source_location": "L63",
-      "community": 2,
-      "norm_label": "clearsave()",
-      "id": "state_save_clearsave"
-    },
-    {
-      "label": "GameContext.tsx",
-      "file_type": "code",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L1",
-      "community": 2,
-      "norm_label": "gamecontext.tsx",
-      "id": "src_ui_gamecontext_tsx"
-    },
-    {
-      "label": "GameApi",
-      "file_type": "code",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L19",
-      "community": 2,
-      "norm_label": "gameapi",
-      "id": "ui_gamecontext_gameapi"
-    },
-    {
-      "label": "GameContext",
-      "file_type": "code",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L37",
-      "community": 2,
-      "norm_label": "gamecontext",
-      "id": "ui_gamecontext_gamecontext"
-    },
-    {
-      "label": "GameProvider()",
-      "file_type": "code",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L39",
-      "community": 2,
-      "norm_label": "gameprovider()",
-      "id": "ui_gamecontext_gameprovider"
-    },
-    {
-      "label": "useGame()",
-      "file_type": "code",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L106",
-      "community": 4,
-      "norm_label": "usegame()",
-      "id": "ui_gamecontext_usegame"
     },
     {
       "label": "VigilScreen.tsx",
@@ -553,7 +724,7 @@
       "file_type": "code",
       "source_file": "src/core/gacha/banner.ts",
       "source_location": "L4",
-      "community": 2,
+      "community": 3,
       "norm_label": "bannerconfig",
       "id": "gacha_banner_bannerconfig"
     },
@@ -598,7 +769,7 @@
       "file_type": "code",
       "source_file": "src/core/gacha/pull.ts",
       "source_location": "L19",
-      "community": 2,
+      "community": 3,
       "norm_label": "pullresult",
       "id": "gacha_pull_pullresult"
     },
@@ -1687,7 +1858,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/EventBus.ts",
       "source_location": "L1",
-      "community": 13,
+      "community": 15,
       "norm_label": "eventbus.ts",
       "id": "reference_phaser_react_template_src_game_eventbus_ts"
     },
@@ -1696,7 +1867,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/EventBus.ts",
       "source_location": "L4",
-      "community": 12,
+      "community": 15,
       "norm_label": "eventbus",
       "id": "game_eventbus_eventbus"
     },
@@ -1777,7 +1948,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
       "source_location": "L1",
-      "community": 25,
+      "community": 15,
       "norm_label": "game.ts",
       "id": "reference_phaser_react_template_src_game_scenes_game_ts"
     },
@@ -1831,7 +2002,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
       "source_location": "L4",
-      "community": 15,
+      "community": 12,
       "norm_label": "gameover",
       "id": "scenes_gameover_gameover"
     },
@@ -1840,7 +2011,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
       "source_location": "L10",
-      "community": 15,
+      "community": 12,
       "norm_label": ".constructor()",
       "id": "scenes_gameover_gameover_constructor"
     },
@@ -1849,7 +2020,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
       "source_location": "L15",
-      "community": 15,
+      "community": 12,
       "norm_label": ".create()",
       "id": "scenes_gameover_gameover_create"
     },
@@ -1858,7 +2029,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
       "source_location": "L32",
-      "community": 15,
+      "community": 12,
       "norm_label": ".changescene()",
       "id": "scenes_gameover_gameover_changescene"
     },
@@ -1867,7 +2038,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
       "source_location": "L1",
-      "community": 13,
+      "community": 15,
       "norm_label": "mainmenu.ts",
       "id": "reference_phaser_react_template_src_game_scenes_mainmenu_ts"
     },
@@ -2353,7 +2524,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L1",
-      "community": 12,
+      "community": 31,
       "norm_label": "game.ts",
       "id": "src_game_scenes_game_ts"
     },
@@ -2407,7 +2578,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L5",
-      "community": 32,
+      "community": 12,
       "norm_label": "mainmenu",
       "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu"
     },
@@ -2416,7 +2587,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L9",
-      "community": 32,
+      "community": 12,
       "norm_label": ".constructor()",
       "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_constructor"
     },
@@ -2425,7 +2596,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L14",
-      "community": 32,
+      "community": 12,
       "norm_label": ".create()",
       "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_create"
     },
@@ -2434,7 +2605,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L25",
-      "community": 32,
+      "community": 12,
       "norm_label": ".changescene()",
       "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_changescene"
     },
@@ -2812,7 +2983,7 @@
       "file_type": "code",
       "source_file": "src/PhaserGame.tsx",
       "source_location": "L1",
-      "community": 12,
+      "community": 13,
       "norm_label": "phasergame.tsx",
       "id": "src_phasergame_tsx"
     },
@@ -3435,7 +3606,7 @@
       "file_type": "code",
       "source_file": "core/idle/vigil.ts",
       "source_location": "L1",
-      "community": 2,
+      "community": 4,
       "norm_label": "vigil.ts",
       "id": "core_idle_vigil_ts"
     },
@@ -3444,7 +3615,7 @@
       "file_type": "code",
       "source_file": "core/state/gameState.ts",
       "source_location": "L1",
-      "community": 2,
+      "community": 7,
       "norm_label": "gamestate.ts",
       "id": "core_state_gamestate_ts"
     },
@@ -3453,7 +3624,7 @@
       "file_type": "code",
       "source_file": "core/state/save.ts",
       "source_location": "L1",
-      "community": 2,
+      "community": 7,
       "norm_label": "save.ts",
       "id": "core_state_save_ts"
     },
@@ -3462,7 +3633,7 @@
       "file_type": "code",
       "source_file": "ui/GameContext.tsx",
       "source_location": "L1",
-      "community": 2,
+      "community": 7,
       "norm_label": "gamecontext.tsx",
       "id": "ui_gamecontext_tsx"
     },
@@ -3480,171 +3651,27 @@
       "file_type": "code",
       "source_file": "core/content/fragments.ts",
       "source_location": "L1",
-      "id": "core_content_fragments_ts",
       "community": 7,
-      "norm_label": "fragments.ts"
-    },
-    {
-      "label": "FragmentType",
-      "file_type": "code",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L11",
-      "id": "content_fragments_fragmenttype",
-      "community": 7,
-      "norm_label": "fragmenttype"
-    },
-    {
-      "label": "FragmentReward",
-      "file_type": "code",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L19",
-      "id": "content_fragments_fragmentreward",
-      "community": 7,
-      "norm_label": "fragmentreward"
-    },
-    {
-      "label": "LineBeat",
-      "file_type": "code",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L27",
-      "id": "content_fragments_linebeat",
-      "community": 7,
-      "norm_label": "linebeat"
-    },
-    {
-      "label": "ChoiceBeat",
-      "file_type": "code",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L39",
-      "id": "content_fragments_choicebeat",
-      "community": 7,
-      "norm_label": "choicebeat"
-    },
-    {
-      "label": "FragmentBeat",
-      "file_type": "code",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L46",
-      "id": "content_fragments_fragmentbeat",
-      "community": 7,
-      "norm_label": "fragmentbeat"
-    },
-    {
-      "label": "FragmentDef",
-      "file_type": "code",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L49",
-      "id": "content_fragments_fragmentdef",
-      "community": 7,
-      "norm_label": "fragmentdef"
-    },
-    {
-      "label": "FRAGMENTS",
-      "file_type": "code",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L73",
-      "id": "content_fragments_fragments",
-      "community": 7,
-      "norm_label": "fragments"
-    },
-    {
-      "label": "BY_ID",
-      "file_type": "code",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L139",
-      "id": "content_fragments_by_id",
-      "community": 7,
-      "norm_label": "by_id"
-    },
-    {
-      "label": "getFragment()",
-      "file_type": "code",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L142",
-      "id": "content_fragments_getfragment",
-      "community": 7,
-      "norm_label": "getfragment()"
-    },
-    {
-      "label": "allFragments()",
-      "file_type": "code",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L147",
-      "id": "content_fragments_allfragments",
-      "community": 7,
-      "norm_label": "allfragments()"
+      "norm_label": "fragments.ts",
+      "id": "core_content_fragments_ts"
     },
     {
       "label": "progress.ts",
       "file_type": "code",
       "source_file": "core/fragments/progress.ts",
       "source_location": "L1",
-      "id": "core_fragments_progress_ts",
       "community": 7,
-      "norm_label": "progress.ts"
-    },
-    {
-      "label": "isFragmentCompleted()",
-      "file_type": "code",
-      "source_file": "core/fragments/progress.ts",
-      "source_location": "L11",
-      "id": "fragments_progress_isfragmentcompleted",
-      "community": 7,
-      "norm_label": "isfragmentcompleted()"
-    },
-    {
-      "label": "completeFragment()",
-      "file_type": "code",
-      "source_file": "core/fragments/progress.ts",
-      "source_location": "L21",
-      "id": "fragments_progress_completefragment",
-      "community": 7,
-      "norm_label": "completefragment()"
+      "norm_label": "progress.ts",
+      "id": "core_fragments_progress_ts"
     },
     {
       "label": "FragmentsScreen.tsx",
       "file_type": "code",
       "source_file": "ui/FragmentsScreen.tsx",
       "source_location": "L1",
-      "id": "ui_fragmentsscreen_tsx",
       "community": 7,
-      "norm_label": "fragmentsscreen.tsx"
-    },
-    {
-      "label": "TYPE_LABEL",
-      "file_type": "code",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L11",
-      "id": "ui_fragmentsscreen_type_label",
-      "community": 7,
-      "norm_label": "type_label"
-    },
-    {
-      "label": "rewardSummary()",
-      "file_type": "code",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L18",
-      "id": "ui_fragmentsscreen_rewardsummary",
-      "community": 7,
-      "norm_label": "rewardsummary()"
-    },
-    {
-      "label": "FragmentsScreen()",
-      "file_type": "code",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L25",
-      "id": "ui_fragmentsscreen_fragmentsscreen",
-      "community": 7,
-      "norm_label": "fragmentsscreen()"
-    },
-    {
-      "label": "FragmentReader()",
-      "file_type": "code",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L80",
-      "id": "ui_fragmentsscreen_fragmentreader",
-      "community": 7,
-      "norm_label": "fragmentreader()"
+      "norm_label": "fragmentsscreen.tsx",
+      "id": "ui_fragmentsscreen_tsx"
     }
   ],
   "links": [
@@ -3749,6 +3776,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_ui_fragmentsscreen_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3787,6 +3825,17 @@
       "confidence_score": 1.0,
       "source": "src_app_tsx",
       "target": "ui_brewscreen_brewscreen"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "ui_fragmentsscreen_fragmentsscreen",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -3850,6 +3899,1534 @@
       "confidence_score": 1.0,
       "source": "app_tsx",
       "target": "src_app_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "src_core_content_fragments_ts",
+      "target": "content_fragments_allfragments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "src_core_content_fragments_ts",
+      "target": "content_fragments_by_id",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "src_core_content_fragments_ts",
+      "target": "content_fragments_choicebeat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "src_core_content_fragments_ts",
+      "target": "content_fragments_fragmentbeat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "src_core_content_fragments_ts",
+      "target": "content_fragments_fragmentdef",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_core_content_fragments_ts",
+      "target": "content_fragments_fragmentreward",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "src_core_content_fragments_ts",
+      "target": "content_fragments_fragments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_core_content_fragments_ts",
+      "target": "content_fragments_fragmenttype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "src_core_content_fragments_ts",
+      "target": "content_fragments_getfragment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/fragments.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "src_core_content_fragments_ts",
+      "target": "content_fragments_linebeat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/fragments/progress.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_core_fragments_progress_ts",
+      "target": "src_core_content_fragments_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_ui_fragmentsscreen_tsx",
+      "target": "src_core_content_fragments_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "src_core_content_fragments_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/content/fragments.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_content_fragments_ts",
+      "target": "content_fragments_fragmenttype"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/content/fragments.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_content_fragments_ts",
+      "target": "content_fragments_fragmentreward"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "core/fragments/progress.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_fragments_progress_ts",
+      "target": "content_fragments_fragmentreward"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/fragments/progress.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_core_fragments_progress_ts",
+      "target": "content_fragments_fragmentreward",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_ui_fragmentsscreen_tsx",
+      "target": "content_fragments_fragmentreward",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "content_fragments_fragmentreward",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_fragmentsscreen_tsx",
+      "target": "content_fragments_fragmentreward"
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_gameapi",
+      "target": "content_fragments_fragmentreward"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_tsx",
+      "target": "content_fragments_fragmentreward"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/content/fragments.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_content_fragments_ts",
+      "target": "content_fragments_linebeat"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/content/fragments.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_content_fragments_ts",
+      "target": "content_fragments_choicebeat"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/content/fragments.ts",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_content_fragments_ts",
+      "target": "content_fragments_fragmentbeat"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/content/fragments.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_content_fragments_ts",
+      "target": "content_fragments_fragmentdef"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_ui_fragmentsscreen_tsx",
+      "target": "content_fragments_fragmentdef",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_fragmentsscreen_tsx",
+      "target": "content_fragments_fragmentdef"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/content/fragments.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_content_fragments_ts",
+      "target": "content_fragments_fragments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/content/fragments.ts",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_content_fragments_ts",
+      "target": "content_fragments_by_id"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/content/fragments.ts",
+      "source_location": "L142",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_content_fragments_ts",
+      "target": "content_fragments_getfragment"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "core/fragments/progress.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_fragments_progress_ts",
+      "target": "content_fragments_getfragment"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/fragments/progress.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "fragments_progress_completefragment",
+      "target": "content_fragments_getfragment"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/fragments/progress.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_core_fragments_progress_ts",
+      "target": "content_fragments_getfragment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/content/fragments.ts",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_content_fragments_ts",
+      "target": "content_fragments_allfragments"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_ui_fragmentsscreen_tsx",
+      "target": "content_fragments_allfragments",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "ui_fragmentsscreen_fragmentsscreen",
+      "target": "content_fragments_allfragments"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_fragmentsscreen_tsx",
+      "target": "content_fragments_allfragments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/fragments/progress.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_core_fragments_progress_ts",
+      "target": "fragments_progress_completefragment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/fragments/progress.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_core_fragments_progress_ts",
+      "target": "fragments_progress_isfragmentcompleted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/fragments/progress.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_core_fragments_progress_ts",
+      "target": "src_core_state_gamestate_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/fragments/progress.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_core_fragments_progress_ts",
+      "target": "state_gamestate_gamestate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_ui_fragmentsscreen_tsx",
+      "target": "src_core_fragments_progress_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "src_core_fragments_progress_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/fragments/progress.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_fragments_progress_ts",
+      "target": "fragments_progress_isfragmentcompleted"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "core/fragments/progress.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "fragments_progress_completefragment",
+      "target": "fragments_progress_isfragmentcompleted"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_ui_fragmentsscreen_tsx",
+      "target": "fragments_progress_isfragmentcompleted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_fragmentsscreen_tsx",
+      "target": "fragments_progress_isfragmentcompleted"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/fragments/progress.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_fragments_progress_ts",
+      "target": "fragments_progress_completefragment"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "fragments_progress_completefragment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_tsx",
+      "target": "fragments_progress_completefragment"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/idle/vigil.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_idle_vigil_ts",
+      "target": "src_core_state_gamestate_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_gamestate_ts",
+      "target": "core_types_rarity"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_gamestate_ts",
+      "target": "src_core_gacha_pull_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/save.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_gamestate_ts",
+      "target": "src_core_state_save_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_gamestate_ts",
+      "target": "src_ui_gamecontext_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_gamestate_ts",
+      "target": "state_gamestate_emptyflicker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_gamestate_ts",
+      "target": "state_gamestate_gamestate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_gamestate_ts",
+      "target": "state_gamestate_newgame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_gamestate_ts",
+      "target": "state_gamestate_ownedcharacter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/state/gameState.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_state_gamestate_ts",
+      "target": "state_gamestate_ownedcharacter"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "core/fragments/progress.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_fragments_progress_ts",
+      "target": "state_gamestate_gamestate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/state/gameState.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_state_gamestate_ts",
+      "target": "state_gamestate_gamestate"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "core/state/save.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_state_save_ts",
+      "target": "state_gamestate_gamestate"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/idle/vigil.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_idle_vigil_ts",
+      "target": "state_gamestate_gamestate"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/save.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_core_state_save_ts",
+      "target": "state_gamestate_gamestate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "state_gamestate_gamestate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "core/idle/vigil.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "state_gamestate_gamestate",
+      "target": "core_idle_vigil_ts"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "state_gamestate_gamestate",
+      "target": "core_types_rarity"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/brew/team.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "state_gamestate_gamestate",
+      "target": "src_core_brew_team_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "state_gamestate_gamestate",
+      "target": "src_core_gacha_pull_ts"
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_gameapi",
+      "target": "state_gamestate_gamestate"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_tsx",
+      "target": "state_gamestate_gamestate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/state/gameState.ts",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_state_gamestate_ts",
+      "target": "state_gamestate_emptyflicker"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "core/state/gameState.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "state_gamestate_newgame",
+      "target": "state_gamestate_emptyflicker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/state/gameState.ts",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_state_gamestate_ts",
+      "target": "state_gamestate_newgame"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "core/state/save.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_state_save_ts",
+      "target": "state_gamestate_newgame"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/save.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_core_state_save_ts",
+      "target": "state_gamestate_newgame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "core/state/save.ts",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "state_save_loadgame",
+      "target": "state_gamestate_newgame"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_save_ts",
+      "target": "src_ui_gamecontext_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/save.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_save_ts",
+      "target": "state_save_clearsave"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/save.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_save_ts",
+      "target": "state_save_loadgame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/save.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_save_ts",
+      "target": "state_save_migrate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/save.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_state_save_ts",
+      "target": "state_save_savegame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/state/save.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_state_save_ts",
+      "target": "state_save_migrate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "core/state/save.ts",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "state_save_loadgame",
+      "target": "state_save_migrate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/state/save.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_state_save_ts",
+      "target": "state_save_loadgame"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "state_save_loadgame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "ui_gamecontext_gameprovider",
+      "target": "state_save_loadgame"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_tsx",
+      "target": "state_save_loadgame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/state/save.ts",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_state_save_ts",
+      "target": "state_save_savegame"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "state_save_savegame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "ui_gamecontext_gameprovider",
+      "target": "state_save_savegame"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_tsx",
+      "target": "state_save_savegame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/state/save.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_state_save_ts",
+      "target": "state_save_clearsave"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_ui_fragmentsscreen_tsx",
+      "target": "src_ui_gamecontext_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "src_ui_fragmentsscreen_tsx",
+      "target": "ui_fragmentsscreen_fragmentreader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_ui_fragmentsscreen_tsx",
+      "target": "ui_fragmentsscreen_fragmentsscreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_ui_fragmentsscreen_tsx",
+      "target": "ui_fragmentsscreen_rewardsummary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_ui_fragmentsscreen_tsx",
+      "target": "ui_fragmentsscreen_type_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/FragmentsScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_ui_fragmentsscreen_tsx",
+      "target": "ui_gamecontext_usegame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_fragmentsscreen_tsx",
+      "target": "ui_fragmentsscreen_type_label"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_fragmentsscreen_fragmentreader",
+      "target": "ui_fragmentsscreen_rewardsummary"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_fragmentsscreen_tsx",
+      "target": "ui_fragmentsscreen_rewardsummary"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_tsx",
+      "target": "ui_fragmentsscreen_fragmentsscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "ui_fragmentsscreen_fragmentsscreen",
+      "target": "ui_gamecontext_usegame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_fragmentsscreen_tsx",
+      "target": "ui_fragmentsscreen_fragmentsscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "ui_fragmentsscreen_fragmentreader",
+      "target": "ui_gamecontext_usegame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_fragmentsscreen_tsx",
+      "target": "ui_fragmentsscreen_fragmentreader"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "idle_vigil_accrualresult",
+      "target": "src_ui_gamecontext_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "idle_vigil_claimdreamsand",
+      "target": "src_ui_gamecontext_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "idle_vigil_settle",
+      "target": "src_ui_gamecontext_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_idle_vigil_ts",
+      "target": "src_ui_gamecontext_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "brew_team_toggleteammember"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "gacha_banner_bannerconfig"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "gacha_pull_performpull"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "gacha_pull_pullresult"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "src_core_brew_team_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "src_core_gacha_banner_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "src_core_gacha_pull_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/BrewScreen.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "src_ui_brewscreen_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "src_ui_gachascreen_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/VigilScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "src_ui_vigilscreen_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "ui_gamecontext_gameapi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "ui_gamecontext_gamecontext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "ui_gamecontext_gameprovider"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "ui_gamecontext_usegame"
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "idle_vigil_accrualresult",
+      "target": "ui_gamecontext_gameapi"
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_gameapi",
+      "target": "gacha_banner_bannerconfig"
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_gameapi",
+      "target": "gacha_pull_pullresult"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_tsx",
+      "target": "ui_gamecontext_gameapi"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_tsx",
+      "target": "ui_gamecontext_gamecontext"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_tsx",
+      "target": "ui_gamecontext_gameprovider"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "idle_vigil_settle",
+      "target": "ui_gamecontext_gameprovider"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_tsx",
+      "target": "ui_gamecontext_gameprovider"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_fragmentsscreen_tsx",
+      "target": "ui_gamecontext_usegame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L106",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_tsx",
+      "target": "ui_gamecontext_usegame"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/BrewScreen.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_usegame",
+      "target": "src_ui_brewscreen_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_usegame",
+      "target": "src_ui_gachascreen_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/VigilScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_usegame",
+      "target": "src_ui_vigilscreen_tsx"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui/BrewScreen.tsx",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "ui_gamecontext_usegame",
+      "target": "ui_brewscreen_brewscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "ui_gamecontext_usegame",
+      "target": "ui_gachascreen_gachascreen"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/VigilScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_usegame",
+      "target": "ui_vigilscreen_tsx"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "ui/VigilScreen.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "ui_gamecontext_usegame",
+      "target": "ui_vigilscreen_vigilscreen"
     },
     {
       "relation": "imports",
@@ -3967,39 +5544,6 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/core/idle/vigil.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_idle_vigil_ts",
-      "target": "src_core_state_gamestate_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/idle/vigil.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_idle_vigil_ts",
-      "target": "state_gamestate_gamestate"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_idle_vigil_ts",
-      "target": "src_ui_gamecontext_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/ui/VigilScreen.tsx",
       "source_location": "L3",
       "weight": 1.0,
@@ -4018,6 +5562,16 @@
       "target": "core_idle_vigil_ts"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/idle/vigil.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "idle_vigil_teampower",
+      "target": "core_idle_vigil_ts"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -4032,10 +5586,10 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "core/idle/vigil.ts",
-      "source_location": "L43",
+      "source_location": "L57",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "idle_vigil_teampower",
+      "source": "idle_vigil_dreamsandratepersec",
       "target": "core_idle_vigil_ts"
     },
     {
@@ -4075,10 +5629,10 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "core/idle/vigil.ts",
-      "source_location": "L57",
+      "source_location": "L64",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "idle_vigil_dreamsandratepersec",
+      "source": "idle_vigil_dreamsandratepermin",
       "target": "core_idle_vigil_ts"
     },
     {
@@ -4091,6 +5645,17 @@
       "confidence_score": 1.0,
       "source": "idle_vigil_dreamsandratepermin",
       "target": "src_ui_vigilscreen_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/VigilScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "idle_vigil_dreamsandratepermin",
+      "target": "ui_vigilscreen_tsx"
     },
     {
       "relation": "calls",
@@ -4107,22 +5672,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "core/idle/vigil.ts",
-      "source_location": "L64",
+      "source_location": "L69",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "idle_vigil_dreamsandratepermin",
+      "source": "idle_vigil_elapsedsincelastseen",
       "target": "core_idle_vigil_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/VigilScreen.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "idle_vigil_dreamsandratepermin",
-      "target": "ui_vigilscreen_tsx"
     },
     {
       "relation": "calls",
@@ -4150,10 +5704,10 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "core/idle/vigil.ts",
-      "source_location": "L69",
+      "source_location": "L78",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "idle_vigil_elapsedsincelastseen",
+      "source": "idle_vigil_currentheld",
       "target": "core_idle_vigil_ts"
     },
     {
@@ -4168,27 +5722,6 @@
       "target": "src_ui_vigilscreen_tsx"
     },
     {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui/VigilScreen.tsx",
-      "source_location": "L42",
-      "weight": 1.0,
-      "source": "idle_vigil_currentheld",
-      "target": "ui_vigilscreen_vigilscreen"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/idle/vigil.ts",
-      "source_location": "L78",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "idle_vigil_currentheld",
-      "target": "core_idle_vigil_ts"
-    },
-    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -4200,26 +5733,15 @@
       "target": "ui_vigilscreen_tsx"
     },
     {
-      "relation": "imports",
-      "context": "import",
+      "relation": "calls",
+      "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "idle_vigil_accrualresult",
-      "target": "src_ui_gamecontext_tsx"
-    },
-    {
-      "relation": "references",
-      "context": "field",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L25",
+      "source_file": "ui/VigilScreen.tsx",
+      "source_location": "L42",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "idle_vigil_accrualresult",
-      "target": "ui_gamecontext_gameapi"
+      "source": "idle_vigil_currentheld",
+      "target": "ui_vigilscreen_vigilscreen"
     },
     {
       "relation": "contains",
@@ -4243,6 +5765,16 @@
       "target": "ui_gamecontext_tsx"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "core/idle/vigil.ts",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "idle_vigil_settle",
+      "target": "core_idle_vigil_ts"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -4257,55 +5789,12 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "idle_vigil_settle",
-      "target": "src_ui_gamecontext_tsx"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "idle_vigil_settle",
-      "target": "ui_gamecontext_gameprovider"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/idle/vigil.ts",
-      "source_location": "L99",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "idle_vigil_settle",
-      "target": "core_idle_vigil_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "ui/GameContext.tsx",
       "source_location": "L9",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "idle_vigil_settle",
       "target": "ui_gamecontext_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "idle_vigil_claimdreamsand",
-      "target": "src_ui_gamecontext_tsx"
     },
     {
       "relation": "contains",
@@ -4327,796 +5816,6 @@
       "confidence_score": 1.0,
       "source": "idle_vigil_claimdreamsand",
       "target": "ui_gamecontext_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/gacha/pull.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_gamestate_ts",
-      "target": "src_core_gacha_pull_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/gameState.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_gamestate_ts",
-      "target": "core_types_rarity"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/save.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_gamestate_ts",
-      "target": "src_core_state_save_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_gamestate_ts",
-      "target": "src_ui_gamecontext_tsx"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/gameState.ts",
-      "source_location": "L47",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_gamestate_ts",
-      "target": "state_gamestate_emptyflicker"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/gameState.ts",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_gamestate_ts",
-      "target": "state_gamestate_gamestate"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/gameState.ts",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_gamestate_ts",
-      "target": "state_gamestate_newgame"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/gameState.ts",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_gamestate_ts",
-      "target": "state_gamestate_ownedcharacter"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/state/gameState.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "core_state_gamestate_ts",
-      "target": "state_gamestate_ownedcharacter"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/brew/team.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "state_gamestate_gamestate",
-      "target": "src_core_brew_team_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/gacha/pull.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "state_gamestate_gamestate",
-      "target": "src_core_gacha_pull_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/save.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "state_gamestate_gamestate",
-      "target": "src_core_state_save_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "state_gamestate_gamestate",
-      "target": "src_ui_gamecontext_tsx"
-    },
-    {
-      "relation": "references",
-      "context": "generic_arg",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/gameState.ts",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "state_gamestate_gamestate",
-      "target": "core_types_rarity"
-    },
-    {
-      "relation": "references",
-      "context": "field",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_gameapi",
-      "target": "state_gamestate_gamestate"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "core/idle/vigil.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "state_gamestate_gamestate",
-      "target": "core_idle_vigil_ts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/state/gameState.ts",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "core_state_gamestate_ts",
-      "target": "state_gamestate_gamestate"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "core/state/save.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "core_state_save_ts",
-      "target": "state_gamestate_gamestate"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_tsx",
-      "target": "state_gamestate_gamestate"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "core/fragments/progress.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "core_fragments_progress_ts",
-      "target": "state_gamestate_gamestate",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "core/state/gameState.ts",
-      "source_location": "L65",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "state_gamestate_newgame",
-      "target": "state_gamestate_emptyflicker"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/state/gameState.ts",
-      "source_location": "L55",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "core_state_gamestate_ts",
-      "target": "state_gamestate_emptyflicker"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/save.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "state_gamestate_newgame",
-      "target": "src_core_state_save_ts"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "core/state/save.ts",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "state_save_loadgame",
-      "target": "state_gamestate_newgame"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/state/gameState.ts",
-      "source_location": "L60",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "core_state_gamestate_ts",
-      "target": "state_gamestate_newgame"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "core/state/save.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "core_state_save_ts",
-      "target": "state_gamestate_newgame"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/save.ts",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_save_ts",
-      "target": "state_save_clearsave"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/save.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_save_ts",
-      "target": "state_save_loadgame"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/save.ts",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_save_ts",
-      "target": "state_save_migrate"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/state/save.ts",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_save_ts",
-      "target": "state_save_savegame"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_core_state_save_ts",
-      "target": "src_ui_gamecontext_tsx"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "core/state/save.ts",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "state_save_loadgame",
-      "target": "state_save_migrate"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/state/save.ts",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "core_state_save_ts",
-      "target": "state_save_migrate"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "state_save_loadgame",
-      "target": "src_ui_gamecontext_tsx"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "ui_gamecontext_gameprovider",
-      "target": "state_save_loadgame"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/state/save.ts",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "core_state_save_ts",
-      "target": "state_save_loadgame"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_tsx",
-      "target": "state_save_loadgame"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "state_save_savegame",
-      "target": "src_ui_gamecontext_tsx"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L48",
-      "weight": 1.0,
-      "source": "ui_gamecontext_gameprovider",
-      "target": "state_save_savegame"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/state/save.ts",
-      "source_location": "L53",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "core_state_save_ts",
-      "target": "state_save_savegame"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_tsx",
-      "target": "state_save_savegame"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/state/save.ts",
-      "source_location": "L63",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "core_state_save_ts",
-      "target": "state_save_clearsave"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "gacha_banner_bannerconfig"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "gacha_pull_performpull"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "gacha_pull_pullresult"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "src_core_gacha_banner_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "src_core_gacha_pull_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/BrewScreen.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "src_ui_brewscreen_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GachaScreen.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "src_ui_gachascreen_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "brew_team_toggleteammember"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "src_core_brew_team_ts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "ui_gamecontext_gameapi"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "ui_gamecontext_gamecontext"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "ui_gamecontext_gameprovider"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L47",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "ui_gamecontext_usegame"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/VigilScreen.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_ui_gamecontext_tsx",
-      "target": "src_ui_vigilscreen_tsx"
-    },
-    {
-      "relation": "references",
-      "context": "field",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_gameapi",
-      "target": "gacha_banner_bannerconfig"
-    },
-    {
-      "relation": "references",
-      "context": "field",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GameContext.tsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_gameapi",
-      "target": "gacha_pull_pullresult"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_tsx",
-      "target": "ui_gamecontext_gameapi"
-    },
-    {
-      "relation": "references",
-      "context": "field",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "ui_gamecontext_gameapi",
-      "target": "content_fragments_fragmentreward",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L37",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_tsx",
-      "target": "ui_gamecontext_gamecontext"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "App.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_tsx",
-      "target": "ui_gamecontext_gameprovider"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L39",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_tsx",
-      "target": "ui_gamecontext_gameprovider"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/BrewScreen.tsx",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_usegame",
-      "target": "src_ui_brewscreen_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/GachaScreen.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_usegame",
-      "target": "src_ui_gachascreen_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/ui/VigilScreen.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_usegame",
-      "target": "src_ui_vigilscreen_tsx"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/ui/BrewScreen.tsx",
-      "source_location": "L48",
-      "weight": 1.0,
-      "source": "ui_gamecontext_usegame",
-      "target": "ui_brewscreen_brewscreen"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/ui/GachaScreen.tsx",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "ui_gamecontext_usegame",
-      "target": "ui_gachascreen_gachascreen"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui/VigilScreen.tsx",
-      "source_location": "L29",
-      "weight": 1.0,
-      "source": "ui_gamecontext_usegame",
-      "target": "ui_vigilscreen_vigilscreen"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L106",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_tsx",
-      "target": "ui_gamecontext_usegame"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/VigilScreen.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_gamecontext_usegame",
-      "target": "ui_vigilscreen_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_tsx",
-      "target": "ui_gamecontext_usegame",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_fragmentsscreen",
-      "target": "ui_gamecontext_usegame"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L87",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_fragmentreader",
-      "target": "ui_gamecontext_usegame"
     },
     {
       "relation": "imports",
@@ -5181,6 +5880,16 @@
       "target": "ui_vigilscreen_tsx"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/VigilScreen.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_vigilscreen_formatduration",
+      "target": "ui_vigilscreen_tsx"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -5190,16 +5899,6 @@
       "confidence_score": 1.0,
       "source": "ui_vigilscreen_formatduration",
       "target": "ui_vigilscreen_vigilscreen"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/VigilScreen.tsx",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ui_vigilscreen_formatduration",
-      "target": "ui_vigilscreen_tsx"
     },
     {
       "relation": "imports",
@@ -9016,6 +9715,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_tsx",
+      "target": "ui_fragmentsscreen_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "App.tsx",
       "source_location": "L3",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -9032,28 +9742,6 @@
       "confidence_score": 1.0,
       "source": "app_tsx",
       "target": "ui_vigilscreen_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "App.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "app_tsx",
-      "target": "ui_fragmentsscreen_fragmentsscreen",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "App.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "app_tsx",
-      "target": "ui_fragmentsscreen_tsx",
-      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -9092,6 +9780,17 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "core/fragments/progress.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_fragments_progress_ts",
+      "target": "core_state_gamestate_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "core/state/save.ts",
       "source_location": "L1",
       "weight": 1.0,
@@ -9114,23 +9813,45 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "core/fragments/progress.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "core_fragments_progress_ts",
-      "target": "core_state_gamestate_ts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "ui/GameContext.tsx",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "ui_gamecontext_tsx",
       "target": "core_state_save_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/FragmentsScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_fragmentsscreen_tsx",
+      "target": "ui_gamecontext_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_tsx",
+      "target": "core_content_fragments_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ui/GameContext.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ui_gamecontext_tsx",
+      "target": "core_fragments_progress_ts"
     },
     {
       "relation": "imports_from",
@@ -9147,275 +9868,23 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "ui_gamecontext_tsx",
-      "target": "core_content_fragments_ts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "ui_gamecontext_tsx",
-      "target": "content_fragments_fragmentreward",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "ui_gamecontext_tsx",
-      "target": "core_fragments_progress_ts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/GameContext.tsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "ui_gamecontext_tsx",
-      "target": "fragments_progress_completefragment",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_tsx",
-      "target": "ui_gamecontext_tsx",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L147",
-      "weight": 1.0,
-      "source": "core_content_fragments_ts",
-      "target": "content_fragments_allfragments",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L139",
-      "weight": 1.0,
-      "source": "core_content_fragments_ts",
-      "target": "content_fragments_by_id",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "core_content_fragments_ts",
-      "target": "content_fragments_choicebeat",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "core_content_fragments_ts",
-      "target": "content_fragments_fragmentbeat",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L49",
-      "weight": 1.0,
-      "source": "core_content_fragments_ts",
-      "target": "content_fragments_fragmentdef",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "core_content_fragments_ts",
-      "target": "content_fragments_fragmentreward",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "core_content_fragments_ts",
-      "target": "content_fragments_fragments",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "core_content_fragments_ts",
-      "target": "content_fragments_fragmenttype",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L142",
-      "weight": 1.0,
-      "source": "core_content_fragments_ts",
-      "target": "content_fragments_getfragment",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/content/fragments.ts",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "core_content_fragments_ts",
-      "target": "content_fragments_linebeat",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "core/fragments/progress.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "core_fragments_progress_ts",
-      "target": "core_content_fragments_ts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_tsx",
-      "target": "core_content_fragments_ts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "core/fragments/progress.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "core_fragments_progress_ts",
-      "target": "content_fragments_fragmentreward",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_tsx",
-      "target": "content_fragments_fragmentreward",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_tsx",
-      "target": "content_fragments_fragmentdef",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "core/fragments/progress.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "core_fragments_progress_ts",
-      "target": "content_fragments_getfragment",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "core/fragments/progress.ts",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "fragments_progress_completefragment",
-      "target": "content_fragments_getfragment"
+      "source": "core_fragments_progress_ts",
+      "target": "core_content_fragments_ts"
     },
     {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_fragmentsscreen",
-      "target": "content_fragments_allfragments"
-    },
-    {
-      "relation": "imports",
+      "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "ui/FragmentsScreen.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ui_fragmentsscreen_tsx",
-      "target": "content_fragments_allfragments",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/fragments/progress.ts",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "core_fragments_progress_ts",
-      "target": "fragments_progress_completefragment",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "core/fragments/progress.ts",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "core_fragments_progress_ts",
-      "target": "fragments_progress_isfragmentcompleted",
-      "confidence_score": 1.0
+      "target": "core_content_fragments_ts"
     },
     {
       "relation": "imports_from",
@@ -9424,82 +9893,9 @@
       "source_file": "ui/FragmentsScreen.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ui_fragmentsscreen_tsx",
-      "target": "core_fragments_progress_ts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "core/fragments/progress.ts",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "fragments_progress_completefragment",
-      "target": "fragments_progress_isfragmentcompleted",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_tsx",
-      "target": "fragments_progress_isfragmentcompleted",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L80",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_tsx",
-      "target": "ui_fragmentsscreen_fragmentreader",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_tsx",
-      "target": "ui_fragmentsscreen_fragmentsscreen",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_tsx",
-      "target": "ui_fragmentsscreen_rewardsummary",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_tsx",
-      "target": "ui_fragmentsscreen_type_label",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "ui/FragmentsScreen.tsx",
-      "source_location": "L121",
-      "weight": 1.0,
-      "source": "ui_fragmentsscreen_fragmentreader",
-      "target": "ui_fragmentsscreen_rewardsummary",
-      "confidence_score": 1.0
+      "target": "core_fragments_progress_ts"
     }
   ],
   "hyperedges": [
@@ -9533,5 +9929,5 @@
       "source_file": "src/PhaserGame.tsx"
     }
   ],
-  "built_at_commit": "29e086d64c6eb478a3d45b9d88bf69f47d4bdf20"
+  "built_at_commit": "9d89645868a29b65a34747ebc964de4affffe34c"
 }
