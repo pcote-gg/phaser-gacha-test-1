@@ -81,85 +81,1642 @@
       "norm_label": "typescript-lsp@claude-plugins-official"
     },
     {
+      "label": "github@claude-plugins-official",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L6",
+      "id": "claude_settings_enabledplugins_github_claude_plugins_official",
+      "community": 19,
+      "norm_label": "github@claude-plugins-official"
+    },
+    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
+      "id": "claude_md",
       "community": 18,
-      "norm_label": "claude.md",
-      "id": "claude_md"
+      "norm_label": "claude.md"
     },
     {
       "label": "CLAUDE.md \u2014 Reverie Vigil (Phaser 4)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
+      "id": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
       "community": 18,
-      "norm_label": "claude.md \u2014 reverie vigil (phaser 4)",
-      "id": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4"
+      "norm_label": "claude.md \u2014 reverie vigil (phaser 4)"
     },
     {
       "label": "1. Always navigate the code through Graphiphy first",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L22",
+      "source_location": "L23",
+      "id": "phaser_gacha_test_1_claude_1_always_navigate_the_code_through_graphiphy_first",
       "community": 18,
-      "norm_label": "1. always navigate the code through graphiphy first",
-      "id": "phaser_gacha_test_1_claude_1_always_navigate_the_code_through_graphiphy_first"
+      "norm_label": "1. always navigate the code through graphiphy first"
     },
     {
       "label": "2. Investigate before you claim",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L34",
+      "source_location": "L35",
+      "id": "phaser_gacha_test_1_claude_2_investigate_before_you_claim",
       "community": 18,
-      "norm_label": "2. investigate before you claim",
-      "id": "phaser_gacha_test_1_claude_2_investigate_before_you_claim"
+      "norm_label": "2. investigate before you claim"
     },
     {
       "label": "Keep solutions minimal \u2014 avoid over-engineering",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L68",
+      "source_location": "L69",
+      "id": "phaser_gacha_test_1_claude_keep_solutions_minimal_avoid_over_engineering",
       "community": 18,
-      "norm_label": "keep solutions minimal \u2014 avoid over-engineering",
-      "id": "phaser_gacha_test_1_claude_keep_solutions_minimal_avoid_over_engineering"
+      "norm_label": "keep solutions minimal \u2014 avoid over-engineering"
     },
     {
       "label": "Confirm before irreversible or destructive actions",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L71",
+      "source_location": "L72",
+      "id": "phaser_gacha_test_1_claude_confirm_before_irreversible_or_destructive_actions",
       "community": 18,
-      "norm_label": "confirm before irreversible or destructive actions",
-      "id": "phaser_gacha_test_1_claude_confirm_before_irreversible_or_destructive_actions"
+      "norm_label": "confirm before irreversible or destructive actions"
     },
     {
       "label": "Respect Phaser and framework conventions",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L79",
+      "source_location": "L80",
+      "id": "phaser_gacha_test_1_claude_respect_phaser_and_framework_conventions",
       "community": 18,
-      "norm_label": "respect phaser and framework conventions",
-      "id": "phaser_gacha_test_1_claude_respect_phaser_and_framework_conventions"
+      "norm_label": "respect phaser and framework conventions"
     },
     {
       "label": "Don't leave scratch files behind",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L82",
+      "source_location": "L83",
+      "id": "phaser_gacha_test_1_claude_don_t_leave_scratch_files_behind",
       "community": 18,
-      "norm_label": "don't leave scratch files behind",
-      "id": "phaser_gacha_test_1_claude_don_t_leave_scratch_files_behind"
+      "norm_label": "don't leave scratch files behind"
     },
     {
       "label": "Write code the owner can follow",
       "file_type": "document",
       "source_file": "CLAUDE.md",
-      "source_location": "L85",
+      "source_location": "L86",
+      "id": "phaser_gacha_test_1_claude_write_code_the_owner_can_follow",
       "community": 18,
-      "norm_label": "write code the owner can follow",
-      "id": "phaser_gacha_test_1_claude_write_code_the_owner_can_follow"
+      "norm_label": "write code the owner can follow"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package_json",
+      "community": 1,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "phaser_gacha_test_1_package_name",
+      "community": 1,
+      "norm_label": "name"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "phaser_gacha_test_1_package_description",
+      "community": 1,
+      "norm_label": "description"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "phaser_gacha_test_1_package_version",
+      "community": 1,
+      "norm_label": "version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "phaser_gacha_test_1_package_private",
+      "community": 1,
+      "norm_label": "private"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "phaser_gacha_test_1_package_type",
+      "community": 1,
+      "norm_label": "type"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "phaser_gacha_test_1_package_author",
+      "community": 1,
+      "norm_label": "author"
+    },
+    {
+      "label": "license",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "id": "phaser_gacha_test_1_package_license",
+      "community": 1,
+      "norm_label": "license"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "id": "phaser_gacha_test_1_package_scripts",
+      "community": 1,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "id": "phaser_gacha_test_1_package_scripts_dev",
+      "community": 1,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "id": "phaser_gacha_test_1_package_scripts_build",
+      "community": 1,
+      "norm_label": "build"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "id": "phaser_gacha_test_1_package_scripts_preview",
+      "community": 1,
+      "norm_label": "preview"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "id": "phaser_gacha_test_1_package_dependencies",
+      "community": 1,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "graphify",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "id": "phaser_gacha_test_1_package_dependencies_graphify",
+      "community": 1,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "phaser",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "id": "phaser_gacha_test_1_package_dependencies_phaser",
+      "community": 1,
+      "norm_label": "phaser"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "id": "phaser_gacha_test_1_package_dependencies_react",
+      "community": 1,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "id": "phaser_gacha_test_1_package_dependencies_react_dom",
+      "community": 1,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "id": "phaser_gacha_test_1_package_devdependencies",
+      "community": 4,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint_js",
+      "community": 4,
+      "norm_label": "@eslint/js"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "id": "phaser_gacha_test_1_package_devdependencies_types_react",
+      "community": 4,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "id": "phaser_gacha_test_1_package_devdependencies_types_react_dom",
+      "community": 4,
+      "norm_label": "@types/react-dom"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "id": "phaser_gacha_test_1_package_devdependencies_vitejs_plugin_react",
+      "community": 4,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint",
+      "community": 4,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "eslint-plugin-react-hooks",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_hooks",
+      "community": 4,
+      "norm_label": "eslint-plugin-react-hooks"
+    },
+    {
+      "label": "eslint-plugin-react-refresh",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_refresh",
+      "community": 4,
+      "norm_label": "eslint-plugin-react-refresh"
+    },
+    {
+      "label": "globals",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "id": "phaser_gacha_test_1_package_devdependencies_globals",
+      "community": 4,
+      "norm_label": "globals"
+    },
+    {
+      "label": "terser",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "id": "phaser_gacha_test_1_package_devdependencies_terser",
+      "community": 4,
+      "norm_label": "terser"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "id": "phaser_gacha_test_1_package_devdependencies_typescript",
+      "community": 4,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "typescript-eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "id": "phaser_gacha_test_1_package_devdependencies_typescript_eslint",
+      "community": 4,
+      "norm_label": "typescript-eslint"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "id": "phaser_gacha_test_1_package_devdependencies_vite",
+      "community": 4,
+      "norm_label": "vite"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "reference/phaser-react-template/README.md",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_readme_md",
+      "community": 28,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Reference: Original Phaser + React + TypeScript template",
+      "file_type": "document",
+      "source_file": "reference/phaser-react-template/README.md",
+      "source_location": "L1",
+      "id": "phaser_react_template_readme_reference_original_phaser_react_typescript_template",
+      "community": 28,
+      "norm_label": "reference: original phaser + react + typescript template"
+    },
+    {
+      "label": "log.js",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/log.js",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_log_js",
+      "community": 25,
+      "norm_label": "log.js"
+    },
+    {
+      "label": "fs",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/log.js",
+      "source_location": "L1",
+      "id": "phaser_react_template_log_fs",
+      "community": 25,
+      "norm_label": "fs"
+    },
+    {
+      "label": "https",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/log.js",
+      "source_location": "L2",
+      "id": "phaser_react_template_log_https",
+      "community": 25,
+      "norm_label": "https"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/log.js",
+      "source_location": "L4",
+      "id": "phaser_react_template_log_main",
+      "community": 25,
+      "norm_label": "main()"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_package_json",
+      "community": 17,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L2",
+      "id": "phaser_react_template_package_name",
+      "community": 17,
+      "norm_label": "name"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L3",
+      "id": "phaser_react_template_package_description",
+      "community": 17,
+      "norm_label": "description"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L4",
+      "id": "phaser_react_template_package_version",
+      "community": 17,
+      "norm_label": "version"
+    },
+    {
+      "label": "repository",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L5",
+      "id": "phaser_react_template_package_repository",
+      "community": 17,
+      "norm_label": "repository"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L6",
+      "id": "phaser_react_template_package_repository_type",
+      "community": 17,
+      "norm_label": "type"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L7",
+      "id": "phaser_react_template_package_repository_url",
+      "community": 17,
+      "norm_label": "url"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L9",
+      "id": "phaser_react_template_package_author",
+      "community": 17,
+      "norm_label": "author"
+    },
+    {
+      "label": "license",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L10",
+      "id": "phaser_react_template_package_license",
+      "community": 17,
+      "norm_label": "license"
+    },
+    {
+      "label": "licenseUrl",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L11",
+      "id": "phaser_react_template_package_licenseurl",
+      "community": 17,
+      "norm_label": "licenseurl"
+    },
+    {
+      "label": "bugs",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L12",
+      "id": "phaser_react_template_package_bugs",
+      "community": 17,
+      "norm_label": "bugs"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L13",
+      "id": "phaser_react_template_package_bugs_url",
+      "community": 17,
+      "norm_label": "url"
+    },
+    {
+      "label": "homepage",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L15",
+      "id": "phaser_react_template_package_homepage",
+      "community": 17,
+      "norm_label": "homepage"
+    },
+    {
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L16",
+      "id": "phaser_react_template_package_keywords",
+      "community": 17,
+      "norm_label": "keywords"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L23",
+      "id": "phaser_react_template_package_scripts",
+      "community": 17,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L24",
+      "id": "phaser_react_template_package_scripts_dev",
+      "community": 17,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L25",
+      "id": "phaser_react_template_package_scripts_build",
+      "community": 17,
+      "norm_label": "build"
+    },
+    {
+      "label": "dev-nolog",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L26",
+      "id": "phaser_react_template_package_scripts_dev_nolog",
+      "community": 17,
+      "norm_label": "dev-nolog"
+    },
+    {
+      "label": "build-nolog",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L27",
+      "id": "phaser_react_template_package_scripts_build_nolog",
+      "community": 17,
+      "norm_label": "build-nolog"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L29",
+      "id": "phaser_react_template_package_dependencies",
+      "community": 17,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "graphify",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L30",
+      "id": "phaser_react_template_package_dependencies_graphify",
+      "community": 17,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "phaser",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L31",
+      "id": "phaser_react_template_package_dependencies_phaser",
+      "community": 17,
+      "norm_label": "phaser"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L32",
+      "id": "phaser_react_template_package_dependencies_react",
+      "community": 17,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L33",
+      "id": "phaser_react_template_package_dependencies_react_dom",
+      "community": 17,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L35",
+      "id": "phaser_react_template_package_devdependencies",
+      "community": 21,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L36",
+      "id": "phaser_react_template_package_devdependencies_eslint_js",
+      "community": 21,
+      "norm_label": "@eslint/js"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L37",
+      "id": "phaser_react_template_package_devdependencies_types_react",
+      "community": 21,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L38",
+      "id": "phaser_react_template_package_devdependencies_types_react_dom",
+      "community": 21,
+      "norm_label": "@types/react-dom"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L39",
+      "id": "phaser_react_template_package_devdependencies_vitejs_plugin_react",
+      "community": 21,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L40",
+      "id": "phaser_react_template_package_devdependencies_eslint",
+      "community": 21,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "eslint-plugin-react-hooks",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L41",
+      "id": "phaser_react_template_package_devdependencies_eslint_plugin_react_hooks",
+      "community": 21,
+      "norm_label": "eslint-plugin-react-hooks"
+    },
+    {
+      "label": "eslint-plugin-react-refresh",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L42",
+      "id": "phaser_react_template_package_devdependencies_eslint_plugin_react_refresh",
+      "community": 21,
+      "norm_label": "eslint-plugin-react-refresh"
+    },
+    {
+      "label": "globals",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L43",
+      "id": "phaser_react_template_package_devdependencies_globals",
+      "community": 21,
+      "norm_label": "globals"
+    },
+    {
+      "label": "terser",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L44",
+      "id": "phaser_react_template_package_devdependencies_terser",
+      "community": 21,
+      "norm_label": "terser"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L45",
+      "id": "phaser_react_template_package_devdependencies_typescript",
+      "community": 21,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "typescript-eslint",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L46",
+      "id": "phaser_react_template_package_devdependencies_typescript_eslint",
+      "community": 21,
+      "norm_label": "typescript-eslint"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L47",
+      "id": "phaser_react_template_package_devdependencies_vite",
+      "community": 21,
+      "norm_label": "vite"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/App.tsx",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_src_app_tsx",
+      "community": 0,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/App.tsx",
+      "source_location": "L5",
+      "id": "reference_phaser_react_template_src_app_tsx_src_app_app",
+      "community": 0,
+      "norm_label": "app()"
+    },
+    {
+      "label": "PhaserGame.tsx",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/PhaserGame.tsx",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_src_phasergame_tsx",
+      "community": 0,
+      "norm_label": "phasergame.tsx"
+    },
+    {
+      "label": "IRefPhaserGame",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/PhaserGame.tsx",
+      "source_location": "L5",
+      "id": "src_phasergame_irefphasergame",
+      "community": 0,
+      "norm_label": "irefphasergame"
+    },
+    {
+      "label": "IProps",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/PhaserGame.tsx",
+      "source_location": "L11",
+      "id": "src_phasergame_iprops",
+      "community": 0,
+      "norm_label": "iprops"
+    },
+    {
+      "label": "PhaserGame",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/PhaserGame.tsx",
+      "source_location": "L16",
+      "id": "src_phasergame_phasergame",
+      "community": 0,
+      "norm_label": "phasergame"
+    },
+    {
+      "label": "EventBus.ts",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/EventBus.ts",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_src_game_eventbus_ts",
+      "community": 0,
+      "norm_label": "eventbus.ts"
+    },
+    {
+      "label": "EventBus",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/EventBus.ts",
+      "source_location": "L4",
+      "id": "game_eventbus_eventbus",
+      "community": 0,
+      "norm_label": "eventbus"
+    },
+    {
+      "label": "main.ts",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/main.ts",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_src_game_main_ts",
+      "community": 0,
+      "norm_label": "main.ts"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/main.ts",
+      "source_location": "L10",
+      "id": "reference_phaser_react_template_src_game_main_ts_game_main_config",
+      "community": 0,
+      "norm_label": "config"
+    },
+    {
+      "label": "StartGame()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/main.ts",
+      "source_location": "L25",
+      "id": "reference_phaser_react_template_src_game_main_ts_game_main_startgame",
+      "community": 0,
+      "norm_label": "startgame()"
+    },
+    {
+      "label": "Boot.ts",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_src_game_scenes_boot_ts",
+      "community": 22,
+      "norm_label": "boot.ts"
+    },
+    {
+      "label": "Boot",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
+      "source_location": "L3",
+      "id": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot",
+      "community": 22,
+      "norm_label": "boot"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
+      "source_location": "L5",
+      "id": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot_constructor",
+      "community": 22,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".preload()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
+      "source_location": "L10",
+      "id": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot_preload",
+      "community": 22,
+      "norm_label": ".preload()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
+      "source_location": "L18",
+      "id": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot_create",
+      "community": 22,
+      "norm_label": ".create()"
+    },
+    {
+      "label": "Game.ts",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_src_game_scenes_game_ts",
+      "community": 0,
+      "norm_label": "game.ts"
+    },
+    {
+      "label": "Game",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
+      "source_location": "L4",
+      "id": "reference_phaser_react_template_src_game_scenes_game_ts_scenes_game_game",
+      "community": 0,
+      "norm_label": "game"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
+      "source_location": "L10",
+      "id": "reference_phaser_react_template_src_game_scenes_game_ts_scenes_game_game_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
+      "source_location": "L15",
+      "id": "reference_phaser_react_template_src_game_scenes_game_ts_scenes_game_game_create",
+      "community": 0,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".changeScene()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
+      "source_location": "L32",
+      "id": "reference_phaser_react_template_src_game_scenes_game_ts_scenes_game_game_changescene",
+      "community": 0,
+      "norm_label": ".changescene()"
+    },
+    {
+      "label": "GameOver.ts",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_src_game_scenes_gameover_ts",
+      "community": 0,
+      "norm_label": "gameover.ts"
+    },
+    {
+      "label": "GameOver",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
+      "source_location": "L4",
+      "id": "scenes_gameover_gameover",
+      "community": 0,
+      "norm_label": "gameover"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
+      "source_location": "L10",
+      "id": "scenes_gameover_gameover_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
+      "source_location": "L15",
+      "id": "scenes_gameover_gameover_create",
+      "community": 0,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".changeScene()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
+      "source_location": "L32",
+      "id": "scenes_gameover_gameover_changescene",
+      "community": 0,
+      "norm_label": ".changescene()"
+    },
+    {
+      "label": "MainMenu.ts",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_src_game_scenes_mainmenu_ts",
+      "community": 0,
+      "norm_label": "mainmenu.ts"
+    },
+    {
+      "label": "MainMenu",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L5",
+      "id": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu",
+      "community": 0,
+      "norm_label": "mainmenu"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L12",
+      "id": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_constructor",
+      "community": 0,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L17",
+      "id": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_create",
+      "community": 0,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".changeScene()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L32",
+      "id": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_changescene",
+      "community": 0,
+      "norm_label": ".changescene()"
+    },
+    {
+      "label": ".moveLogo()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L43",
+      "id": "scenes_mainmenu_mainmenu_movelogo",
+      "community": 0,
+      "norm_label": ".movelogo()"
+    },
+    {
+      "label": "Preloader.ts",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_src_game_scenes_preloader_ts",
+      "community": 22,
+      "norm_label": "preloader.ts"
+    },
+    {
+      "label": "Preloader",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
+      "source_location": "L3",
+      "id": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader",
+      "community": 22,
+      "norm_label": "preloader"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
+      "source_location": "L5",
+      "id": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader_constructor",
+      "community": 22,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
+      "source_location": "L10",
+      "id": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader_init",
+      "community": 22,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".preload()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
+      "source_location": "L30",
+      "id": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader_preload",
+      "community": 22,
+      "norm_label": ".preload()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
+      "source_location": "L39",
+      "id": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader_create",
+      "community": 22,
+      "norm_label": ".create()"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/main.tsx",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_src_main_tsx",
+      "community": 0,
+      "norm_label": "main.tsx"
+    },
+    {
+      "label": "vite-env.d.ts",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/src/vite-env.d.ts",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_src_vite_env_d_ts",
+      "community": 31,
+      "norm_label": "vite-env.d.ts"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_tsconfig_json",
+      "community": 20,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L2",
+      "id": "phaser_react_template_tsconfig_compileroptions",
+      "community": 20,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L3",
+      "id": "phaser_react_template_tsconfig_compileroptions_target",
+      "community": 20,
+      "norm_label": "target"
+    },
+    {
+      "label": "useDefineForClassFields",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L4",
+      "id": "phaser_react_template_tsconfig_compileroptions_usedefineforclassfields",
+      "community": 20,
+      "norm_label": "usedefineforclassfields"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L5",
+      "id": "phaser_react_template_tsconfig_compileroptions_lib",
+      "community": 20,
+      "norm_label": "lib"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L6",
+      "id": "phaser_react_template_tsconfig_compileroptions_module",
+      "community": 20,
+      "norm_label": "module"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L7",
+      "id": "phaser_react_template_tsconfig_compileroptions_skiplibcheck",
+      "community": 20,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L10",
+      "id": "phaser_react_template_tsconfig_compileroptions_moduleresolution",
+      "community": 20,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "allowImportingTsExtensions",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L11",
+      "id": "phaser_react_template_tsconfig_compileroptions_allowimportingtsextensions",
+      "community": 20,
+      "norm_label": "allowimportingtsextensions"
+    },
+    {
+      "label": "resolveJsonModule",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L12",
+      "id": "phaser_react_template_tsconfig_compileroptions_resolvejsonmodule",
+      "community": 20,
+      "norm_label": "resolvejsonmodule"
+    },
+    {
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L13",
+      "id": "phaser_react_template_tsconfig_compileroptions_isolatedmodules",
+      "community": 20,
+      "norm_label": "isolatedmodules"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L14",
+      "id": "phaser_react_template_tsconfig_compileroptions_noemit",
+      "community": 20,
+      "norm_label": "noemit"
+    },
+    {
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L15",
+      "id": "phaser_react_template_tsconfig_compileroptions_jsx",
+      "community": 20,
+      "norm_label": "jsx"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L18",
+      "id": "phaser_react_template_tsconfig_compileroptions_strict",
+      "community": 20,
+      "norm_label": "strict"
+    },
+    {
+      "label": "strictPropertyInitialization",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L19",
+      "id": "phaser_react_template_tsconfig_compileroptions_strictpropertyinitialization",
+      "community": 20,
+      "norm_label": "strictpropertyinitialization"
+    },
+    {
+      "label": "noUnusedLocals",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L20",
+      "id": "phaser_react_template_tsconfig_compileroptions_nounusedlocals",
+      "community": 20,
+      "norm_label": "nounusedlocals"
+    },
+    {
+      "label": "noUnusedParameters",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L21",
+      "id": "phaser_react_template_tsconfig_compileroptions_nounusedparameters",
+      "community": 20,
+      "norm_label": "nounusedparameters"
+    },
+    {
+      "label": "noFallthroughCasesInSwitch",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L22",
+      "id": "phaser_react_template_tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "community": 20,
+      "norm_label": "nofallthroughcasesinswitch"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L24",
+      "id": "phaser_react_template_tsconfig_include",
+      "community": 20,
+      "norm_label": "include"
+    },
+    {
+      "label": "references",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L25",
+      "id": "phaser_react_template_tsconfig_references",
+      "community": 20,
+      "norm_label": "references"
+    },
+    {
+      "label": "tsconfig.node.json",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_tsconfig_node_json",
+      "community": 23,
+      "norm_label": "tsconfig.node.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L2",
+      "id": "phaser_react_template_tsconfig_node_compileroptions",
+      "community": 23,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "composite",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L3",
+      "id": "phaser_react_template_tsconfig_node_compileroptions_composite",
+      "community": 23,
+      "norm_label": "composite"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L4",
+      "id": "phaser_react_template_tsconfig_node_compileroptions_skiplibcheck",
+      "community": 23,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L5",
+      "id": "phaser_react_template_tsconfig_node_compileroptions_module",
+      "community": 23,
+      "norm_label": "module"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L6",
+      "id": "phaser_react_template_tsconfig_node_compileroptions_moduleresolution",
+      "community": 23,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "allowSyntheticDefaultImports",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L7",
+      "id": "phaser_react_template_tsconfig_node_compileroptions_allowsyntheticdefaultimports",
+      "community": 23,
+      "norm_label": "allowsyntheticdefaultimports"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L8",
+      "id": "phaser_react_template_tsconfig_node_compileroptions_strict",
+      "community": 23,
+      "norm_label": "strict"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L10",
+      "id": "phaser_react_template_tsconfig_node_include",
+      "community": 23,
+      "norm_label": "include"
+    },
+    {
+      "label": "config.dev.mjs",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/vite/config.dev.mjs",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_vite_config_dev_mjs",
+      "community": 32,
+      "norm_label": "config.dev.mjs"
+    },
+    {
+      "label": "config.prod.mjs",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/vite/config.prod.mjs",
+      "source_location": "L1",
+      "id": "reference_phaser_react_template_vite_config_prod_mjs",
+      "community": 14,
+      "norm_label": "config.prod.mjs"
+    },
+    {
+      "label": "phasermsg()",
+      "file_type": "code",
+      "source_file": "reference/phaser-react-template/vite/config.prod.mjs",
+      "source_location": "L4",
+      "id": "vite_config_prod_phasermsg",
+      "community": 14,
+      "norm_label": "phasermsg()"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L1",
+      "id": "src_app_tsx",
+      "community": 0,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L4",
+      "id": "src_app_tsx_src_app_app",
+      "community": 0,
+      "norm_label": "app()"
+    },
+    {
+      "label": "main.ts",
+      "file_type": "code",
+      "source_file": "src/game/main.ts",
+      "source_location": "L1",
+      "id": "src_game_main_ts",
+      "community": 0,
+      "norm_label": "main.ts"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "src/game/main.ts",
+      "source_location": "L10",
+      "id": "src_game_main_ts_game_main_config",
+      "community": 0,
+      "norm_label": "config"
+    },
+    {
+      "label": "StartGame()",
+      "file_type": "code",
+      "source_file": "src/game/main.ts",
+      "source_location": "L24",
+      "id": "src_game_main_ts_game_main_startgame",
+      "community": 0,
+      "norm_label": "startgame()"
+    },
+    {
+      "label": "Boot.ts",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L1",
+      "id": "src_game_scenes_boot_ts",
+      "community": 24,
+      "norm_label": "boot.ts"
+    },
+    {
+      "label": "Boot",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L3",
+      "id": "src_game_scenes_boot_ts_scenes_boot_boot",
+      "community": 24,
+      "norm_label": "boot"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L5",
+      "id": "src_game_scenes_boot_ts_scenes_boot_boot_constructor",
+      "community": 24,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".preload()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L10",
+      "id": "src_game_scenes_boot_ts_scenes_boot_boot_preload",
+      "community": 24,
+      "norm_label": ".preload()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L16",
+      "id": "src_game_scenes_boot_ts_scenes_boot_boot_create",
+      "community": 24,
+      "norm_label": ".create()"
+    },
+    {
+      "label": "Game.ts",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L1",
+      "id": "src_game_scenes_game_ts",
+      "community": 0,
+      "norm_label": "game.ts"
+    },
+    {
+      "label": "Game",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L6",
+      "id": "src_game_scenes_game_ts_scenes_game_game",
+      "community": 26,
+      "norm_label": "game"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L10",
+      "id": "src_game_scenes_game_ts_scenes_game_game_constructor",
+      "community": 26,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L15",
+      "id": "src_game_scenes_game_ts_scenes_game_game_create",
+      "community": 26,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".changeScene()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L22",
+      "id": "src_game_scenes_game_ts_scenes_game_game_changescene",
+      "community": 26,
+      "norm_label": ".changescene()"
+    },
+    {
+      "label": "MainMenu.ts",
+      "file_type": "code",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L1",
+      "id": "src_game_scenes_mainmenu_ts",
+      "community": 0,
+      "norm_label": "mainmenu.ts"
+    },
+    {
+      "label": "MainMenu",
+      "file_type": "code",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L5",
+      "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu",
+      "community": 27,
+      "norm_label": "mainmenu"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L9",
+      "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_constructor",
+      "community": 27,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L14",
+      "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_create",
+      "community": 27,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".changeScene()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L25",
+      "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_changescene",
+      "community": 27,
+      "norm_label": ".changescene()"
+    },
+    {
+      "label": "Preloader.ts",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L1",
+      "id": "src_game_scenes_preloader_ts",
+      "community": 9,
+      "norm_label": "preloader.ts"
+    },
+    {
+      "label": "Preloader",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L3",
+      "id": "src_game_scenes_preloader_ts_scenes_preloader_preloader",
+      "community": 9,
+      "norm_label": "preloader"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L5",
+      "id": "src_game_scenes_preloader_ts_scenes_preloader_preloader_constructor",
+      "community": 9,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L10",
+      "id": "src_game_scenes_preloader_ts_scenes_preloader_preloader_init",
+      "community": 9,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".preload()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L24",
+      "id": "src_game_scenes_preloader_ts_scenes_preloader_preloader_preload",
+      "community": 9,
+      "norm_label": ".preload()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L30",
+      "id": "src_game_scenes_preloader_ts_scenes_preloader_preloader_create",
+      "community": 9,
+      "norm_label": ".create()"
+    },
+    {
+      "label": "config.prod.mjs",
+      "file_type": "code",
+      "source_file": "vite/config.prod.mjs",
+      "source_location": "L1",
+      "id": "vite_config_prod_mjs",
+      "community": 14,
+      "norm_label": "config.prod.mjs"
     },
     {
       "label": "log.js",
@@ -196,339 +1753,6 @@
       "community": 12,
       "norm_label": "main()",
       "id": "phaser_gacha_test_1_log_main"
-    },
-    {
-      "label": "package.json",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L1",
-      "community": 1,
-      "norm_label": "package.json",
-      "id": "package_json"
-    },
-    {
-      "label": "name",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "community": 1,
-      "norm_label": "name",
-      "id": "phaser_gacha_test_1_package_name"
-    },
-    {
-      "label": "description",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "community": 1,
-      "norm_label": "description",
-      "id": "phaser_gacha_test_1_package_description"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "community": 1,
-      "norm_label": "version",
-      "id": "phaser_gacha_test_1_package_version"
-    },
-    {
-      "label": "repository",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "community": 1,
-      "norm_label": "repository",
-      "id": "phaser_gacha_test_1_package_repository"
-    },
-    {
-      "label": "type",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "community": 1,
-      "norm_label": "type",
-      "id": "phaser_gacha_test_1_package_repository_type"
-    },
-    {
-      "label": "url",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "community": 1,
-      "norm_label": "url",
-      "id": "phaser_gacha_test_1_package_repository_url"
-    },
-    {
-      "label": "author",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "community": 1,
-      "norm_label": "author",
-      "id": "phaser_gacha_test_1_package_author"
-    },
-    {
-      "label": "license",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L10",
-      "community": 1,
-      "norm_label": "license",
-      "id": "phaser_gacha_test_1_package_license"
-    },
-    {
-      "label": "licenseUrl",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "community": 1,
-      "norm_label": "licenseurl",
-      "id": "phaser_gacha_test_1_package_licenseurl"
-    },
-    {
-      "label": "bugs",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "community": 1,
-      "norm_label": "bugs",
-      "id": "phaser_gacha_test_1_package_bugs"
-    },
-    {
-      "label": "url",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "community": 1,
-      "norm_label": "url",
-      "id": "phaser_gacha_test_1_package_bugs_url"
-    },
-    {
-      "label": "homepage",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "community": 1,
-      "norm_label": "homepage",
-      "id": "phaser_gacha_test_1_package_homepage"
-    },
-    {
-      "label": "keywords",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "community": 1,
-      "norm_label": "keywords",
-      "id": "phaser_gacha_test_1_package_keywords"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "community": 1,
-      "norm_label": "scripts",
-      "id": "phaser_gacha_test_1_package_scripts"
-    },
-    {
-      "label": "dev",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "community": 1,
-      "norm_label": "dev",
-      "id": "phaser_gacha_test_1_package_scripts_dev"
-    },
-    {
-      "label": "build",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "community": 1,
-      "norm_label": "build",
-      "id": "phaser_gacha_test_1_package_scripts_build"
-    },
-    {
-      "label": "dev-nolog",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "community": 1,
-      "norm_label": "dev-nolog",
-      "id": "phaser_gacha_test_1_package_scripts_dev_nolog"
-    },
-    {
-      "label": "build-nolog",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L27",
-      "community": 1,
-      "norm_label": "build-nolog",
-      "id": "phaser_gacha_test_1_package_scripts_build_nolog"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L29",
-      "community": 1,
-      "norm_label": "dependencies",
-      "id": "phaser_gacha_test_1_package_dependencies"
-    },
-    {
-      "label": "graphify",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L30",
-      "community": 1,
-      "norm_label": "graphify",
-      "id": "phaser_gacha_test_1_package_dependencies_graphify"
-    },
-    {
-      "label": "phaser",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L31",
-      "community": 1,
-      "norm_label": "phaser",
-      "id": "phaser_gacha_test_1_package_dependencies_phaser"
-    },
-    {
-      "label": "react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L32",
-      "community": 1,
-      "norm_label": "react",
-      "id": "phaser_gacha_test_1_package_dependencies_react"
-    },
-    {
-      "label": "react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L33",
-      "community": 1,
-      "norm_label": "react-dom",
-      "id": "phaser_gacha_test_1_package_dependencies_react_dom"
-    },
-    {
-      "label": "devDependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L35",
-      "community": 4,
-      "norm_label": "devdependencies",
-      "id": "phaser_gacha_test_1_package_devdependencies"
-    },
-    {
-      "label": "@eslint/js",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L36",
-      "community": 4,
-      "norm_label": "@eslint/js",
-      "id": "phaser_gacha_test_1_package_devdependencies_eslint_js"
-    },
-    {
-      "label": "@types/react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L37",
-      "community": 4,
-      "norm_label": "@types/react",
-      "id": "phaser_gacha_test_1_package_devdependencies_types_react"
-    },
-    {
-      "label": "@types/react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L38",
-      "community": 4,
-      "norm_label": "@types/react-dom",
-      "id": "phaser_gacha_test_1_package_devdependencies_types_react_dom"
-    },
-    {
-      "label": "@vitejs/plugin-react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L39",
-      "community": 4,
-      "norm_label": "@vitejs/plugin-react",
-      "id": "phaser_gacha_test_1_package_devdependencies_vitejs_plugin_react"
-    },
-    {
-      "label": "eslint",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L40",
-      "community": 4,
-      "norm_label": "eslint",
-      "id": "phaser_gacha_test_1_package_devdependencies_eslint"
-    },
-    {
-      "label": "eslint-plugin-react-hooks",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L41",
-      "community": 4,
-      "norm_label": "eslint-plugin-react-hooks",
-      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_hooks"
-    },
-    {
-      "label": "eslint-plugin-react-refresh",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L42",
-      "community": 4,
-      "norm_label": "eslint-plugin-react-refresh",
-      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_refresh"
-    },
-    {
-      "label": "globals",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L43",
-      "community": 4,
-      "norm_label": "globals",
-      "id": "phaser_gacha_test_1_package_devdependencies_globals"
-    },
-    {
-      "label": "terser",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L44",
-      "community": 4,
-      "norm_label": "terser",
-      "id": "phaser_gacha_test_1_package_devdependencies_terser"
-    },
-    {
-      "label": "typescript",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L45",
-      "community": 4,
-      "norm_label": "typescript",
-      "id": "phaser_gacha_test_1_package_devdependencies_typescript"
-    },
-    {
-      "label": "typescript-eslint",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L46",
-      "community": 4,
-      "norm_label": "typescript-eslint",
-      "id": "phaser_gacha_test_1_package_devdependencies_typescript_eslint"
-    },
-    {
-      "label": "vite",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L47",
-      "community": 4,
-      "norm_label": "vite",
-      "id": "phaser_gacha_test_1_package_devdependencies_vite"
     },
     {
       "label": "tsconfig.json",
@@ -792,24 +2016,6 @@
       "id": "phaser_gacha_test_1_tsconfig_node_include"
     },
     {
-      "label": "App.tsx",
-      "file_type": "code",
-      "source_file": "src/App.tsx",
-      "source_location": "L1",
-      "community": 0,
-      "norm_label": "app.tsx",
-      "id": "src_app_tsx"
-    },
-    {
-      "label": "App()",
-      "file_type": "code",
-      "source_file": "src/App.tsx",
-      "source_location": "L5",
-      "community": 0,
-      "norm_label": "app()",
-      "id": "src_app_app"
-    },
-    {
       "label": "main.tsx",
       "file_type": "code",
       "source_file": "src/main.tsx",
@@ -826,33 +2032,6 @@
       "community": 0,
       "norm_label": "phasergame.tsx",
       "id": "src_phasergame_tsx"
-    },
-    {
-      "label": "IRefPhaserGame",
-      "file_type": "code",
-      "source_file": "src/PhaserGame.tsx",
-      "source_location": "L5",
-      "community": 0,
-      "norm_label": "irefphasergame",
-      "id": "src_phasergame_irefphasergame"
-    },
-    {
-      "label": "IProps",
-      "file_type": "code",
-      "source_file": "src/PhaserGame.tsx",
-      "source_location": "L11",
-      "community": 0,
-      "norm_label": "iprops",
-      "id": "src_phasergame_iprops"
-    },
-    {
-      "label": "PhaserGame",
-      "file_type": "code",
-      "source_file": "src/PhaserGame.tsx",
-      "source_location": "L16",
-      "community": 0,
-      "norm_label": "phasergame",
-      "id": "src_phasergame_phasergame"
     },
     {
       "label": "vite-env.d.ts",
@@ -873,132 +2052,6 @@
       "id": "src_game_eventbus_ts"
     },
     {
-      "label": "EventBus",
-      "file_type": "code",
-      "source_file": "src/game/EventBus.ts",
-      "source_location": "L4",
-      "community": 0,
-      "norm_label": "eventbus",
-      "id": "game_eventbus_eventbus"
-    },
-    {
-      "label": "main.ts",
-      "file_type": "code",
-      "source_file": "src/game/main.ts",
-      "source_location": "L1",
-      "community": 0,
-      "norm_label": "main.ts",
-      "id": "src_game_main_ts"
-    },
-    {
-      "label": "config",
-      "file_type": "code",
-      "source_file": "src/game/main.ts",
-      "source_location": "L10",
-      "community": 0,
-      "norm_label": "config",
-      "id": "game_main_config"
-    },
-    {
-      "label": "StartGame()",
-      "file_type": "code",
-      "source_file": "src/game/main.ts",
-      "source_location": "L25",
-      "community": 0,
-      "norm_label": "startgame()",
-      "id": "game_main_startgame"
-    },
-    {
-      "label": "Boot.ts",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": "L1",
-      "community": 0,
-      "norm_label": "boot.ts",
-      "id": "src_game_scenes_boot_ts"
-    },
-    {
-      "label": "Boot",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": "L3",
-      "community": 0,
-      "norm_label": "boot",
-      "id": "scenes_boot_boot"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": "L5",
-      "community": 0,
-      "norm_label": ".constructor()",
-      "id": "scenes_boot_boot_constructor"
-    },
-    {
-      "label": ".preload()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": "L10",
-      "community": 0,
-      "norm_label": ".preload()",
-      "id": "scenes_boot_boot_preload"
-    },
-    {
-      "label": ".create()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": "L18",
-      "community": 0,
-      "norm_label": ".create()",
-      "id": "scenes_boot_boot_create"
-    },
-    {
-      "label": "Game.ts",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": "L1",
-      "community": 0,
-      "norm_label": "game.ts",
-      "id": "src_game_scenes_game_ts"
-    },
-    {
-      "label": "Game",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": "L4",
-      "community": 0,
-      "norm_label": "game",
-      "id": "scenes_game_game"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": "L10",
-      "community": 0,
-      "norm_label": ".constructor()",
-      "id": "scenes_game_game_constructor"
-    },
-    {
-      "label": ".create()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": "L15",
-      "community": 0,
-      "norm_label": ".create()",
-      "id": "scenes_game_game_create"
-    },
-    {
-      "label": ".changeScene()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": "L32",
-      "community": 0,
-      "norm_label": ".changescene()",
-      "id": "scenes_game_game_changescene"
-    },
-    {
       "label": "GameOver.ts",
       "file_type": "code",
       "source_file": "src/game/scenes/GameOver.ts",
@@ -1008,150 +2061,6 @@
       "id": "src_game_scenes_gameover_ts"
     },
     {
-      "label": "GameOver",
-      "file_type": "code",
-      "source_file": "src/game/scenes/GameOver.ts",
-      "source_location": "L4",
-      "community": 0,
-      "norm_label": "gameover",
-      "id": "scenes_gameover_gameover"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/GameOver.ts",
-      "source_location": "L10",
-      "community": 0,
-      "norm_label": ".constructor()",
-      "id": "scenes_gameover_gameover_constructor"
-    },
-    {
-      "label": ".create()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/GameOver.ts",
-      "source_location": "L15",
-      "community": 0,
-      "norm_label": ".create()",
-      "id": "scenes_gameover_gameover_create"
-    },
-    {
-      "label": ".changeScene()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/GameOver.ts",
-      "source_location": "L32",
-      "community": 0,
-      "norm_label": ".changescene()",
-      "id": "scenes_gameover_gameover_changescene"
-    },
-    {
-      "label": "MainMenu.ts",
-      "file_type": "code",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L1",
-      "community": 0,
-      "norm_label": "mainmenu.ts",
-      "id": "src_game_scenes_mainmenu_ts"
-    },
-    {
-      "label": "MainMenu",
-      "file_type": "code",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L5",
-      "community": 0,
-      "norm_label": "mainmenu",
-      "id": "scenes_mainmenu_mainmenu"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L12",
-      "community": 0,
-      "norm_label": ".constructor()",
-      "id": "scenes_mainmenu_mainmenu_constructor"
-    },
-    {
-      "label": ".create()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L17",
-      "community": 0,
-      "norm_label": ".create()",
-      "id": "scenes_mainmenu_mainmenu_create"
-    },
-    {
-      "label": ".changeScene()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L32",
-      "community": 0,
-      "norm_label": ".changescene()",
-      "id": "scenes_mainmenu_mainmenu_changescene"
-    },
-    {
-      "label": ".moveLogo()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L43",
-      "community": 0,
-      "norm_label": ".movelogo()",
-      "id": "scenes_mainmenu_mainmenu_movelogo"
-    },
-    {
-      "label": "Preloader.ts",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": "L1",
-      "community": 9,
-      "norm_label": "preloader.ts",
-      "id": "src_game_scenes_preloader_ts"
-    },
-    {
-      "label": "Preloader",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": "L3",
-      "community": 9,
-      "norm_label": "preloader",
-      "id": "scenes_preloader_preloader"
-    },
-    {
-      "label": ".constructor()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": "L5",
-      "community": 9,
-      "norm_label": ".constructor()",
-      "id": "scenes_preloader_preloader_constructor"
-    },
-    {
-      "label": ".init()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": "L10",
-      "community": 9,
-      "norm_label": ".init()",
-      "id": "scenes_preloader_preloader_init"
-    },
-    {
-      "label": ".preload()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": "L30",
-      "community": 9,
-      "norm_label": ".preload()",
-      "id": "scenes_preloader_preloader_preload"
-    },
-    {
-      "label": ".create()",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": "L39",
-      "community": 9,
-      "norm_label": ".create()",
-      "id": "scenes_preloader_preloader_create"
-    },
-    {
       "label": "config.dev.mjs",
       "file_type": "code",
       "source_file": "vite/config.dev.mjs",
@@ -1159,24 +2068,6 @@
       "community": 16,
       "norm_label": "config.dev.mjs",
       "id": "vite_config_dev_mjs"
-    },
-    {
-      "label": "config.prod.mjs",
-      "file_type": "code",
-      "source_file": "vite/config.prod.mjs",
-      "source_location": "L1",
-      "community": 14,
-      "norm_label": "config.prod.mjs",
-      "id": "vite_config_prod_mjs"
-    },
-    {
-      "label": "phasermsg()",
-      "file_type": "code",
-      "source_file": "vite/config.prod.mjs",
-      "source_location": "L4",
-      "community": 14,
-      "norm_label": "phasermsg()",
-      "id": "vite_config_prod_phasermsg"
     },
     {
       "label": "EventBus (Phaser EventEmitter)",
@@ -1213,100 +2104,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 30,
       "norm_label": "irefphasergame interface",
       "id": "phasergame_irefphasergame"
-    },
-    {
-      "label": "App React Component",
-      "file_type": "code",
-      "source_file": "src/App.tsx",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "app react component",
-      "id": "app_app"
-    },
-    {
-      "label": "StartGame game initializer",
-      "file_type": "code",
-      "source_file": "src/game/main.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "startgame game initializer",
-      "id": "main_startgame"
-    },
-    {
-      "label": "Phaser GameConfig (scene list)",
-      "file_type": "code",
-      "source_file": "src/game/main.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "phaser gameconfig (scene list)",
-      "id": "main_config"
-    },
-    {
-      "label": "Boot Scene",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "boot scene",
-      "id": "boot_scene"
-    },
-    {
-      "label": "Preloader Scene",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "preloader scene",
-      "id": "preloader_scene"
-    },
-    {
-      "label": "MainMenu Scene",
-      "file_type": "code",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "mainmenu scene",
-      "id": "mainmenu_scene"
-    },
-    {
-      "label": "Game Scene",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "game scene",
-      "id": "game_scene"
     },
     {
       "label": "GameOver Scene",
@@ -1335,45 +2135,6 @@
       "id": "event_current_scene_ready"
     },
     {
-      "label": "'background' image asset",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "'background' image asset",
-      "id": "asset_background"
-    },
-    {
-      "label": "'logo' image asset",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "'logo' image asset",
-      "id": "asset_logo"
-    },
-    {
-      "label": "'star' image asset",
-      "file_type": "code",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "'star' image asset",
-      "id": "asset_star"
-    },
-    {
       "label": "React entry point (main.tsx)",
       "file_type": "code",
       "source_file": "src/main.tsx",
@@ -1382,7 +2143,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 29,
       "norm_label": "react entry point (main.tsx)",
       "id": "main_tsx_entry"
     },
@@ -1398,19 +2159,6 @@
       "community": 13,
       "norm_label": "log.js anonymous telemetry",
       "id": "logjs_telemetry"
-    },
-    {
-      "label": "phasermsg Vite plugin",
-      "file_type": "code",
-      "source_file": "vite/config.prod.mjs",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 17,
-      "norm_label": "phasermsg vite plugin",
-      "id": "viteconfigprod_phasermsg"
     },
     {
       "label": "React-Phaser Bridge pattern",
@@ -1437,19 +2185,6 @@
       "community": 13,
       "norm_label": "anonymous telemetry rationale",
       "id": "readme_telemetry_rationale"
-    },
-    {
-      "label": "index.html (#root mount)",
-      "file_type": "code",
-      "source_file": "index.html",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 3,
-      "norm_label": "index.html (#root mount)",
-      "id": "index_html_root"
     },
     {
       "label": "Phaser Game Main Menu Screen",
@@ -1875,9 +2610,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_settings_json",
-      "target": "claude_settings_enabledplugins",
-      "confidence_score": 1.0
+      "target": "claude_settings_enabledplugins"
     },
     {
       "relation": "contains",
@@ -1885,8 +2620,18 @@
       "source_file": ".claude/settings.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_settings_enabledplugins",
-      "target": "claude_settings_enabledplugins_frontend_design_claude_plugins_official",
+      "target": "claude_settings_enabledplugins_frontend_design_claude_plugins_official"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "claude_settings_enabledplugins",
+      "target": "claude_settings_enabledplugins_github_claude_plugins_official",
       "confidence_score": 1.0
     },
     {
@@ -1895,9 +2640,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_settings_enabledplugins",
-      "target": "claude_settings_enabledplugins_playwright_claude_plugins_official",
-      "confidence_score": 1.0
+      "target": "claude_settings_enabledplugins_playwright_claude_plugins_official"
     },
     {
       "relation": "contains",
@@ -1905,9 +2650,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_settings_enabledplugins",
-      "target": "claude_settings_enabledplugins_typescript_lsp_claude_plugins_official",
-      "confidence_score": 1.0
+      "target": "claude_settings_enabledplugins_typescript_lsp_claude_plugins_official"
     },
     {
       "relation": "contains",
@@ -1992,52 +2737,12 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log.js",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_js",
-      "target": "phaser_gacha_test_1_log_fs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log.js",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_js",
-      "target": "phaser_gacha_test_1_log_https"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log.js",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_js",
-      "target": "phaser_gacha_test_1_log_main"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "package.json",
       "source_location": "L9",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "package_json",
       "target": "phaser_gacha_test_1_package_author"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_json",
-      "target": "phaser_gacha_test_1_package_bugs"
     },
     {
       "relation": "contains",
@@ -2073,41 +2778,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_json",
-      "target": "phaser_gacha_test_1_package_homepage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_json",
-      "target": "phaser_gacha_test_1_package_keywords"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
       "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "package_json",
       "target": "phaser_gacha_test_1_package_license"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_json",
-      "target": "phaser_gacha_test_1_package_licenseurl"
     },
     {
       "relation": "contains",
@@ -2125,9 +2800,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "package_json",
-      "target": "phaser_gacha_test_1_package_repository"
+      "target": "phaser_gacha_test_1_package_private",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2143,41 +2818,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package_json",
+      "target": "phaser_gacha_test_1_package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "package_json",
       "target": "phaser_gacha_test_1_package_version"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "phaser_gacha_test_1_package_repository",
-      "target": "phaser_gacha_test_1_package_repository_type"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "phaser_gacha_test_1_package_repository",
-      "target": "phaser_gacha_test_1_package_repository_url"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "phaser_gacha_test_1_package_bugs",
-      "target": "phaser_gacha_test_1_package_bugs_url"
     },
     {
       "relation": "contains",
@@ -2193,16 +2848,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "phaser_gacha_test_1_package_scripts",
-      "target": "phaser_gacha_test_1_package_scripts_build_nolog"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -2213,11 +2858,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L26",
+      "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_scripts",
-      "target": "phaser_gacha_test_1_package_scripts_dev_nolog"
+      "target": "phaser_gacha_test_1_package_scripts_preview",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2378,6 +3023,1684 @@
       "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_package_devdependencies",
       "target": "phaser_gacha_test_1_package_devdependencies_vitejs_plugin_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_readme_md",
+      "target": "phaser_react_template_readme_reference_original_phaser_react_typescript_template",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/log.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_log_js",
+      "target": "phaser_react_template_log_fs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/log.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_log_js",
+      "target": "phaser_react_template_log_https",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/log.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_log_js",
+      "target": "phaser_react_template_log_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_author",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_bugs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_homepage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_keywords",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_licenseurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_repository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_package_json",
+      "target": "phaser_react_template_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_repository",
+      "target": "phaser_react_template_package_repository_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_repository",
+      "target": "phaser_react_template_package_repository_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_bugs",
+      "target": "phaser_react_template_package_bugs_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_scripts",
+      "target": "phaser_react_template_package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_scripts",
+      "target": "phaser_react_template_package_scripts_build_nolog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_scripts",
+      "target": "phaser_react_template_package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_scripts",
+      "target": "phaser_react_template_package_scripts_dev_nolog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_dependencies",
+      "target": "phaser_react_template_package_dependencies_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_dependencies",
+      "target": "phaser_react_template_package_dependencies_phaser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_dependencies",
+      "target": "phaser_react_template_package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_dependencies",
+      "target": "phaser_react_template_package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_devdependencies",
+      "target": "phaser_react_template_package_devdependencies_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_devdependencies",
+      "target": "phaser_react_template_package_devdependencies_eslint_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_devdependencies",
+      "target": "phaser_react_template_package_devdependencies_eslint_plugin_react_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_devdependencies",
+      "target": "phaser_react_template_package_devdependencies_eslint_plugin_react_refresh",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_devdependencies",
+      "target": "phaser_react_template_package_devdependencies_globals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_devdependencies",
+      "target": "phaser_react_template_package_devdependencies_terser",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_devdependencies",
+      "target": "phaser_react_template_package_devdependencies_types_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_devdependencies",
+      "target": "phaser_react_template_package_devdependencies_types_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_devdependencies",
+      "target": "phaser_react_template_package_devdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_devdependencies",
+      "target": "phaser_react_template_package_devdependencies_typescript_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_devdependencies",
+      "target": "phaser_react_template_package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "phaser_react_template_package_devdependencies",
+      "target": "phaser_react_template_package_devdependencies_vitejs_plugin_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_app_tsx",
+      "target": "reference_phaser_react_template_src_app_tsx_src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_app_tsx",
+      "target": "reference_phaser_react_template_src_game_scenes_mainmenu_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_app_tsx",
+      "target": "reference_phaser_react_template_src_phasergame_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_app_tsx",
+      "target": "src_phasergame_irefphasergame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_app_tsx",
+      "target": "src_phasergame_phasergame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_main_tsx",
+      "target": "reference_phaser_react_template_src_app_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/PhaserGame.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_phasergame_tsx",
+      "target": "game_eventbus_eventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/PhaserGame.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_phasergame_tsx",
+      "target": "reference_phaser_react_template_src_game_eventbus_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/PhaserGame.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_phasergame_tsx",
+      "target": "reference_phaser_react_template_src_game_main_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/PhaserGame.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_phasergame_tsx",
+      "target": "src_phasergame_iprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/PhaserGame.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_phasergame_tsx",
+      "target": "src_phasergame_irefphasergame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/PhaserGame.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_phasergame_tsx",
+      "target": "src_phasergame_phasergame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_phasergame_irefphasergame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_phasergame_tsx",
+      "target": "src_phasergame_irefphasergame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_phasergame_tsx",
+      "target": "src_phasergame_iprops"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_phasergame_phasergame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_phasergame_tsx",
+      "target": "src_phasergame_phasergame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/EventBus.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_eventbus_ts",
+      "target": "game_eventbus_eventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_game_ts",
+      "target": "reference_phaser_react_template_src_game_eventbus_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_gameover_ts",
+      "target": "reference_phaser_react_template_src_game_eventbus_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_mainmenu_ts",
+      "target": "reference_phaser_react_template_src_game_eventbus_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_game_ts",
+      "target": "game_eventbus_eventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_gameover_ts",
+      "target": "game_eventbus_eventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_mainmenu_ts",
+      "target": "game_eventbus_eventbus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/EventBus.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_eventbus_ts",
+      "target": "game_eventbus_eventbus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_scenes_game_ts",
+      "target": "game_eventbus_eventbus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_scenes_gameover_ts",
+      "target": "game_eventbus_eventbus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_scenes_mainmenu_ts",
+      "target": "game_eventbus_eventbus"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_phasergame_tsx",
+      "target": "game_eventbus_eventbus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/main.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_main_ts",
+      "target": "reference_phaser_react_template_src_game_main_ts_game_main_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/main.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_main_ts",
+      "target": "reference_phaser_react_template_src_game_main_ts_game_main_startgame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/main.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_main_ts",
+      "target": "reference_phaser_react_template_src_game_scenes_boot_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/main.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_main_ts",
+      "target": "reference_phaser_react_template_src_game_scenes_game_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/main.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_main_ts",
+      "target": "reference_phaser_react_template_src_game_scenes_gameover_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/main.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_main_ts",
+      "target": "reference_phaser_react_template_src_game_scenes_mainmenu_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/main.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_main_ts",
+      "target": "reference_phaser_react_template_src_game_scenes_preloader_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/main.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_main_ts",
+      "target": "scenes_gameover_gameover",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_boot_ts",
+      "target": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot",
+      "target": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot",
+      "target": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot",
+      "target": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot_preload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_game_ts",
+      "target": "reference_phaser_react_template_src_game_scenes_game_ts_scenes_game_game",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_game_ts_scenes_game_game",
+      "target": "reference_phaser_react_template_src_game_scenes_game_ts_scenes_game_game_changescene",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_game_ts_scenes_game_game",
+      "target": "reference_phaser_react_template_src_game_scenes_game_ts_scenes_game_game_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_game_ts_scenes_game_game",
+      "target": "reference_phaser_react_template_src_game_scenes_game_ts_scenes_game_game_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_gameover_ts",
+      "target": "scenes_gameover_gameover",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scenes_gameover_gameover",
+      "target": "scenes_gameover_gameover_changescene"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scenes_gameover_gameover",
+      "target": "scenes_gameover_gameover_constructor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scenes_gameover_gameover",
+      "target": "scenes_gameover_gameover_create"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_main_ts",
+      "target": "scenes_gameover_gameover"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/GameOver.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_scenes_gameover_ts",
+      "target": "scenes_gameover_gameover"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_mainmenu_ts",
+      "target": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu",
+      "target": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_changescene",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu",
+      "target": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu",
+      "target": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu",
+      "target": "scenes_mainmenu_mainmenu_movelogo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_preloader_ts",
+      "target": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader",
+      "target": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader",
+      "target": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader",
+      "target": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader",
+      "target": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader_preload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_tsconfig_json",
+      "target": "phaser_react_template_tsconfig_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_tsconfig_json",
+      "target": "phaser_react_template_tsconfig_include",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_tsconfig_json",
+      "target": "phaser_react_template_tsconfig_references",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_allowimportingtsextensions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_isolatedmodules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_lib",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_moduleresolution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_noemit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_nounusedlocals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_nounusedparameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_resolvejsonmodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_strict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_strictpropertyinitialization",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_target",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_compileroptions",
+      "target": "phaser_react_template_tsconfig_compileroptions_usedefineforclassfields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_tsconfig_node_json",
+      "target": "phaser_react_template_tsconfig_node_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_tsconfig_node_json",
+      "target": "phaser_react_template_tsconfig_node_include",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_node_compileroptions",
+      "target": "phaser_react_template_tsconfig_node_compileroptions_allowsyntheticdefaultimports",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_node_compileroptions",
+      "target": "phaser_react_template_tsconfig_node_compileroptions_composite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_node_compileroptions",
+      "target": "phaser_react_template_tsconfig_node_compileroptions_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_node_compileroptions",
+      "target": "phaser_react_template_tsconfig_node_compileroptions_moduleresolution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_node_compileroptions",
+      "target": "phaser_react_template_tsconfig_node_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/tsconfig.node.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "phaser_react_template_tsconfig_node_compileroptions",
+      "target": "phaser_react_template_tsconfig_node_compileroptions_strict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "reference/phaser-react-template/vite/config.prod.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "reference_phaser_react_template_vite_config_prod_mjs",
+      "target": "vite_config_prod_phasermsg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vite/config.prod.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vite_config_prod_mjs",
+      "target": "vite_config_prod_phasermsg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_app_tsx_src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_game_scenes_mainmenu_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_phasergame_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_app_tsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "src_game_main_ts_game_main_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_game_main_ts",
+      "target": "src_game_main_ts_game_main_startgame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_main_ts",
+      "target": "src_game_scenes_boot_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_main_ts",
+      "target": "src_game_scenes_game_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_main_ts",
+      "target": "src_game_scenes_gameover_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_main_ts",
+      "target": "src_game_scenes_mainmenu_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/main.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_main_ts",
+      "target": "src_game_scenes_preloader_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/PhaserGame.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_phasergame_tsx",
+      "target": "src_game_main_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_game_scenes_boot_ts",
+      "target": "src_game_scenes_boot_ts_scenes_boot_boot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_game_scenes_boot_ts_scenes_boot_boot",
+      "target": "src_game_scenes_boot_ts_scenes_boot_boot_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_game_scenes_boot_ts_scenes_boot_boot",
+      "target": "src_game_scenes_boot_ts_scenes_boot_boot_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Boot.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_game_scenes_boot_ts_scenes_boot_boot",
+      "target": "src_game_scenes_boot_ts_scenes_boot_boot_preload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_scenes_game_ts",
+      "target": "src_game_eventbus_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_game_scenes_game_ts",
+      "target": "src_game_scenes_game_ts_scenes_game_game",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_game_scenes_game_ts_scenes_game_game",
+      "target": "src_game_scenes_game_ts_scenes_game_game_changescene",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_game_scenes_game_ts_scenes_game_game",
+      "target": "src_game_scenes_game_ts_scenes_game_game_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Game.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_game_scenes_game_ts_scenes_game_game",
+      "target": "src_game_scenes_game_ts_scenes_game_game_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_game_scenes_mainmenu_ts",
+      "target": "src_game_eventbus_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_game_scenes_mainmenu_ts",
+      "target": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu",
+      "target": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_changescene",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu",
+      "target": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/MainMenu.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu",
+      "target": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_game_scenes_preloader_ts",
+      "target": "src_game_scenes_preloader_ts_scenes_preloader_preloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_game_scenes_preloader_ts_scenes_preloader_preloader",
+      "target": "src_game_scenes_preloader_ts_scenes_preloader_preloader_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "src_game_scenes_preloader_ts_scenes_preloader_preloader",
+      "target": "src_game_scenes_preloader_ts_scenes_preloader_preloader_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_game_scenes_preloader_ts_scenes_preloader_preloader",
+      "target": "src_game_scenes_preloader_ts_scenes_preloader_preloader_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/game/scenes/Preloader.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_game_scenes_preloader_ts_scenes_preloader_preloader",
+      "target": "src_game_scenes_preloader_ts_scenes_preloader_preloader_preload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "log.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "log_js",
+      "target": "phaser_gacha_test_1_log_fs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "log.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "log_js",
+      "target": "phaser_gacha_test_1_log_https"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "log.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "log_js",
+      "target": "phaser_gacha_test_1_log_main"
     },
     {
       "relation": "contains",
@@ -2650,93 +4973,6 @@
       "target": "phaser_gacha_test_1_tsconfig_node_compileroptions_strict"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_tsx",
-      "target": "scenes_mainmenu_mainmenu"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_tsx",
-      "target": "src_app_app"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_tsx",
-      "target": "src_game_scenes_mainmenu_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_tsx",
-      "target": "src_phasergame_irefphasergame"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_tsx",
-      "target": "src_phasergame_phasergame"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_tsx",
-      "target": "src_phasergame_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main_tsx",
-      "target": "src_app_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/PhaserGame.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_phasergame_tsx",
-      "target": "game_eventbus_eventbus"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -2745,68 +4981,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_phasergame_tsx",
-      "target": "src_game_eventbus_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/PhaserGame.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_phasergame_tsx",
-      "target": "src_game_main_ts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/PhaserGame.tsx",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_phasergame_tsx",
-      "target": "src_phasergame_iprops"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/PhaserGame.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_phasergame_tsx",
-      "target": "src_phasergame_irefphasergame"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/PhaserGame.tsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_phasergame_tsx",
-      "target": "src_phasergame_phasergame"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/EventBus.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_eventbus_ts",
-      "target": "game_eventbus_eventbus"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_scenes_game_ts",
       "target": "src_game_eventbus_ts"
     },
     {
@@ -2819,410 +4993,6 @@
       "confidence_score": 1.0,
       "source": "src_game_scenes_gameover_ts",
       "target": "src_game_eventbus_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_scenes_mainmenu_ts",
-      "target": "src_game_eventbus_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_scenes_game_ts",
-      "target": "game_eventbus_eventbus"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/GameOver.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_scenes_gameover_ts",
-      "target": "game_eventbus_eventbus"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_scenes_mainmenu_ts",
-      "target": "game_eventbus_eventbus"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/main.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_main_ts",
-      "target": "game_main_config"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/main.ts",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_main_ts",
-      "target": "game_main_startgame"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/main.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_main_ts",
-      "target": "scenes_boot_boot"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/main.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_main_ts",
-      "target": "scenes_game_game"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/main.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_main_ts",
-      "target": "scenes_gameover_gameover"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/main.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_main_ts",
-      "target": "scenes_mainmenu_mainmenu"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/main.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_main_ts",
-      "target": "scenes_preloader_preloader"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/main.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_main_ts",
-      "target": "src_game_scenes_boot_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/main.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_main_ts",
-      "target": "src_game_scenes_game_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/main.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_main_ts",
-      "target": "src_game_scenes_gameover_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/main.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_main_ts",
-      "target": "src_game_scenes_mainmenu_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/main.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_main_ts",
-      "target": "src_game_scenes_preloader_ts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_scenes_boot_ts",
-      "target": "scenes_boot_boot"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_boot_boot",
-      "target": "scenes_boot_boot_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_boot_boot",
-      "target": "scenes_boot_boot_create"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_boot_boot",
-      "target": "scenes_boot_boot_preload"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_scenes_game_ts",
-      "target": "scenes_game_game"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_game_game",
-      "target": "scenes_game_game_changescene"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_game_game",
-      "target": "scenes_game_game_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_game_game",
-      "target": "scenes_game_game_create"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/GameOver.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_scenes_gameover_ts",
-      "target": "scenes_gameover_gameover"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/GameOver.ts",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_gameover_gameover",
-      "target": "scenes_gameover_gameover_changescene"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/GameOver.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_gameover_gameover",
-      "target": "scenes_gameover_gameover_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/GameOver.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_gameover_gameover",
-      "target": "scenes_gameover_gameover_create"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_scenes_mainmenu_ts",
-      "target": "scenes_mainmenu_mainmenu"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_mainmenu_mainmenu",
-      "target": "scenes_mainmenu_mainmenu_changescene"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_mainmenu_mainmenu",
-      "target": "scenes_mainmenu_mainmenu_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_mainmenu_mainmenu",
-      "target": "scenes_mainmenu_mainmenu_create"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_mainmenu_mainmenu",
-      "target": "scenes_mainmenu_mainmenu_movelogo"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_game_scenes_preloader_ts",
-      "target": "scenes_preloader_preloader"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_preloader_preloader",
-      "target": "scenes_preloader_preloader_constructor"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": "L39",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_preloader_preloader",
-      "target": "scenes_preloader_preloader_create"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_preloader_preloader",
-      "target": "scenes_preloader_preloader_init"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scenes_preloader_preloader",
-      "target": "scenes_preloader_preloader_preload"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "vite/config.prod.mjs",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "vite_config_prod_mjs",
-      "target": "vite_config_prod_phasermsg"
     },
     {
       "relation": "shares_data_with",
@@ -3245,16 +5015,6 @@
       "target": "eventbus_eventbus"
     },
     {
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "src/App.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "app_app",
-      "target": "phasergame_component"
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -3263,16 +5023,6 @@
       "weight": 1.0,
       "source": "phasergame_component",
       "target": "event_current_scene_ready"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/PhaserGame.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "phasergame_component",
-      "target": "main_startgame"
     },
     {
       "relation": "rationale_for",
@@ -3288,281 +5038,11 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "src/App.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "app_app",
-      "target": "phasergame_irefphasergame"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/App.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "app_app",
-      "target": "asset_star"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "src/PhaserGame.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "app_app",
-      "target": "event_current_scene_ready"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.75,
-      "source_file": "src/App.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "app_app",
-      "target": "mainmenu_scene"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/main.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "main_tsx_entry",
-      "target": "app_app"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/main.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "main_startgame",
-      "target": "main_config"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/main.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "main_config",
-      "target": "boot_scene"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/main.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "main_config",
-      "target": "game_scene"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/main.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "main_config",
-      "target": "gameover_scene"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/main.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "main_config",
-      "target": "mainmenu_scene"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/main.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "main_config",
-      "target": "preloader_scene"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "boot_scene",
-      "target": "asset_background"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/Boot.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "boot_scene",
-      "target": "preloader_scene"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "preloader_scene",
-      "target": "asset_background"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "preloader_scene",
-      "target": "asset_logo"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "preloader_scene",
-      "target": "asset_star"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/Preloader.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "preloader_scene",
-      "target": "mainmenu_scene"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/GameOver.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "gameover_scene",
-      "target": "mainmenu_scene"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "mainmenu_scene",
-      "target": "asset_background"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "mainmenu_scene",
-      "target": "asset_logo"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "mainmenu_scene",
-      "target": "event_current_scene_ready"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/MainMenu.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "mainmenu_scene",
-      "target": "game_scene"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "game_scene",
-      "target": "asset_background"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "game_scene",
-      "target": "event_current_scene_ready"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/Game.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "game_scene",
-      "target": "gameover_scene"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/game/scenes/GameOver.ts",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "gameover_scene",
-      "target": "asset_background"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "source_file": "src/game/scenes/GameOver.ts",
       "source_location": null,
       "weight": 1.0,
       "source": "gameover_scene",
       "target": "event_current_scene_ready"
-    },
-    {
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "src/main.tsx",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "main_tsx_entry",
-      "target": "index_html_root"
     },
     {
       "relation": "rationale_for",
@@ -3966,5 +5446,5 @@
       "source_file": "src/PhaserGame.tsx"
     }
   ],
-  "built_at_commit": "76785ba2c145d7611ef21d80a26757b4a1f52573"
+  "built_at_commit": "35f0693ec87a7d3b6a77a0d29b862e8ea140a19f"
 }
