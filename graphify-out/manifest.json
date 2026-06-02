@@ -80,14 +80,9 @@
     "semantic_hash": "da840eedc8857c320a5902a625613697"
   },
   "E:\\coding\\phaser-gacha-test-1\\README.md": {
-    "mtime": 1780265804.0894938,
-    "ast_hash": "41431ddfec86a2c5b20d74bac01f38f8",
-    "semantic_hash": "41431ddfec86a2c5b20d74bac01f38f8"
-  },
-  "E:\\coding\\phaser-gacha-test-1\\screenshot.png": {
-    "mtime": 1780265804.0957737,
-    "ast_hash": "68973624cafe99d758411127f9216ad6",
-    "semantic_hash": "68973624cafe99d758411127f9216ad6"
+    "mtime": 1780375619.535904,
+    "ast_hash": "019c47e5f2f5a64613ffa26012454cfe",
+    "semantic_hash": ""
   },
   "E:\\coding\\phaser-gacha-test-1\\public\\favicon.png": {
     "mtime": 1780265804.0937743,
@@ -383,5 +378,10 @@
     "mtime": 1780373776.2170138,
     "ast_hash": "de485e18b63afe43c8ad72e3aad81e55",
     "semantic_hash": "de485e18b63afe43c8ad72e3aad81e55"
+  },
+  "E:\\coding\\phaser-gacha-test-1\\logo.png": {
+    "mtime": 1780375613.1179802,
+    "ast_hash": "d686d5d6b47ef09b2e58601d00fc7f73",
+    "semantic_hash": ""
   }
 }

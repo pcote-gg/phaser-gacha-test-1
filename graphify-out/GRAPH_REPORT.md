@@ -1,16 +1,16 @@
 # Graph Report - phaser-gacha-test-1  (2026-06-02)
 
 ## Corpus Check
-- 69 files · ~54,465 words
+- 69 files · ~89,000 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 450 nodes · 735 edges · 55 communities (30 shown, 25 thin omitted)
-- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 23 edges (avg confidence: 0.82)
+- 448 nodes · 728 edges · 55 communities (29 shown, 26 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.82)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6eb557e8`
+- Built from commit: `9be71539`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -75,20 +75,20 @@
 6. `EventBus` - 10 edges
 7. `VigilScreen()` - 9 edges
 8. `FragmentReward` - 9 edges
-9. `CLAUDE.md — Reverie Vigil (Phaser 4)` - 8 edges
-10. `scripts` - 8 edges
+9. `Reverie Vigil` - 8 edges
+10. `CLAUDE.md — Reverie Vigil (Phaser 4)` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `React-Phaser Bridge pattern` --rationale_for--> `EventBus (Phaser EventEmitter)`  [INFERRED]
-  README.md → src/game/EventBus.ts
-- `React-Phaser Bridge pattern` --rationale_for--> `PhaserGame React Bridge Component`  [INFERRED]
-  README.md → src/PhaserGame.tsx
-- `log.js anonymous telemetry` --rationale_for--> `Anonymous telemetry rationale`  [INFERRED]
-  log.js → README.md
 - `BrewScreen()` --calls--> `useGame()`  [EXTRACTED]
   src/ui/BrewScreen.tsx → src/ui/GameContext.tsx
-- `GachaScreen()` --calls--> `useGame()`  [EXTRACTED]
-  src/ui/GachaScreen.tsx → src/ui/GameContext.tsx
+- `FragmentsScreen()` --calls--> `useGame()`  [EXTRACTED]
+  src/ui/FragmentsScreen.tsx → src/ui/GameContext.tsx
+- `FragmentReader()` --calls--> `useGame()`  [EXTRACTED]
+  src/ui/FragmentsScreen.tsx → src/ui/GameContext.tsx
+- `VigilScreen()` --calls--> `useGame()`  [EXTRACTED]
+  src/ui/VigilScreen.tsx → src/ui/GameContext.tsx
+- `GameApi` --references--> `FragmentReward`  [EXTRACTED]
+  src/ui/GameContext.tsx → src/core/content/fragments.ts
 
 ## Import Cycles
 - None detected.
@@ -99,27 +99,27 @@
 - **GameContext as shared state hub for all screens** — gamecontext_usegame, vigilscreen_vigilscreen, brewscreen_brewscreen, rosterscreen_rosterscreen, gachascreen_gachascreen [EXTRACTED 1.00]
 - **e2e deterministic localStorage seeding flow** — helpers_seed, concept_localstorage_save, save_save_key, gamestate_save_version [INFERRED 0.85]
 
-## Communities (55 total, 25 thin omitted)
+## Communities (55 total, 26 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.11
-Nodes (31): allCharacters(), BY_ID, CharacterDef, getCharacter(), CHARACTERS, Rarity, RARITY_LEVEL_CAP, RARITY_ORDER (+23 more)
+Nodes (33): allCharacters(), BY_ID, CharacterDef, getCharacter(), CHARACTERS, Rarity, RARITY_LEVEL_CAP, RARITY_ORDER (+25 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.12
-Nodes (36): allFragments(), BY_ID, ChoiceBeat, FragmentBeat, FragmentDef, FragmentReward, FRAGMENTS, FragmentType (+28 more)
+Cohesion: 0.23
+Nodes (16): allFragments(), BY_ID, ChoiceBeat, FragmentBeat, FragmentDef, FragmentReward, FRAGMENTS, FragmentType (+8 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.50
-Nodes (5): 'current-scene-ready' event, EventBus (Phaser EventEmitter), GameOver Scene, PhaserGame React Bridge Component, React-Phaser Bridge pattern
+Nodes (4): 'current-scene-ready' event, EventBus (Phaser EventEmitter), GameOver Scene, PhaserGame React Bridge Component
 
 ### Community 3 - "Community 3"
 Cohesion: 0.05
 Nodes (36): author, bugs, url, dependencies, graphify, phaser, react, react-dom (+28 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.17
-Nodes (22): BrewEvaluation, CAFFEINE_THRESHOLDS, caffeineZone, evaluateTeam(), teamCaffeine(), ZONE_EFFECTS, ZoneEffect, characterPower() (+14 more)
+Cohesion: 0.14
+Nodes (25): BrewEvaluation, CAFFEINE_THRESHOLDS, caffeineZone, evaluateTeam(), teamCaffeine(), ZONE_EFFECTS, ZoneEffect, characterPower() (+17 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.06
@@ -142,8 +142,8 @@ Cohesion: 0.19
 Nodes (9): IProps, IRefPhaserGame, PhaserGame, IProps, IRefPhaserGame, PhaserGame, IProps, IRefPhaserGame (+1 more)
 
 ### Community 10 - "Community 10"
-Cohesion: 0.29
-Nodes (10): Add New Sprite Button, Change Scene Button, Right-Side Debug Control Panel, Blue Gradient Background, Main Menu Text Label, Phaser Logo Title, Phaser Game Main Menu Screen, Sprite Position Control (+2 more)
+Cohesion: 0.20
+Nodes (9): Available Commands, Deploying, Design Reference, Getting Started, Handling Assets, Project Structure, React ↔ Phaser Bridge, Reverie Vigil (+1 more)
 
 ### Community 11 - "Community 11"
 Cohesion: 0.22
@@ -157,17 +157,13 @@ Nodes (8): compilerOptions, allowSyntheticDefaultImports, composite, module, mod
 Cohesion: 0.22
 Nodes (8): compilerOptions, allowSyntheticDefaultImports, composite, module, moduleResolution, skipLibCheck, strict, include
 
-### Community 14 - "Community 14"
-Cohesion: 0.36
-Nodes (3): EventBus, EventBus, config
-
 ### Community 15 - "Community 15"
-Cohesion: 0.50
-Nodes (7): addToTeam(), canAddToTeam(), isInTeam(), isTeamFull(), owns(), removeFromTeam(), toggleTeamMember()
+Cohesion: 0.18
+Nodes (22): addToTeam(), canAddToTeam(), isInTeam(), isTeamFull(), owns(), removeFromTeam(), toggleTeamMember(), BannerConfig (+14 more)
 
 ### Community 16 - "Community 16"
-Cohesion: 0.15
-Nodes (4): GameOver, EventBus, config, MainMenu
+Cohesion: 0.36
+Nodes (3): EventBus, EventBus, config
 
 ### Community 17 - "Community 17"
 Cohesion: 0.33
@@ -202,24 +198,24 @@ Cohesion: 0.67
 Nodes (3): useGame / GameContext, SAVE_VERSION / GameState, SAVE_KEY (localStorage save slot)
 
 ## Knowledge Gaps
-- **182 isolated node(s):** `playwright@claude-plugins-official`, `typescript-lsp@claude-plugins-official`, `github@claude-plugins-official`, `impeccable@impeccable`, `1. Always navigate the code through Graphiphy first` (+177 more)
+- **188 isolated node(s):** `Tech Stack`, `Available Commands`, `Project Structure`, `React ↔ Phaser Bridge`, `Handling Assets` (+183 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **25 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **26 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `EventBus` connect `Community 14` to `Community 16`, `Community 9`, `Community 26`?**
+- **Why does `EventBus` connect `Community 16` to `Community 32`, `Community 25`, `Community 14`, `Community 9`?**
   _High betweenness centrality (0.023) - this node is a cross-community bridge._
-- **Why does `IRefPhaserGame` connect `Community 9` to `Community 1`?**
+- **Why does `IRefPhaserGame` connect `Community 9` to `Community 4`?**
   _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **Why does `PhaserGame` connect `Community 9` to `Community 1`?**
+- **Why does `PhaserGame` connect `Community 9` to `Community 4`?**
   _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **What connects `playwright@claude-plugins-official`, `typescript-lsp@claude-plugins-official`, `github@claude-plugins-official` to the rest of the system?**
-  _183 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **What connects `Tech Stack`, `Available Commands`, `Project Structure` to the rest of the system?**
+  _188 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.11184939091915837 - nodes in this community are weakly interconnected._
-- **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.11529411764705882 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.10909090909090909 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
+- **Should `Community 4` be split into smaller, more focused modules?**
+  _Cohesion score 0.1354723707664884 - nodes in this community are weakly interconnected._

@@ -66,895 +66,985 @@
   },
   "nodes": [
     {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 10,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Reverie Vigil",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "phaser_gacha_test_1_readme_reverie_vigil",
+      "community": 10,
+      "norm_label": "reverie vigil"
+    },
+    {
+      "label": "Tech Stack",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L17",
+      "id": "phaser_gacha_test_1_readme_tech_stack",
+      "community": 10,
+      "norm_label": "tech stack"
+    },
+    {
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "id": "phaser_gacha_test_1_readme_getting_started",
+      "community": 10,
+      "norm_label": "getting started"
+    },
+    {
+      "label": "Available Commands",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "id": "phaser_gacha_test_1_readme_available_commands",
+      "community": 10,
+      "norm_label": "available commands"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "id": "phaser_gacha_test_1_readme_project_structure",
+      "community": 10,
+      "norm_label": "project structure"
+    },
+    {
+      "label": "React \u2194 Phaser Bridge",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "id": "phaser_gacha_test_1_readme_react_phaser_bridge",
+      "community": 10,
+      "norm_label": "react \u2194 phaser bridge"
+    },
+    {
+      "label": "Handling Assets",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L107",
+      "id": "phaser_gacha_test_1_readme_handling_assets",
+      "community": 10,
+      "norm_label": "handling assets"
+    },
+    {
+      "label": "Deploying",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L125",
+      "id": "phaser_gacha_test_1_readme_deploying",
+      "community": 10,
+      "norm_label": "deploying"
+    },
+    {
+      "label": "Design Reference",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L131",
+      "id": "phaser_gacha_test_1_readme_design_reference",
+      "community": 10,
+      "norm_label": "design reference"
+    },
+    {
       "label": "settings.json",
       "file_type": "code",
       "source_file": ".claude/settings.json",
       "source_location": "L1",
-      "id": "claude_settings_json",
       "community": 17,
-      "norm_label": "settings.json"
+      "norm_label": "settings.json",
+      "id": "claude_settings_json"
     },
     {
       "label": "enabledPlugins",
       "file_type": "code",
       "source_file": ".claude/settings.json",
       "source_location": "L2",
-      "id": "claude_settings_enabledplugins",
       "community": 17,
-      "norm_label": "enabledplugins"
+      "norm_label": "enabledplugins",
+      "id": "claude_settings_enabledplugins"
     },
     {
       "label": "playwright@claude-plugins-official",
       "file_type": "code",
       "source_file": ".claude/settings.json",
       "source_location": "L3",
-      "id": "claude_settings_enabledplugins_playwright_claude_plugins_official",
       "community": 17,
-      "norm_label": "playwright@claude-plugins-official"
+      "norm_label": "playwright@claude-plugins-official",
+      "id": "claude_settings_enabledplugins_playwright_claude_plugins_official"
     },
     {
       "label": "typescript-lsp@claude-plugins-official",
       "file_type": "code",
       "source_file": ".claude/settings.json",
       "source_location": "L4",
-      "id": "claude_settings_enabledplugins_typescript_lsp_claude_plugins_official",
       "community": 17,
-      "norm_label": "typescript-lsp@claude-plugins-official"
+      "norm_label": "typescript-lsp@claude-plugins-official",
+      "id": "claude_settings_enabledplugins_typescript_lsp_claude_plugins_official"
     },
     {
       "label": "github@claude-plugins-official",
       "file_type": "code",
       "source_file": ".claude/settings.json",
       "source_location": "L5",
-      "id": "claude_settings_enabledplugins_github_claude_plugins_official",
       "community": 17,
-      "norm_label": "github@claude-plugins-official"
+      "norm_label": "github@claude-plugins-official",
+      "id": "claude_settings_enabledplugins_github_claude_plugins_official"
     },
     {
       "label": "impeccable@impeccable",
       "file_type": "code",
       "source_file": ".claude/settings.json",
       "source_location": "L6",
-      "id": "claude_settings_enabledplugins_impeccable_impeccable",
       "community": 17,
-      "norm_label": "impeccable@impeccable"
+      "norm_label": "impeccable@impeccable",
+      "id": "claude_settings_enabledplugins_impeccable_impeccable"
     },
     {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
-      "id": "claude_md",
       "community": 11,
-      "norm_label": "claude.md"
+      "norm_label": "claude.md",
+      "id": "claude_md"
     },
     {
       "label": "CLAUDE.md \u2014 Reverie Vigil (Phaser 4)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
-      "id": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
       "community": 11,
-      "norm_label": "claude.md \u2014 reverie vigil (phaser 4)"
+      "norm_label": "claude.md \u2014 reverie vigil (phaser 4)",
+      "id": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4"
     },
     {
       "label": "1. Always navigate the code through Graphiphy first",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L23",
-      "id": "phaser_gacha_test_1_claude_1_always_navigate_the_code_through_graphiphy_first",
       "community": 11,
-      "norm_label": "1. always navigate the code through graphiphy first"
+      "norm_label": "1. always navigate the code through graphiphy first",
+      "id": "phaser_gacha_test_1_claude_1_always_navigate_the_code_through_graphiphy_first"
     },
     {
       "label": "2. Investigate before you claim",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L35",
-      "id": "phaser_gacha_test_1_claude_2_investigate_before_you_claim",
       "community": 11,
-      "norm_label": "2. investigate before you claim"
+      "norm_label": "2. investigate before you claim",
+      "id": "phaser_gacha_test_1_claude_2_investigate_before_you_claim"
     },
     {
       "label": "Keep solutions minimal \u2014 avoid over-engineering",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L75",
-      "id": "phaser_gacha_test_1_claude_keep_solutions_minimal_avoid_over_engineering",
       "community": 11,
-      "norm_label": "keep solutions minimal \u2014 avoid over-engineering"
+      "norm_label": "keep solutions minimal \u2014 avoid over-engineering",
+      "id": "phaser_gacha_test_1_claude_keep_solutions_minimal_avoid_over_engineering"
     },
     {
       "label": "Confirm before irreversible or destructive actions",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L78",
-      "id": "phaser_gacha_test_1_claude_confirm_before_irreversible_or_destructive_actions",
       "community": 11,
-      "norm_label": "confirm before irreversible or destructive actions"
+      "norm_label": "confirm before irreversible or destructive actions",
+      "id": "phaser_gacha_test_1_claude_confirm_before_irreversible_or_destructive_actions"
     },
     {
       "label": "Respect Phaser and framework conventions",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L86",
-      "id": "phaser_gacha_test_1_claude_respect_phaser_and_framework_conventions",
       "community": 11,
-      "norm_label": "respect phaser and framework conventions"
+      "norm_label": "respect phaser and framework conventions",
+      "id": "phaser_gacha_test_1_claude_respect_phaser_and_framework_conventions"
     },
     {
       "label": "Don't leave scratch files behind",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L89",
-      "id": "phaser_gacha_test_1_claude_don_t_leave_scratch_files_behind",
       "community": 11,
-      "norm_label": "don't leave scratch files behind"
+      "norm_label": "don't leave scratch files behind",
+      "id": "phaser_gacha_test_1_claude_don_t_leave_scratch_files_behind"
     },
     {
       "label": "Write code the owner can follow",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L92",
-      "id": "phaser_gacha_test_1_claude_write_code_the_owner_can_follow",
       "community": 11,
-      "norm_label": "write code the owner can follow"
+      "norm_label": "write code the owner can follow",
+      "id": "phaser_gacha_test_1_claude_write_code_the_owner_can_follow"
     },
     {
       "label": "package.json",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L1",
-      "id": "package_json",
       "community": 5,
-      "norm_label": "package.json"
+      "norm_label": "package.json",
+      "id": "package_json"
     },
     {
       "label": "name",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L2",
-      "id": "phaser_gacha_test_1_package_name",
       "community": 5,
-      "norm_label": "name"
+      "norm_label": "name",
+      "id": "phaser_gacha_test_1_package_name"
     },
     {
       "label": "description",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L3",
-      "id": "phaser_gacha_test_1_package_description",
       "community": 5,
-      "norm_label": "description"
+      "norm_label": "description",
+      "id": "phaser_gacha_test_1_package_description"
     },
     {
       "label": "version",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L4",
-      "id": "phaser_gacha_test_1_package_version",
       "community": 5,
-      "norm_label": "version"
+      "norm_label": "version",
+      "id": "phaser_gacha_test_1_package_version"
     },
     {
       "label": "private",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L5",
-      "id": "phaser_gacha_test_1_package_private",
       "community": 5,
-      "norm_label": "private"
+      "norm_label": "private",
+      "id": "phaser_gacha_test_1_package_private"
     },
     {
       "label": "type",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L6",
-      "id": "phaser_gacha_test_1_package_type",
       "community": 5,
-      "norm_label": "type"
+      "norm_label": "type",
+      "id": "phaser_gacha_test_1_package_type"
     },
     {
       "label": "author",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L7",
-      "id": "phaser_gacha_test_1_package_author",
       "community": 5,
-      "norm_label": "author"
+      "norm_label": "author",
+      "id": "phaser_gacha_test_1_package_author"
     },
     {
       "label": "license",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L8",
-      "id": "phaser_gacha_test_1_package_license",
       "community": 5,
-      "norm_label": "license"
+      "norm_label": "license",
+      "id": "phaser_gacha_test_1_package_license"
     },
     {
       "label": "scripts",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L9",
-      "id": "phaser_gacha_test_1_package_scripts",
       "community": 5,
-      "norm_label": "scripts"
+      "norm_label": "scripts",
+      "id": "phaser_gacha_test_1_package_scripts"
     },
     {
       "label": "dev",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L10",
-      "id": "phaser_gacha_test_1_package_scripts_dev",
       "community": 5,
-      "norm_label": "dev"
+      "norm_label": "dev",
+      "id": "phaser_gacha_test_1_package_scripts_dev"
     },
     {
       "label": "build",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L11",
-      "id": "phaser_gacha_test_1_package_scripts_build",
       "community": 5,
-      "norm_label": "build"
+      "norm_label": "build",
+      "id": "phaser_gacha_test_1_package_scripts_build"
     },
     {
       "label": "preview",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L12",
-      "id": "phaser_gacha_test_1_package_scripts_preview",
       "community": 5,
-      "norm_label": "preview"
+      "norm_label": "preview",
+      "id": "phaser_gacha_test_1_package_scripts_preview"
     },
     {
       "label": "test:e2e",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L13",
-      "id": "phaser_gacha_test_1_package_scripts_test_e2e",
       "community": 5,
-      "norm_label": "test:e2e"
+      "norm_label": "test:e2e",
+      "id": "phaser_gacha_test_1_package_scripts_test_e2e"
     },
     {
       "label": "test:e2e:ui",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L14",
-      "id": "phaser_gacha_test_1_package_scripts_test_e2e_ui",
       "community": 5,
-      "norm_label": "test:e2e:ui"
+      "norm_label": "test:e2e:ui",
+      "id": "phaser_gacha_test_1_package_scripts_test_e2e_ui"
     },
     {
       "label": "test:e2e:headed",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L15",
-      "id": "phaser_gacha_test_1_package_scripts_test_e2e_headed",
       "community": 5,
-      "norm_label": "test:e2e:headed"
+      "norm_label": "test:e2e:headed",
+      "id": "phaser_gacha_test_1_package_scripts_test_e2e_headed"
     },
     {
       "label": "test:e2e:report",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L16",
-      "id": "phaser_gacha_test_1_package_scripts_test_e2e_report",
       "community": 5,
-      "norm_label": "test:e2e:report"
+      "norm_label": "test:e2e:report",
+      "id": "phaser_gacha_test_1_package_scripts_test_e2e_report"
     },
     {
       "label": "dependencies",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L18",
-      "id": "phaser_gacha_test_1_package_dependencies",
       "community": 5,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "phaser_gacha_test_1_package_dependencies"
     },
     {
       "label": "graphify",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L19",
-      "id": "phaser_gacha_test_1_package_dependencies_graphify",
       "community": 5,
-      "norm_label": "graphify"
+      "norm_label": "graphify",
+      "id": "phaser_gacha_test_1_package_dependencies_graphify"
     },
     {
       "label": "phaser",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L20",
-      "id": "phaser_gacha_test_1_package_dependencies_phaser",
       "community": 5,
-      "norm_label": "phaser"
+      "norm_label": "phaser",
+      "id": "phaser_gacha_test_1_package_dependencies_phaser"
     },
     {
       "label": "react",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L21",
-      "id": "phaser_gacha_test_1_package_dependencies_react",
       "community": 5,
-      "norm_label": "react"
+      "norm_label": "react",
+      "id": "phaser_gacha_test_1_package_dependencies_react"
     },
     {
       "label": "react-dom",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L22",
-      "id": "phaser_gacha_test_1_package_dependencies_react_dom",
       "community": 5,
-      "norm_label": "react-dom"
+      "norm_label": "react-dom",
+      "id": "phaser_gacha_test_1_package_dependencies_react_dom"
     },
     {
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L24",
-      "id": "phaser_gacha_test_1_package_devdependencies",
       "community": 5,
-      "norm_label": "devdependencies"
+      "norm_label": "devdependencies",
+      "id": "phaser_gacha_test_1_package_devdependencies"
     },
     {
       "label": "@eslint/js",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L25",
-      "id": "phaser_gacha_test_1_package_devdependencies_eslint_js",
       "community": 5,
-      "norm_label": "@eslint/js"
+      "norm_label": "@eslint/js",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint_js"
     },
     {
       "label": "@playwright/test",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L26",
-      "id": "phaser_gacha_test_1_package_devdependencies_playwright_test",
       "community": 5,
-      "norm_label": "@playwright/test"
+      "norm_label": "@playwright/test",
+      "id": "phaser_gacha_test_1_package_devdependencies_playwright_test"
     },
     {
       "label": "@types/react",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L27",
-      "id": "phaser_gacha_test_1_package_devdependencies_types_react",
       "community": 5,
-      "norm_label": "@types/react"
+      "norm_label": "@types/react",
+      "id": "phaser_gacha_test_1_package_devdependencies_types_react"
     },
     {
       "label": "@types/react-dom",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L28",
-      "id": "phaser_gacha_test_1_package_devdependencies_types_react_dom",
       "community": 5,
-      "norm_label": "@types/react-dom"
+      "norm_label": "@types/react-dom",
+      "id": "phaser_gacha_test_1_package_devdependencies_types_react_dom"
     },
     {
       "label": "@vitejs/plugin-react",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L29",
-      "id": "phaser_gacha_test_1_package_devdependencies_vitejs_plugin_react",
       "community": 5,
-      "norm_label": "@vitejs/plugin-react"
+      "norm_label": "@vitejs/plugin-react",
+      "id": "phaser_gacha_test_1_package_devdependencies_vitejs_plugin_react"
     },
     {
       "label": "eslint",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L30",
-      "id": "phaser_gacha_test_1_package_devdependencies_eslint",
       "community": 5,
-      "norm_label": "eslint"
+      "norm_label": "eslint",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint"
     },
     {
       "label": "eslint-plugin-react-hooks",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L31",
-      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_hooks",
       "community": 5,
-      "norm_label": "eslint-plugin-react-hooks"
+      "norm_label": "eslint-plugin-react-hooks",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_hooks"
     },
     {
       "label": "eslint-plugin-react-refresh",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L32",
-      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_refresh",
       "community": 5,
-      "norm_label": "eslint-plugin-react-refresh"
+      "norm_label": "eslint-plugin-react-refresh",
+      "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_refresh"
     },
     {
       "label": "globals",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L33",
-      "id": "phaser_gacha_test_1_package_devdependencies_globals",
       "community": 5,
-      "norm_label": "globals"
+      "norm_label": "globals",
+      "id": "phaser_gacha_test_1_package_devdependencies_globals"
     },
     {
       "label": "terser",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L34",
-      "id": "phaser_gacha_test_1_package_devdependencies_terser",
       "community": 5,
-      "norm_label": "terser"
+      "norm_label": "terser",
+      "id": "phaser_gacha_test_1_package_devdependencies_terser"
     },
     {
       "label": "typescript",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L35",
-      "id": "phaser_gacha_test_1_package_devdependencies_typescript",
       "community": 5,
-      "norm_label": "typescript"
+      "norm_label": "typescript",
+      "id": "phaser_gacha_test_1_package_devdependencies_typescript"
     },
     {
       "label": "typescript-eslint",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L36",
-      "id": "phaser_gacha_test_1_package_devdependencies_typescript_eslint",
       "community": 5,
-      "norm_label": "typescript-eslint"
+      "norm_label": "typescript-eslint",
+      "id": "phaser_gacha_test_1_package_devdependencies_typescript_eslint"
     },
     {
       "label": "vite",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L37",
-      "id": "phaser_gacha_test_1_package_devdependencies_vite",
       "community": 5,
-      "norm_label": "vite"
+      "norm_label": "vite",
+      "id": "phaser_gacha_test_1_package_devdependencies_vite"
     },
     {
       "label": "playwright.config.ts",
       "file_type": "code",
       "source_file": "playwright.config.ts",
       "source_location": "L1",
-      "id": "playwright_config_ts",
       "community": 46,
-      "norm_label": "playwright.config.ts"
+      "norm_label": "playwright.config.ts",
+      "id": "playwright_config_ts"
     },
     {
       "label": "App.tsx",
       "file_type": "code",
       "source_file": "src/App.tsx",
       "source_location": "L1",
-      "id": "src_app_tsx",
-      "community": 1,
-      "norm_label": "app.tsx"
+      "community": 4,
+      "norm_label": "app.tsx",
+      "id": "src_app_tsx"
     },
     {
       "label": "Screen",
       "file_type": "code",
       "source_file": "src/App.tsx",
       "source_location": "L11",
-      "id": "src_app_screen",
-      "community": 1,
-      "norm_label": "screen"
+      "community": 4,
+      "norm_label": "screen",
+      "id": "src_app_screen"
     },
     {
       "label": "SCREENS",
       "file_type": "code",
       "source_file": "src/App.tsx",
       "source_location": "L13",
-      "id": "src_app_screens",
-      "community": 1,
-      "norm_label": "screens"
+      "community": 4,
+      "norm_label": "screens",
+      "id": "src_app_screens"
     },
     {
       "label": "App()",
       "file_type": "code",
       "source_file": "src/App.tsx",
       "source_location": "L21",
-      "id": "src_app_app",
-      "community": 1,
-      "norm_label": "app()"
+      "community": 4,
+      "norm_label": "app()",
+      "id": "src_app_app"
     },
     {
       "label": "BrewScreen.tsx",
       "file_type": "code",
       "source_file": "src/ui/BrewScreen.tsx",
       "source_location": "L1",
-      "id": "src_ui_brewscreen_tsx",
       "community": 4,
-      "norm_label": "brewscreen.tsx"
+      "norm_label": "brewscreen.tsx",
+      "id": "src_ui_brewscreen_tsx"
     },
     {
       "label": "RARITY_LABEL",
       "file_type": "code",
       "source_file": "src/ui/BrewScreen.tsx",
       "source_location": "L12",
-      "id": "ui_brewscreen_rarity_label",
       "community": 4,
-      "norm_label": "rarity_label"
+      "norm_label": "rarity_label",
+      "id": "ui_brewscreen_rarity_label"
     },
     {
       "label": "ZONE_COPY",
       "file_type": "code",
       "source_file": "src/ui/BrewScreen.tsx",
       "source_location": "L21",
-      "id": "ui_brewscreen_zone_copy",
       "community": 4,
-      "norm_label": "zone_copy"
+      "norm_label": "zone_copy",
+      "id": "ui_brewscreen_zone_copy"
     },
     {
       "label": "pctOfGauge()",
       "file_type": "code",
       "source_file": "src/ui/BrewScreen.tsx",
       "source_location": "L43",
-      "id": "ui_brewscreen_pctofgauge",
       "community": 4,
-      "norm_label": "pctofgauge()"
+      "norm_label": "pctofgauge()",
+      "id": "ui_brewscreen_pctofgauge"
     },
     {
       "label": "BrewScreen()",
       "file_type": "code",
       "source_file": "src/ui/BrewScreen.tsx",
       "source_location": "L47",
-      "id": "ui_brewscreen_brewscreen",
       "community": 4,
-      "norm_label": "brewscreen()"
+      "norm_label": "brewscreen()",
+      "id": "ui_brewscreen_brewscreen"
     },
     {
       "label": "FragmentsScreen.tsx",
       "file_type": "code",
       "source_file": "src/ui/FragmentsScreen.tsx",
       "source_location": "L1",
-      "id": "src_ui_fragmentsscreen_tsx",
       "community": 1,
-      "norm_label": "fragmentsscreen.tsx"
+      "norm_label": "fragmentsscreen.tsx",
+      "id": "src_ui_fragmentsscreen_tsx"
     },
     {
       "label": "TYPE_LABEL",
       "file_type": "code",
       "source_file": "src/ui/FragmentsScreen.tsx",
       "source_location": "L11",
-      "id": "ui_fragmentsscreen_type_label",
       "community": 1,
-      "norm_label": "type_label"
+      "norm_label": "type_label",
+      "id": "ui_fragmentsscreen_type_label"
     },
     {
       "label": "rewardSummary()",
       "file_type": "code",
       "source_file": "src/ui/FragmentsScreen.tsx",
       "source_location": "L18",
-      "id": "ui_fragmentsscreen_rewardsummary",
       "community": 1,
-      "norm_label": "rewardsummary()"
+      "norm_label": "rewardsummary()",
+      "id": "ui_fragmentsscreen_rewardsummary"
     },
     {
       "label": "FragmentsScreen()",
       "file_type": "code",
       "source_file": "src/ui/FragmentsScreen.tsx",
       "source_location": "L25",
-      "id": "ui_fragmentsscreen_fragmentsscreen",
       "community": 1,
-      "norm_label": "fragmentsscreen()"
+      "norm_label": "fragmentsscreen()",
+      "id": "ui_fragmentsscreen_fragmentsscreen"
     },
     {
       "label": "FragmentReader()",
       "file_type": "code",
       "source_file": "src/ui/FragmentsScreen.tsx",
       "source_location": "L81",
-      "id": "ui_fragmentsscreen_fragmentreader",
       "community": 1,
-      "norm_label": "fragmentreader()"
+      "norm_label": "fragmentreader()",
+      "id": "ui_fragmentsscreen_fragmentreader"
     },
     {
       "label": "GachaScreen.tsx",
       "file_type": "code",
       "source_file": "src/ui/GachaScreen.tsx",
       "source_location": "L1",
-      "id": "src_ui_gachascreen_tsx",
       "community": 0,
-      "norm_label": "gachascreen.tsx"
+      "norm_label": "gachascreen.tsx",
+      "id": "src_ui_gachascreen_tsx"
     },
     {
       "label": "RARITY_LABEL",
       "file_type": "code",
       "source_file": "src/ui/GachaScreen.tsx",
       "source_location": "L10",
-      "id": "ui_gachascreen_rarity_label",
       "community": 0,
-      "norm_label": "rarity_label"
+      "norm_label": "rarity_label",
+      "id": "ui_gachascreen_rarity_label"
     },
     {
       "label": "pct()",
       "file_type": "code",
       "source_file": "src/ui/GachaScreen.tsx",
       "source_location": "L18",
-      "id": "ui_gachascreen_pct",
       "community": 0,
-      "norm_label": "pct()"
+      "norm_label": "pct()",
+      "id": "ui_gachascreen_pct"
     },
     {
       "label": "GachaScreen()",
       "file_type": "code",
       "source_file": "src/ui/GachaScreen.tsx",
       "source_location": "L22",
-      "id": "ui_gachascreen_gachascreen",
       "community": 0,
-      "norm_label": "gachascreen()"
+      "norm_label": "gachascreen()",
+      "id": "ui_gachascreen_gachascreen"
     },
     {
       "label": "RosterScreen.tsx",
       "file_type": "code",
       "source_file": "src/ui/RosterScreen.tsx",
       "source_location": "L1",
-      "id": "src_ui_rosterscreen_tsx",
       "community": 0,
-      "norm_label": "rosterscreen.tsx"
+      "norm_label": "rosterscreen.tsx",
+      "id": "src_ui_rosterscreen_tsx"
     },
     {
       "label": "RARITY_LABEL",
       "file_type": "code",
       "source_file": "src/ui/RosterScreen.tsx",
       "source_location": "L7",
-      "id": "ui_rosterscreen_rarity_label",
       "community": 0,
-      "norm_label": "rarity_label"
+      "norm_label": "rarity_label",
+      "id": "ui_rosterscreen_rarity_label"
     },
     {
       "label": "RosterScreen()",
       "file_type": "code",
       "source_file": "src/ui/RosterScreen.tsx",
       "source_location": "L20",
-      "id": "ui_rosterscreen_rosterscreen",
-      "community": 1,
-      "norm_label": "rosterscreen()"
+      "community": 0,
+      "norm_label": "rosterscreen()",
+      "id": "ui_rosterscreen_rosterscreen"
     },
     {
       "label": "VigilScreen.tsx",
       "file_type": "code",
       "source_file": "src/ui/VigilScreen.tsx",
       "source_location": "L1",
-      "id": "src_ui_vigilscreen_tsx",
       "community": 4,
-      "norm_label": "vigilscreen.tsx"
+      "norm_label": "vigilscreen.tsx",
+      "id": "src_ui_vigilscreen_tsx"
     },
     {
       "label": "ZONE_LABEL",
       "file_type": "code",
       "source_file": "src/ui/VigilScreen.tsx",
       "source_location": "L11",
-      "id": "ui_vigilscreen_zone_label",
       "community": 4,
-      "norm_label": "zone_label"
+      "norm_label": "zone_label",
+      "id": "ui_vigilscreen_zone_label"
     },
     {
       "label": "formatDuration()",
       "file_type": "code",
       "source_file": "src/ui/VigilScreen.tsx",
       "source_location": "L18",
-      "id": "ui_vigilscreen_formatduration",
       "community": 4,
-      "norm_label": "formatduration()"
+      "norm_label": "formatduration()",
+      "id": "ui_vigilscreen_formatduration"
     },
     {
       "label": "VigilScreen()",
       "file_type": "code",
       "source_file": "src/ui/VigilScreen.tsx",
       "source_location": "L28",
-      "id": "ui_vigilscreen_vigilscreen",
       "community": 4,
-      "norm_label": "vigilscreen()"
+      "norm_label": "vigilscreen()",
+      "id": "ui_vigilscreen_vigilscreen"
     },
     {
       "label": "README.md",
       "file_type": "document",
       "source_file": "tests/e2e/README.md",
       "source_location": "L1",
-      "id": "tests_e2e_readme_md",
       "community": 18,
-      "norm_label": "readme.md"
+      "norm_label": "readme.md",
+      "id": "tests_e2e_readme_md"
     },
     {
       "label": "End-to-end tests (Playwright)",
       "file_type": "document",
       "source_file": "tests/e2e/README.md",
       "source_location": "L1",
-      "id": "e2e_readme_end_to_end_tests_playwright",
       "community": 18,
-      "norm_label": "end-to-end tests (playwright)"
+      "norm_label": "end-to-end tests (playwright)",
+      "id": "e2e_readme_end_to_end_tests_playwright"
     },
     {
       "label": "Running",
       "file_type": "document",
       "source_file": "tests/e2e/README.md",
       "source_location": "L7",
-      "id": "e2e_readme_running",
       "community": 18,
-      "norm_label": "running"
+      "norm_label": "running",
+      "id": "e2e_readme_running"
     },
     {
       "label": "How the tests work",
       "file_type": "document",
       "source_file": "tests/e2e/README.md",
       "source_location": "L20",
-      "id": "e2e_readme_how_the_tests_work",
       "community": 18,
-      "norm_label": "how the tests work"
+      "norm_label": "how the tests work",
+      "id": "e2e_readme_how_the_tests_work"
     },
     {
       "label": "Coverage",
       "file_type": "document",
       "source_file": "tests/e2e/README.md",
       "source_location": "L35",
-      "id": "e2e_readme_coverage",
       "community": 18,
-      "norm_label": "coverage"
+      "norm_label": "coverage",
+      "id": "e2e_readme_coverage"
     },
     {
       "label": "Adding a test",
       "file_type": "document",
       "source_file": "tests/e2e/README.md",
       "source_location": "L47",
-      "id": "e2e_readme_adding_a_test",
       "community": 18,
-      "norm_label": "adding a test"
+      "norm_label": "adding a test",
+      "id": "e2e_readme_adding_a_test"
     },
     {
       "label": "brew.spec.ts",
       "file_type": "code",
       "source_file": "tests/e2e/brew.spec.ts",
       "source_location": "L1",
-      "id": "tests_e2e_brew_spec_ts",
       "community": 8,
-      "norm_label": "brew.spec.ts"
+      "norm_label": "brew.spec.ts",
+      "id": "tests_e2e_brew_spec_ts"
     },
     {
       "label": "fragments.spec.ts",
       "file_type": "code",
       "source_file": "tests/e2e/fragments.spec.ts",
       "source_location": "L1",
-      "id": "tests_e2e_fragments_spec_ts",
       "community": 8,
-      "norm_label": "fragments.spec.ts"
+      "norm_label": "fragments.spec.ts",
+      "id": "tests_e2e_fragments_spec_ts"
     },
     {
       "label": "walkToEnd()",
       "file_type": "code",
       "source_file": "tests/e2e/fragments.spec.ts",
       "source_location": "L13",
-      "id": "e2e_fragments_spec_walktoend",
       "community": 8,
-      "norm_label": "walktoend()"
+      "norm_label": "walktoend()",
+      "id": "e2e_fragments_spec_walktoend"
     },
     {
       "label": "gacha.spec.ts",
       "file_type": "code",
       "source_file": "tests/e2e/gacha.spec.ts",
       "source_location": "L1",
-      "id": "tests_e2e_gacha_spec_ts",
       "community": 8,
-      "norm_label": "gacha.spec.ts"
+      "norm_label": "gacha.spec.ts",
+      "id": "tests_e2e_gacha_spec_ts"
     },
     {
       "label": "helpers.ts",
       "file_type": "code",
       "source_file": "tests/e2e/helpers.ts",
       "source_location": "L1",
-      "id": "tests_e2e_helpers_ts",
       "community": 8,
-      "norm_label": "helpers.ts"
+      "norm_label": "helpers.ts",
+      "id": "tests_e2e_helpers_ts"
     },
     {
       "label": "Screen",
       "file_type": "code",
       "source_file": "tests/e2e/helpers.ts",
       "source_location": "L19",
-      "id": "e2e_helpers_screen",
       "community": 8,
-      "norm_label": "screen"
+      "norm_label": "screen",
+      "id": "e2e_helpers_screen"
     },
     {
       "label": "OwnedCharacter",
       "file_type": "code",
       "source_file": "tests/e2e/helpers.ts",
       "source_location": "L21",
-      "id": "e2e_helpers_ownedcharacter",
       "community": 8,
-      "norm_label": "ownedcharacter"
+      "norm_label": "ownedcharacter",
+      "id": "e2e_helpers_ownedcharacter"
     },
     {
       "label": "SeedState",
       "file_type": "code",
       "source_file": "tests/e2e/helpers.ts",
       "source_location": "L27",
-      "id": "e2e_helpers_seedstate",
       "community": 8,
-      "norm_label": "seedstate"
+      "norm_label": "seedstate",
+      "id": "e2e_helpers_seedstate"
     },
     {
       "label": "seed()",
       "file_type": "code",
       "source_file": "tests/e2e/helpers.ts",
       "source_location": "L53",
-      "id": "e2e_helpers_seed",
       "community": 8,
-      "norm_label": "seed()"
+      "norm_label": "seed()",
+      "id": "e2e_helpers_seed"
     },
     {
       "label": "open()",
       "file_type": "code",
       "source_file": "tests/e2e/helpers.ts",
       "source_location": "L84",
-      "id": "e2e_helpers_open",
       "community": 8,
-      "norm_label": "open()"
+      "norm_label": "open()",
+      "id": "e2e_helpers_open"
     },
     {
       "label": "navTo()",
       "file_type": "code",
       "source_file": "tests/e2e/helpers.ts",
       "source_location": "L90",
-      "id": "e2e_helpers_navto",
       "community": 8,
-      "norm_label": "navto()"
+      "norm_label": "navto()",
+      "id": "e2e_helpers_navto"
     },
     {
       "label": "readNumber()",
       "file_type": "code",
       "source_file": "tests/e2e/helpers.ts",
       "source_location": "L96",
-      "id": "e2e_helpers_readnumber",
       "community": 8,
-      "norm_label": "readnumber()"
+      "norm_label": "readnumber()",
+      "id": "e2e_helpers_readnumber"
     },
     {
       "label": "nav.spec.ts",
       "file_type": "code",
       "source_file": "tests/e2e/nav.spec.ts",
       "source_location": "L1",
-      "id": "tests_e2e_nav_spec_ts",
       "community": 8,
-      "norm_label": "nav.spec.ts"
+      "norm_label": "nav.spec.ts",
+      "id": "tests_e2e_nav_spec_ts"
     },
     {
       "label": "SCREENS",
       "file_type": "code",
       "source_file": "tests/e2e/nav.spec.ts",
       "source_location": "L10",
-      "id": "e2e_nav_spec_screens",
       "community": 8,
-      "norm_label": "screens"
+      "norm_label": "screens",
+      "id": "e2e_nav_spec_screens"
     },
     {
       "label": "persistence.spec.ts",
       "file_type": "code",
       "source_file": "tests/e2e/persistence.spec.ts",
       "source_location": "L1",
-      "id": "tests_e2e_persistence_spec_ts",
       "community": 8,
-      "norm_label": "persistence.spec.ts"
+      "norm_label": "persistence.spec.ts",
+      "id": "tests_e2e_persistence_spec_ts"
     },
     {
       "label": "roster.spec.ts",
       "file_type": "code",
       "source_file": "tests/e2e/roster.spec.ts",
       "source_location": "L1",
-      "id": "tests_e2e_roster_spec_ts",
       "community": 8,
-      "norm_label": "roster.spec.ts"
+      "norm_label": "roster.spec.ts",
+      "id": "tests_e2e_roster_spec_ts"
     },
     {
       "label": "vigil.spec.ts",
       "file_type": "code",
       "source_file": "tests/e2e/vigil.spec.ts",
       "source_location": "L1",
-      "id": "tests_e2e_vigil_spec_ts",
       "community": 8,
-      "norm_label": "vigil.spec.ts"
+      "norm_label": "vigil.spec.ts",
+      "id": "tests_e2e_vigil_spec_ts"
     },
     {
       "label": "leveling.ts",
@@ -1042,7 +1132,7 @@
       "file_type": "code",
       "source_file": "src/core/progress/leveling.ts",
       "source_location": "L107",
-      "community": 1,
+      "community": 15,
       "norm_label": "levelupresult",
       "id": "progress_leveling_levelupresult"
     },
@@ -1060,7 +1150,7 @@
       "file_type": "code",
       "source_file": "src/ui/GameContext.tsx",
       "source_location": "L1",
-      "community": 1,
+      "community": 15,
       "norm_label": "gamecontext.tsx",
       "id": "src_ui_gamecontext_tsx"
     },
@@ -1069,7 +1159,7 @@
       "file_type": "code",
       "source_file": "src/ui/GameContext.tsx",
       "source_location": "L21",
-      "community": 1,
+      "community": 15,
       "norm_label": "gameapi",
       "id": "ui_gamecontext_gameapi"
     },
@@ -1078,7 +1168,7 @@
       "file_type": "code",
       "source_file": "src/ui/GameContext.tsx",
       "source_location": "L45",
-      "community": 1,
+      "community": 15,
       "norm_label": "gamecontext",
       "id": "ui_gamecontext_gamecontext"
     },
@@ -1087,7 +1177,7 @@
       "file_type": "code",
       "source_file": "src/ui/GameContext.tsx",
       "source_location": "L47",
-      "community": 1,
+      "community": 15,
       "norm_label": "gameprovider()",
       "id": "ui_gamecontext_gameprovider"
     },
@@ -1096,7 +1186,7 @@
       "file_type": "code",
       "source_file": "src/ui/GameContext.tsx",
       "source_location": "L125",
-      "community": 1,
+      "community": 0,
       "norm_label": "usegame()",
       "id": "ui_gamecontext_usegame"
     },
@@ -1231,7 +1321,7 @@
       "file_type": "code",
       "source_file": "src/core/state/gameState.ts",
       "source_location": "L1",
-      "community": 1,
+      "community": 15,
       "norm_label": "gamestate.ts",
       "id": "src_core_state_gamestate_ts"
     },
@@ -1240,7 +1330,7 @@
       "file_type": "code",
       "source_file": "src/core/state/gameState.ts",
       "source_location": "L10",
-      "community": 1,
+      "community": 15,
       "norm_label": "ownedcharacter",
       "id": "state_gamestate_ownedcharacter"
     },
@@ -1249,7 +1339,7 @@
       "file_type": "code",
       "source_file": "src/core/state/gameState.ts",
       "source_location": "L19",
-      "community": 1,
+      "community": 15,
       "norm_label": "gamestate",
       "id": "state_gamestate_gamestate"
     },
@@ -1258,7 +1348,7 @@
       "file_type": "code",
       "source_file": "src/core/state/gameState.ts",
       "source_location": "L55",
-      "community": 1,
+      "community": 15,
       "norm_label": "emptyflicker()",
       "id": "state_gamestate_emptyflicker"
     },
@@ -1267,7 +1357,7 @@
       "file_type": "code",
       "source_file": "src/core/state/gameState.ts",
       "source_location": "L60",
-      "community": 1,
+      "community": 15,
       "norm_label": "newgame()",
       "id": "state_gamestate_newgame"
     },
@@ -1276,7 +1366,7 @@
       "file_type": "code",
       "source_file": "src/core/state/save.ts",
       "source_location": "L1",
-      "community": 1,
+      "community": 15,
       "norm_label": "save.ts",
       "id": "src_core_state_save_ts"
     },
@@ -1285,7 +1375,7 @@
       "file_type": "code",
       "source_file": "src/core/state/save.ts",
       "source_location": "L12",
-      "community": 1,
+      "community": 15,
       "norm_label": "migrate()",
       "id": "state_save_migrate"
     },
@@ -1294,7 +1384,7 @@
       "file_type": "code",
       "source_file": "src/core/state/save.ts",
       "source_location": "L33",
-      "community": 1,
+      "community": 15,
       "norm_label": "loadgame()",
       "id": "state_save_loadgame"
     },
@@ -1303,7 +1393,7 @@
       "file_type": "code",
       "source_file": "src/core/state/save.ts",
       "source_location": "L53",
-      "community": 1,
+      "community": 15,
       "norm_label": "savegame()",
       "id": "state_save_savegame"
     },
@@ -1312,7 +1402,7 @@
       "file_type": "code",
       "source_file": "src/core/state/save.ts",
       "source_location": "L63",
-      "community": 1,
+      "community": 15,
       "norm_label": "clearsave()",
       "id": "state_save_clearsave"
     },
@@ -1384,7 +1474,7 @@
       "file_type": "code",
       "source_file": "src/core/idle/vigil.ts",
       "source_location": "L84",
-      "community": 1,
+      "community": 15,
       "norm_label": "accrualresult",
       "id": "idle_vigil_accrualresult"
     },
@@ -1582,7 +1672,7 @@
       "file_type": "code",
       "source_file": "src/core/gacha/banner.ts",
       "source_location": "L4",
-      "community": 1,
+      "community": 15,
       "norm_label": "bannerconfig",
       "id": "gacha_banner_bannerconfig"
     },
@@ -1627,7 +1717,7 @@
       "file_type": "code",
       "source_file": "src/core/gacha/pull.ts",
       "source_location": "L19",
-      "community": 1,
+      "community": 15,
       "norm_label": "pullresult",
       "id": "gacha_pull_pullresult"
     },
@@ -2275,7 +2365,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/EventBus.ts",
       "source_location": "L1",
-      "community": 14,
+      "community": 25,
       "norm_label": "eventbus.ts",
       "id": "reference_phaser_react_template_src_game_eventbus_ts"
     },
@@ -2284,7 +2374,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/EventBus.ts",
       "source_location": "L4",
-      "community": 14,
+      "community": 16,
       "norm_label": "eventbus",
       "id": "game_eventbus_eventbus"
     },
@@ -2365,7 +2455,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Game.ts",
       "source_location": "L1",
-      "community": 14,
+      "community": 32,
       "norm_label": "game.ts",
       "id": "reference_phaser_react_template_src_game_scenes_game_ts"
     },
@@ -2419,7 +2509,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
       "source_location": "L4",
-      "community": 16,
+      "community": 14,
       "norm_label": "gameover",
       "id": "scenes_gameover_gameover"
     },
@@ -2428,7 +2518,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
       "source_location": "L10",
-      "community": 16,
+      "community": 14,
       "norm_label": ".constructor()",
       "id": "scenes_gameover_gameover_constructor"
     },
@@ -2437,7 +2527,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
       "source_location": "L15",
-      "community": 16,
+      "community": 14,
       "norm_label": ".create()",
       "id": "scenes_gameover_gameover_create"
     },
@@ -2446,7 +2536,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/GameOver.ts",
       "source_location": "L32",
-      "community": 16,
+      "community": 14,
       "norm_label": ".changescene()",
       "id": "scenes_gameover_gameover_changescene"
     },
@@ -2455,7 +2545,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
       "source_location": "L1",
-      "community": 14,
+      "community": 25,
       "norm_label": "mainmenu.ts",
       "id": "reference_phaser_react_template_src_game_scenes_mainmenu_ts"
     },
@@ -2896,7 +2986,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L1",
-      "community": 27,
+      "community": 22,
       "norm_label": "boot.ts",
       "id": "src_game_scenes_boot_ts"
     },
@@ -2905,7 +2995,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L3",
-      "community": 27,
+      "community": 22,
       "norm_label": "boot",
       "id": "src_game_scenes_boot_ts_scenes_boot_boot"
     },
@@ -2914,7 +3004,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L5",
-      "community": 27,
+      "community": 22,
       "norm_label": ".constructor()",
       "id": "src_game_scenes_boot_ts_scenes_boot_boot_constructor"
     },
@@ -2923,7 +3013,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L10",
-      "community": 27,
+      "community": 22,
       "norm_label": ".preload()",
       "id": "src_game_scenes_boot_ts_scenes_boot_boot_preload"
     },
@@ -2932,7 +3022,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/Boot.ts",
       "source_location": "L16",
-      "community": 27,
+      "community": 22,
       "norm_label": ".create()",
       "id": "src_game_scenes_boot_ts_scenes_boot_boot_create"
     },
@@ -2941,7 +3031,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L1",
-      "community": 26,
+      "community": 16,
       "norm_label": "game.ts",
       "id": "src_game_scenes_game_ts"
     },
@@ -2995,7 +3085,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L5",
-      "community": 16,
+      "community": 27,
       "norm_label": "mainmenu",
       "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu"
     },
@@ -3004,7 +3094,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L9",
-      "community": 16,
+      "community": 27,
       "norm_label": ".constructor()",
       "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_constructor"
     },
@@ -3013,7 +3103,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L14",
-      "community": 16,
+      "community": 27,
       "norm_label": ".create()",
       "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_create"
     },
@@ -3022,7 +3112,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L25",
-      "community": 16,
+      "community": 27,
       "norm_label": ".changescene()",
       "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_changescene"
     },
@@ -3391,7 +3481,7 @@
       "file_type": "code",
       "source_file": "src/main.tsx",
       "source_location": "L1",
-      "community": 1,
+      "community": 4,
       "norm_label": "main.tsx",
       "id": "src_main_tsx"
     },
@@ -3530,162 +3620,6 @@
       "community": 34,
       "norm_label": "log.js anonymous telemetry",
       "id": "logjs_telemetry"
-    },
-    {
-      "label": "React-Phaser Bridge pattern",
-      "file_type": "rationale",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 2,
-      "norm_label": "react-phaser bridge pattern",
-      "id": "readme_react_bridge"
-    },
-    {
-      "label": "Anonymous telemetry rationale",
-      "file_type": "rationale",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 34,
-      "norm_label": "anonymous telemetry rationale",
-      "id": "readme_telemetry_rationale"
-    },
-    {
-      "label": "Phaser Game Main Menu Screen",
-      "file_type": "image",
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 10,
-      "norm_label": "phaser game main menu screen",
-      "id": "screenshot_phaser_main_menu"
-    },
-    {
-      "label": "Phaser Logo Title",
-      "file_type": "image",
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 10,
-      "norm_label": "phaser logo title",
-      "id": "screenshot_phaser_logo"
-    },
-    {
-      "label": "Main Menu Text Label",
-      "file_type": "image",
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 10,
-      "norm_label": "main menu text label",
-      "id": "screenshot_main_menu_label"
-    },
-    {
-      "label": "Animated Star Sprites",
-      "file_type": "image",
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 10,
-      "norm_label": "animated star sprites",
-      "id": "screenshot_star_sprites"
-    },
-    {
-      "label": "Blue Gradient Background",
-      "file_type": "image",
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 10,
-      "norm_label": "blue gradient background",
-      "id": "screenshot_gradient_background"
-    },
-    {
-      "label": "Right-Side Debug Control Panel",
-      "file_type": "image",
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 10,
-      "norm_label": "right-side debug control panel",
-      "id": "screenshot_debug_panel"
-    },
-    {
-      "label": "Change Scene Button",
-      "file_type": "image",
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 10,
-      "norm_label": "change scene button",
-      "id": "screenshot_change_scene_btn"
-    },
-    {
-      "label": "Toggle Movement Button",
-      "file_type": "image",
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 10,
-      "norm_label": "toggle movement button",
-      "id": "screenshot_toggle_movement_btn"
-    },
-    {
-      "label": "Sprite Position Control",
-      "file_type": "image",
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 10,
-      "norm_label": "sprite position control",
-      "id": "screenshot_sprite_position_control"
-    },
-    {
-      "label": "Add New Sprite Button",
-      "file_type": "image",
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 10,
-      "norm_label": "add new sprite button",
-      "id": "screenshot_add_sprite_btn"
     },
     {
       "label": "Favicon Icon",
@@ -4014,7 +3948,7 @@
       "file_type": "code",
       "source_file": "App.tsx",
       "source_location": "L1",
-      "community": 1,
+      "community": 4,
       "norm_label": "app.tsx",
       "id": "app_tsx"
     },
@@ -4032,7 +3966,7 @@
       "file_type": "code",
       "source_file": "core/state/gameState.ts",
       "source_location": "L1",
-      "community": 1,
+      "community": 15,
       "norm_label": "gamestate.ts",
       "id": "core_state_gamestate_ts"
     },
@@ -4041,7 +3975,7 @@
       "file_type": "code",
       "source_file": "core/state/save.ts",
       "source_location": "L1",
-      "community": 1,
+      "community": 15,
       "norm_label": "save.ts",
       "id": "core_state_save_ts"
     },
@@ -4050,7 +3984,7 @@
       "file_type": "code",
       "source_file": "ui/GameContext.tsx",
       "source_location": "L1",
-      "community": 1,
+      "community": 15,
       "norm_label": "gamecontext.tsx",
       "id": "ui_gamecontext_tsx"
     },
@@ -4140,7 +4074,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/EventBus.ts",
       "source_location": "L4",
-      "community": 14,
+      "community": 25,
       "norm_label": "eventbus",
       "id": "reference_phaser_react_template_src_game_eventbus_ts_game_eventbus_eventbus"
     },
@@ -4325,6 +4259,96 @@
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "phaser_gacha_test_1_readme_reverie_vigil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_readme_reverie_vigil",
+      "target": "phaser_gacha_test_1_readme_deploying",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_readme_reverie_vigil",
+      "target": "phaser_gacha_test_1_readme_design_reference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_readme_reverie_vigil",
+      "target": "phaser_gacha_test_1_readme_getting_started",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_readme_reverie_vigil",
+      "target": "phaser_gacha_test_1_readme_handling_assets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_readme_reverie_vigil",
+      "target": "phaser_gacha_test_1_readme_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_readme_reverie_vigil",
+      "target": "phaser_gacha_test_1_readme_react_phaser_bridge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_readme_reverie_vigil",
+      "target": "phaser_gacha_test_1_readme_tech_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "phaser_gacha_test_1_readme_getting_started",
+      "target": "phaser_gacha_test_1_readme_available_commands",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -6035,9 +6059,9 @@
       "source_file": "tests/e2e/README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_e2e_readme_md",
-      "target": "e2e_readme_end_to_end_tests_playwright",
-      "confidence_score": 1.0
+      "target": "e2e_readme_end_to_end_tests_playwright"
     },
     {
       "relation": "contains",
@@ -6045,9 +6069,9 @@
       "source_file": "tests/e2e/README.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2e_readme_end_to_end_tests_playwright",
-      "target": "e2e_readme_adding_a_test",
-      "confidence_score": 1.0
+      "target": "e2e_readme_adding_a_test"
     },
     {
       "relation": "contains",
@@ -6055,9 +6079,9 @@
       "source_file": "tests/e2e/README.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2e_readme_end_to_end_tests_playwright",
-      "target": "e2e_readme_coverage",
-      "confidence_score": 1.0
+      "target": "e2e_readme_coverage"
     },
     {
       "relation": "contains",
@@ -6065,9 +6089,9 @@
       "source_file": "tests/e2e/README.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2e_readme_end_to_end_tests_playwright",
-      "target": "e2e_readme_how_the_tests_work",
-      "confidence_score": 1.0
+      "target": "e2e_readme_how_the_tests_work"
     },
     {
       "relation": "contains",
@@ -6075,9 +6099,9 @@
       "source_file": "tests/e2e/README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2e_readme_end_to_end_tests_playwright",
-      "target": "e2e_readme_running",
-      "confidence_score": 1.0
+      "target": "e2e_readme_running"
     },
     {
       "relation": "imports",
@@ -11319,16 +11343,6 @@
       "target": "eventbus_eventbus"
     },
     {
-      "relation": "rationale_for",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme_react_bridge",
-      "target": "eventbus_eventbus"
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -11339,16 +11353,6 @@
       "target": "event_current_scene_ready"
     },
     {
-      "relation": "rationale_for",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "readme_react_bridge",
-      "target": "phasergame_component"
-    },
-    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -11357,146 +11361,6 @@
       "weight": 1.0,
       "source": "gameover_scene",
       "target": "event_current_scene_ready"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "logjs_telemetry",
-      "target": "readme_telemetry_rationale"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.75,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_change_scene_btn",
-      "target": "screenshot_phaser_main_menu"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_debug_panel",
-      "target": "screenshot_phaser_main_menu"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_gradient_background",
-      "target": "screenshot_phaser_main_menu"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_main_menu_label",
-      "target": "screenshot_phaser_main_menu"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_phaser_logo",
-      "target": "screenshot_phaser_main_menu"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_star_sprites",
-      "target": "screenshot_phaser_main_menu"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_add_sprite_btn",
-      "target": "screenshot_star_sprites"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.75,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_sprite_position_control",
-      "target": "screenshot_star_sprites"
-    },
-    {
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_toggle_movement_btn",
-      "target": "screenshot_star_sprites"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_add_sprite_btn",
-      "target": "screenshot_debug_panel"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_change_scene_btn",
-      "target": "screenshot_debug_panel"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_sprite_position_control",
-      "target": "screenshot_debug_panel"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "screenshot.png",
-      "source_location": null,
-      "weight": 1.0,
-      "source": "screenshot_toggle_movement_btn",
-      "target": "screenshot_debug_panel"
     },
     {
       "relation": "conceptually_related_to",
@@ -12051,5 +11915,5 @@
       "source_file": "tests/e2e/helpers.ts"
     }
   ],
-  "built_at_commit": "6eb557e8649e7d090762e06801e43829e3fd58f7"
+  "built_at_commit": "9be71539ffd02a8dcfbe5ee12c920dc13644362a"
 }
