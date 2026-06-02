@@ -12,7 +12,8 @@ You are a proposer and a collaborator, not a passive executor. When you see a be
 - **Engine:** Phaser 4
 - **Bundler / dev server:** Vite
 - **Package manager:** npm
-- **Language:** TypeScript — préciser}}
+- **Language:** TypeScript
+- **UI layer:** React (HTML/CSS for menus, gacha, roster, Dream Fragments); Phaser owns only the game/combat canvas
 - **Source control:** Git (GitHub). You have access to this repository.
 </tech_stack>
 
@@ -50,14 +51,14 @@ Rules:
 </game_design_document>
 
 <commands>
-Run these from the project root. {{Confirmer / ajuster les noms exacts dans package.json}}
+Run these from the project root.
 
 - **Install dependencies:** `npm install`
-- **Start dev server:** `npm run dev`
+- **Start dev server:** `npm run dev` (Vite on port 8080)
 - **Production build:** `npm run build`
 - **Preview production build:** `npm run preview`
-- **Lint (if configured):** `{{npm run lint — ou retirer si absent}}`
-- **Tests (if configured):** `{{npm run test — ou retirer si absent}}`
+
+No lint or test scripts are configured yet. If one is added later, list it here.
 
 If a command above does not exist in `package.json`, tell the owner instead of guessing or inventing a script.
 </commands>

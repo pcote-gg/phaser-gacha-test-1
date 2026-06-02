@@ -1,23 +1,24 @@
 import { Boot } from './scenes/Boot';
+import { GameOver } from './scenes/GameOver';
 import { Game as MainGame } from './scenes/Game';
 import { MainMenu } from './scenes/MainMenu';
 import { AUTO, Game } from 'phaser';
 import { Preloader } from './scenes/Preloader';
 
-//  Game configuration. See https://docs.phaser.io/api-documentation/typedef/types-core#gameconfig
-//  Phaser owns the game canvas only (world / combat). All menus, gacha, roster, and
-//  Dream Fragment UI live in the React layer that mounts this canvas.
+//  Find out more information about the Game Config at:
+//  https://docs.phaser.io/api-documentation/typedef/types-core#gameconfig
 const config: Phaser.Types.Core.GameConfig = {
     type: AUTO,
     width: 1024,
     height: 768,
     parent: 'game-container',
-    backgroundColor: '#1a1326',
+    backgroundColor: '#028af8',
     scene: [
         Boot,
         Preloader,
         MainMenu,
-        MainGame
+        MainGame,
+        GameOver
     ]
 };
 
