@@ -33,7 +33,7 @@ export function FragmentsScreen() {
     const fragments = allFragments();
 
     return (
-        <div className="fragments">
+        <div className="fragments" data-testid="screen-fragments">
             <h1 className="fragments__title">Dream Fragments</h1>
             <p className="fragments__flavour">
                 Step into the dream and find out what happens next.
@@ -48,7 +48,7 @@ export function FragmentsScreen() {
                                 <span className={`frag-card__type frag-card__type--${f.type}`}>
                                     {TYPE_LABEL[f.type]}
                                 </span>
-                                {done && <span className="frag-card__done">✓ Read</span>}
+                                {done && <span className="frag-card__done" data-testid={`frag-done-${f.id}`}>✓ Read</span>}
                             </div>
                             <h2 className="frag-card__title">{f.title}</h2>
                             {f.subtitle && <p className="frag-card__subtitle">{f.subtitle}</p>}
@@ -59,6 +59,7 @@ export function FragmentsScreen() {
                                 </span>
                                 <button
                                     className="frag-card__play"
+                                    data-testid={`frag-begin-${f.id}`}
                                     onClick={() => setReading(f)}
                                 >
                                     {done ? 'Replay' : 'Begin'}
@@ -111,21 +112,21 @@ function FragmentReader({
     // --- Completion card ---
     if (finished) {
         return (
-            <div className="reader">
+            <div className="reader" data-testid="reader">
                 <div className="reader__end">
                     <h2 className="reader__end-title">{fragment.title}</h2>
                     <p className="reader__end-sub">The dream settles. You return to the vigil.</p>
                     {reward ? (
-                        <div className="reader__reward">
+                        <div className="reader__reward" data-testid="reader-reward">
                             <span className="reader__reward-label">You gathered</span>
                             <span className="reader__reward-value">{rewardSummary(reward)}</span>
                         </div>
                     ) : (
-                        <p className="reader__reward-none">
+                        <p className="reader__reward-none" data-testid="reader-reward-none">
                             You’ve walked this dream before — no new reward this time.
                         </p>
                     )}
-                    <button className="reader__exit" onClick={onExit}>
+                    <button className="reader__exit" data-testid="reader-exit" onClick={onExit}>
                         Close
                     </button>
                 </div>
@@ -146,7 +147,7 @@ function FragmentReader({
 
             {current.kind === 'line' && (
                 // The whole stage advances on tap — classic VN feel.
-                <div className="reader__stage" onClick={advance}>
+                <div className="reader__stage" data-testid="reader-line" onClick={advance}>
                     <div className="reader__panel">
                         {current.speaker && (
                             <span className="reader__speaker">{current.speaker}</span>
@@ -166,6 +167,7 @@ function FragmentReader({
                         {current.options.map((opt, i) => (
                             <button
                                 key={i}
+                                data-testid={`reader-choice-${i}`}
                                 className="reader__choice"
                                 onClick={() => setPicked(i)}
                             >
@@ -177,7 +179,7 @@ function FragmentReader({
             )}
 
             {current.kind === 'choice' && picked !== null && (
-                <div className="reader__stage" onClick={advance}>
+                <div className="reader__stage" data-testid="reader-response" onClick={advance}>
                     <div className="reader__panel">
                         <p className="reader__text">{current.options[picked].response}</p>
                     </div>

@@ -22,10 +22,10 @@ export function RosterScreen() {
     const dreamsand = Math.floor(state.currencies.dreamsand);
 
     return (
-        <div className="roster">
+        <div className="roster" data-testid="screen-roster">
             <h1 className="roster__title">The Awake</h1>
             <p className="roster__balance">
-                <span className="roster__sand">◇ {dreamsand.toLocaleString()}</span> Dreamsand
+                <span className="roster__sand" data-testid="roster-dreamsand">◇ {dreamsand.toLocaleString()}</span> Dreamsand
             </p>
 
             {state.roster.length === 0 ? (
@@ -42,13 +42,13 @@ export function RosterScreen() {
                         const maxed = quote.block === 'at-cap';
 
                         return (
-                            <li key={owned.id} className={`unit draw--${def.rarity}`}>
+                            <li key={owned.id} data-testid={`roster-unit-${owned.id}`} className={`unit draw--${def.rarity}`}>
                                 <div className="unit__head">
                                     <span className="unit__name">{def.name}</span>
                                     <span className="unit__tier">{RARITY_LABEL[def.rarity]}</span>
                                 </div>
                                 <div className="unit__level">
-                                    Lv {owned.level}
+                                    Lv <span data-testid={`roster-level-${owned.id}`}>{owned.level}</span>
                                     <span className="unit__cap"> / {quote.cap}</span>
                                 </div>
                                 <div className="unit__stats">
@@ -58,6 +58,7 @@ export function RosterScreen() {
                                 </div>
                                 <button
                                     className="unit__levelup"
+                                    data-testid={`roster-levelup-${owned.id}`}
                                     disabled={!quote.ok}
                                     onClick={() => levelUp(owned.id)}
                                     title={

@@ -57,8 +57,14 @@ Run these from the project root.
 - **Start dev server:** `npm run dev` (Vite on port 8080)
 - **Production build:** `npm run build`
 - **Preview production build:** `npm run preview`
+- **Run e2e browser tests:** `npm run test:e2e` (Playwright; auto-starts the dev server)
+- **e2e in a visible browser:** `npm run test:e2e:headed`
+- **e2e interactive runner:** `npm run test:e2e:ui`
+- **Open last e2e report:** `npm run test:e2e:report`
 
-No lint or test scripts are configured yet. If one is added later, list it here.
+The e2e suite (Playwright) lives in `/tests/e2e`; see `tests/e2e/README.md` for how it
+works (data-testid selectors, localStorage seeding, canvas/screenshot caveats). No lint
+script is configured yet. If one is added later, list it here.
 
 If a command above does not exist in `package.json`, tell the owner instead of guessing or inventing a script.
 </commands>

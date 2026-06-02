@@ -45,19 +45,19 @@ export function VigilScreen() {
     const hasTeam = state.team.length > 0;
 
     return (
-        <div className="vigil">
+        <div className="vigil" data-testid="screen-vigil">
             <h1 className="vigil__title">The Vigil</h1>
             <p className="vigil__flavour">Hold the watch. Harvest the dream’s own sand.</p>
 
             {showAway && (
-                <div className="vigil__away">
+                <div className="vigil__away" data-testid="vigil-away">
                     <span className="away__head">While you held the vigil…</span>
                     <span className="away__earned">+{Math.floor(offline.earned).toLocaleString()} ✨</span>
                     <span className="away__sub">
                         over {formatDuration(offline.elapsedSec)}
                         {offline.capped && ` (capped at ${OFFLINE_CAP_HOURS}h)`}
                     </span>
-                    <button className="away__dismiss" onClick={() => setShowAway(false)}>
+                    <button className="away__dismiss" data-testid="vigil-away-dismiss" onClick={() => setShowAway(false)}>
                         Dismiss
                     </button>
                 </div>
@@ -65,18 +65,19 @@ export function VigilScreen() {
 
             <div className="vigil__panel">
                 <div className="vigil__held">
-                    <span className="held__value">{heldWhole.toLocaleString()}</span>
+                    <span className="held__value" data-testid="vigil-held">{heldWhole.toLocaleString()}</span>
                     <span className="held__unit">Dreamsand held ✨</span>
                 </div>
 
                 <div className="vigil__stats">
                     <span>Rate <strong>{Math.round(ratePerMin).toLocaleString()}</strong> / min</span>
                     <span>Team <strong>{state.team.length}</strong> · {ZONE_LABEL[zone]}</span>
-                    <span>Banked <strong>{Math.floor(state.currencies.dreamsand).toLocaleString()}</strong></span>
+                    <span>Banked <strong data-testid="vigil-banked">{Math.floor(state.currencies.dreamsand).toLocaleString()}</strong></span>
                 </div>
 
                 <button
                     className="vigil__claim"
+                    data-testid="vigil-claim"
                     disabled={heldWhole < 1}
                     onClick={() => claim()}
                 >

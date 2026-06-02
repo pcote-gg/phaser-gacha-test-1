@@ -55,7 +55,7 @@ export function BrewScreen() {
     const balancedEnd = pctOfGauge(CAFFEINE_THRESHOLDS.balancedMax);
 
     return (
-        <div className="brew">
+        <div className="brew" data-testid="screen-brew">
             <h1 className="brew__title">The Brew</h1>
             <p className="brew__flavour">Assemble the team. Set the gauge. Begin the watch.</p>
 
@@ -74,8 +74,8 @@ export function BrewScreen() {
                     <span className="gauge__marker" style={{ left: `${pctOfGauge(total)}%` }} />
                 </div>
                 <div className="gauge__readout">
-                    <span className="gauge__zone">{ZONE_COPY[zone].name}</span>
-                    <span className="gauge__value">{total} caffeine</span>
+                    <span className="gauge__zone" data-testid="brew-zone">{ZONE_COPY[zone].name}</span>
+                    <span className="gauge__value" data-testid="brew-caffeine">{total} caffeine</span>
                 </div>
                 <p className="gauge__blurb">{ZONE_COPY[zone].blurb}</p>
                 <div className="gauge__effects">
@@ -93,6 +93,7 @@ export function BrewScreen() {
                     return (
                         <button
                             key={i}
+                            data-testid={`brew-slot-${i}`}
                             className={`slot ${def ? `slot--filled draw--${def.rarity}` : 'slot--empty'}`}
                             disabled={!def}
                             onClick={() => def && toggleTeam(def.id)}
@@ -126,6 +127,7 @@ export function BrewScreen() {
                         return (
                             <li key={owned.id}>
                                 <button
+                                    data-testid={`brew-card-${owned.id}`}
                                     className={`card draw--${def.rarity} ${inTeam ? 'card--in-team' : ''}`}
                                     disabled={disabled}
                                     onClick={() => toggleTeam(owned.id)}

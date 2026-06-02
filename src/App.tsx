@@ -41,6 +41,7 @@ function App()
                         {SCREENS.map(({ id, label }) => (
                             <button
                                 key={id}
+                                data-testid={`nav-${id}`}
                                 className={screen === id ? 'is-active' : ''}
                                 onClick={() => setScreen(id)}
                             >

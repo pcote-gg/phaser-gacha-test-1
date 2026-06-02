@@ -32,30 +32,30 @@ export function GachaScreen() {
     };
 
     return (
-        <div className="gacha">
+        <div className="gacha" data-testid="screen-gacha">
             <h1 className="gacha__title">{banner.name}</h1>
             <p className="gacha__flavour">Ring the bell. Wake the sleeper.</p>
 
             <div className="gacha__stats">
-                <span>Tolls: <strong>{state.currencies.tolls}</strong></span>
-                <span>Pity: <strong>{pity}</strong> / {banner.hardPity}</span>
-                <span>Roster: <strong>{state.roster.length}</strong></span>
+                <span>Tolls: <strong data-testid="gacha-tolls">{state.currencies.tolls}</strong></span>
+                <span>Pity: <strong data-testid="gacha-pity">{pity}</strong> / {banner.hardPity}</span>
+                <span>Roster: <strong data-testid="gacha-roster">{state.roster.length}</strong></span>
             </div>
 
             <div className="gacha__buttons">
-                <button disabled={!canPull(state, 1)} onClick={() => doPull(1)}>
+                <button data-testid="gacha-ring-1" disabled={!canPull(state, 1)} onClick={() => doPull(1)}>
                     Ring ×1 ({pullCost(1)} Toll)
                 </button>
-                <button disabled={!canPull(state, 10)} onClick={() => doPull(10)}>
+                <button data-testid="gacha-ring-10" disabled={!canPull(state, 10)} onClick={() => doPull(10)}>
                     Ring ×10 ({pullCost(10)} Tolls)
                 </button>
-                <button className="gacha__dev" onClick={() => grantTolls(10)}>
+                <button className="gacha__dev" data-testid="gacha-grant" onClick={() => grantTolls(10)}>
                     +10 Tolls (dev)
                 </button>
             </div>
 
             {last && (
-                <ul className="gacha__results">
+                <ul className="gacha__results" data-testid="gacha-results">
                     {last.draws.map((d, i) => {
                         const def = getCharacter(d.characterId);
                         return (
