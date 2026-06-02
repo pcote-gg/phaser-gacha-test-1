@@ -36,85 +36,22 @@
   },
   "nodes": [
     {
-      "label": "README.md",
-      "file_type": "document",
-      "source_file": "src/core/README.md",
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
       "source_location": "L1",
-      "id": "src_core_readme_md",
-      "community": 33,
-      "norm_label": "readme.md"
+      "id": "src_app_tsx",
+      "community": 0,
+      "norm_label": "app.tsx"
     },
     {
-      "label": "`src/core` \u2014 the game's rules, with no engine attached",
-      "file_type": "document",
-      "source_file": "src/core/README.md",
-      "source_location": "L1",
-      "id": "core_readme_src_core_the_game_s_rules_with_no_engine_attached",
-      "community": 33,
-      "norm_label": "`src/core` \u2014 the game's rules, with no engine attached"
-    },
-    {
-      "label": "The one rule",
-      "file_type": "document",
-      "source_file": "src/core/README.md",
-      "source_location": "L7",
-      "id": "core_readme_the_one_rule",
-      "community": 33,
-      "norm_label": "the one rule"
-    },
-    {
-      "label": "Layout",
-      "file_type": "document",
-      "source_file": "src/core/README.md",
-      "source_location": "L20",
-      "id": "core_readme_layout",
-      "community": 33,
-      "norm_label": "layout"
-    },
-    {
-      "label": "characters.ts",
+      "label": "App()",
       "file_type": "code",
-      "source_file": "src/core/content/characters.ts",
-      "source_location": "L1",
-      "id": "src_core_content_characters_ts",
-      "community": 24,
-      "norm_label": "characters.ts"
-    },
-    {
-      "label": "CharacterDef",
-      "file_type": "code",
-      "source_file": "src/core/content/characters.ts",
-      "source_location": "L9",
-      "id": "content_characters_characterdef",
-      "community": 24,
-      "norm_label": "characterdef"
-    },
-    {
-      "label": "BY_ID",
-      "file_type": "code",
-      "source_file": "src/core/content/characters.ts",
-      "source_location": "L33",
-      "id": "content_characters_by_id",
-      "community": 24,
-      "norm_label": "by_id"
-    },
-    {
-      "label": "getCharacter()",
-      "file_type": "code",
-      "source_file": "src/core/content/characters.ts",
-      "source_location": "L38",
-      "id": "content_characters_getcharacter",
-      "community": 24,
-      "norm_label": "getcharacter()"
-    },
-    {
-      "label": "allCharacters()",
-      "file_type": "code",
-      "source_file": "src/core/content/characters.ts",
-      "source_location": "L43",
-      "id": "content_characters_allcharacters",
-      "community": 24,
-      "norm_label": "allcharacters()"
+      "source_file": "src/App.tsx",
+      "source_location": "L6",
+      "id": "src_app_app",
+      "community": 0,
+      "norm_label": "app()"
     },
     {
       "label": "roster.ts",
@@ -135,6 +72,150 @@
       "norm_label": "characters"
     },
     {
+      "label": "banner.ts",
+      "file_type": "code",
+      "source_file": "src/core/gacha/banner.ts",
+      "source_location": "L1",
+      "id": "src_core_gacha_banner_ts",
+      "community": 26,
+      "norm_label": "banner.ts"
+    },
+    {
+      "label": "BannerConfig",
+      "file_type": "code",
+      "source_file": "src/core/gacha/banner.ts",
+      "source_location": "L4",
+      "id": "gacha_banner_bannerconfig",
+      "community": 26,
+      "norm_label": "bannerconfig"
+    },
+    {
+      "label": "FLICKER_PER_DUPLICATE",
+      "file_type": "code",
+      "source_file": "src/core/gacha/banner.ts",
+      "source_location": "L30",
+      "id": "gacha_banner_flicker_per_duplicate",
+      "community": 26,
+      "norm_label": "flicker_per_duplicate"
+    },
+    {
+      "label": "STANDARD_BANNER",
+      "file_type": "code",
+      "source_file": "src/core/gacha/banner.ts",
+      "source_location": "L43",
+      "id": "gacha_banner_standard_banner",
+      "community": 26,
+      "norm_label": "standard_banner"
+    },
+    {
+      "label": "pull.ts",
+      "file_type": "code",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L1",
+      "id": "src_core_gacha_pull_ts",
+      "community": 26,
+      "norm_label": "pull.ts"
+    },
+    {
+      "label": "ResolvedDraw",
+      "file_type": "code",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L9",
+      "id": "gacha_pull_resolveddraw",
+      "community": 26,
+      "norm_label": "resolveddraw"
+    },
+    {
+      "label": "PullResult",
+      "file_type": "code",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L19",
+      "id": "gacha_pull_pullresult",
+      "community": 26,
+      "norm_label": "pullresult"
+    },
+    {
+      "label": "pullCost()",
+      "file_type": "code",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L28",
+      "id": "gacha_pull_pullcost",
+      "community": 26,
+      "norm_label": "pullcost()"
+    },
+    {
+      "label": "canPull()",
+      "file_type": "code",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L33",
+      "id": "gacha_pull_canpull",
+      "community": 26,
+      "norm_label": "canpull()"
+    },
+    {
+      "label": "pityRarityChance()",
+      "file_type": "code",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L42",
+      "id": "gacha_pull_pityraritychance",
+      "community": 26,
+      "norm_label": "pityraritychance()"
+    },
+    {
+      "label": "rollNonPityRarity()",
+      "file_type": "code",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L52",
+      "id": "gacha_pull_rollnonpityrarity",
+      "community": 26,
+      "norm_label": "rollnonpityrarity()"
+    },
+    {
+      "label": "pickCharacterId()",
+      "file_type": "code",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L64",
+      "id": "gacha_pull_pickcharacterid",
+      "community": 26,
+      "norm_label": "pickcharacterid()"
+    },
+    {
+      "label": "performPull()",
+      "file_type": "code",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L78",
+      "id": "gacha_pull_performpull",
+      "community": 26,
+      "norm_label": "performpull()"
+    },
+    {
+      "label": "rng.ts",
+      "file_type": "code",
+      "source_file": "src/core/gacha/rng.ts",
+      "source_location": "L1",
+      "id": "src_core_gacha_rng_ts",
+      "community": 26,
+      "norm_label": "rng.ts"
+    },
+    {
+      "label": "RNG",
+      "file_type": "code",
+      "source_file": "src/core/gacha/rng.ts",
+      "source_location": "L8",
+      "id": "gacha_rng_rng",
+      "community": 26,
+      "norm_label": "rng"
+    },
+    {
+      "label": "mulberry32()",
+      "file_type": "code",
+      "source_file": "src/core/gacha/rng.ts",
+      "source_location": "L14",
+      "id": "gacha_rng_mulberry32",
+      "community": 26,
+      "norm_label": "mulberry32()"
+    },
+    {
       "label": "gameState.ts",
       "file_type": "code",
       "source_file": "src/core/state/gameState.ts",
@@ -147,7 +228,7 @@
       "label": "OwnedCharacter",
       "file_type": "code",
       "source_file": "src/core/state/gameState.ts",
-      "source_location": "L8",
+      "source_location": "L10",
       "id": "state_gamestate_ownedcharacter",
       "community": 26,
       "norm_label": "ownedcharacter"
@@ -156,91 +237,262 @@
       "label": "GameState",
       "file_type": "code",
       "source_file": "src/core/state/gameState.ts",
-      "source_location": "L17",
+      "source_location": "L19",
       "id": "state_gamestate_gamestate",
       "community": 26,
       "norm_label": "gamestate"
     },
     {
+      "label": "emptyFlicker()",
+      "file_type": "code",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L47",
+      "id": "state_gamestate_emptyflicker",
+      "community": 26,
+      "norm_label": "emptyflicker()"
+    },
+    {
       "label": "newGame()",
       "file_type": "code",
       "source_file": "src/core/state/gameState.ts",
-      "source_location": "L38",
+      "source_location": "L52",
       "id": "state_gamestate_newgame",
       "community": 26,
       "norm_label": "newgame()"
+    },
+    {
+      "label": "GachaScreen.tsx",
+      "file_type": "code",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L1",
+      "id": "src_ui_gachascreen_tsx",
+      "community": 26,
+      "norm_label": "gachascreen.tsx"
+    },
+    {
+      "label": "RARITY_LABEL",
+      "file_type": "code",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L10",
+      "id": "ui_gachascreen_rarity_label",
+      "community": 26,
+      "norm_label": "rarity_label"
+    },
+    {
+      "label": "pct()",
+      "file_type": "code",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L18",
+      "id": "ui_gachascreen_pct",
+      "community": 26,
+      "norm_label": "pct()"
+    },
+    {
+      "label": "GachaScreen()",
+      "file_type": "code",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L22",
+      "id": "ui_gachascreen_gachascreen",
+      "community": 26,
+      "norm_label": "gachascreen()"
+    },
+    {
+      "label": "GameContext.tsx",
+      "file_type": "code",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L1",
+      "id": "src_ui_gamecontext_tsx",
+      "community": 26,
+      "norm_label": "gamecontext.tsx"
+    },
+    {
+      "label": "GameApi",
+      "file_type": "code",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L14",
+      "id": "ui_gamecontext_gameapi",
+      "community": 26,
+      "norm_label": "gameapi"
+    },
+    {
+      "label": "GameContext",
+      "file_type": "code",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L21",
+      "id": "ui_gamecontext_gamecontext",
+      "community": 26,
+      "norm_label": "gamecontext"
+    },
+    {
+      "label": "GameProvider()",
+      "file_type": "code",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L23",
+      "id": "ui_gamecontext_gameprovider",
+      "community": 0,
+      "norm_label": "gameprovider()"
+    },
+    {
+      "label": "useGame()",
+      "file_type": "code",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L47",
+      "id": "ui_gamecontext_usegame",
+      "community": 26,
+      "norm_label": "usegame()"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "src/core/README.md",
+      "source_location": "L1",
+      "community": 33,
+      "norm_label": "readme.md",
+      "id": "src_core_readme_md"
+    },
+    {
+      "label": "`src/core` \u2014 the game's rules, with no engine attached",
+      "file_type": "document",
+      "source_file": "src/core/README.md",
+      "source_location": "L1",
+      "community": 33,
+      "norm_label": "`src/core` \u2014 the game's rules, with no engine attached",
+      "id": "core_readme_src_core_the_game_s_rules_with_no_engine_attached"
+    },
+    {
+      "label": "The one rule",
+      "file_type": "document",
+      "source_file": "src/core/README.md",
+      "source_location": "L7",
+      "community": 33,
+      "norm_label": "the one rule",
+      "id": "core_readme_the_one_rule"
+    },
+    {
+      "label": "Layout",
+      "file_type": "document",
+      "source_file": "src/core/README.md",
+      "source_location": "L20",
+      "community": 33,
+      "norm_label": "layout",
+      "id": "core_readme_layout"
+    },
+    {
+      "label": "characters.ts",
+      "file_type": "code",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "characters.ts",
+      "id": "src_core_content_characters_ts"
+    },
+    {
+      "label": "CharacterDef",
+      "file_type": "code",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L9",
+      "community": 24,
+      "norm_label": "characterdef",
+      "id": "content_characters_characterdef"
+    },
+    {
+      "label": "BY_ID",
+      "file_type": "code",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L33",
+      "community": 24,
+      "norm_label": "by_id",
+      "id": "content_characters_by_id"
+    },
+    {
+      "label": "getCharacter()",
+      "file_type": "code",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L38",
+      "community": 24,
+      "norm_label": "getcharacter()",
+      "id": "content_characters_getcharacter"
+    },
+    {
+      "label": "allCharacters()",
+      "file_type": "code",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L43",
+      "community": 24,
+      "norm_label": "allcharacters()",
+      "id": "content_characters_allcharacters"
     },
     {
       "label": "save.ts",
       "file_type": "code",
       "source_file": "src/core/state/save.ts",
       "source_location": "L1",
-      "id": "src_core_state_save_ts",
       "community": 26,
-      "norm_label": "save.ts"
+      "norm_label": "save.ts",
+      "id": "src_core_state_save_ts"
     },
     {
       "label": "loadGame()",
       "file_type": "code",
       "source_file": "src/core/state/save.ts",
       "source_location": "L13",
-      "id": "state_save_loadgame",
       "community": 26,
-      "norm_label": "loadgame()"
+      "norm_label": "loadgame()",
+      "id": "state_save_loadgame"
     },
     {
       "label": "saveGame()",
       "file_type": "code",
       "source_file": "src/core/state/save.ts",
       "source_location": "L33",
-      "id": "state_save_savegame",
       "community": 26,
-      "norm_label": "savegame()"
+      "norm_label": "savegame()",
+      "id": "state_save_savegame"
     },
     {
       "label": "clearSave()",
       "file_type": "code",
       "source_file": "src/core/state/save.ts",
       "source_location": "L43",
-      "id": "state_save_clearsave",
       "community": 26,
-      "norm_label": "clearsave()"
+      "norm_label": "clearsave()",
+      "id": "state_save_clearsave"
     },
     {
       "label": "types.ts",
       "file_type": "code",
       "source_file": "src/core/types.ts",
       "source_location": "L1",
-      "id": "src_core_types_ts",
       "community": 24,
-      "norm_label": "types.ts"
+      "norm_label": "types.ts",
+      "id": "src_core_types_ts"
     },
     {
       "label": "Rarity",
       "file_type": "code",
       "source_file": "src/core/types.ts",
       "source_location": "L7",
-      "id": "core_types_rarity",
       "community": 24,
-      "norm_label": "rarity"
+      "norm_label": "rarity",
+      "id": "core_types_rarity"
     },
     {
       "label": "RARITY_ORDER",
       "file_type": "code",
       "source_file": "src/core/types.ts",
       "source_location": "L10",
-      "id": "core_types_rarity_order",
       "community": 24,
-      "norm_label": "rarity_order"
+      "norm_label": "rarity_order",
+      "id": "core_types_rarity_order"
     },
     {
       "label": "RARITY_LEVEL_CAP",
       "file_type": "code",
       "source_file": "src/core/types.ts",
       "source_location": "L22",
-      "id": "core_types_rarity_level_cap",
       "community": 24,
-      "norm_label": "rarity_level_cap"
+      "norm_label": "rarity_level_cap",
+      "id": "core_types_rarity_level_cap"
     },
     {
       "label": "settings.json",
@@ -535,7 +787,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L20",
-      "community": 4,
+      "community": 1,
       "norm_label": "devdependencies",
       "id": "phaser_gacha_test_1_package_devdependencies"
     },
@@ -544,7 +796,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L21",
-      "community": 4,
+      "community": 1,
       "norm_label": "@eslint/js",
       "id": "phaser_gacha_test_1_package_devdependencies_eslint_js"
     },
@@ -553,7 +805,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L22",
-      "community": 4,
+      "community": 1,
       "norm_label": "@types/react",
       "id": "phaser_gacha_test_1_package_devdependencies_types_react"
     },
@@ -562,7 +814,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L23",
-      "community": 4,
+      "community": 1,
       "norm_label": "@types/react-dom",
       "id": "phaser_gacha_test_1_package_devdependencies_types_react_dom"
     },
@@ -571,7 +823,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L24",
-      "community": 4,
+      "community": 1,
       "norm_label": "@vitejs/plugin-react",
       "id": "phaser_gacha_test_1_package_devdependencies_vitejs_plugin_react"
     },
@@ -580,7 +832,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L25",
-      "community": 4,
+      "community": 1,
       "norm_label": "eslint",
       "id": "phaser_gacha_test_1_package_devdependencies_eslint"
     },
@@ -589,7 +841,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L26",
-      "community": 4,
+      "community": 1,
       "norm_label": "eslint-plugin-react-hooks",
       "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_hooks"
     },
@@ -598,7 +850,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L27",
-      "community": 4,
+      "community": 1,
       "norm_label": "eslint-plugin-react-refresh",
       "id": "phaser_gacha_test_1_package_devdependencies_eslint_plugin_react_refresh"
     },
@@ -607,7 +859,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L28",
-      "community": 4,
+      "community": 1,
       "norm_label": "globals",
       "id": "phaser_gacha_test_1_package_devdependencies_globals"
     },
@@ -616,7 +868,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L29",
-      "community": 4,
+      "community": 1,
       "norm_label": "terser",
       "id": "phaser_gacha_test_1_package_devdependencies_terser"
     },
@@ -625,7 +877,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L30",
-      "community": 4,
+      "community": 1,
       "norm_label": "typescript",
       "id": "phaser_gacha_test_1_package_devdependencies_typescript"
     },
@@ -634,7 +886,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L31",
-      "community": 4,
+      "community": 1,
       "norm_label": "typescript-eslint",
       "id": "phaser_gacha_test_1_package_devdependencies_typescript_eslint"
     },
@@ -643,7 +895,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L32",
-      "community": 4,
+      "community": 1,
       "norm_label": "vite",
       "id": "phaser_gacha_test_1_package_devdependencies_vite"
     },
@@ -1138,7 +1390,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
       "source_location": "L1",
-      "community": 0,
+      "community": 4,
       "norm_label": "boot.ts",
       "id": "reference_phaser_react_template_src_game_scenes_boot_ts"
     },
@@ -1147,7 +1399,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
       "source_location": "L3",
-      "community": 0,
+      "community": 4,
       "norm_label": "boot",
       "id": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot"
     },
@@ -1156,7 +1408,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
       "source_location": "L5",
-      "community": 0,
+      "community": 4,
       "norm_label": ".constructor()",
       "id": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot_constructor"
     },
@@ -1165,7 +1417,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
       "source_location": "L10",
-      "community": 0,
+      "community": 4,
       "norm_label": ".preload()",
       "id": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot_preload"
     },
@@ -1174,7 +1426,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Boot.ts",
       "source_location": "L18",
-      "community": 0,
+      "community": 4,
       "norm_label": ".create()",
       "id": "reference_phaser_react_template_src_game_scenes_boot_ts_scenes_boot_boot_create"
     },
@@ -1282,7 +1534,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
       "source_location": "L5",
-      "community": 27,
+      "community": 0,
       "norm_label": "mainmenu",
       "id": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu"
     },
@@ -1291,7 +1543,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
       "source_location": "L12",
-      "community": 27,
+      "community": 0,
       "norm_label": ".constructor()",
       "id": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_constructor"
     },
@@ -1300,7 +1552,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
       "source_location": "L17",
-      "community": 27,
+      "community": 0,
       "norm_label": ".create()",
       "id": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_create"
     },
@@ -1309,7 +1561,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
       "source_location": "L32",
-      "community": 27,
+      "community": 0,
       "norm_label": ".changescene()",
       "id": "reference_phaser_react_template_src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_changescene"
     },
@@ -1318,7 +1570,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/MainMenu.ts",
       "source_location": "L43",
-      "community": 27,
+      "community": 0,
       "norm_label": ".movelogo()",
       "id": "scenes_mainmenu_mainmenu_movelogo"
     },
@@ -1327,7 +1579,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
       "source_location": "L1",
-      "community": 22,
+      "community": 0,
       "norm_label": "preloader.ts",
       "id": "reference_phaser_react_template_src_game_scenes_preloader_ts"
     },
@@ -1336,7 +1588,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
       "source_location": "L3",
-      "community": 22,
+      "community": 0,
       "norm_label": "preloader",
       "id": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader"
     },
@@ -1345,7 +1597,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
       "source_location": "L5",
-      "community": 22,
+      "community": 0,
       "norm_label": ".constructor()",
       "id": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader_constructor"
     },
@@ -1354,7 +1606,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
       "source_location": "L10",
-      "community": 22,
+      "community": 0,
       "norm_label": ".init()",
       "id": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader_init"
     },
@@ -1363,7 +1615,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
       "source_location": "L30",
-      "community": 22,
+      "community": 0,
       "norm_label": ".preload()",
       "id": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader_preload"
     },
@@ -1372,7 +1624,7 @@
       "file_type": "code",
       "source_file": "reference/phaser-react-template/src/game/scenes/Preloader.ts",
       "source_location": "L39",
-      "community": 22,
+      "community": 0,
       "norm_label": ".create()",
       "id": "reference_phaser_react_template_src_game_scenes_preloader_ts_scenes_preloader_preloader_create"
     },
@@ -1683,24 +1935,6 @@
       "id": "vite_config_prod_phasermsg"
     },
     {
-      "label": "App.tsx",
-      "file_type": "code",
-      "source_file": "src/App.tsx",
-      "source_location": "L1",
-      "community": 0,
-      "norm_label": "app.tsx",
-      "id": "src_app_tsx"
-    },
-    {
-      "label": "App()",
-      "file_type": "code",
-      "source_file": "src/App.tsx",
-      "source_location": "L4",
-      "community": 0,
-      "norm_label": "app()",
-      "id": "src_app_tsx_src_app_app"
-    },
-    {
       "label": "main.ts",
       "file_type": "code",
       "source_file": "src/game/main.ts",
@@ -1777,7 +2011,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L1",
-      "community": 9,
+      "community": 0,
       "norm_label": "game.ts",
       "id": "src_game_scenes_game_ts"
     },
@@ -1786,7 +2020,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L6",
-      "community": 9,
+      "community": 0,
       "norm_label": "game",
       "id": "src_game_scenes_game_ts_scenes_game_game"
     },
@@ -1795,7 +2029,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L10",
-      "community": 9,
+      "community": 0,
       "norm_label": ".constructor()",
       "id": "src_game_scenes_game_ts_scenes_game_game_constructor"
     },
@@ -1804,7 +2038,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L15",
-      "community": 9,
+      "community": 0,
       "norm_label": ".create()",
       "id": "src_game_scenes_game_ts_scenes_game_game_create"
     },
@@ -1813,7 +2047,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/Game.ts",
       "source_location": "L22",
-      "community": 9,
+      "community": 0,
       "norm_label": ".changescene()",
       "id": "src_game_scenes_game_ts_scenes_game_game_changescene"
     },
@@ -1822,7 +2056,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L1",
-      "community": 0,
+      "community": 9,
       "norm_label": "mainmenu.ts",
       "id": "src_game_scenes_mainmenu_ts"
     },
@@ -1831,7 +2065,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L5",
-      "community": 0,
+      "community": 9,
       "norm_label": "mainmenu",
       "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu"
     },
@@ -1840,7 +2074,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L9",
-      "community": 0,
+      "community": 9,
       "norm_label": ".constructor()",
       "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_constructor"
     },
@@ -1849,7 +2083,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L14",
-      "community": 0,
+      "community": 9,
       "norm_label": ".create()",
       "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_create"
     },
@@ -1858,7 +2092,7 @@
       "file_type": "code",
       "source_file": "src/game/scenes/MainMenu.ts",
       "source_location": "L25",
-      "community": 0,
+      "community": 9,
       "norm_label": ".changescene()",
       "id": "src_game_scenes_mainmenu_ts_scenes_mainmenu_mainmenu_changescene"
     },
@@ -2814,94 +3048,111 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/core/README.md",
-      "source_location": "L1",
+      "source_file": "src/App.tsx",
+      "source_location": "L6",
       "weight": 1.0,
-      "source": "src_core_readme_md",
-      "target": "core_readme_src_core_the_game_s_rules_with_no_engine_attached",
+      "source": "src_app_tsx",
+      "target": "src_app_app",
       "confidence_score": 1.0
     },
     {
-      "relation": "contains",
+      "relation": "imports_from",
+      "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/core/README.md",
-      "source_location": "L20",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
       "weight": 1.0,
-      "source": "core_readme_src_core_the_game_s_rules_with_no_engine_attached",
-      "target": "core_readme_layout",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/README.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "core_readme_src_core_the_game_s_rules_with_no_engine_attached",
-      "target": "core_readme_the_one_rule",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/content/characters.ts",
-      "source_location": "L43",
-      "weight": 1.0,
-      "source": "src_core_content_characters_ts",
-      "target": "content_characters_allcharacters",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/content/characters.ts",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "src_core_content_characters_ts",
-      "target": "content_characters_by_id",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/content/characters.ts",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "src_core_content_characters_ts",
-      "target": "content_characters_characterdef",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/content/characters.ts",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "src_core_content_characters_ts",
-      "target": "content_characters_getcharacter",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_game_scenes_mainmenu_ts"
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/core/content/characters.ts",
+      "source_file": "src/App.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "source": "src_core_content_characters_ts",
-      "target": "content_roster_characters",
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_phasergame_irefphasergame"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_phasergame_phasergame"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_phasergame_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_ui_gachascreen_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "src_ui_gamecontext_tsx",
       "confidence_score": 1.0
     },
     {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/core/content/characters.ts",
-      "source_location": "L1",
+      "source_file": "src/App.tsx",
+      "source_location": "L4",
       "weight": 1.0,
-      "source": "src_core_content_characters_ts",
-      "target": "core_types_rarity",
+      "source": "src_app_tsx",
+      "target": "ui_gachascreen_gachascreen",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_tsx",
+      "target": "ui_gamecontext_gameprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_app_tsx"
     },
     {
       "relation": "imports_from",
@@ -2910,31 +3161,9 @@
       "source_file": "src/core/content/characters.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_content_characters_ts",
-      "target": "src_core_content_roster_ts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/content/characters.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "src_core_content_characters_ts",
-      "target": "src_core_types_ts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "references",
-      "context": "field",
-      "confidence": "EXTRACTED",
-      "source_file": "src/core/content/characters.ts",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "content_characters_characterdef",
-      "target": "core_types_rarity",
-      "confidence_score": 1.0
+      "target": "src_core_content_roster_ts"
     },
     {
       "relation": "imports",
@@ -2943,9 +3172,9 @@
       "source_file": "src/core/content/roster.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_content_roster_ts",
-      "target": "content_characters_characterdef",
-      "confidence_score": 1.0
+      "target": "content_characters_characterdef"
     },
     {
       "relation": "contains",
@@ -2953,8 +3182,533 @@
       "source_file": "src/core/content/roster.ts",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_content_roster_ts",
-      "target": "content_roster_characters",
+      "target": "content_roster_characters"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_content_characters_ts",
+      "target": "content_roster_characters"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/banner.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_core_gacha_banner_ts",
+      "target": "core_types_rarity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/banner.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_core_gacha_banner_ts",
+      "target": "gacha_banner_bannerconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/banner.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "src_core_gacha_banner_ts",
+      "target": "gacha_banner_flicker_per_duplicate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/banner.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "src_core_gacha_banner_ts",
+      "target": "gacha_banner_standard_banner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "src_core_gacha_banner_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "src_core_gacha_banner_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "src_core_gacha_banner_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "gacha_banner_bannerconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "gacha_banner_bannerconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "ui_gamecontext_gameapi",
+      "target": "gacha_banner_bannerconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "gacha_banner_flicker_per_duplicate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "gacha_banner_standard_banner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "content_characters_allcharacters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "core_types_rarity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "gacha_pull_canpull",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "gacha_pull_performpull",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "gacha_pull_pickcharacterid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "gacha_pull_pityraritychance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "gacha_pull_pullcost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "gacha_pull_pullresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "gacha_pull_resolveddraw",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "gacha_pull_rollnonpityrarity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "gacha_rng_rng",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "src_core_gacha_rng_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "src_core_state_gamestate_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_core_gacha_pull_ts",
+      "target": "state_gamestate_gamestate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "src_core_gacha_pull_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "src_core_gacha_pull_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "gacha_pull_pullresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "gacha_pull_pullresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "ui_gamecontext_gameapi",
+      "target": "gacha_pull_pullresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "gacha_pull_canpull",
+      "target": "gacha_pull_pullcost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "gacha_pull_performpull",
+      "target": "gacha_pull_pullcost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "gacha_pull_pullcost",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "ui_gachascreen_gachascreen",
+      "target": "gacha_pull_pullcost"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "gacha_pull_canpull",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "ui_gachascreen_gachascreen",
+      "target": "gacha_pull_canpull"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "gacha_pull_performpull",
+      "target": "gacha_pull_pityraritychance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "gacha_pull_performpull",
+      "target": "gacha_pull_rollnonpityrarity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "gacha_pull_rollnonpityrarity",
+      "target": "gacha_rng_rng"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "gacha_pull_performpull",
+      "target": "gacha_pull_pickcharacterid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "gacha_pull_pickcharacterid",
+      "target": "gacha_rng_rng"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/core/gacha/pull.ts",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "gacha_pull_performpull",
+      "target": "gacha_rng_rng"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "gacha_pull_performpull",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/rng.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_core_gacha_rng_ts",
+      "target": "gacha_rng_mulberry32",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/gacha/rng.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_core_gacha_rng_ts",
+      "target": "gacha_rng_rng",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_core_state_gamestate_ts",
+      "target": "core_types_rarity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "src_core_state_gamestate_ts",
+      "target": "state_gamestate_emptyflicker",
       "confidence_score": 1.0
     },
     {
@@ -2963,9 +3717,9 @@
       "source_file": "src/core/state/gameState.ts",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_state_gamestate_ts",
-      "target": "state_gamestate_gamestate",
-      "confidence_score": 1.0
+      "target": "state_gamestate_gamestate"
     },
     {
       "relation": "contains",
@@ -2973,9 +3727,9 @@
       "source_file": "src/core/state/gameState.ts",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_state_gamestate_ts",
-      "target": "state_gamestate_newgame",
-      "confidence_score": 1.0
+      "target": "state_gamestate_newgame"
     },
     {
       "relation": "contains",
@@ -2983,9 +3737,9 @@
       "source_file": "src/core/state/gameState.ts",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_state_gamestate_ts",
-      "target": "state_gamestate_ownedcharacter",
-      "confidence_score": 1.0
+      "target": "state_gamestate_ownedcharacter"
     },
     {
       "relation": "imports_from",
@@ -2994,7 +3748,18 @@
       "source_file": "src/core/state/save.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_state_save_ts",
+      "target": "src_core_state_gamestate_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
       "target": "src_core_state_gamestate_ts",
       "confidence_score": 1.0
     },
@@ -3005,8 +3770,41 @@
       "source_file": "src/core/state/save.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_state_save_ts",
+      "target": "state_gamestate_gamestate"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
       "target": "state_gamestate_gamestate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "ui_gamecontext_gameapi",
+      "target": "state_gamestate_gamestate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/state/gameState.ts",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "state_gamestate_newgame",
+      "target": "state_gamestate_emptyflicker",
       "confidence_score": 1.0
     },
     {
@@ -3016,9 +3814,9 @@
       "source_file": "src/core/state/save.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_state_save_ts",
-      "target": "state_gamestate_newgame",
-      "confidence_score": 1.0
+      "target": "state_gamestate_newgame"
     },
     {
       "relation": "calls",
@@ -3032,14 +3830,275 @@
       "target": "state_gamestate_newgame"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "content_characters_getcharacter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "core_types_rarity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "src_ui_gamecontext_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "ui_gachascreen_gachascreen",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "ui_gachascreen_pct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "ui_gachascreen_rarity_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_ui_gachascreen_tsx",
+      "target": "ui_gamecontext_usegame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "ui_gachascreen_gachascreen",
+      "target": "ui_gachascreen_pct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ui/GachaScreen.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "ui_gachascreen_gachascreen",
+      "target": "ui_gamecontext_usegame"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "state_save_loadgame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "state_save_savegame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "ui_gamecontext_gameapi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "ui_gamecontext_gamecontext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "ui_gamecontext_gameprovider",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/ui/GameContext.tsx",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "src_ui_gamecontext_tsx",
+      "target": "ui_gamecontext_usegame",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_readme_md",
+      "target": "core_readme_src_core_the_game_s_rules_with_no_engine_attached"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/README.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_readme_src_core_the_game_s_rules_with_no_engine_attached",
+      "target": "core_readme_layout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "core_readme_src_core_the_game_s_rules_with_no_engine_attached",
+      "target": "core_readme_the_one_rule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_content_characters_ts",
+      "target": "content_characters_allcharacters"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_content_characters_ts",
+      "target": "content_characters_by_id"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_content_characters_ts",
+      "target": "content_characters_characterdef"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_content_characters_ts",
+      "target": "content_characters_getcharacter"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_content_characters_ts",
+      "target": "core_types_rarity"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_core_content_characters_ts",
+      "target": "src_core_types_ts"
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/core/content/characters.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "content_characters_characterdef",
+      "target": "core_types_rarity"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/core/state/save.ts",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_state_save_ts",
-      "target": "state_save_clearsave",
-      "confidence_score": 1.0
+      "target": "state_save_clearsave"
     },
     {
       "relation": "contains",
@@ -3047,9 +4106,9 @@
       "source_file": "src/core/state/save.ts",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_state_save_ts",
-      "target": "state_save_loadgame",
-      "confidence_score": 1.0
+      "target": "state_save_loadgame"
     },
     {
       "relation": "contains",
@@ -3057,9 +4116,9 @@
       "source_file": "src/core/state/save.ts",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_state_save_ts",
-      "target": "state_save_savegame",
-      "confidence_score": 1.0
+      "target": "state_save_savegame"
     },
     {
       "relation": "contains",
@@ -3067,9 +4126,9 @@
       "source_file": "src/core/types.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_types_ts",
-      "target": "core_types_rarity",
-      "confidence_score": 1.0
+      "target": "core_types_rarity"
     },
     {
       "relation": "contains",
@@ -3077,9 +4136,9 @@
       "source_file": "src/core/types.ts",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_types_ts",
-      "target": "core_types_rarity_level_cap",
-      "confidence_score": 1.0
+      "target": "core_types_rarity_level_cap"
     },
     {
       "relation": "contains",
@@ -3087,9 +4146,9 @@
       "source_file": "src/core/types.ts",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_core_types_ts",
-      "target": "core_types_rarity_order",
-      "confidence_score": 1.0
+      "target": "core_types_rarity_order"
     },
     {
       "relation": "contains",
@@ -4040,17 +5099,6 @@
       "target": "src_phasergame_phasergame"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_tsx",
-      "target": "src_phasergame_irefphasergame"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/PhaserGame.tsx",
@@ -4069,17 +5117,6 @@
       "confidence_score": 1.0,
       "source": "src_phasergame_tsx",
       "target": "src_phasergame_iprops"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_tsx",
-      "target": "src_phasergame_phasergame"
     },
     {
       "relation": "contains",
@@ -4837,49 +5874,6 @@
       "confidence_score": 1.0,
       "source": "vite_config_prod_mjs",
       "target": "vite_config_prod_phasermsg"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_tsx",
-      "target": "src_app_tsx_src_app_app"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_tsx",
-      "target": "src_game_scenes_mainmenu_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/App.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_tsx",
-      "target": "src_phasergame_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main_tsx",
-      "target": "src_app_tsx"
     },
     {
       "relation": "contains",
@@ -5933,5 +6927,5 @@
       "source_file": "src/PhaserGame.tsx"
     }
   ],
-  "built_at_commit": "e09a9e1fd71acb7ee96127c61ad41ec008f355c5"
+  "built_at_commit": "5a667a532bfded3e850f0acd5a53690a842a2bd2"
 }
