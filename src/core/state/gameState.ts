@@ -1,3 +1,5 @@
+import type { Rarity } from '../types';
+
 /**
  * The player's save game — the single source of truth for all mutable progress.
  * Presentation layers (Phaser, React) read from and write to this; they never
@@ -23,24 +25,38 @@ export interface GameState {
         /** Gacha pull currency (GDD §9). */
         tolls: number;
     };
+    /** Duplicate-conversion currency, held per rarity tier (GDD §9). */
+    flicker: Record<Rarity, number>;
     /** Every character the player owns. */
     roster: OwnedCharacter[];
     /** Active team for The Brew — ids referencing owned characters (GDD §7B). */
     team: string[];
+    /**
+     * Gacha pity counters, keyed by a banner's `pityGroup` so they carry over
+     * between banners of the same type (GDD §9).
+     */
+    pity: Record<string, number>;
     /** Epoch ms of the last save; used later for offline accumulation. */
     lastSeen: number;
 }
 
 /** Current save schema version. */
-export const SAVE_VERSION = 1;
+export const SAVE_VERSION = 2;
+
+/** A zeroed Flicker wallet (one bucket per rarity). */
+function emptyFlicker(): Record<Rarity, number> {
+    return { common: 0, rare: 0, epic: 0, legendary: 0, mythic: 0 };
+}
 
 /** Creates a fresh game state for a brand-new player. */
 export function newGame(): GameState {
     return {
         version: SAVE_VERSION,
         currencies: { dreamsand: 0, tolls: 0 },
+        flicker: emptyFlicker(),
         roster: [],
         team: [],
+        pity: {},
         lastSeen: Date.now(),
     };
 }

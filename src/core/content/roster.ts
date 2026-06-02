@@ -84,4 +84,23 @@ export const CHARACTERS: CharacterDef[] = [
         baseStats: { hp: 80, atk: 24 },
         tagline: 'Small, intense, perfectly balanced — until it isn’t.',
     },
+    // --- Epic: single-origin and ceremonial ---
+    {
+        id: 'gyokuro',
+        name: 'Gyokuro',
+        drink: 'Gyokuro',
+        rarity: 'epic',
+        caffeine: 64,
+        baseStats: { hp: 120, atk: 27 },
+        tagline: 'Shade-grown, profound, faintly otherworldly.',
+    },
+    {
+        id: 'cold-brew',
+        name: 'Cold Brew',
+        drink: 'Cold brew concentrate',
+        rarity: 'epic',
+        caffeine: 92,
+        baseStats: { hp: 110, atk: 31 },
+        tagline: 'Slow to wake. Impossible to stop.',
+    },
 ];

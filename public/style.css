@@ -7,10 +7,26 @@ body {
 }
 
 #app {
+    position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* React UI overlay sits above the Phaser canvas. The overlay itself ignores
+   pointer events so the canvas stays interactive; its children re-enable them. */
+.ui-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.ui-overlay > * {
+    pointer-events: auto;
 }

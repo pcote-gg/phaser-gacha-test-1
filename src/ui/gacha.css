@@ -1,0 +1,117 @@
+.gacha {
+    width: min(440px, 92vw);
+    padding: 24px 28px;
+    background: rgba(26, 19, 38, 0.92);
+    border: 1px solid rgba(243, 233, 210, 0.25);
+    border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+    color: #f3e9d2;
+    text-align: center;
+}
+
+.gacha__title {
+    margin: 0 0 4px;
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+}
+
+.gacha__flavour {
+    margin: 0 0 18px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.gacha__stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 18px;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.gacha__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.gacha__buttons button {
+    padding: 12px;
+    font: inherit;
+    color: #1a1326;
+    background: #e7c873;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: filter 0.15s, transform 0.05s;
+}
+
+.gacha__buttons button:hover:not(:disabled) {
+    filter: brightness(1.08);
+}
+
+.gacha__buttons button:active:not(:disabled) {
+    transform: translateY(1px);
+}
+
+.gacha__buttons button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.gacha__dev {
+    background: transparent !important;
+    color: rgba(243, 233, 210, 0.6) !important;
+    border: 1px dashed rgba(243, 233, 210, 0.3) !important;
+    font-size: 0.8rem;
+}
+
+.gacha__results {
+    list-style: none;
+    margin: 0 0 16px;
+    padding: 0;
+    display: grid;
+    gap: 6px;
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+.draw {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 10px;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid var(--rarity, #9a8f7a);
+    text-align: left;
+}
+
+.draw__name { font-weight: 600; }
+.draw__tier { font-size: 0.8rem; opacity: 0.7; }
+.draw__tag { font-size: 0.78rem; font-weight: 700; opacity: 0.9; }
+
+.draw--common { --rarity: #9aa0a6; }
+.draw--rare { --rarity: #5aa9e6; }
+.draw--epic { --rarity: #b07ce8; }
+.draw--legendary { --rarity: #e7c873; }
+.draw--mythic { --rarity: #f08bbf; }
+
+.gacha__rates {
+    font-size: 0.82rem;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.gacha__rates summary {
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.gacha__rates ul {
+    margin: 0;
+    padding-left: 18px;
+}
