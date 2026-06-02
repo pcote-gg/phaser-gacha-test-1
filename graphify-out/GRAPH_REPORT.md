@@ -1,16 +1,16 @@
 # Graph Report - phaser-gacha-test-1  (2026-06-01)
 
 ## Corpus Check
-- 21 files · ~42,189 words
+- 22 files · ~42,200 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 175 nodes · 200 edges · 19 communities (15 shown, 4 thin omitted)
+- 180 nodes · 204 edges · 20 communities (16 shown, 4 thin omitted)
 - Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 24 edges (avg confidence: 0.84)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ca205d65`
+- Built from commit: `76785ba2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -31,6 +31,7 @@
 - [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 17|Community 17]]
 - [[_COMMUNITY_Community 18|Community 18]]
+- [[_COMMUNITY_Community 19|Community 19]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
@@ -63,7 +64,7 @@
 - **Scene transition lifecycle flow** — boot_scene, preloader_scene, mainmenu_scene, game_scene, gameover_scene [EXTRACTED 1.00]
 - **React-Phaser communication bridge** — app_app, phasergame_component, eventbus_eventbus, event_current_scene_ready [INFERRED 0.85]
 
-## Communities (19 total, 4 thin omitted)
+## Communities (20 total, 4 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.09
@@ -113,8 +114,12 @@ Nodes (4): Browser Tab Branding, Colorful Pixel Character Motif, Phaser Gacha Ga
 Cohesion: 0.22
 Nodes (8): 1. Always navigate the code through Graphiphy first, 2. Investigate before you claim, CLAUDE.md — Reverie Vigil (Phaser 4), Confirm before irreversible or destructive actions, Don't leave scratch files behind, Keep solutions minimal — avoid over-engineering, Respect Phaser and framework conventions, Write code the owner can follow
 
+### Community 19 - "Community 19"
+Cohesion: 0.40
+Nodes (4): enabledPlugins, frontend-design@claude-plugins-official, playwright@claude-plugins-official, typescript-lsp@claude-plugins-official
+
 ## Knowledge Gaps
-- **80 isolated node(s):** `1. Always navigate the code through Graphiphy first`, `2. Investigate before you claim`, `Keep solutions minimal — avoid over-engineering`, `Confirm before irreversible or destructive actions`, `Respect Phaser and framework conventions` (+75 more)
+- **83 isolated node(s):** `frontend-design@claude-plugins-official`, `playwright@claude-plugins-official`, `typescript-lsp@claude-plugins-official`, `1. Always navigate the code through Graphiphy first`, `2. Investigate before you claim` (+78 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -122,9 +127,9 @@ Nodes (8): 1. Always navigate the code through Graphiphy first, 2. Investigate b
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `Community 4` to `Community 1`?**
-  _High betweenness centrality (0.024) - this node is a cross-community bridge._
-- **What connects `1. Always navigate the code through Graphiphy first`, `2. Investigate before you claim`, `Keep solutions minimal — avoid over-engineering` to the rest of the system?**
-  _81 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+- **What connects `frontend-design@claude-plugins-official`, `playwright@claude-plugins-official`, `typescript-lsp@claude-plugins-official` to the rest of the system?**
+  _84 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.08901515151515152 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

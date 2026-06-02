@@ -36,85 +36,130 @@
   },
   "nodes": [
     {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L1",
+      "id": "claude_settings_json",
+      "community": 19,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "enabledPlugins",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "id": "claude_settings_enabledplugins",
+      "community": 19,
+      "norm_label": "enabledplugins"
+    },
+    {
+      "label": "frontend-design@claude-plugins-official",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "id": "claude_settings_enabledplugins_frontend_design_claude_plugins_official",
+      "community": 19,
+      "norm_label": "frontend-design@claude-plugins-official"
+    },
+    {
+      "label": "playwright@claude-plugins-official",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L4",
+      "id": "claude_settings_enabledplugins_playwright_claude_plugins_official",
+      "community": 19,
+      "norm_label": "playwright@claude-plugins-official"
+    },
+    {
+      "label": "typescript-lsp@claude-plugins-official",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L5",
+      "id": "claude_settings_enabledplugins_typescript_lsp_claude_plugins_official",
+      "community": 19,
+      "norm_label": "typescript-lsp@claude-plugins-official"
+    },
+    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
-      "id": "claude_md",
       "community": 18,
-      "norm_label": "claude.md"
+      "norm_label": "claude.md",
+      "id": "claude_md"
     },
     {
       "label": "CLAUDE.md \u2014 Reverie Vigil (Phaser 4)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
-      "id": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
       "community": 18,
-      "norm_label": "claude.md \u2014 reverie vigil (phaser 4)"
+      "norm_label": "claude.md \u2014 reverie vigil (phaser 4)",
+      "id": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4"
     },
     {
       "label": "1. Always navigate the code through Graphiphy first",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L22",
-      "id": "phaser_gacha_test_1_claude_1_always_navigate_the_code_through_graphiphy_first",
       "community": 18,
-      "norm_label": "1. always navigate the code through graphiphy first"
+      "norm_label": "1. always navigate the code through graphiphy first",
+      "id": "phaser_gacha_test_1_claude_1_always_navigate_the_code_through_graphiphy_first"
     },
     {
       "label": "2. Investigate before you claim",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L34",
-      "id": "phaser_gacha_test_1_claude_2_investigate_before_you_claim",
       "community": 18,
-      "norm_label": "2. investigate before you claim"
+      "norm_label": "2. investigate before you claim",
+      "id": "phaser_gacha_test_1_claude_2_investigate_before_you_claim"
     },
     {
       "label": "Keep solutions minimal \u2014 avoid over-engineering",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L68",
-      "id": "phaser_gacha_test_1_claude_keep_solutions_minimal_avoid_over_engineering",
       "community": 18,
-      "norm_label": "keep solutions minimal \u2014 avoid over-engineering"
+      "norm_label": "keep solutions minimal \u2014 avoid over-engineering",
+      "id": "phaser_gacha_test_1_claude_keep_solutions_minimal_avoid_over_engineering"
     },
     {
       "label": "Confirm before irreversible or destructive actions",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L71",
-      "id": "phaser_gacha_test_1_claude_confirm_before_irreversible_or_destructive_actions",
       "community": 18,
-      "norm_label": "confirm before irreversible or destructive actions"
+      "norm_label": "confirm before irreversible or destructive actions",
+      "id": "phaser_gacha_test_1_claude_confirm_before_irreversible_or_destructive_actions"
     },
     {
       "label": "Respect Phaser and framework conventions",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L79",
-      "id": "phaser_gacha_test_1_claude_respect_phaser_and_framework_conventions",
       "community": 18,
-      "norm_label": "respect phaser and framework conventions"
+      "norm_label": "respect phaser and framework conventions",
+      "id": "phaser_gacha_test_1_claude_respect_phaser_and_framework_conventions"
     },
     {
       "label": "Don't leave scratch files behind",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L82",
-      "id": "phaser_gacha_test_1_claude_don_t_leave_scratch_files_behind",
       "community": 18,
-      "norm_label": "don't leave scratch files behind"
+      "norm_label": "don't leave scratch files behind",
+      "id": "phaser_gacha_test_1_claude_don_t_leave_scratch_files_behind"
     },
     {
       "label": "Write code the owner can follow",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L85",
-      "id": "phaser_gacha_test_1_claude_write_code_the_owner_can_follow",
       "community": 18,
-      "norm_label": "write code the owner can follow"
+      "norm_label": "write code the owner can follow",
+      "id": "phaser_gacha_test_1_claude_write_code_the_owner_can_follow"
     },
     {
       "label": "log.js",
@@ -1827,12 +1872,52 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_enabledplugins",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_settings_enabledplugins",
+      "target": "claude_settings_enabledplugins_frontend_design_claude_plugins_official",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "claude_settings_enabledplugins",
+      "target": "claude_settings_enabledplugins_playwright_claude_plugins_official",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "claude_settings_enabledplugins",
+      "target": "claude_settings_enabledplugins_typescript_lsp_claude_plugins_official",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4"
     },
     {
       "relation": "contains",
@@ -1840,9 +1925,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
-      "target": "phaser_gacha_test_1_claude_1_always_navigate_the_code_through_graphiphy_first",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_claude_1_always_navigate_the_code_through_graphiphy_first"
     },
     {
       "relation": "contains",
@@ -1850,9 +1935,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
-      "target": "phaser_gacha_test_1_claude_2_investigate_before_you_claim",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_claude_2_investigate_before_you_claim"
     },
     {
       "relation": "contains",
@@ -1860,9 +1945,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
-      "target": "phaser_gacha_test_1_claude_confirm_before_irreversible_or_destructive_actions",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_claude_confirm_before_irreversible_or_destructive_actions"
     },
     {
       "relation": "contains",
@@ -1870,9 +1955,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
-      "target": "phaser_gacha_test_1_claude_don_t_leave_scratch_files_behind",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_claude_don_t_leave_scratch_files_behind"
     },
     {
       "relation": "contains",
@@ -1880,9 +1965,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
-      "target": "phaser_gacha_test_1_claude_keep_solutions_minimal_avoid_over_engineering",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_claude_keep_solutions_minimal_avoid_over_engineering"
     },
     {
       "relation": "contains",
@@ -1890,9 +1975,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
-      "target": "phaser_gacha_test_1_claude_respect_phaser_and_framework_conventions",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_claude_respect_phaser_and_framework_conventions"
     },
     {
       "relation": "contains",
@@ -1900,9 +1985,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "phaser_gacha_test_1_claude_claude_md_reverie_vigil_phaser_4",
-      "target": "phaser_gacha_test_1_claude_write_code_the_owner_can_follow",
-      "confidence_score": 1.0
+      "target": "phaser_gacha_test_1_claude_write_code_the_owner_can_follow"
     },
     {
       "relation": "contains",
@@ -3881,5 +3966,5 @@
       "source_file": "src/PhaserGame.tsx"
     }
   ],
-  "built_at_commit": "ca205d65a239980e0956828456f1b66fa0cc92c5"
+  "built_at_commit": "76785ba2c145d7611ef21d80a26757b4a1f52573"
 }
