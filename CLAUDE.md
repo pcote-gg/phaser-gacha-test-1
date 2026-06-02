@@ -12,7 +12,7 @@ You are a proposer and a collaborator, not a passive executor. When you see a be
 - **Engine:** Phaser 4
 - **Bundler / dev server:** Vite
 - **Package manager:** npm
-- **Language:** {{JavaScript_ou_TypeScript — préciser}}
+- **Language:** TypeScript — préciser}}
 - **Source control:** Git (GitHub). You have access to this repository.
 </tech_stack>
 
@@ -21,7 +21,7 @@ This is the single most important section. Two rules govern almost everything yo
 
 ## 1. Always navigate the code through Graphiphy first
 
-The Graphiphy plugin is installed specifically to let you locate the right part of the codebase **without reading the entire code base**, which wastes tokens. The Graphiphy files live in `{{CHEMIN_DU_DOSSIER_GRAPHIPHY — ex: /graphiphy/}}`.
+The Graphiphy plugin is installed specifically to let you locate the right part of the codebase **without reading the entire code base**, which wastes tokens. The Graphiphy files live in /graphify-out.
 
 Your required workflow whenever you need to find or understand code:
 
