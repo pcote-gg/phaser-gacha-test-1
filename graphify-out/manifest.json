@@ -1,8 +1,8 @@
 {
   "E:\\coding\\phaser-gacha-test-1\\package.json": {
-    "mtime": 1780364989.593251,
-    "ast_hash": "b415670be629788f5819d34a76d1fc63",
-    "semantic_hash": "b415670be629788f5819d34a76d1fc63"
+    "mtime": 1780373728.8924499,
+    "ast_hash": "05792f73e3a4e72b362628217d2fc0f8",
+    "semantic_hash": "05792f73e3a4e72b362628217d2fc0f8"
   },
   "E:\\coding\\phaser-gacha-test-1\\tsconfig.json": {
     "mtime": 1780265804.0984383,
@@ -15,9 +15,9 @@
     "semantic_hash": "1b9d83e27fae726e66ba0661575c7f15"
   },
   "E:\\coding\\phaser-gacha-test-1\\src\\App.tsx": {
-    "mtime": 1780371624.265069,
-    "ast_hash": "c91760cbfc20f328a92fc3b56dc4fe7f",
-    "semantic_hash": "c91760cbfc20f328a92fc3b56dc4fe7f"
+    "mtime": 1780373132.5527685,
+    "ast_hash": "b2ae4c80222b35b2481c5578b60d2761",
+    "semantic_hash": "b2ae4c80222b35b2481c5578b60d2761"
   },
   "E:\\coding\\phaser-gacha-test-1\\src\\main.tsx": {
     "mtime": 1780265804.0984383,
@@ -95,9 +95,9 @@
     "semantic_hash": "9dc7b245053f6aa6acbce9f80f566c0f"
   },
   "E:\\coding\\phaser-gacha-test-1\\CLAUDE.md": {
-    "mtime": 1780365201.0076115,
-    "ast_hash": "d532f7f59e3ccd9492815110314e8406",
-    "semantic_hash": "d532f7f59e3ccd9492815110314e8406"
+    "mtime": 1780373837.7361963,
+    "ast_hash": "439dc03aec98b43b96f26318930db78b",
+    "semantic_hash": "439dc03aec98b43b96f26318930db78b"
   },
   "E:\\coding\\phaser-gacha-test-1\\gameInfo\\GDD_ReverieVigil_v0.9.md": {
     "mtime": 1780283324.6659765,
@@ -110,9 +110,9 @@
     "semantic_hash": "4ee52c61aa747a7a6b6e7fffe9dfef57"
   },
   "E:\\coding\\phaser-gacha-test-1\\.claude\\settings.json": {
-    "mtime": 1780365288.474771,
-    "ast_hash": "ab699a06c63ee76fd61695f3b051cf93",
-    "semantic_hash": "ab699a06c63ee76fd61695f3b051cf93"
+    "mtime": 1780372643.3000195,
+    "ast_hash": "9ba230b34a225a1708ee60c8b2a6c822",
+    "semantic_hash": "9ba230b34a225a1708ee60c8b2a6c822"
   },
   "E:\\coding\\phaser-gacha-test-1\\reference\\phaser-react-template\\log.js": {
     "mtime": 1780265804.0904934,
@@ -275,9 +275,9 @@
     "semantic_hash": "e45276913c3afd6b625b62ffdcb710d2"
   },
   "E:\\coding\\phaser-gacha-test-1\\src\\ui\\GachaScreen.tsx": {
-    "mtime": 1780366303.542627,
-    "ast_hash": "82a8768042633a3fb6f238421529160e",
-    "semantic_hash": "82a8768042633a3fb6f238421529160e"
+    "mtime": 1780373194.383555,
+    "ast_hash": "29291a1e14f84e638f96ba9c57730159",
+    "semantic_hash": "29291a1e14f84e638f96ba9c57730159"
   },
   "E:\\coding\\phaser-gacha-test-1\\src\\ui\\GameContext.tsx": {
     "mtime": 1780371550.4987862,
@@ -295,9 +295,9 @@
     "semantic_hash": "d45d3651ff60ae6a1de8264b2300b344"
   },
   "E:\\coding\\phaser-gacha-test-1\\src\\ui\\BrewScreen.tsx": {
-    "mtime": 1780366924.163307,
-    "ast_hash": "89f92d3819e6b050cfebce27a9d8988f",
-    "semantic_hash": "89f92d3819e6b050cfebce27a9d8988f"
+    "mtime": 1780373260.0865536,
+    "ast_hash": "3906bad250459a80ec5100b9e931fff0",
+    "semantic_hash": "3906bad250459a80ec5100b9e931fff0"
   },
   "E:\\coding\\phaser-gacha-test-1\\src\\core\\idle\\vigil.ts": {
     "mtime": 1780368406.953082,
@@ -305,9 +305,9 @@
     "semantic_hash": "5ae18f730b595f10678433b31d162e0a"
   },
   "E:\\coding\\phaser-gacha-test-1\\src\\ui\\VigilScreen.tsx": {
-    "mtime": 1780368526.606333,
-    "ast_hash": "929e074a25e0753bf1c6d878882251a4",
-    "semantic_hash": "929e074a25e0753bf1c6d878882251a4"
+    "mtime": 1780373168.5621004,
+    "ast_hash": "8ae3a7557a001808c110889fe557c45e",
+    "semantic_hash": "8ae3a7557a001808c110889fe557c45e"
   },
   "E:\\coding\\phaser-gacha-test-1\\src\\core\\content\\fragments.ts": {
     "mtime": 1780370355.8341846,
@@ -320,9 +320,9 @@
     "semantic_hash": "9f9ad1759b31e4d65cb7d80c28cadb8a"
   },
   "E:\\coding\\phaser-gacha-test-1\\src\\ui\\FragmentsScreen.tsx": {
-    "mtime": 1780370490.301768,
-    "ast_hash": "8954a480278e144bda605e7582abb2d2",
-    "semantic_hash": "8954a480278e144bda605e7582abb2d2"
+    "mtime": 1780373388.6186182,
+    "ast_hash": "91381604eacde6ee41a4cf838d90eb4c",
+    "semantic_hash": "91381604eacde6ee41a4cf838d90eb4c"
   },
   "E:\\coding\\phaser-gacha-test-1\\src\\core\\progress\\leveling.ts": {
     "mtime": 1780371480.8032994,
@@ -330,8 +330,58 @@
     "semantic_hash": "0d27185e41497d00a6dfeda215d3170c"
   },
   "E:\\coding\\phaser-gacha-test-1\\src\\ui\\RosterScreen.tsx": {
-    "mtime": 1780371586.0643778,
-    "ast_hash": "0dbd45c5fb4dfe6eebc56a0b3fca3d47",
-    "semantic_hash": "0dbd45c5fb4dfe6eebc56a0b3fca3d47"
+    "mtime": 1780373285.0274067,
+    "ast_hash": "2bca9ea7b3943f6e3e8f12282038c6af",
+    "semantic_hash": "2bca9ea7b3943f6e3e8f12282038c6af"
+  },
+  "E:\\coding\\phaser-gacha-test-1\\playwright.config.ts": {
+    "mtime": 1780373457.6310148,
+    "ast_hash": "6a40033f38ae509488feb877d0bb4f08",
+    "semantic_hash": "6a40033f38ae509488feb877d0bb4f08"
+  },
+  "E:\\coding\\phaser-gacha-test-1\\tests\\e2e\\brew.spec.ts": {
+    "mtime": 1780373630.5876453,
+    "ast_hash": "854dfa1053e259f06c1b4d72f16a874e",
+    "semantic_hash": "854dfa1053e259f06c1b4d72f16a874e"
+  },
+  "E:\\coding\\phaser-gacha-test-1\\tests\\e2e\\fragments.spec.ts": {
+    "mtime": 1780373698.4397647,
+    "ast_hash": "e1a90da1d9f21f8322b89b4b1a1e65b6",
+    "semantic_hash": "e1a90da1d9f21f8322b89b4b1a1e65b6"
+  },
+  "E:\\coding\\phaser-gacha-test-1\\tests\\e2e\\gacha.spec.ts": {
+    "mtime": 1780373616.2368886,
+    "ast_hash": "707dd80bb245b5f000e7a62ca056e547",
+    "semantic_hash": "707dd80bb245b5f000e7a62ca056e547"
+  },
+  "E:\\coding\\phaser-gacha-test-1\\tests\\e2e\\helpers.ts": {
+    "mtime": 1780373565.53879,
+    "ast_hash": "67c5524fe7eabd5a2b824ea237a75b49",
+    "semantic_hash": "67c5524fe7eabd5a2b824ea237a75b49"
+  },
+  "E:\\coding\\phaser-gacha-test-1\\tests\\e2e\\nav.spec.ts": {
+    "mtime": 1780373580.1350982,
+    "ast_hash": "23373d8473bf76018df4fbde42237f33",
+    "semantic_hash": "23373d8473bf76018df4fbde42237f33"
+  },
+  "E:\\coding\\phaser-gacha-test-1\\tests\\e2e\\persistence.spec.ts": {
+    "mtime": 1780373710.0418947,
+    "ast_hash": "d5b4db9b4c7ee9f6a81ef4bb8769640e",
+    "semantic_hash": "d5b4db9b4c7ee9f6a81ef4bb8769640e"
+  },
+  "E:\\coding\\phaser-gacha-test-1\\tests\\e2e\\roster.spec.ts": {
+    "mtime": 1780373660.3904371,
+    "ast_hash": "fe22c1f86768aa72a2adb5df48aca81a",
+    "semantic_hash": "fe22c1f86768aa72a2adb5df48aca81a"
+  },
+  "E:\\coding\\phaser-gacha-test-1\\tests\\e2e\\vigil.spec.ts": {
+    "mtime": 1780373672.332584,
+    "ast_hash": "1df77853439cf05c3ec163c7978a4234",
+    "semantic_hash": "1df77853439cf05c3ec163c7978a4234"
+  },
+  "E:\\coding\\phaser-gacha-test-1\\tests\\e2e\\README.md": {
+    "mtime": 1780373776.2170138,
+    "ast_hash": "de485e18b63afe43c8ad72e3aad81e55",
+    "semantic_hash": "de485e18b63afe43c8ad72e3aad81e55"
   }
 }
