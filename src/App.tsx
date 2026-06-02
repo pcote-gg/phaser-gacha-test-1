@@ -4,12 +4,14 @@ import { GameProvider } from './ui/GameContext';
 import { GachaScreen } from './ui/GachaScreen';
 import { BrewScreen } from './ui/BrewScreen';
 import { VigilScreen } from './ui/VigilScreen';
+import { FragmentsScreen } from './ui/FragmentsScreen';
 import './ui/nav.css';
 
-type Screen = 'vigil' | 'brew' | 'gacha';
+type Screen = 'vigil' | 'fragments' | 'brew' | 'gacha';
 
 const SCREENS: { id: Screen; label: string }[] = [
     { id: 'vigil', label: 'The Vigil' },
+    { id: 'fragments', label: 'Fragments' },
     { id: 'brew', label: 'The Brew' },
     { id: 'gacha', label: 'Banner' },
 ];
@@ -29,6 +31,7 @@ function App()
                 {/* React UI layer sits over the Phaser canvas. */}
                 <div className="ui-overlay">
                     {screen === 'vigil' && <VigilScreen />}
+                    {screen === 'fragments' && <FragmentsScreen />}
                     {screen === 'brew' && <BrewScreen />}
                     {screen === 'gacha' && <GachaScreen />}
                     <nav className="screen-nav">

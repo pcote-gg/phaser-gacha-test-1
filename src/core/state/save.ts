@@ -4,22 +4,25 @@ import { GameState, SAVE_VERSION, newGame } from './gameState';
 const SAVE_KEY = 'reverie-vigil:save';
 
 /**
- * Steps an older save forward one schema version at a time. Each `case` brings
- * the data from version N to N+1; execution falls through so a very old save
- * walks every step up to the current version. Returns null if the save is too
- * new (from a future version) to understand.
+ * Steps an older save forward one schema version at a time. Each `if` brings the
+ * data from version N to N+1; they run in sequence so a very old save walks every
+ * step up to the current version. Returns null if the save is too new (from a
+ * future version) to understand.
  */
 function migrate(data: GameState): GameState | null {
     if (data.version > SAVE_VERSION) return null; // can't downgrade
-    /* eslint-disable no-fallthrough */
-    switch (data.version) {
-        case 2:
-            // v3 added The Vigil's unclaimed Dreamsand pool (GDD §6).
-            data.heldDreamsand = 0;
-            data.version = 3;
-        // falls through to pick up any later migrations
+
+    if (data.version === 2) {
+        // v3 added The Vigil's unclaimed Dreamsand pool (GDD §6).
+        data.heldDreamsand = 0;
+        data.version = 3;
     }
-    /* eslint-enable no-fallthrough */
+    if (data.version === 3) {
+        // v4 added Dream Fragment completion tracking (GDD §7A).
+        data.completedFragments = [];
+        data.version = 4;
+    }
+
     return data.version === SAVE_VERSION ? data : null;
 }
 

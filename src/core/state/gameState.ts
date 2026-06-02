@@ -37,6 +37,8 @@ export interface GameState {
     roster: OwnedCharacter[];
     /** Active team for The Brew — ids referencing owned characters (GDD §7B). */
     team: string[];
+    /** Ids of Dream Fragments the player has finished, for one-time rewards (GDD §7A). */
+    completedFragments: string[];
     /**
      * Gacha pity counters, keyed by a banner's `pityGroup` so they carry over
      * between banners of the same type (GDD §9).
@@ -47,7 +49,7 @@ export interface GameState {
 }
 
 /** Current save schema version. */
-export const SAVE_VERSION = 3;
+export const SAVE_VERSION = 4;
 
 /** A zeroed Flicker wallet (one bucket per rarity). */
 function emptyFlicker(): Record<Rarity, number> {
@@ -63,6 +65,7 @@ export function newGame(): GameState {
         flicker: emptyFlicker(),
         roster: [],
         team: [],
+        completedFragments: [],
         pity: {},
         lastSeen: Date.now(),
     };

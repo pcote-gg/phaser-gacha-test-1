@@ -8,6 +8,8 @@ import type { BannerConfig } from '../core/gacha/banner';
 import { toggleTeamMember } from '../core/brew/team';
 import { settle, claimDreamsand } from '../core/idle/vigil';
 import type { AccrualResult } from '../core/idle/vigil';
+import { completeFragment } from '../core/fragments/progress';
+import type { FragmentReward } from '../core/content/fragments';
 
 /**
  * Thin bridge between the pure core game state and React. It holds the single
@@ -25,6 +27,11 @@ interface GameApi {
     offline: AccrualResult;
     /** Dev helper to grant Tolls until they are earnable through gameplay. */
     grantTolls: (amount: number) => void;
+    /**
+     * Marks a Dream Fragment finished and banks its one-time reward (GDD §7A).
+     * Returns the reward granted, or null if it was already completed.
+     */
+    finishFragment: (fragmentId: string) => FragmentReward | null;
 }
 
 const GameContext = createContext<GameApi | null>(null);
@@ -70,6 +77,15 @@ export function GameProvider({ children }: { children: ReactNode }) {
         rerender();
     };
 
+    const finishFragment = (fragmentId: string) => {
+        const reward = completeFragment(stateRef.current, fragmentId);
+        if (reward) {
+            saveGame(stateRef.current);
+            rerender();
+        }
+        return reward;
+    };
+
     return (
         <GameContext.Provider
             value={{
@@ -79,6 +95,7 @@ export function GameProvider({ children }: { children: ReactNode }) {
                 claim,
                 offline: offlineRef.current,
                 grantTolls,
+                finishFragment,
             }}
         >
             {children}
