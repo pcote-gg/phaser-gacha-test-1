@@ -25,6 +25,12 @@ export interface GameState {
         /** Gacha pull currency (GDD §9). */
         tolls: number;
     };
+    /**
+     * Dreamsand earned by The Vigil but not yet claimed — accrues while the team
+     * holds watch (online and offline) and banks into `currencies.dreamsand` on
+     * claim (GDD §6 idle/offline accumulation).
+     */
+    heldDreamsand: number;
     /** Duplicate-conversion currency, held per rarity tier (GDD §9). */
     flicker: Record<Rarity, number>;
     /** Every character the player owns. */
@@ -41,7 +47,7 @@ export interface GameState {
 }
 
 /** Current save schema version. */
-export const SAVE_VERSION = 2;
+export const SAVE_VERSION = 3;
 
 /** A zeroed Flicker wallet (one bucket per rarity). */
 function emptyFlicker(): Record<Rarity, number> {
@@ -53,6 +59,7 @@ export function newGame(): GameState {
     return {
         version: SAVE_VERSION,
         currencies: { dreamsand: 0, tolls: 0 },
+        heldDreamsand: 0,
         flicker: emptyFlicker(),
         roster: [],
         team: [],

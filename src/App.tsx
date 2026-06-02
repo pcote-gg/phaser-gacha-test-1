@@ -3,16 +3,24 @@ import { IRefPhaserGame, PhaserGame } from './PhaserGame';
 import { GameProvider } from './ui/GameContext';
 import { GachaScreen } from './ui/GachaScreen';
 import { BrewScreen } from './ui/BrewScreen';
+import { VigilScreen } from './ui/VigilScreen';
 import './ui/nav.css';
 
-type Screen = 'brew' | 'gacha';
+type Screen = 'vigil' | 'brew' | 'gacha';
+
+const SCREENS: { id: Screen; label: string }[] = [
+    { id: 'vigil', label: 'The Vigil' },
+    { id: 'brew', label: 'The Brew' },
+    { id: 'gacha', label: 'Banner' },
+];
 
 function App()
 {
     //  Reference to the Phaser game + active scene, exposed so React UI can talk
     //  to the canvas (and vice-versa) via this ref or the EventBus.
     const phaserRef = useRef<IRefPhaserGame | null>(null);
-    const [screen, setScreen] = useState<Screen>('brew');
+    //  The daily loop opens on the Vigil — collect what accrued while away.
+    const [screen, setScreen] = useState<Screen>('vigil');
 
     return (
         <GameProvider>
@@ -20,20 +28,19 @@ function App()
                 <PhaserGame ref={phaserRef} />
                 {/* React UI layer sits over the Phaser canvas. */}
                 <div className="ui-overlay">
-                    {screen === 'brew' ? <BrewScreen /> : <GachaScreen />}
+                    {screen === 'vigil' && <VigilScreen />}
+                    {screen === 'brew' && <BrewScreen />}
+                    {screen === 'gacha' && <GachaScreen />}
                     <nav className="screen-nav">
-                        <button
-                            className={screen === 'brew' ? 'is-active' : ''}
-                            onClick={() => setScreen('brew')}
-                        >
-                            The Brew
-                        </button>
-                        <button
-                            className={screen === 'gacha' ? 'is-active' : ''}
-                            onClick={() => setScreen('gacha')}
-                        >
-                            Banner
-                        </button>
+                        {SCREENS.map(({ id, label }) => (
+                            <button
+                                key={id}
+                                className={screen === id ? 'is-active' : ''}
+                                onClick={() => setScreen(id)}
+                            >
+                                {label}
+                            </button>
+                        ))}
                     </nav>
                 </div>
             </div>

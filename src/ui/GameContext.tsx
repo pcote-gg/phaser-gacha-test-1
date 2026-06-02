@@ -6,6 +6,8 @@ import { performPull } from '../core/gacha/pull';
 import type { PullResult } from '../core/gacha/pull';
 import type { BannerConfig } from '../core/gacha/banner';
 import { toggleTeamMember } from '../core/brew/team';
+import { settle, claimDreamsand } from '../core/idle/vigil';
+import type { AccrualResult } from '../core/idle/vigil';
 
 /**
  * Thin bridge between the pure core game state and React. It holds the single
@@ -17,6 +19,10 @@ interface GameApi {
     pull: (banner: BannerConfig, count: number) => PullResult;
     /** Adds or removes a character from the active Brew team (GDD §7B). */
     toggleTeam: (characterId: string) => void;
+    /** Banks held Dreamsand into the spendable balance; returns the amount claimed (GDD §6). */
+    claim: () => number;
+    /** Dreamsand accrued while the player was away, computed once on load (for the "while away" banner). */
+    offline: AccrualResult;
     /** Dev helper to grant Tolls until they are earnable through gameplay. */
     grantTolls: (amount: number) => void;
 }
@@ -27,6 +33,14 @@ export function GameProvider({ children }: { children: ReactNode }) {
     const stateRef = useRef<GameState>(loadGame());
     const [, rerender] = useReducer((n: number) => n + 1, 0);
 
+    // Settle offline accumulation exactly once on load: bank what the team earned
+    // while away into the held pool, and remember the summary for the UI banner.
+    const offlineRef = useRef<AccrualResult | null>(null);
+    if (offlineRef.current === null) {
+        offlineRef.current = settle(stateRef.current, Date.now());
+        saveGame(stateRef.current);
+    }
+
     const pull = (banner: BannerConfig, count: number) => {
         const result = performPull(stateRef.current, banner, count, Math.random);
         saveGame(stateRef.current);
@@ -35,9 +49,19 @@ export function GameProvider({ children }: { children: ReactNode }) {
     };
 
     const toggleTeam = (characterId: string) => {
-        if (!toggleTeamMember(stateRef.current, characterId)) return; // no-op (team full / not owned)
+        // Bank accrual at the current rate BEFORE the team (and thus the rate) changes,
+        // so elapsed time is credited at the rate that actually applied during it.
+        settle(stateRef.current, Date.now());
+        toggleTeamMember(stateRef.current, characterId); // no-op when team full / not owned
         saveGame(stateRef.current);
         rerender();
+    };
+
+    const claim = () => {
+        const amount = claimDreamsand(stateRef.current, Date.now());
+        saveGame(stateRef.current);
+        rerender();
+        return amount;
     };
 
     const grantTolls = (amount: number) => {
@@ -47,7 +71,16 @@ export function GameProvider({ children }: { children: ReactNode }) {
     };
 
     return (
-        <GameContext.Provider value={{ state: stateRef.current, pull, toggleTeam, grantTolls }}>
+        <GameContext.Provider
+            value={{
+                state: stateRef.current,
+                pull,
+                toggleTeam,
+                claim,
+                offline: offlineRef.current,
+                grantTolls,
+            }}
+        >
             {children}
         </GameContext.Provider>
     );

@@ -1,0 +1,123 @@
+.vigil {
+    width: min(440px, 92vw);
+    padding: 24px 28px;
+    background: rgba(26, 19, 38, 0.92);
+    border: 1px solid rgba(243, 233, 210, 0.25);
+    border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+    color: #f3e9d2;
+    text-align: center;
+}
+
+.vigil__title {
+    margin: 0 0 4px;
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+}
+
+.vigil__flavour {
+    margin: 0 0 18px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+/* --- "While you were away" banner --- */
+.vigil__away {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 2px 12px;
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    background: rgba(231, 200, 115, 0.12);
+    border: 1px solid rgba(231, 200, 115, 0.4);
+    text-align: left;
+}
+
+.away__head { font-size: 0.82rem; opacity: 0.85; }
+.away__earned {
+    grid-row: span 2;
+    align-self: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #e7c873;
+    text-align: right;
+}
+.away__sub { font-size: 0.76rem; opacity: 0.7; }
+.away__dismiss {
+    grid-column: 1 / -1;
+    justify-self: start;
+    margin-top: 6px;
+    padding: 2px 10px;
+    font: inherit;
+    font-size: 0.75rem;
+    color: rgba(243, 233, 210, 0.7);
+    background: transparent;
+    border: 1px solid rgba(243, 233, 210, 0.25);
+    border-radius: 999px;
+    cursor: pointer;
+}
+.away__dismiss:hover { color: #f3e9d2; }
+
+/* --- Main vigil panel --- */
+.vigil__panel {
+    padding: 18px 16px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(243, 233, 210, 0.15);
+}
+
+.vigil__held {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 14px;
+}
+
+.held__value {
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #e7c873;
+    font-variant-numeric: tabular-nums;
+}
+
+.held__unit { font-size: 0.82rem; opacity: 0.75; }
+
+.vigil__stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    margin-bottom: 16px;
+    font-size: 0.84rem;
+    opacity: 0.9;
+}
+
+.vigil__claim {
+    width: 100%;
+    padding: 12px;
+    font: inherit;
+    font-weight: 600;
+    color: #1a1326;
+    background: #e7c873;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: filter 0.15s, transform 0.05s;
+}
+
+.vigil__claim:hover:not(:disabled) { filter: brightness(1.08); }
+.vigil__claim:active:not(:disabled) { transform: translateY(1px); }
+.vigil__claim:disabled {
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(243, 233, 210, 0.5);
+    cursor: not-allowed;
+}
+
+.vigil__hint {
+    margin: 16px 0 0;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    line-height: 1.4;
+}

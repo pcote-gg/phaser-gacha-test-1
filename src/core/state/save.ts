@@ -4,11 +4,28 @@ import { GameState, SAVE_VERSION, newGame } from './gameState';
 const SAVE_KEY = 'reverie-vigil:save';
 
 /**
+ * Steps an older save forward one schema version at a time. Each `case` brings
+ * the data from version N to N+1; execution falls through so a very old save
+ * walks every step up to the current version. Returns null if the save is too
+ * new (from a future version) to understand.
+ */
+function migrate(data: GameState): GameState | null {
+    if (data.version > SAVE_VERSION) return null; // can't downgrade
+    /* eslint-disable no-fallthrough */
+    switch (data.version) {
+        case 2:
+            // v3 added The Vigil's unclaimed Dreamsand pool (GDD §6).
+            data.heldDreamsand = 0;
+            data.version = 3;
+        // falls through to pick up any later migrations
+    }
+    /* eslint-enable no-fallthrough */
+    return data.version === SAVE_VERSION ? data : null;
+}
+
+/**
  * Loads the saved game. Returns a fresh game when there is no save, when the
- * save is from an incompatible schema version, or when it is unreadable.
- *
- * No migrations exist yet, so a version mismatch starts fresh. When the schema
- * changes for real, add migration steps here before the version check.
+ * save is unreadable, or when it cannot be migrated to the current schema.
  */
 export function loadGame(): GameState {
     try {
@@ -16,9 +33,9 @@ export function loadGame(): GameState {
         if (!raw) return newGame();
 
         const data = JSON.parse(raw) as GameState;
-        if (data.version !== SAVE_VERSION) return newGame();
+        if (data.version === SAVE_VERSION) return data;
 
-        return data;
+        return migrate(data) ?? newGame();
     } catch {
         // Corrupt JSON or localStorage unavailable — fail soft to a new game.
         return newGame();
