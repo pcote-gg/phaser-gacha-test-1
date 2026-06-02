@@ -1,16 +1,16 @@
 # Graph Report - phaser-gacha-test-1  (2026-06-01)
 
 ## Corpus Check
-- 38 files · ~43,318 words
+- 44 files · ~44,615 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 267 nodes · 277 edges · 33 communities (21 shown, 12 thin omitted)
+- 290 nodes · 304 edges · 34 communities (25 shown, 9 thin omitted)
 - Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.83)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `35f0693e`
+- Built from commit: `e09a9e1f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -44,6 +44,7 @@
 - [[_COMMUNITY_Community 28|Community 28]]
 - [[_COMMUNITY_Community 29|Community 29]]
 - [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 33|Community 33]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
@@ -64,10 +65,10 @@
   README.md → src/PhaserGame.tsx
 - `Anonymous telemetry rationale` --rationale_for--> `log.js anonymous telemetry`  [INFERRED]
   README.md → log.js
-- `PhaserGame React Bridge Component` --references--> `'current-scene-ready' event`  [EXTRACTED]
-  src/PhaserGame.tsx → src/game/EventBus.ts
-- `GameOver Scene` --references--> `'current-scene-ready' event`  [EXTRACTED]
-  src/game/scenes/GameOver.ts → src/game/EventBus.ts
+- `CharacterDef` --references--> `Rarity`  [EXTRACTED]
+  src/core/content/characters.ts → src/core/types.ts
+- `loadGame()` --calls--> `newGame()`  [EXTRACTED]
+  src/core/state/save.ts → src/core/state/gameState.ts
 
 ## Import Cycles
 - None detected.
@@ -76,11 +77,11 @@
 - **Scene transition lifecycle flow** — boot_scene, preloader_scene, mainmenu_scene, game_scene, gameover_scene [EXTRACTED 1.00]
 - **React-Phaser communication bridge** — app_app, phasergame_component, eventbus_eventbus, event_current_scene_ready [INFERRED 0.85]
 
-## Communities (33 total, 12 thin omitted)
+## Communities (34 total, 9 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.09
-Nodes (9): EventBus, config, Game, MainMenu, GameOver, config, IProps, IRefPhaserGame (+1 more)
+Cohesion: 0.08
+Nodes (9): EventBus, config, Boot, Game, GameOver, MainMenu, IProps, IRefPhaserGame (+1 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.12
@@ -114,6 +115,10 @@ Nodes (6): Azure Blue (Top), Game Background Asset, Vertical Blue Gradient, Cyan
 Cohesion: 0.47
 Nodes (6): Light Blue Gradient Fill, Bold Angular Block Typeface, Chrome Diagonal-Stripe Style, Phaser Logo, Phaser Game Framework, PHASER Wordmark
 
+### Community 9 - "Community 9"
+Cohesion: 0.11
+Nodes (4): config, Boot, Game, Preloader
+
 ### Community 10 - "Community 10"
 Cohesion: 0.40
 Nodes (6): Five-Pointed Star Shape, Game Sprite Asset, Glossy Cartoon Style, Golden Yellow Color, Reward / Collectible Icon, Golden Star Sprite
@@ -146,25 +151,37 @@ Nodes (13): devDependencies, eslint, @eslint/js, eslint-plugin-react-hooks, esli
 Cohesion: 0.22
 Nodes (8): compilerOptions, allowSyntheticDefaultImports, composite, module, moduleResolution, skipLibCheck, strict, include
 
+### Community 24 - "Community 24"
+Cohesion: 0.25
+Nodes (6): BY_ID, CharacterDef, CHARACTERS, Rarity, RARITY_LEVEL_CAP, RARITY_ORDER
+
+### Community 26 - "Community 26"
+Cohesion: 0.36
+Nodes (4): GameState, newGame(), OwnedCharacter, loadGame()
+
+### Community 33 - "Community 33"
+Cohesion: 0.50
+Nodes (3): Layout, `src/core` — the game's rules, with no engine attached, The one rule
+
 ## Knowledge Gaps
-- **138 isolated node(s):** `frontend-design@claude-plugins-official`, `playwright@claude-plugins-official`, `typescript-lsp@claude-plugins-official`, `github@claude-plugins-official`, `1. Always navigate the code through Graphiphy first` (+133 more)
+- **144 isolated node(s):** `The one rule`, `Layout`, `BY_ID`, `OwnedCharacter`, `RARITY_ORDER` (+139 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `EventBus` connect `Community 0` to `Community 9`?**
+  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+- **Why does `GameOver` connect `Community 0` to `Community 9`?**
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
 - **Why does `devDependencies` connect `Community 21` to `Community 17`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
-- **What connects `frontend-design@claude-plugins-official`, `playwright@claude-plugins-official`, `typescript-lsp@claude-plugins-official` to the rest of the system?**
-  _139 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **What connects `The one rule`, `Layout`, `BY_ID` to the rest of the system?**
+  _145 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.08636977058029689 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0796221322537112 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
-- **Should `Community 17` be split into smaller, more focused modules?**
-  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
-- **Should `Community 20` be split into smaller, more focused modules?**
   _Cohesion score 0.1 - nodes in this community are weakly interconnected._
