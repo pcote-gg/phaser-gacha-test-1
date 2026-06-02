@@ -5,6 +5,13 @@
       "input_tokens": 91824,
       "output_tokens": 16209,
       "files": 24
+    },
+    {
+      "date": "2026-06-02T02:36:29.880757+00:00",
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "files": 19,
+      "note": "code-only AST update (Phase 2 Brew)"
     }
   ],
   "total_input_tokens": 91824,

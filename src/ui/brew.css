@@ -1,0 +1,212 @@
+.brew {
+    width: min(480px, 94vw);
+    padding: 24px 28px;
+    background: rgba(26, 19, 38, 0.92);
+    border: 1px solid rgba(243, 233, 210, 0.25);
+    border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+    color: #f3e9d2;
+    text-align: center;
+}
+
+.brew__title {
+    margin: 0 0 4px;
+    font-size: 1.5rem;
+    letter-spacing: 0.02em;
+}
+
+.brew__flavour {
+    margin: 0 0 18px;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+/* --- Caffeine Gauge --- */
+.brew__gauge {
+    margin-bottom: 20px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--zone, rgba(243, 233, 210, 0.25));
+}
+
+.brew__gauge--drowsy { --zone: #5aa9e6; }
+.brew__gauge--balanced { --zone: #6fcf97; }
+.brew__gauge--overstimulated { --zone: #e8765a; }
+
+.gauge__track {
+    position: relative;
+    display: flex;
+    height: 14px;
+    border-radius: 7px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.gauge__band { height: 100%; opacity: 0.4; }
+.gauge__band--drowsy { background: #5aa9e6; }
+.gauge__band--balanced { background: #6fcf97; }
+.gauge__band--overstimulated { background: #e8765a; }
+
+.gauge__marker {
+    position: absolute;
+    top: -3px;
+    width: 3px;
+    height: 20px;
+    margin-left: -1.5px;
+    background: #f3e9d2;
+    border-radius: 2px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    transition: left 0.2s ease;
+}
+
+.gauge__readout {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 12px;
+}
+
+.gauge__zone {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--zone);
+}
+
+.gauge__value { font-size: 0.9rem; opacity: 0.85; }
+
+.gauge__blurb {
+    margin: 6px 0 10px;
+    font-size: 0.82rem;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.gauge__effects {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.gauge__effects span {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(243, 233, 210, 0.2);
+}
+
+/* --- Active team slots --- */
+.brew__team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.slot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    min-height: 60px;
+    padding: 6px 4px;
+    font: inherit;
+    color: #f3e9d2;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: filter 0.15s, transform 0.05s;
+}
+
+.slot--filled {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--rarity, #9a8f7a);
+    border-top: 3px solid var(--rarity, #9a8f7a);
+}
+
+.slot--filled:hover { filter: brightness(1.12); }
+.slot--filled:active { transform: translateY(1px); }
+
+.slot--empty {
+    background: transparent;
+    border: 1px dashed rgba(243, 233, 210, 0.25);
+    cursor: default;
+}
+
+.slot__name { font-size: 0.82rem; font-weight: 600; line-height: 1.1; }
+.slot__caf { font-size: 0.72rem; opacity: 0.7; }
+.slot__empty-label { font-size: 1.2rem; opacity: 0.35; }
+
+/* --- Owned roster picker --- */
+.brew__empty {
+    margin: 8px 0 0;
+    font-size: 0.86rem;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.brew__roster {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 8px 10px;
+    font: inherit;
+    color: #f3e9d2;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid transparent;
+    border-left: 4px solid var(--rarity, #9a8f7a);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: filter 0.15s, transform 0.05s, background 0.15s;
+}
+
+.card:hover:not(:disabled) { filter: brightness(1.1); }
+.card:active:not(:disabled) { transform: translateY(1px); }
+
+.card:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.card--in-team {
+    background: rgba(231, 200, 115, 0.14);
+    border-color: var(--rarity, #9a8f7a);
+}
+
+.card__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__name { font-weight: 600; }
+.card__check { color: #6fcf97; font-weight: 700; }
+
+.card__meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.76rem;
+    opacity: 0.8;
+}
+
+/* Per-rarity accent (self-contained so The Brew does not depend on gacha.css). */
+.draw--common { --rarity: #9aa0a6; }
+.draw--rare { --rarity: #5aa9e6; }
+.draw--epic { --rarity: #b07ce8; }
+.draw--legendary { --rarity: #e7c873; }
+.draw--mythic { --rarity: #f08bbf; }

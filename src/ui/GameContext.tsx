@@ -5,6 +5,7 @@ import { loadGame, saveGame } from '../core/state/save';
 import { performPull } from '../core/gacha/pull';
 import type { PullResult } from '../core/gacha/pull';
 import type { BannerConfig } from '../core/gacha/banner';
+import { toggleTeamMember } from '../core/brew/team';
 
 /**
  * Thin bridge between the pure core game state and React. It holds the single
@@ -14,6 +15,8 @@ import type { BannerConfig } from '../core/gacha/banner';
 interface GameApi {
     state: GameState;
     pull: (banner: BannerConfig, count: number) => PullResult;
+    /** Adds or removes a character from the active Brew team (GDD §7B). */
+    toggleTeam: (characterId: string) => void;
     /** Dev helper to grant Tolls until they are earnable through gameplay. */
     grantTolls: (amount: number) => void;
 }
@@ -31,6 +34,12 @@ export function GameProvider({ children }: { children: ReactNode }) {
         return result;
     };
 
+    const toggleTeam = (characterId: string) => {
+        if (!toggleTeamMember(stateRef.current, characterId)) return; // no-op (team full / not owned)
+        saveGame(stateRef.current);
+        rerender();
+    };
+
     const grantTolls = (amount: number) => {
         stateRef.current.currencies.tolls += amount;
         saveGame(stateRef.current);
@@ -38,7 +47,7 @@ export function GameProvider({ children }: { children: ReactNode }) {
     };
 
     return (
-        <GameContext.Provider value={{ state: stateRef.current, pull, grantTolls }}>
+        <GameContext.Provider value={{ state: stateRef.current, pull, toggleTeam, grantTolls }}>
             {children}
         </GameContext.Provider>
     );

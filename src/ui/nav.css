@@ -1,0 +1,37 @@
+/* Top-centered tab bar for switching between the React screens. Positioned
+   absolutely so it sits above the centered screen panel without pushing it. */
+.screen-nav {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+    padding: 4px;
+    border-radius: 999px;
+    background: rgba(26, 19, 38, 0.92);
+    border: 1px solid rgba(243, 233, 210, 0.25);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.screen-nav button {
+    padding: 8px 18px;
+    font: inherit;
+    font-size: 0.9rem;
+    color: rgba(243, 233, 210, 0.7);
+    background: transparent;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: color 0.15s, background 0.15s;
+}
+
+.screen-nav button:hover {
+    color: #f3e9d2;
+}
+
+.screen-nav button.is-active {
+    color: #1a1326;
+    background: #e7c873;
+    font-weight: 700;
+}
