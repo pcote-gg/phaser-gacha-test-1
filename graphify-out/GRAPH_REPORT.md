@@ -1,16 +1,16 @@
-# Graph Report - phaser-gacha-test-1  (2026-06-02)
+# Graph Report - phaser-gacha-test-1  (2026-06-04)
 
 ## Corpus Check
-- 69 files · ~89,000 words
+- 74 files · ~92,454 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 448 nodes · 728 edges · 55 communities (29 shown, 26 thin omitted)
+- 490 nodes · 787 edges · 58 communities (33 shown, 25 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.82)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `9be71539`
+- Built from commit: `67ba4bec`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -65,6 +65,9 @@
 - [[_COMMUNITY_Community 52|Community 52]]
 - [[_COMMUNITY_Community 53|Community 53]]
 - [[_COMMUNITY_Community 54|Community 54]]
+- [[_COMMUNITY_Community 55|Community 55]]
+- [[_COMMUNITY_Community 56|Community 56]]
+- [[_COMMUNITY_Community 57|Community 57]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 17 edges
@@ -72,23 +75,23 @@
 3. `useGame()` - 16 edges
 4. `GameState` - 15 edges
 5. `Rarity` - 14 edges
-6. `EventBus` - 10 edges
-7. `VigilScreen()` - 9 edges
-8. `FragmentReward` - 9 edges
-9. `Reverie Vigil` - 8 edges
-10. `CLAUDE.md — Reverie Vigil (Phaser 4)` - 8 edges
+6. `Design` - 10 edges
+7. `EventBus` - 10 edges
+8. `VigilScreen()` - 9 edges
+9. `FragmentReward` - 9 edges
+10. `Color` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `BrewScreen()` --calls--> `evaluateTeam()`  [EXTRACTED]
+  src/ui/BrewScreen.tsx → src/core/brew/caffeine.ts
 - `BrewScreen()` --calls--> `useGame()`  [EXTRACTED]
   src/ui/BrewScreen.tsx → src/ui/GameContext.tsx
-- `FragmentsScreen()` --calls--> `useGame()`  [EXTRACTED]
-  src/ui/FragmentsScreen.tsx → src/ui/GameContext.tsx
-- `FragmentReader()` --calls--> `useGame()`  [EXTRACTED]
-  src/ui/FragmentsScreen.tsx → src/ui/GameContext.tsx
+- `GachaScreen()` --calls--> `useGame()`  [EXTRACTED]
+  src/ui/GachaScreen.tsx → src/ui/GameContext.tsx
+- `RosterScreen()` --calls--> `useGame()`  [EXTRACTED]
+  src/ui/RosterScreen.tsx → src/ui/GameContext.tsx
 - `VigilScreen()` --calls--> `useGame()`  [EXTRACTED]
   src/ui/VigilScreen.tsx → src/ui/GameContext.tsx
-- `GameApi` --references--> `FragmentReward`  [EXTRACTED]
-  src/ui/GameContext.tsx → src/core/content/fragments.ts
 
 ## Import Cycles
 - None detected.
@@ -99,14 +102,14 @@
 - **GameContext as shared state hub for all screens** — gamecontext_usegame, vigilscreen_vigilscreen, brewscreen_brewscreen, rosterscreen_rosterscreen, gachascreen_gachascreen [EXTRACTED 1.00]
 - **e2e deterministic localStorage seeding flow** — helpers_seed, concept_localstorage_save, save_save_key, gamestate_save_version [INFERRED 0.85]
 
-## Communities (55 total, 26 thin omitted)
+## Communities (58 total, 25 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.11
-Nodes (33): allCharacters(), BY_ID, CharacterDef, getCharacter(), CHARACTERS, Rarity, RARITY_LEVEL_CAP, RARITY_ORDER (+25 more)
+Cohesion: 0.08
+Nodes (43): CAFFEINE_THRESHOLDS, allCharacters(), BY_ID, CharacterDef, getCharacter(), CHARACTERS, Rarity, RARITY_LEVEL_CAP (+35 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.23
+Cohesion: 0.19
 Nodes (16): allFragments(), BY_ID, ChoiceBeat, FragmentBeat, FragmentDef, FragmentReward, FRAGMENTS, FragmentType (+8 more)
 
 ### Community 2 - "Community 2"
@@ -118,8 +121,8 @@ Cohesion: 0.05
 Nodes (36): author, bugs, url, dependencies, graphify, phaser, react, react-dom (+28 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.14
-Nodes (25): BrewEvaluation, CAFFEINE_THRESHOLDS, caffeineZone, evaluateTeam(), teamCaffeine(), ZONE_EFFECTS, ZoneEffect, characterPower() (+17 more)
+Cohesion: 0.23
+Nodes (17): BrewEvaluation, caffeineZone, evaluateTeam(), teamCaffeine(), ZONE_EFFECTS, ZoneEffect, characterPower(), claimDreamsand() (+9 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.06
@@ -138,8 +141,8 @@ Cohesion: 0.26
 Nodes (8): navTo(), open(), OwnedCharacter, readNumber(), Screen, seed(), SeedState, SCREENS
 
 ### Community 9 - "Community 9"
-Cohesion: 0.19
-Nodes (9): IProps, IRefPhaserGame, PhaserGame, IProps, IRefPhaserGame, PhaserGame, IProps, IRefPhaserGame (+1 more)
+Cohesion: 0.14
+Nodes (13): IProps, IRefPhaserGame, PhaserGame, App(), Screen, SCREENS, IProps, IRefPhaserGame (+5 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.20
@@ -157,13 +160,17 @@ Nodes (8): compilerOptions, allowSyntheticDefaultImports, composite, module, mod
 Cohesion: 0.22
 Nodes (8): compilerOptions, allowSyntheticDefaultImports, composite, module, moduleResolution, skipLibCheck, strict, include
 
-### Community 15 - "Community 15"
-Cohesion: 0.18
-Nodes (22): addToTeam(), canAddToTeam(), isInTeam(), isTeamFull(), owns(), removeFromTeam(), toggleTeamMember(), BannerConfig (+14 more)
-
-### Community 16 - "Community 16"
+### Community 14 - "Community 14"
 Cohesion: 0.36
 Nodes (3): EventBus, EventBus, config
+
+### Community 15 - "Community 15"
+Cohesion: 0.19
+Nodes (21): addToTeam(), canAddToTeam(), isInTeam(), isTeamFull(), owns(), removeFromTeam(), toggleTeamMember(), PullResult (+13 more)
+
+### Community 16 - "Community 16"
+Cohesion: 0.15
+Nodes (4): GameOver, EventBus, config, Game
 
 ### Community 17 - "Community 17"
 Cohesion: 0.33
@@ -185,6 +192,10 @@ Nodes (6): Light Blue Gradient Fill, Bold Angular Block Typeface, Chrome Diagona
 Cohesion: 0.40
 Nodes (6): Five-Pointed Star Shape, Game Sprite Asset, Glossy Cartoon Style, Golden Yellow Color, Reward / Collectible Icon, Golden Star Sprite
 
+### Community 26 - "Community 26"
+Cohesion: 0.11
+Nodes (17): Accessibility layer, Color, Components (vocabulary), Contrast stance, Design, Dream-light (atmosphere only, never text), Gilt (the one accent), Ground (forest-teal twilight, layered for depth) (+9 more)
+
 ### Community 28 - "Community 28"
 Cohesion: 0.50
 Nodes (3): Layout, `src/core` — the game's rules, with no engine attached, The one rule
@@ -197,25 +208,33 @@ Nodes (4): Browser Tab Branding, Colorful Pixel Character Motif, Phaser Gacha Ga
 Cohesion: 0.67
 Nodes (3): useGame / GameContext, SAVE_VERSION / GameState, SAVE_KEY (localStorage save slot)
 
+### Community 55 - "Community 55"
+Cohesion: 0.22
+Nodes (8): Accessibility & Inclusion, Anti-references, Brand Personality, Design Principles, Product, Product Purpose, Register, Users
+
+### Community 56 - "Community 56"
+Cohesion: 0.40
+Nodes (4): commentSyntax, cspChecked, files, insertBefore
+
 ## Knowledge Gaps
-- **188 isolated node(s):** `Tech Stack`, `Available Commands`, `Project Structure`, `React ↔ Phaser Bridge`, `Handling Assets` (+183 more)
+- **214 isolated node(s):** `files`, `insertBefore`, `commentSyntax`, `cspChecked`, `Theme` (+209 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **26 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **25 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `EventBus` connect `Community 16` to `Community 32`, `Community 25`, `Community 14`, `Community 9`?**
-  _High betweenness centrality (0.023) - this node is a cross-community bridge._
-- **Why does `IRefPhaserGame` connect `Community 9` to `Community 4`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **Why does `PhaserGame` connect `Community 9` to `Community 4`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
-- **What connects `Tech Stack`, `Available Commands`, `Project Structure` to the rest of the system?**
-  _188 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `EventBus` connect `Community 14` to `Community 16`, `Community 9`, `Community 27`?**
+  _High betweenness centrality (0.020) - this node is a cross-community bridge._
+- **What connects `files`, `insertBefore`, `commentSyntax` to the rest of the system?**
+  _214 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.10909090909090909 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08106473079249849 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
-- **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.1354723707664884 - nodes in this community are weakly interconnected._
+- **Should `Community 5` be split into smaller, more focused modules?**
+  _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
+- **Should `Community 6` be split into smaller, more focused modules?**
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
+- **Should `Community 7` be split into smaller, more focused modules?**
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
