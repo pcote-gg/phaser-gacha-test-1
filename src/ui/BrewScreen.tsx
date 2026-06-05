@@ -7,6 +7,7 @@ import {
     type CaffeineZone,
 } from '../core/brew/caffeine';
 import type { Rarity } from '../core/types';
+import { PlateFrame, Divider, CaffeineIcon } from './Ornaments';
 import './brew.css';
 
 const RARITY_LABEL: Record<Rarity, string> = {
@@ -55,104 +56,123 @@ export function BrewScreen() {
     const balancedEnd = pctOfGauge(CAFFEINE_THRESHOLDS.balancedMax);
 
     return (
-        <div className="brew" data-testid="screen-brew">
-            <h1 className="brew__title">The Brew</h1>
-            <p className="brew__flavour">Assemble the team. Set the gauge. Begin the watch.</p>
+        <>
+            <div className="rv-atmosphere" aria-hidden="true" />
+            <section className="rv-plate brew" data-testid="screen-brew">
+                <PlateFrame />
 
-            {/* Caffeine Gauge */}
-            <div className={`brew__gauge brew__gauge--${zone}`}>
-                <div className="gauge__track">
-                    <span className="gauge__band gauge__band--drowsy" style={{ width: `${drowsyEnd}%` }} />
-                    <span
-                        className="gauge__band gauge__band--balanced"
-                        style={{ width: `${balancedEnd - drowsyEnd}%` }}
-                    />
-                    <span
-                        className="gauge__band gauge__band--overstimulated"
-                        style={{ width: `${100 - balancedEnd}%` }}
-                    />
-                    <span className="gauge__marker" style={{ left: `${pctOfGauge(total)}%` }} />
-                </div>
-                <div className="gauge__readout">
-                    <span className="gauge__zone" data-testid="brew-zone">{ZONE_COPY[zone].name}</span>
-                    <span className="gauge__value" data-testid="brew-caffeine">{total} caffeine</span>
-                </div>
-                <p className="gauge__blurb">{ZONE_COPY[zone].blurb}</p>
-                <div className="gauge__effects">
-                    <span>Combat ×{effect.combatEfficiency.toFixed(2)}</span>
-                    {effect.volatility > 0 && <span>Volatile</span>}
-                    {effect.bonusRewards && <span>Bonus rewards</span>}
-                </div>
-            </div>
+                <header className="brew__header">
+                    <h1 className="rv-title brew__title">The Brew</h1>
+                    <p className="brew__flavour">Assemble the team. Set the gauge. Begin the watch.</p>
+                </header>
 
-            {/* Active team slots */}
-            <div className="brew__team">
-                {Array.from({ length: TEAM_SIZE }).map((_, i) => {
-                    const id = state.team[i];
-                    const def = id ? getCharacter(id) : undefined;
-                    return (
-                        <button
-                            key={i}
-                            data-testid={`brew-slot-${i}`}
-                            className={`slot ${def ? `slot--filled draw--${def.rarity}` : 'slot--empty'}`}
-                            disabled={!def}
-                            onClick={() => def && toggleTeam(def.id)}
-                            title={def ? `Remove ${def.name}` : 'Empty slot'}
-                        >
-                            {def ? (
-                                <>
-                                    <span className="slot__name">{def.name}</span>
-                                    <span className="slot__caf">{def.caffeine}</span>
-                                </>
-                            ) : (
-                                <span className="slot__empty-label">+</span>
-                            )}
-                        </button>
-                    );
-                })}
-            </div>
+                {/* Caffeine Gauge */}
+                <div className={`brew__gauge brew__gauge--${zone}`}>
+                    <div className="gauge__readout">
+                        <span className="gauge__zone" data-testid="brew-zone">{ZONE_COPY[zone].name}</span>
+                        <span className="gauge__value" data-testid="brew-caffeine">{total} caffeine</span>
+                    </div>
+                    <div className="gauge__track">
+                        <span className="gauge__band gauge__band--drowsy" style={{ width: `${drowsyEnd}%` }} />
+                        <span
+                            className="gauge__band gauge__band--balanced"
+                            style={{ width: `${balancedEnd - drowsyEnd}%` }}
+                        />
+                        <span
+                            className="gauge__band gauge__band--overstimulated"
+                            style={{ width: `${100 - balancedEnd}%` }}
+                        />
+                        <span className="gauge__marker" style={{ left: `${pctOfGauge(total)}%` }} />
+                    </div>
+                    <p className="gauge__blurb">{ZONE_COPY[zone].blurb}</p>
+                    <div className="gauge__effects">
+                        <span className="gauge__chip">Combat ×{effect.combatEfficiency.toFixed(2)}</span>
+                        {effect.volatility > 0 && <span className="gauge__chip">Volatile</span>}
+                        {effect.bonusRewards && <span className="gauge__chip gauge__chip--bonus">Bonus rewards</span>}
+                    </div>
+                </div>
 
-            {/* Owned roster picker */}
-            {state.roster.length === 0 ? (
-                <p className="brew__empty">
-                    No characters yet. Ring the bell on the Standard banner to wake your first sleeper.
-                </p>
-            ) : (
-                <ul className="brew__roster">
-                    {state.roster.map((owned) => {
-                        const def = getCharacter(owned.id);
-                        if (!def) return null;
-                        const inTeam = state.team.includes(owned.id);
-                        const disabled = !inTeam && teamFull;
+                <Divider />
+
+                {/* Active team slots */}
+                <div className="brew__team">
+                    {Array.from({ length: TEAM_SIZE }).map((_, i) => {
+                        const id = state.team[i];
+                        const def = id ? getCharacter(id) : undefined;
                         return (
-                            <li key={owned.id}>
-                                <button
-                                    data-testid={`brew-card-${owned.id}`}
-                                    className={`card draw--${def.rarity} ${inTeam ? 'card--in-team' : ''}`}
-                                    disabled={disabled}
-                                    onClick={() => toggleTeam(owned.id)}
-                                    title={
-                                        inTeam
-                                            ? `Remove ${def.name} from team`
-                                            : disabled
-                                              ? 'Team is full'
-                                              : `Add ${def.name} to team`
-                                    }
-                                >
-                                    <span className="card__top">
-                                        <span className="card__name">{def.name}</span>
-                                        {inTeam && <span className="card__check">✓</span>}
-                                    </span>
-                                    <span className="card__meta">
-                                        <span className="card__tier">{RARITY_LABEL[def.rarity]}</span>
-                                        <span className="card__caf">☕ {def.caffeine}</span>
-                                    </span>
-                                </button>
-                            </li>
+                            <button
+                                key={i}
+                                data-testid={`brew-slot-${i}`}
+                                className={`brew-slot ${def ? `brew-slot--filled draw--${def.rarity}` : 'brew-slot--empty'}`}
+                                disabled={!def}
+                                onClick={() => def && toggleTeam(def.id)}
+                                title={def ? `Remove ${def.name}` : 'Empty slot'}
+                            >
+                                {def ? (
+                                    <>
+                                        <span className="rv-gem brew-slot__gem" />
+                                        <span className="brew-slot__name">{def.name}</span>
+                                        <span className="brew-slot__caf">
+                                            <CaffeineIcon className="brew-slot__caf-icon" />
+                                            {def.caffeine}
+                                        </span>
+                                    </>
+                                ) : (
+                                    <span className="brew-slot__plus">+</span>
+                                )}
+                            </button>
                         );
                     })}
-                </ul>
-            )}
-        </div>
+                </div>
+
+                {/* Owned roster picker */}
+                {state.roster.length === 0 ? (
+                    <p className="brew__empty">
+                        No characters yet. Ring the bell on the Standard banner to wake your first sleeper.
+                    </p>
+                ) : (
+                    <ul className="brew__roster">
+                        {state.roster.map((owned) => {
+                            const def = getCharacter(owned.id);
+                            if (!def) return null;
+                            const inTeam = state.team.includes(owned.id);
+                            const disabled = !inTeam && teamFull;
+                            return (
+                                <li key={owned.id}>
+                                    <button
+                                        data-testid={`brew-card-${owned.id}`}
+                                        className={`brew-card draw--${def.rarity} ${inTeam ? 'brew-card--in' : ''}`}
+                                        disabled={disabled}
+                                        onClick={() => toggleTeam(owned.id)}
+                                        title={
+                                            inTeam
+                                                ? `Remove ${def.name} from team`
+                                                : disabled
+                                                  ? 'Team is full'
+                                                  : `Add ${def.name} to team`
+                                        }
+                                    >
+                                        <span className="brew-card__top">
+                                            <span className="brew-card__name">
+                                                <span className="rv-gem" />
+                                                {def.name}
+                                            </span>
+                                            {inTeam && <span className="brew-card__check">✓</span>}
+                                        </span>
+                                        <span className="brew-card__meta">
+                                            <span className="brew-card__tier">{RARITY_LABEL[def.rarity]}</span>
+                                            <span className="brew-card__caf">
+                                                <CaffeineIcon className="brew-card__caf-icon" />
+                                                {def.caffeine}
+                                            </span>
+                                        </span>
+                                    </button>
+                                </li>
+                            );
+                        })}
+                    </ul>
+                )}
+            </section>
+        </>
     );
 }

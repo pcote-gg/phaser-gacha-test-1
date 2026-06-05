@@ -6,6 +6,7 @@ import {
     OFFLINE_CAP_HOURS,
 } from '../core/idle/vigil';
 import { evaluateTeam, type CaffeineZone } from '../core/brew/caffeine';
+import { PlateFrame, Divider, DreamsandIcon } from './Ornaments';
 import './vigil.css';
 
 const ZONE_LABEL: Record<CaffeineZone, string> = {
@@ -45,56 +46,92 @@ export function VigilScreen() {
     const hasTeam = state.team.length > 0;
 
     return (
-        <div className="vigil" data-testid="screen-vigil">
-            <h1 className="vigil__title">The Vigil</h1>
-            <p className="vigil__flavour">Hold the watch. Harvest the dream’s own sand.</p>
+        <>
+            <div className="rv-atmosphere" aria-hidden="true" />
+            <section className="rv-plate vigil" data-testid="screen-vigil">
+                <PlateFrame />
 
-            {showAway && (
-                <div className="vigil__away" data-testid="vigil-away">
-                    <span className="away__head">While you held the vigil…</span>
-                    <span className="away__earned">+{Math.floor(offline.earned).toLocaleString()} ✨</span>
-                    <span className="away__sub">
-                        over {formatDuration(offline.elapsedSec)}
-                        {offline.capped && ` (capped at ${OFFLINE_CAP_HOURS}h)`}
-                    </span>
-                    <button className="away__dismiss" data-testid="vigil-away-dismiss" onClick={() => setShowAway(false)}>
-                        Dismiss
+                <header className="vigil__header">
+                    <h1 className="rv-title vigil__title">The Vigil</h1>
+                    <p className="vigil__flavour">Hold the watch. Harvest the dream’s own sand.</p>
+                    <Divider />
+                </header>
+
+                {showAway && (
+                    <div className="vigil__away" data-testid="vigil-away">
+                        <div className="away__text">
+                            <span className="away__head">While you held the vigil…</span>
+                            <span className="away__sub">
+                                over {formatDuration(offline.elapsedSec)}
+                                {offline.capped && ` (capped at ${OFFLINE_CAP_HOURS}h)`}
+                            </span>
+                        </div>
+                        <span className="away__earned">
+                            <DreamsandIcon className="away__icon" />+{Math.floor(offline.earned).toLocaleString()}
+                        </span>
+                        <button
+                            className="rv-btn--ghost away__dismiss"
+                            data-testid="vigil-away-dismiss"
+                            onClick={() => setShowAway(false)}
+                        >
+                            Dismiss
+                        </button>
+                    </div>
+                )}
+
+                <div className="vigil__harvest">
+                    <div className="vigil__held">
+                        <span className="held__value" data-testid="vigil-held">{heldWhole.toLocaleString()}</span>
+                        <span className="held__unit">
+                            <DreamsandIcon className="held__icon" /> Dreamsand held
+                        </span>
+                    </div>
+
+                    <div className="vigil__stats">
+                        <div className="vstat">
+                            <span className="vstat__label">Rate</span>
+                            <span className="vstat__value">{Math.round(ratePerMin).toLocaleString()} / min</span>
+                        </div>
+                        <div className="vstat">
+                            <span className="vstat__label">Team</span>
+                            <span className="vstat__value">{state.team.length} · {ZONE_LABEL[zone]}</span>
+                        </div>
+                        <div className="vstat">
+                            <span className="vstat__label">Banked</span>
+                            <span className="vstat__value" data-testid="vigil-banked">
+                                {Math.floor(state.currencies.dreamsand).toLocaleString()}
+                            </span>
+                        </div>
+                    </div>
+
+                    <button
+                        className="rv-btn vigil__claim"
+                        data-testid="vigil-claim"
+                        disabled={heldWhole < 1}
+                        onClick={() => claim()}
+                    >
+                        {heldWhole < 1 ? (
+                            'Nothing to claim yet'
+                        ) : (
+                            <>
+                                Claim {heldWhole.toLocaleString()}
+                                <DreamsandIcon className="claim__icon" />
+                            </>
+                        )}
                     </button>
                 </div>
-            )}
 
-            <div className="vigil__panel">
-                <div className="vigil__held">
-                    <span className="held__value" data-testid="vigil-held">{heldWhole.toLocaleString()}</span>
-                    <span className="held__unit">Dreamsand held ✨</span>
-                </div>
-
-                <div className="vigil__stats">
-                    <span>Rate <strong>{Math.round(ratePerMin).toLocaleString()}</strong> / min</span>
-                    <span>Team <strong>{state.team.length}</strong> · {ZONE_LABEL[zone]}</span>
-                    <span>Banked <strong data-testid="vigil-banked">{Math.floor(state.currencies.dreamsand).toLocaleString()}</strong></span>
-                </div>
-
-                <button
-                    className="vigil__claim"
-                    data-testid="vigil-claim"
-                    disabled={heldWhole < 1}
-                    onClick={() => claim()}
-                >
-                    {heldWhole < 1 ? 'Nothing to claim yet' : `Claim ${heldWhole.toLocaleString()} ✨`}
-                </button>
-            </div>
-
-            {!hasTeam ? (
-                <p className="vigil__hint">
-                    No watchers on duty. Assemble a team in <strong>The Brew</strong> to begin the vigil.
-                </p>
-            ) : (
-                <p className="vigil__hint">
-                    The team generates Dreamsand even while you’re away, up to {OFFLINE_CAP_HOURS} hours.
-                    A <strong>Balanced</strong> Caffeine Gauge earns the most.
-                </p>
-            )}
-        </div>
+                {!hasTeam ? (
+                    <p className="vigil__hint">
+                        No watchers on duty. Assemble a team in <strong>The Brew</strong> to begin the vigil.
+                    </p>
+                ) : (
+                    <p className="vigil__hint">
+                        The team generates Dreamsand even while you’re away, up to {OFFLINE_CAP_HOURS} hours.
+                        A <strong>Balanced</strong> Caffeine Gauge earns the most.
+                    </p>
+                )}
+            </section>
+        </>
     );
 }

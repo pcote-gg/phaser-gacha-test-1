@@ -5,6 +5,7 @@ import { canPull, pullCost } from '../core/gacha/pull';
 import type { PullResult } from '../core/gacha/pull';
 import { getCharacter } from '../core/content/characters';
 import type { Rarity } from '../core/types';
+import { PlateFrame, Divider, BellIcon } from './Ornaments';
 import './gacha.css';
 
 const RARITY_LABEL: Record<Rarity, string> = {
@@ -32,56 +33,94 @@ export function GachaScreen() {
     };
 
     return (
-        <div className="gacha" data-testid="screen-gacha">
-            <h1 className="gacha__title">{banner.name}</h1>
-            <p className="gacha__flavour">Ring the bell. Wake the sleeper.</p>
+        <>
+            <div className="rv-atmosphere" aria-hidden="true" />
+            <section className="rv-plate gacha" data-testid="screen-gacha">
+                <PlateFrame />
 
-            <div className="gacha__stats">
-                <span>Tolls: <strong data-testid="gacha-tolls">{state.currencies.tolls}</strong></span>
-                <span>Pity: <strong data-testid="gacha-pity">{pity}</strong> / {banner.hardPity}</span>
-                <span>Roster: <strong data-testid="gacha-roster">{state.roster.length}</strong></span>
-            </div>
+                <header className="gacha__header">
+                    <h1 className="rv-title gacha__title">{banner.name}</h1>
+                    <p className="gacha__flavour">Ring the bell. Wake the sleeper.</p>
+                    <Divider />
+                </header>
 
-            <div className="gacha__buttons">
-                <button data-testid="gacha-ring-1" disabled={!canPull(state, 1)} onClick={() => doPull(1)}>
-                    Ring ×1 ({pullCost(1)} Toll)
-                </button>
-                <button data-testid="gacha-ring-10" disabled={!canPull(state, 10)} onClick={() => doPull(10)}>
-                    Ring ×10 ({pullCost(10)} Tolls)
-                </button>
-                <button className="gacha__dev" data-testid="gacha-grant" onClick={() => grantTolls(10)}>
-                    +10 Tolls (dev)
-                </button>
-            </div>
+                <div className="gacha__stats">
+                    <div className="gstat">
+                        <span className="gstat__value">
+                            <BellIcon className="gstat__icon" />
+                            <span data-testid="gacha-tolls">{state.currencies.tolls}</span>
+                        </span>
+                        <span className="gstat__label">Tolls</span>
+                    </div>
+                    <div className="gstat">
+                        <span className="gstat__value">
+                            <span data-testid="gacha-pity">{pity}</span>
+                            <span className="gstat__sub"> / {banner.hardPity}</span>
+                        </span>
+                        <span className="gstat__label">Pity</span>
+                    </div>
+                    <div className="gstat">
+                        <span className="gstat__value" data-testid="gacha-roster">{state.roster.length}</span>
+                        <span className="gstat__label">Awake</span>
+                    </div>
+                </div>
 
-            {last && (
-                <ul className="gacha__results" data-testid="gacha-results">
-                    {last.draws.map((d, i) => {
-                        const def = getCharacter(d.characterId);
-                        return (
-                            <li key={i} className={`draw draw--${d.rarity}`}>
-                                <span className="draw__name">{def?.name ?? d.characterId}</span>
-                                <span className="draw__tier">{RARITY_LABEL[d.rarity]}</span>
-                                <span className="draw__tag">
-                                    {d.isNew
-                                        ? 'NEW'
-                                        : `+${d.flicker} ${RARITY_LABEL[d.rarity]} Flicker`}
-                                </span>
-                            </li>
-                        );
-                    })}
-                </ul>
-            )}
+                <div className="gacha__buttons">
+                    <button
+                        className="rv-btn gacha__ring gacha__ring--ten"
+                        data-testid="gacha-ring-10"
+                        disabled={!canPull(state, 10)}
+                        onClick={() => doPull(10)}
+                    >
+                        Ring ×10
+                        <span className="gacha__cost"><BellIcon className="gacha__cost-icon" />{pullCost(10)}</span>
+                    </button>
+                    <button
+                        className="rv-btn gacha__ring"
+                        data-testid="gacha-ring-1"
+                        disabled={!canPull(state, 1)}
+                        onClick={() => doPull(1)}
+                    >
+                        Ring ×1
+                        <span className="gacha__cost"><BellIcon className="gacha__cost-icon" />{pullCost(1)}</span>
+                    </button>
+                    <button className="rv-btn--ghost gacha__dev" data-testid="gacha-grant" onClick={() => grantTolls(10)}>
+                        +10 Tolls (dev)
+                    </button>
+                </div>
 
-            <details className="gacha__rates">
-                <summary>Rates</summary>
-                <ul>
-                    <li>Epic — {pct(banner.baseRates.epic)} (guaranteed by pull {banner.hardPity})</li>
-                    <li>Rare — {pct(banner.baseRates.rare)}</li>
-                    <li>Common — {pct(banner.baseRates.common)}</li>
-                    <li>Epic rate climbs from pull {banner.softPity} (soft pity).</li>
-                </ul>
-            </details>
-        </div>
+                {last && (
+                    <ul className="gacha__results" data-testid="gacha-results">
+                        {last.draws.map((d, i) => {
+                            const def = getCharacter(d.characterId);
+                            return (
+                                <li
+                                    key={i}
+                                    className={`gdraw draw--${d.rarity}`}
+                                    style={{ animationDelay: `${i * 45}ms` }}
+                                >
+                                    <span className="rv-gem gdraw__gem" />
+                                    <span className="gdraw__name">{def?.name ?? d.characterId}</span>
+                                    <span className="gdraw__tier">{RARITY_LABEL[d.rarity]}</span>
+                                    <span className="gdraw__tag">
+                                        {d.isNew ? 'New' : `+${d.flicker} Flicker`}
+                                    </span>
+                                </li>
+                            );
+                        })}
+                    </ul>
+                )}
+
+                <details className="gacha__rates">
+                    <summary>Rates &amp; pity</summary>
+                    <ul>
+                        <li>Epic — {pct(banner.baseRates.epic)} (guaranteed by pull {banner.hardPity})</li>
+                        <li>Rare — {pct(banner.baseRates.rare)}</li>
+                        <li>Common — {pct(banner.baseRates.common)}</li>
+                        <li>Epic rate climbs from pull {banner.softPity} (soft pity).</li>
+                    </ul>
+                </details>
+            </section>
+        </>
     );
 }

@@ -30,3 +30,13 @@ body {
 .ui-overlay > * {
     pointer-events: auto;
 }
+
+/* On narrow screens the nav wraps to two rows; top-align the screen panel and
+   leave room so the floating nav never covers a plate's title. */
+@media (max-width: 540px) {
+    .ui-overlay {
+        align-items: flex-start;
+        padding-top: 112px;
+        box-sizing: border-box;
+    }
+}

@@ -1,36 +1,45 @@
+/*
+ * The Awake — owned roster + levelling, in the Reverie Vigil design language
+ * (theme.css / DESIGN.md). Rarity reads through a gem + full border, not a stripe.
+ */
 .roster {
-    width: min(480px, 94vw);
-    padding: 24px 28px;
-    background: rgba(26, 19, 38, 0.92);
-    border: 1px solid rgba(243, 233, 210, 0.25);
-    border-radius: 12px;
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
-    color: #f3e9d2;
+    width: min(540px, 94vw);
+    max-height: min(90vh, 800px);
+    overflow-y: auto;
+    padding: clamp(44px, 5vw, 52px);
     text-align: center;
 }
 
-.roster__title {
-    margin: 0 0 4px;
-    font-size: 1.5rem;
-    letter-spacing: 0.02em;
-}
-
+.roster__header { margin-bottom: 8px; }
+.roster__title { font-size: clamp(1.7rem, 1.4rem + 1.6vw, 2.3rem); }
 .roster__balance {
-    margin: 0 0 18px;
-    font-size: 0.9rem;
-    opacity: 0.85;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin: 10px 0 0;
+    font-size: var(--rv-text-base);
+    color: var(--rv-ink-soft);
 }
-
+.roster__sand-icon { width: 17px; height: 17px; color: var(--rv-gold); }
 .roster__sand {
-    font-weight: 700;
-    color: #e7c873;
+    font-family: var(--rv-display);
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--rv-gold);
+    font-variant-numeric: tabular-nums;
+}
+.roster__sand-unit {
+    font-size: var(--rv-text-2xs);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--rv-ink-muted);
 }
 
 .roster__empty {
     margin: 8px 0 0;
-    font-size: 0.86rem;
-    opacity: 0.7;
+    font-size: var(--rv-text-base);
     font-style: italic;
+    color: var(--rv-ink-soft);
 }
 
 .roster__list {
@@ -39,9 +48,10 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    max-height: 360px;
+    gap: 10px;
+    max-height: 60vh;
     overflow-y: auto;
+    text-align: left;
 }
 
 .unit {
@@ -52,45 +62,64 @@
         'level  levelup'
         'stats  levelup';
     align-items: center;
-    gap: 2px 12px;
-    padding: 10px 12px;
-    text-align: left;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid transparent;
-    border-left: 4px solid var(--rarity, #9a8f7a);
+    gap: 3px 14px;
+    padding: 12px 14px;
+    background: radial-gradient(120% 130% at 0% 0%,
+        color-mix(in oklab, var(--rarity) 12%, transparent), transparent 60%), rgba(0, 0, 0, 0.18);
+    border: 1px solid color-mix(in oklab, var(--rarity) 45%, transparent);
     border-radius: 6px;
 }
 
 .unit__head {
     grid-area: head;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 8px;
 }
-
-.unit__name { font-weight: 600; }
+.unit__name { font-weight: 600; font-size: var(--rv-text-base); }
 .unit__tier {
-    font-size: 0.72rem;
-    opacity: 0.7;
-    color: var(--rarity, #9a8f7a);
-    font-weight: 700;
+    font-family: var(--rv-display);
+    font-size: var(--rv-text-2xs);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--rarity);
+    font-weight: 600;
 }
 
 .unit__level {
     grid-area: level;
-    font-size: 0.92rem;
-    font-weight: 700;
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    font-size: var(--rv-text-base);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
 }
-.unit__cap { opacity: 0.55; font-weight: 400; }
+.unit__level-k {
+    font-family: var(--rv-display);
+    font-size: var(--rv-text-2xs);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--rv-ink-muted);
+}
+.unit__cap { color: var(--rv-ink-muted); font-weight: 400; }
 
 .unit__stats {
     grid-area: stats;
     display: flex;
-    gap: 10px;
-    font-size: 0.76rem;
-    opacity: 0.85;
+    gap: 14px;
+    font-size: var(--rv-text-sm);
+    color: var(--rv-ink-soft);
+    font-variant-numeric: tabular-nums;
 }
-.unit__caf { opacity: 0.7; }
+.ustat { display: inline-flex; align-items: center; gap: 5px; }
+.ustat__k {
+    font-family: var(--rv-display);
+    font-size: var(--rv-text-2xs);
+    letter-spacing: 0.1em;
+    color: var(--rv-ink-muted);
+}
+.ustat__icon { width: 13px; height: 13px; color: var(--rv-gold-deep); }
 
 .unit__levelup {
     grid-area: levelup;
@@ -98,38 +127,17 @@
     flex-direction: column;
     align-items: center;
     gap: 2px;
-    min-width: 92px;
-    padding: 8px 12px;
-    font: inherit;
-    font-weight: 700;
-    font-size: 0.82rem;
-    color: #1a1326;
-    background: #e7c873;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: filter 0.15s, transform 0.05s;
+    min-width: 98px;
+    padding: 9px 14px;
+    font-size: var(--rv-text-sm);
 }
-
-.unit__levelup:hover:not(:disabled) { filter: brightness(1.08); }
-.unit__levelup:active:not(:disabled) { transform: translateY(1px); }
-
-.unit__levelup:disabled {
-    color: #f3e9d2;
-    background: rgba(255, 255, 255, 0.08);
-    opacity: 0.55;
-    cursor: not-allowed;
-}
-
 .unit__cost {
-    font-size: 0.72rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: var(--rv-text-xs);
     font-weight: 600;
-    opacity: 0.85;
+    opacity: 0.9;
+    font-variant-numeric: tabular-nums;
 }
-
-/* Per-rarity accent (self-contained so the Roster does not depend on other CSS). */
-.draw--common { --rarity: #9aa0a6; }
-.draw--rare { --rarity: #5aa9e6; }
-.draw--epic { --rarity: #b07ce8; }
-.draw--legendary { --rarity: #e7c873; }
-.draw--mythic { --rarity: #f08bbf; }
+.unit__cost-icon { width: 12px; height: 12px; }

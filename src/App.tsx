@@ -6,6 +6,7 @@ import { BrewScreen } from './ui/BrewScreen';
 import { VigilScreen } from './ui/VigilScreen';
 import { FragmentsScreen } from './ui/FragmentsScreen';
 import { RosterScreen } from './ui/RosterScreen';
+import './ui/theme.css';
 import './ui/nav.css';
 
 type Screen = 'vigil' | 'fragments' | 'brew' | 'roster' | 'gacha';
